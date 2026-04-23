@@ -118,6 +118,7 @@ def build_intake_app(
             experiment_harness=settings.experiment_harness,
             extraction_mode=settings.extraction_mode.value,
             harness_position=settings.harness_position,
+            ner_postprocess=settings.ner_postprocess,
         ),
         harness=HarnessManager(
             judge=judge,

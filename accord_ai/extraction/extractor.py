@@ -188,6 +188,7 @@ class Extractor:
         experiment_harness: str = "none",
         extraction_mode: str = "xgrammar",
         harness_position: str = "before",
+        ner_postprocess: bool = False,
     ) -> None:
         """Build an Extractor.
 
@@ -218,6 +219,17 @@ class Extractor:
         self._extraction_mode = extraction_mode
         self._harness_position = harness_position
         self._harness_block = _HARNESS_BLOCKS.get(experiment_harness, "")
+        # NER post-extraction validation (Thread 3 port).
+        # v3's validate_extraction_with_ner has 4 fixes: ORG-as-contact
+        # removal, PERSON-as-contact injection (safely gated to single-
+        # PERSON turns), ORG-as-business_name injection, and URL-as-website
+        # injection. Disabled in the Phase A production path after
+        # multi-vehicle-fleet regression; re-enabled here behind a flag
+        # because (a) the single-PERSON gate in validate_extraction_with_ner
+        # now prevents that regression, and (b) research 2026-04-22
+        # identified NER validation as a load-bearing v3 mechanism we
+        # should re-evaluate in the full v3-port stack.
+        self._ner_postprocess = ner_postprocess
 
     async def extract(
         self,
@@ -361,6 +373,15 @@ class Extractor:
         # full-submission dumps).
         max_tokens = _adaptive_max_tokens(user_message)
 
+        # Harness-aware cap: when harness is active, the system message
+        # grows by ~3000-4000 tokens. On 16k context models, this collides
+        # with the output budget on bulk turns (observed: 12.3k input +
+        # 4k output = 16.4k > 16.3k ceiling). Cap output at 2048 when
+        # harness is active to preserve ~2k of input budget headroom for
+        # bulk fleet dumps.
+        if self._harness_block:
+            max_tokens = min(max_tokens, 2048)
+
         # json_schema: vLLM 0.18+ constrains output tokens to the schema via
         # xgrammar. Guarantees valid JSON — eliminates the
         # ExtractionOutputError-from-malformed-output path entirely. On
@@ -391,12 +412,28 @@ class Extractor:
         def _postprocess(delta: dict) -> dict:
             # 5-step cleanup (unfold/strip/phantom/coerce/cap), then
             # deterministic harness rules (negation fires when user
-            # text contains "no hired auto" / "no hazmat" / etc.).
+            # text contains "no hired auto" / "no hazmat" / etc.), then
+            # NER post-extraction validation if enabled.
+            #
             # Rules sit AFTER run_postprocess so they see a clean
             # dict but BEFORE pydantic-validate so they can add fields
             # that would otherwise be missing.
             delta = run_postprocess(delta, current_state_dict)
             delta = apply_negation_rule(user_message, delta)
+            if self._ner_postprocess:
+                from accord_ai.extraction.ner import (
+                    tag_entities,
+                    validate_extraction_with_ner,
+                )
+                try:
+                    ner_tags = tag_entities(user_message)
+                    delta = validate_extraction_with_ner(
+                        delta, ner_tags, current_state=current_state_dict,
+                    )
+                except Exception as exc:  # spaCy model missing, etc.
+                    _logger.warning(
+                        "NER postprocess failed (silently skipped): %s", exc,
+                    )
             return delta
 
         _parse_ok = True

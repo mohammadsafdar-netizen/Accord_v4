@@ -213,6 +213,15 @@ class Settings(BaseSettings):
     # empirically validated with an eval; flip via HARNESS_POSITION=after.
     harness_position: Literal["before", "after"] = Field(default="before")
 
+    # --- NER post-extraction validation (Thread 3 port, 2026-04-23) ---
+    # Enables v3's validate_extraction_with_ner in the postprocess chain.
+    # Four fixes: ORG-as-contact removal, PERSON-as-contact injection
+    # (gated to single-PERSON turns), ORG-as-business_name injection,
+    # URL-as-website injection. Off by default until an eval confirms it
+    # composes productively with the current stack. Flip via
+    # NER_POSTPROCESS=true.
+    ner_postprocess: bool = Field(default=False)
+
     # --- Reproducibility (Step 25.A variance diagnostic) ---
     # Pin vLLM's internal RNG. None = no seed (current behavior, non-deterministic
     # between runs). Set LLM_SEED=42 to get reproducible outputs at temperature=0.
