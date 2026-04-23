@@ -1,0 +1,6504 @@
+{
+  "form": "137",
+  "pdf_path": "accord_ai/form_templates/acord_137_blank.pdf",
+  "unique_names": 404,
+  "widget_count": 406,
+  "widgets": [
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Form_CompletionDate_A",
+      "page": 0,
+      "rect": [
+        511.0,
+        53.73,
+        590.0,
+        66.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Producer_FullName_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        77.73,
+        302.0,
+        90.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "NamedInsured_FullName_A",
+      "page": 0,
+      "rect": [
+        310.0,
+        77.73,
+        590.0,
+        90.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Policy_PolicyNumberIdentifier_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        101.73,
+        245.0,
+        114.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Policy_EffectiveDate_A",
+      "page": 0,
+      "rect": [
+        252.0,
+        101.73,
+        302.0,
+        114.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Insurer_FullName_A",
+      "page": 0,
+      "rect": [
+        310.0,
+        101.73,
+        540.0,
+        114.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Insurer_NAICCode_A",
+      "page": 0,
+      "rect": [
+        547.0,
+        101.73,
+        590.0,
+        114.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OneIndicator_A",
+      "page": 0,
+      "rect": [
+        86.0,
+        138.0,
+        101.0,
+        150.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_FourIndicator_A",
+      "page": 0,
+      "rect": [
+        115.0,
+        138.0,
+        130.0,
+        150.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_NineIndicator_A",
+      "page": 0,
+      "rect": [
+        144.0,
+        138.0,
+        158.0,
+        150.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_CombinedSingleLimit_LimitIndicator_A",
+      "page": 0,
+      "rect": [
+        173.0,
+        138.0,
+        187.0,
+        150.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_EachPersonLimitIndicator_A",
+      "page": 0,
+      "rect": [
+        209.0,
+        138.0,
+        223.0,
+        150.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_PerPersonLimitAmount_A",
+      "page": 0,
+      "rect": [
+        263.0,
+        137.73,
+        331.0,
+        150.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverageDescription_C",
+      "page": 0,
+      "rect": [
+        338.0,
+        143.73,
+        400.0,
+        156.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_SymbolDescription_C",
+      "page": 0,
+      "rect": [
+        407.0,
+        143.73,
+        486.0,
+        156.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_LimitAmount_C",
+      "page": 0,
+      "rect": [
+        493.0,
+        143.73,
+        590.0,
+        156.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_TwoIndicator_A",
+      "page": 0,
+      "rect": [
+        86.0,
+        150.0,
+        101.0,
+        162.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_SevenIndicator_A",
+      "page": 0,
+      "rect": [
+        115.0,
+        150.0,
+        130.0,
+        162.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolIndicator_A",
+      "page": 0,
+      "rect": [
+        144.0,
+        150.0,
+        158.0,
+        162.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolCode_A",
+      "page": 0,
+      "rect": [
+        158.0,
+        149.73,
+        173.0,
+        162.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_PerAccidentLimitAmount_A",
+      "page": 0,
+      "rect": [
+        263.0,
+        149.73,
+        331.0,
+        162.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_ThreeIndicator_A",
+      "page": 0,
+      "rect": [
+        86.0,
+        162.0,
+        101.0,
+        174.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_EightIndicator_A",
+      "page": 0,
+      "rect": [
+        115.0,
+        162.0,
+        130.0,
+        174.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_PropertyDamage_PerAccidentLimitAmount_A",
+      "page": 0,
+      "rect": [
+        263.0,
+        161.73,
+        331.0,
+        174.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverageDescription_D",
+      "page": 0,
+      "rect": [
+        338.0,
+        167.73,
+        400.0,
+        180.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_SymbolDescription_D",
+      "page": 0,
+      "rect": [
+        407.0,
+        167.73,
+        486.0,
+        180.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_LimitAmount_D",
+      "page": 0,
+      "rect": [
+        493.0,
+        167.73,
+        590.0,
+        180.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_ThreeIndicator_E",
+      "page": 0,
+      "rect": [
+        403.0,
+        198.0,
+        418.0,
+        210.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolIndicator_E",
+      "page": 0,
+      "rect": [
+        432.0,
+        198.0,
+        446.0,
+        210.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolCode_E",
+      "page": 0,
+      "rect": [
+        446.0,
+        197.73,
+        461.0,
+        210.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TowingAndLabour_LimitAmount_A",
+      "page": 0,
+      "rect": [
+        500.0,
+        203.73,
+        590.0,
+        216.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_SevenIndicator_E",
+      "page": 0,
+      "rect": [
+        403.0,
+        210.0,
+        418.0,
+        222.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_TwoIndicator_F",
+      "page": 0,
+      "rect": [
+        403.0,
+        222.0,
+        418.0,
+        234.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_FourIndicator_F",
+      "page": 0,
+      "rect": [
+        432.0,
+        222.0,
+        446.0,
+        234.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_EightIndicator_F",
+      "page": 0,
+      "rect": [
+        461.0,
+        222.0,
+        475.0,
+        234.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_ThreeIndicator_F",
+      "page": 0,
+      "rect": [
+        403.0,
+        234.0,
+        418.0,
+        246.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_SevenIndicator_F",
+      "page": 0,
+      "rect": [
+        432.0,
+        234.0,
+        446.0,
+        246.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolIndicator_F",
+      "page": 0,
+      "rect": [
+        461.0,
+        234.0,
+        475.0,
+        246.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolCode_F",
+      "page": 0,
+      "rect": [
+        475.0,
+        233.73,
+        490.0,
+        246.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_TwoIndicator_B",
+      "page": 0,
+      "rect": [
+        86.0,
+        246.0,
+        101.0,
+        258.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_FourIndicator_B",
+      "page": 0,
+      "rect": [
+        115.0,
+        246.0,
+        130.0,
+        258.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_EightIndicator_B",
+      "page": 0,
+      "rect": [
+        144.0,
+        246.0,
+        158.0,
+        258.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_TwoIndicator_G",
+      "page": 0,
+      "rect": [
+        403.0,
+        246.0,
+        418.0,
+        258.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_FourIndicator_G",
+      "page": 0,
+      "rect": [
+        432.0,
+        246.0,
+        446.0,
+        258.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_EightIndicator_G",
+      "page": 0,
+      "rect": [
+        461.0,
+        246.0,
+        475.0,
+        258.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MedicalPayments_PerPersonLimitAmount_A",
+      "page": 0,
+      "rect": [
+        263.0,
+        251.73,
+        331.0,
+        264.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_ThreeIndicator_B",
+      "page": 0,
+      "rect": [
+        86.0,
+        258.0,
+        101.0,
+        270.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_SevenIndicator_B",
+      "page": 0,
+      "rect": [
+        115.0,
+        258.0,
+        130.0,
+        270.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolIndicator_B",
+      "page": 0,
+      "rect": [
+        144.0,
+        258.0,
+        158.0,
+        270.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolCode_B",
+      "page": 0,
+      "rect": [
+        158.0,
+        257.73,
+        173.0,
+        270.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_ThreeIndicator_G",
+      "page": 0,
+      "rect": [
+        403.0,
+        258.0,
+        418.0,
+        270.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_SevenIndicator_G",
+      "page": 0,
+      "rect": [
+        432.0,
+        258.0,
+        446.0,
+        270.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolIndicator_G",
+      "page": 0,
+      "rect": [
+        461.0,
+        258.0,
+        475.0,
+        270.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolCode_G",
+      "page": 0,
+      "rect": [
+        475.0,
+        257.73,
+        490.0,
+        270.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_TwoIndicator_C",
+      "page": 0,
+      "rect": [
+        86.0,
+        270.0,
+        101.0,
+        282.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_SixIndicator_C",
+      "page": 0,
+      "rect": [
+        115.0,
+        270.0,
+        130.0,
+        282.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_CombinedSingleLimit_LimitIndicator_B",
+      "page": 0,
+      "rect": [
+        173.0,
+        270.0,
+        187.0,
+        282.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_EachPersonLimitIndicator_B",
+      "page": 0,
+      "rect": [
+        209.0,
+        270.0,
+        223.0,
+        282.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_UninsuredMotorists_BodilyInjuryPerPersonLimitAmount_A",
+      "page": 0,
+      "rect": [
+        263.0,
+        269.73,
+        331.0,
+        282.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_TwoIndicator_H",
+      "page": 0,
+      "rect": [
+        403.0,
+        270.0,
+        418.0,
+        282.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_FourIndicator_H",
+      "page": 0,
+      "rect": [
+        432.0,
+        270.0,
+        446.0,
+        282.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_EightIndicator_H",
+      "page": 0,
+      "rect": [
+        461.0,
+        270.0,
+        475.0,
+        282.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_ThreeIndicator_C",
+      "page": 0,
+      "rect": [
+        86.0,
+        282.0,
+        101.0,
+        294.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_SevenIndicator_C",
+      "page": 0,
+      "rect": [
+        115.0,
+        282.0,
+        130.0,
+        294.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_UninsuredMotorists_BodilyInjuryPerAccidentLimitAmount_A",
+      "page": 0,
+      "rect": [
+        263.0,
+        281.73,
+        331.0,
+        294.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Collision_DeductibleWaiverIndicator_A",
+      "page": 0,
+      "rect": [
+        335.0,
+        282.0,
+        349.0,
+        294.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_ThreeIndicator_H",
+      "page": 0,
+      "rect": [
+        403.0,
+        282.0,
+        418.0,
+        294.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_SevenIndicator_H",
+      "page": 0,
+      "rect": [
+        432.0,
+        282.0,
+        446.0,
+        294.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolIndicator_H",
+      "page": 0,
+      "rect": [
+        461.0,
+        282.0,
+        475.0,
+        294.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolCode_H",
+      "page": 0,
+      "rect": [
+        475.0,
+        281.73,
+        490.0,
+        294.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_FourIndicator_C",
+      "page": 0,
+      "rect": [
+        86.0,
+        294.0,
+        101.0,
+        306.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolIndicator_C",
+      "page": 0,
+      "rect": [
+        115.0,
+        294.0,
+        130.0,
+        306.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BusinessAutoSymbol_OtherSymbolCode_C",
+      "page": 0,
+      "rect": [
+        130.0,
+        293.73,
+        144.0,
+        306.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_UninsuredMotorists_PropertyDamagePerAccidentLimit_A",
+      "page": 0,
+      "rect": [
+        263.0,
+        293.73,
+        331.0,
+        306.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverageDescription_E",
+      "page": 0,
+      "rect": [
+        338.0,
+        299.73,
+        400.0,
+        312.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_SymbolDescription_E",
+      "page": 0,
+      "rect": [
+        407.0,
+        299.73,
+        486.0,
+        312.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_LimitAmount_E",
+      "page": 0,
+      "rect": [
+        493.0,
+        299.73,
+        590.0,
+        312.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverageDescription_F",
+      "page": 0,
+      "rect": [
+        338.0,
+        317.73,
+        400.0,
+        330.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_SymbolDescription_F",
+      "page": 0,
+      "rect": [
+        407.0,
+        317.73,
+        486.0,
+        330.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_LimitAmount_F",
+      "page": 0,
+      "rect": [
+        493.0,
+        317.73,
+        590.0,
+        330.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_YesIndicator_A",
+      "page": 0,
+      "rect": [
+        86.0,
+        330.0,
+        101.0,
+        342.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_IfAnyBasisIndicator_A",
+      "page": 0,
+      "rect": [
+        245.0,
+        330.0,
+        259.0,
+        342.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_NoIndicator_A",
+      "page": 0,
+      "rect": [
+        86.0,
+        342.0,
+        101.0,
+        354.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_StateOrProvinceCode_A",
+      "page": 0,
+      "rect": [
+        119.0,
+        341.73,
+        137.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_StateOrProvinceCode_B",
+      "page": 0,
+      "rect": [
+        137.0,
+        341.73,
+        155.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_StateOrProvinceCode_C",
+      "page": 0,
+      "rect": [
+        155.0,
+        341.73,
+        173.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_HiredCostAmount_A",
+      "page": 0,
+      "rect": [
+        184.0,
+        341.73,
+        331.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveDeductibleIndicator_A",
+      "page": 0,
+      "rect": [
+        490.0,
+        342.0,
+        504.0,
+        354.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Comprehensive_DeductibleAmount_A",
+      "page": 0,
+      "rect": [
+        544.0,
+        341.73,
+        590.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_YesIndicator_A",
+      "page": 0,
+      "rect": [
+        86.0,
+        354.0,
+        101.0,
+        366.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_A",
+      "page": 0,
+      "rect": [
+        378.0,
+        353.73,
+        396.0,
+        366.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_B",
+      "page": 0,
+      "rect": [
+        396.0,
+        353.73,
+        414.0,
+        366.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 4096,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_DayCount_A",
+      "page": 0,
+      "rect": [
+        421.0,
+        354.0,
+        443.0,
+        390.0
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 4096,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_VehicleCount_A",
+      "page": 0,
+      "rect": [
+        450.0,
+        354.0,
+        486.0,
+        390.0
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_SpecifiedCauseOfLossDeductibleIndicator_A",
+      "page": 0,
+      "rect": [
+        490.0,
+        354.0,
+        504.0,
+        366.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_SpecifiedCauseOfLoss_DeductibleAmount_A",
+      "page": 0,
+      "rect": [
+        544.0,
+        353.73,
+        590.0,
+        366.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_NoIndicator_A",
+      "page": 0,
+      "rect": [
+        86.0,
+        366.0,
+        101.0,
+        378.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_A",
+      "page": 0,
+      "rect": [
+        119.0,
+        365.73,
+        137.0,
+        378.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_B",
+      "page": 0,
+      "rect": [
+        137.0,
+        365.73,
+        155.0,
+        378.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_C",
+      "page": 0,
+      "rect": [
+        155.0,
+        365.73,
+        173.0,
+        378.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_EmployeeIndicator_A",
+      "page": 0,
+      "rect": [
+        173.0,
+        366.0,
+        187.0,
+        378.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_EmployeeCount_A",
+      "page": 0,
+      "rect": [
+        266.0,
+        365.73,
+        331.0,
+        378.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_C",
+      "page": 0,
+      "rect": [
+        378.0,
+        365.73,
+        396.0,
+        378.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_D",
+      "page": 0,
+      "rect": [
+        396.0,
+        365.73,
+        414.0,
+        378.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_CollisionIndicator_A",
+      "page": 0,
+      "rect": [
+        490.0,
+        366.0,
+        504.0,
+        378.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Collision_DeductibleAmount_A",
+      "page": 0,
+      "rect": [
+        544.0,
+        365.73,
+        590.0,
+        378.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_D",
+      "page": 0,
+      "rect": [
+        119.0,
+        377.73,
+        137.0,
+        390.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_E",
+      "page": 0,
+      "rect": [
+        137.0,
+        377.73,
+        155.0,
+        390.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_F",
+      "page": 0,
+      "rect": [
+        155.0,
+        377.73,
+        173.0,
+        390.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_VolunteerIndicator_A",
+      "page": 0,
+      "rect": [
+        173.0,
+        378.0,
+        187.0,
+        390.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_VolunteerCount_A",
+      "page": 0,
+      "rect": [
+        266.0,
+        377.73,
+        331.0,
+        390.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_E",
+      "page": 0,
+      "rect": [
+        378.0,
+        377.73,
+        396.0,
+        390.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_F",
+      "page": 0,
+      "rect": [
+        396.0,
+        377.73,
+        414.0,
+        390.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_G",
+      "page": 0,
+      "rect": [
+        119.0,
+        389.73,
+        137.0,
+        402.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_H",
+      "page": 0,
+      "rect": [
+        137.0,
+        389.73,
+        155.0,
+        402.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_I",
+      "page": 0,
+      "rect": [
+        155.0,
+        389.73,
+        173.0,
+        402.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_PartnerIndicator_A",
+      "page": 0,
+      "rect": [
+        173.0,
+        390.0,
+        187.0,
+        402.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_PartnerCount_A",
+      "page": 0,
+      "rect": [
+        266.0,
+        389.73,
+        331.0,
+        402.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_PrimaryIndicator_A",
+      "page": 0,
+      "rect": [
+        468.0,
+        390.0,
+        482.0,
+        402.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_SecondaryIndicator_A",
+      "page": 0,
+      "rect": [
+        526.0,
+        390.0,
+        540.0,
+        402.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 4096,
+      "is_readonly": false,
+      "name": "CommercialVehicleLineOfBusiness_RemarkText_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        441.0,
+        590.0,
+        546.0
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "NamedInsured_Signature_B",
+      "page": 0,
+      "rect": [
+        22.0,
+        719.73,
+        216.0,
+        732.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "NamedInsured_SignatureDate_B",
+      "page": 0,
+      "rect": [
+        223.0,
+        719.73,
+        288.0,
+        732.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Producer_AuthorizedRepresentative_Signature_B",
+      "page": 0,
+      "rect": [
+        295.0,
+        719.73,
+        490.0,
+        732.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Producer_NationalIdentifier_B",
+      "page": 0,
+      "rect": [
+        497.0,
+        719.73,
+        590.0,
+        732.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 0,
+      "rect": [
+        414.0,
+        23.73,
+        594.0,
+        36.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 1,
+      "rect": [
+        414.0,
+        23.73,
+        594.0,
+        36.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyOneIndicator_A",
+      "page": 1,
+      "rect": [
+        86.0,
+        54.0,
+        101.0,
+        66.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortySixIndicator_A",
+      "page": 1,
+      "rect": [
+        115.0,
+        54.0,
+        130.0,
+        66.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolIndicator_A",
+      "page": 1,
+      "rect": [
+        144.0,
+        54.0,
+        158.0,
+        66.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolCode_A",
+      "page": 1,
+      "rect": [
+        158.0,
+        53.73,
+        173.0,
+        66.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_CombinedSingleLimit_LimitIndicator_D",
+      "page": 1,
+      "rect": [
+        173.0,
+        54.0,
+        187.0,
+        66.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_EachPersonLimitIndicator_D",
+      "page": 1,
+      "rect": [
+        209.0,
+        54.0,
+        223.0,
+        66.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_PerPersonLimitAmount_B",
+      "page": 1,
+      "rect": [
+        263.0,
+        53.73,
+        331.0,
+        66.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyTwoIndicator_A",
+      "page": 1,
+      "rect": [
+        86.0,
+        66.0,
+        101.0,
+        78.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortySevenIndicator_A",
+      "page": 1,
+      "rect": [
+        115.0,
+        66.0,
+        130.0,
+        78.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_PerAccidentLimitAmount_B",
+      "page": 1,
+      "rect": [
+        263.0,
+        65.73,
+        331.0,
+        78.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyTwoIndicator_E",
+      "page": 1,
+      "rect": [
+        396.0,
+        66.0,
+        410.0,
+        78.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortySevenIndicator_E",
+      "page": 1,
+      "rect": [
+        432.0,
+        66.0,
+        446.0,
+        78.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyThreeIndicator_A",
+      "page": 1,
+      "rect": [
+        86.0,
+        78.0,
+        101.0,
+        90.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FiftyIndicator_A",
+      "page": 1,
+      "rect": [
+        115.0,
+        78.0,
+        130.0,
+        90.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_PropertyDamage_PerAccidentLimitAmount_B",
+      "page": 1,
+      "rect": [
+        263.0,
+        77.73,
+        331.0,
+        90.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyThreeIndicator_E",
+      "page": 1,
+      "rect": [
+        396.0,
+        78.0,
+        410.0,
+        90.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolIndicator_E",
+      "page": 1,
+      "rect": [
+        432.0,
+        78.0,
+        446.0,
+        90.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolCode_E",
+      "page": 1,
+      "rect": [
+        446.0,
+        77.73,
+        461.0,
+        90.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Comprehensive_DeductibleAmount_B",
+      "page": 1,
+      "rect": [
+        558.0,
+        77.73,
+        590.0,
+        90.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortySixIndicator_E",
+      "page": 1,
+      "rect": [
+        396.0,
+        90.0,
+        410.0,
+        102.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyTwoIndicator_F",
+      "page": 1,
+      "rect": [
+        396.0,
+        102.0,
+        410.0,
+        114.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortySevenIndicator_F",
+      "page": 1,
+      "rect": [
+        432.0,
+        102.0,
+        446.0,
+        114.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_SpecifiedCauseOfLossIndicator_B",
+      "page": 1,
+      "rect": [
+        461.0,
+        102.0,
+        475.0,
+        114.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftIndicator_B",
+      "page": 1,
+      "rect": [
+        490.0,
+        102.0,
+        504.0,
+        114.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_LimitedSpecifiedPerilsIndicator_B",
+      "page": 1,
+      "rect": [
+        518.0,
+        102.0,
+        533.0,
+        114.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyThreeIndicator_F",
+      "page": 1,
+      "rect": [
+        396.0,
+        114.0,
+        410.0,
+        126.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolIndicator_F",
+      "page": 1,
+      "rect": [
+        432.0,
+        114.0,
+        446.0,
+        126.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolCode_F",
+      "page": 1,
+      "rect": [
+        446.0,
+        113.73,
+        461.0,
+        126.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireIndicator_B",
+      "page": 1,
+      "rect": [
+        461.0,
+        114.0,
+        475.0,
+        126.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftWindstormIndicator_B",
+      "page": 1,
+      "rect": [
+        490.0,
+        114.0,
+        504.0,
+        126.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_SpecifiedCauseOfLoss_DeductibleAmount_B",
+      "page": 1,
+      "rect": [
+        558.0,
+        113.73,
+        590.0,
+        126.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortySixIndicator_F",
+      "page": 1,
+      "rect": [
+        396.0,
+        126.0,
+        410.0,
+        138.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyTwoIndicator_B",
+      "page": 1,
+      "rect": [
+        86.0,
+        138.0,
+        101.0,
+        150.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortySixIndicator_B",
+      "page": 1,
+      "rect": [
+        115.0,
+        138.0,
+        130.0,
+        150.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyTwoIndicator_G",
+      "page": 1,
+      "rect": [
+        396.0,
+        138.0,
+        410.0,
+        150.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortySevenIndicator_G",
+      "page": 1,
+      "rect": [
+        432.0,
+        138.0,
+        446.0,
+        150.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MedicalPayments_PerPersonLimitAmount_B",
+      "page": 1,
+      "rect": [
+        263.0,
+        143.73,
+        331.0,
+        156.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyThreeIndicator_B",
+      "page": 1,
+      "rect": [
+        86.0,
+        150.0,
+        101.0,
+        162.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolIndicator_B",
+      "page": 1,
+      "rect": [
+        115.0,
+        150.0,
+        130.0,
+        162.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolCode_B",
+      "page": 1,
+      "rect": [
+        130.0,
+        149.73,
+        144.0,
+        162.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyThreeIndicator_G",
+      "page": 1,
+      "rect": [
+        396.0,
+        150.0,
+        410.0,
+        162.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolIndicator_G",
+      "page": 1,
+      "rect": [
+        432.0,
+        150.0,
+        446.0,
+        162.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolCode_G",
+      "page": 1,
+      "rect": [
+        446.0,
+        149.73,
+        461.0,
+        162.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Collision_DeductibleAmount_B",
+      "page": 1,
+      "rect": [
+        558.0,
+        149.73,
+        590.0,
+        162.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyTwoIndicator_C",
+      "page": 1,
+      "rect": [
+        86.0,
+        162.0,
+        101.0,
+        174.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortySixIndicator_C",
+      "page": 1,
+      "rect": [
+        115.0,
+        162.0,
+        130.0,
+        174.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_CombinedSingleLimit_LimitIndicator_E",
+      "page": 1,
+      "rect": [
+        173.0,
+        162.0,
+        187.0,
+        174.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_EachPersonLimitIndicator_E",
+      "page": 1,
+      "rect": [
+        209.0,
+        162.0,
+        223.0,
+        174.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_UninsuredMotorists_BodilyInjuryPerPersonLimitAmount_B",
+      "page": 1,
+      "rect": [
+        263.0,
+        161.73,
+        331.0,
+        174.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Collision_DeductibleWaiverIndicator_B",
+      "page": 1,
+      "rect": [
+        335.0,
+        162.0,
+        349.0,
+        174.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortySixIndicator_G",
+      "page": 1,
+      "rect": [
+        396.0,
+        162.0,
+        410.0,
+        174.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyThreeIndicator_C",
+      "page": 1,
+      "rect": [
+        86.0,
+        174.0,
+        101.0,
+        186.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolIndicator_C",
+      "page": 1,
+      "rect": [
+        115.0,
+        174.0,
+        130.0,
+        186.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolCode_C",
+      "page": 1,
+      "rect": [
+        130.0,
+        173.73,
+        144.0,
+        186.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_UninsuredMotorists_BodilyInjuryPerAccidentLimitAmount_B",
+      "page": 1,
+      "rect": [
+        263.0,
+        173.73,
+        331.0,
+        186.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortySixIndicator_H",
+      "page": 1,
+      "rect": [
+        396.0,
+        174.0,
+        410.0,
+        186.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TowingAndLabour_LimitAmount_B",
+      "page": 1,
+      "rect": [
+        472.0,
+        179.73,
+        544.0,
+        192.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyFiveIndicator_C",
+      "page": 1,
+      "rect": [
+        86.0,
+        186.0,
+        101.0,
+        198.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_UninsuredMotorists_PropertyDamagePerAccidentLimit_B",
+      "page": 1,
+      "rect": [
+        263.0,
+        185.73,
+        331.0,
+        198.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolIndicator_H",
+      "page": 1,
+      "rect": [
+        396.0,
+        186.0,
+        410.0,
+        198.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_OtherSymbolCode_H",
+      "page": 1,
+      "rect": [
+        410.0,
+        185.73,
+        425.0,
+        198.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyEightIndicator_I",
+      "page": 1,
+      "rect": [
+        396.0,
+        222.0,
+        410.0,
+        234.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_TrailerCount_A",
+      "page": 1,
+      "rect": [
+        436.0,
+        227.73,
+        464.0,
+        240.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_StateOrProvinceCode_A",
+      "page": 1,
+      "rect": [
+        468.0,
+        227.73,
+        490.0,
+        240.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_DayCount_A",
+      "page": 1,
+      "rect": [
+        493.0,
+        227.73,
+        515.0,
+        240.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_Radius_A",
+      "page": 1,
+      "rect": [
+        522.0,
+        227.73,
+        544.0,
+        240.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_YesIndicator_B",
+      "page": 1,
+      "rect": [
+        86.0,
+        234.0,
+        101.0,
+        246.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_IfAnyBasisIndicator_B",
+      "page": 1,
+      "rect": [
+        245.0,
+        234.0,
+        259.0,
+        246.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyNineIndicator_I",
+      "page": 1,
+      "rect": [
+        396.0,
+        234.0,
+        410.0,
+        246.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_NoIndicator_B",
+      "page": 1,
+      "rect": [
+        86.0,
+        246.0,
+        101.0,
+        258.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_StateOrProvinceCode_D",
+      "page": 1,
+      "rect": [
+        119.0,
+        245.73,
+        137.0,
+        258.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_StateOrProvinceCode_E",
+      "page": 1,
+      "rect": [
+        137.0,
+        245.73,
+        155.0,
+        258.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_StateOrProvinceCode_F",
+      "page": 1,
+      "rect": [
+        155.0,
+        245.73,
+        173.0,
+        258.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_HiredCostAmount_B",
+      "page": 1,
+      "rect": [
+        184.0,
+        245.73,
+        331.0,
+        258.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyEightIndicator_J",
+      "page": 1,
+      "rect": [
+        396.0,
+        246.0,
+        410.0,
+        258.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_TrailerCount_B",
+      "page": 1,
+      "rect": [
+        436.0,
+        251.73,
+        464.0,
+        264.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_StateOrProvinceCode_B",
+      "page": 1,
+      "rect": [
+        468.0,
+        251.73,
+        490.0,
+        264.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_DayCount_B",
+      "page": 1,
+      "rect": [
+        493.0,
+        251.73,
+        515.0,
+        264.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_Radius_B",
+      "page": 1,
+      "rect": [
+        522.0,
+        251.73,
+        544.0,
+        264.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_YesIndicator_B",
+      "page": 1,
+      "rect": [
+        86.0,
+        258.0,
+        101.0,
+        270.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_IfAnyBasisIndicator_B",
+      "page": 1,
+      "rect": [
+        245.0,
+        258.0,
+        259.0,
+        270.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyNineIndicator_J",
+      "page": 1,
+      "rect": [
+        396.0,
+        258.0,
+        410.0,
+        270.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_NoIndicator_B",
+      "page": 1,
+      "rect": [
+        86.0,
+        270.0,
+        101.0,
+        282.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_StateOrProvinceCode_A",
+      "page": 1,
+      "rect": [
+        119.0,
+        269.73,
+        137.0,
+        282.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_StateOrProvinceCode_B",
+      "page": 1,
+      "rect": [
+        137.0,
+        269.73,
+        155.0,
+        282.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_StateOrProvinceCode_C",
+      "page": 1,
+      "rect": [
+        155.0,
+        269.73,
+        173.0,
+        282.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_HiredCostAmount_B",
+      "page": 1,
+      "rect": [
+        184.0,
+        269.73,
+        331.0,
+        282.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyEightIndicator_K",
+      "page": 1,
+      "rect": [
+        396.0,
+        270.0,
+        410.0,
+        282.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_TrailerCount_C",
+      "page": 1,
+      "rect": [
+        436.0,
+        275.73,
+        464.0,
+        288.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_StateOrProvinceCode_C",
+      "page": 1,
+      "rect": [
+        468.0,
+        275.73,
+        490.0,
+        288.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_DayCount_C",
+      "page": 1,
+      "rect": [
+        493.0,
+        275.73,
+        515.0,
+        288.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_Radius_C",
+      "page": 1,
+      "rect": [
+        522.0,
+        275.73,
+        544.0,
+        288.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchangeCollision_DeductibleAmount_B",
+      "page": 1,
+      "rect": [
+        558.0,
+        275.73,
+        590.0,
+        288.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_YesIndicator_B",
+      "page": 1,
+      "rect": [
+        86.0,
+        282.0,
+        101.0,
+        294.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchangeCollision_DeductibleWaiverIndicator_B",
+      "page": 1,
+      "rect": [
+        335.0,
+        282.0,
+        349.0,
+        294.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersSymbol_FortyNineIndicator_K",
+      "page": 1,
+      "rect": [
+        396.0,
+        282.0,
+        410.0,
+        294.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_NoIndicator_B",
+      "page": 1,
+      "rect": [
+        86.0,
+        294.0,
+        101.0,
+        306.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_K",
+      "page": 1,
+      "rect": [
+        119.0,
+        293.73,
+        137.0,
+        306.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_L",
+      "page": 1,
+      "rect": [
+        137.0,
+        293.73,
+        155.0,
+        306.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_M",
+      "page": 1,
+      "rect": [
+        155.0,
+        293.73,
+        173.0,
+        306.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_EmployeeIndicator_B",
+      "page": 1,
+      "rect": [
+        173.0,
+        294.0,
+        187.0,
+        306.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_EmployeeCount_B",
+      "page": 1,
+      "rect": [
+        266.0,
+        293.73,
+        331.0,
+        306.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_TrailerValueAmount_A",
+      "page": 1,
+      "rect": [
+        410.0,
+        293.73,
+        518.0,
+        306.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_N",
+      "page": 1,
+      "rect": [
+        119.0,
+        305.73,
+        137.0,
+        318.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_O",
+      "page": 1,
+      "rect": [
+        137.0,
+        305.73,
+        155.0,
+        318.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_P",
+      "page": 1,
+      "rect": [
+        155.0,
+        305.73,
+        173.0,
+        318.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_VolunteerIndicator_B",
+      "page": 1,
+      "rect": [
+        173.0,
+        306.0,
+        187.0,
+        318.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_VolunteerCount_B",
+      "page": 1,
+      "rect": [
+        266.0,
+        305.73,
+        331.0,
+        318.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_Q",
+      "page": 1,
+      "rect": [
+        119.0,
+        317.73,
+        137.0,
+        330.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_R",
+      "page": 1,
+      "rect": [
+        137.0,
+        317.73,
+        155.0,
+        330.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_S",
+      "page": 1,
+      "rect": [
+        155.0,
+        317.73,
+        173.0,
+        330.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_PartnerIndicator_B",
+      "page": 1,
+      "rect": [
+        173.0,
+        318.0,
+        187.0,
+        330.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_PartnerCount_B",
+      "page": 1,
+      "rect": [
+        266.0,
+        317.73,
+        331.0,
+        330.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_G",
+      "page": 1,
+      "rect": [
+        378.0,
+        329.73,
+        396.0,
+        342.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_H",
+      "page": 1,
+      "rect": [
+        396.0,
+        329.73,
+        414.0,
+        342.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 4096,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_DayCount_B",
+      "page": 1,
+      "rect": [
+        421.0,
+        330.0,
+        443.0,
+        366.0
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 4096,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_VehicleCount_B",
+      "page": 1,
+      "rect": [
+        450.0,
+        330.0,
+        486.0,
+        366.0
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverageDescription_I",
+      "page": 1,
+      "rect": [
+        22.0,
+        341.73,
+        83.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_SymbolDescription_I",
+      "page": 1,
+      "rect": [
+        90.0,
+        341.73,
+        169.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_LimitAmount_I",
+      "page": 1,
+      "rect": [
+        176.0,
+        341.73,
+        331.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_I",
+      "page": 1,
+      "rect": [
+        378.0,
+        341.73,
+        396.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_J",
+      "page": 1,
+      "rect": [
+        396.0,
+        341.73,
+        414.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_K",
+      "page": 1,
+      "rect": [
+        378.0,
+        353.73,
+        396.0,
+        366.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_L",
+      "page": 1,
+      "rect": [
+        396.0,
+        353.73,
+        414.0,
+        366.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_PrimaryIndicator_B",
+      "page": 1,
+      "rect": [
+        468.0,
+        366.0,
+        482.0,
+        378.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_SecondaryIndicator_B",
+      "page": 1,
+      "rect": [
+        526.0,
+        366.0,
+        540.0,
+        378.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverageDescription_J",
+      "page": 1,
+      "rect": [
+        22.0,
+        377.73,
+        83.0,
+        390.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_SymbolDescription_J",
+      "page": 1,
+      "rect": [
+        90.0,
+        377.73,
+        169.0,
+        390.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_LimitAmount_J",
+      "page": 1,
+      "rect": [
+        176.0,
+        377.73,
+        331.0,
+        390.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverageDescription_K",
+      "page": 1,
+      "rect": [
+        338.0,
+        389.73,
+        392.0,
+        402.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_SymbolDescription_K",
+      "page": 1,
+      "rect": [
+        400.0,
+        389.73,
+        472.0,
+        402.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_LimitAmount_K",
+      "page": 1,
+      "rect": [
+        479.0,
+        389.73,
+        590.0,
+        402.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 4096,
+      "is_readonly": false,
+      "name": "CommercialVehicleLineOfBusiness_RemarkText_B",
+      "page": 1,
+      "rect": [
+        22.0,
+        453.0,
+        590.0,
+        570.0
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "NamedInsured_Signature_C",
+      "page": 1,
+      "rect": [
+        22.0,
+        743.73,
+        216.0,
+        756.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "NamedInsured_SignatureDate_C",
+      "page": 1,
+      "rect": [
+        223.0,
+        743.73,
+        288.0,
+        756.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Producer_AuthorizedRepresentative_Signature_C",
+      "page": 1,
+      "rect": [
+        295.0,
+        743.73,
+        490.0,
+        756.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Producer_NationalIdentifier_C",
+      "page": 1,
+      "rect": [
+        497.0,
+        743.73,
+        590.0,
+        756.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 2,
+      "rect": [
+        414.0,
+        23.73,
+        594.0,
+        36.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyOneIndicator_A",
+      "page": 2,
+      "rect": [
+        86.0,
+        54.0,
+        101.0,
+        66.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtySevenIndicator_A",
+      "page": 2,
+      "rect": [
+        115.0,
+        54.0,
+        130.0,
+        66.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_CombinedSingleLimit_LimitIndicator_G",
+      "page": 2,
+      "rect": [
+        173.0,
+        54.0,
+        187.0,
+        66.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_EachPersonLimitIndicator_G",
+      "page": 2,
+      "rect": [
+        209.0,
+        54.0,
+        223.0,
+        66.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_PerPersonLimitAmount_C",
+      "page": 2,
+      "rect": [
+        263.0,
+        53.73,
+        331.0,
+        66.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyTwoIndicator_A",
+      "page": 2,
+      "rect": [
+        86.0,
+        66.0,
+        101.0,
+        78.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyEightIndicator_A",
+      "page": 2,
+      "rect": [
+        115.0,
+        66.0,
+        130.0,
+        78.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_PerAccidentLimitAmount_C",
+      "page": 2,
+      "rect": [
+        263.0,
+        65.73,
+        331.0,
+        78.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyTwoIndicator_E",
+      "page": 2,
+      "rect": [
+        396.0,
+        66.0,
+        410.0,
+        78.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtySevenIndicator_E",
+      "page": 2,
+      "rect": [
+        432.0,
+        66.0,
+        446.0,
+        78.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyThreeIndicator_A",
+      "page": 2,
+      "rect": [
+        86.0,
+        78.0,
+        101.0,
+        90.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SeventyOneIndicator_A",
+      "page": 2,
+      "rect": [
+        115.0,
+        78.0,
+        130.0,
+        90.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_PropertyDamage_PerAccidentLimitAmount_C",
+      "page": 2,
+      "rect": [
+        263.0,
+        77.73,
+        331.0,
+        90.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyThreeIndicator_E",
+      "page": 2,
+      "rect": [
+        396.0,
+        78.0,
+        410.0,
+        90.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyEightIndicator_E",
+      "page": 2,
+      "rect": [
+        432.0,
+        78.0,
+        446.0,
+        90.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Comprehensive_DeductibleAmount_C",
+      "page": 2,
+      "rect": [
+        558.0,
+        77.73,
+        590.0,
+        90.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyFourIndicator_A",
+      "page": 2,
+      "rect": [
+        86.0,
+        90.0,
+        101.0,
+        102.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolIndicator_A",
+      "page": 2,
+      "rect": [
+        115.0,
+        90.0,
+        130.0,
+        102.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolCode_A",
+      "page": 2,
+      "rect": [
+        130.0,
+        89.73,
+        144.0,
+        102.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyFourIndicator_E",
+      "page": 2,
+      "rect": [
+        396.0,
+        90.0,
+        410.0,
+        102.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolIndicator_E",
+      "page": 2,
+      "rect": [
+        432.0,
+        90.0,
+        446.0,
+        102.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolCode_E",
+      "page": 2,
+      "rect": [
+        446.0,
+        89.73,
+        461.0,
+        102.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyTwoIndicator_F",
+      "page": 2,
+      "rect": [
+        396.0,
+        102.0,
+        410.0,
+        114.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtySevenIndicator_F",
+      "page": 2,
+      "rect": [
+        432.0,
+        102.0,
+        446.0,
+        114.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_SpecifiedCauseOfLossIndicator_C",
+      "page": 2,
+      "rect": [
+        461.0,
+        102.0,
+        475.0,
+        114.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftIndicator_C",
+      "page": 2,
+      "rect": [
+        490.0,
+        102.0,
+        504.0,
+        114.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_LimitedSpecifiedPerilsIndicator_C",
+      "page": 2,
+      "rect": [
+        518.0,
+        102.0,
+        533.0,
+        114.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyThreeIndicator_F",
+      "page": 2,
+      "rect": [
+        396.0,
+        114.0,
+        410.0,
+        126.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyEightIndicator_F",
+      "page": 2,
+      "rect": [
+        432.0,
+        114.0,
+        446.0,
+        126.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireIndicator_C",
+      "page": 2,
+      "rect": [
+        461.0,
+        114.0,
+        475.0,
+        126.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftWindstormIndicator_C",
+      "page": 2,
+      "rect": [
+        490.0,
+        114.0,
+        504.0,
+        126.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_SpecifiedCauseOfLoss_DeductibleAmount_C",
+      "page": 2,
+      "rect": [
+        558.0,
+        113.73,
+        590.0,
+        126.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyFourIndicator_F",
+      "page": 2,
+      "rect": [
+        396.0,
+        126.0,
+        410.0,
+        138.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolIndicator_F",
+      "page": 2,
+      "rect": [
+        432.0,
+        126.0,
+        446.0,
+        138.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolCode_F",
+      "page": 2,
+      "rect": [
+        446.0,
+        125.73,
+        461.0,
+        138.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyTwoIndicator_G",
+      "page": 2,
+      "rect": [
+        396.0,
+        138.0,
+        410.0,
+        150.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtySevenIndicator_G",
+      "page": 2,
+      "rect": [
+        432.0,
+        138.0,
+        446.0,
+        150.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyThreeIndicator_G",
+      "page": 2,
+      "rect": [
+        396.0,
+        150.0,
+        410.0,
+        162.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyEightIndicator_G",
+      "page": 2,
+      "rect": [
+        432.0,
+        150.0,
+        446.0,
+        162.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Collision_DeductibleAmount_C",
+      "page": 2,
+      "rect": [
+        558.0,
+        149.73,
+        590.0,
+        162.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_Collision_DeductibleWaiverIndicator_C",
+      "page": 2,
+      "rect": [
+        335.0,
+        162.0,
+        349.0,
+        174.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyFourIndicator_G",
+      "page": 2,
+      "rect": [
+        396.0,
+        162.0,
+        410.0,
+        174.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolIndicator_G",
+      "page": 2,
+      "rect": [
+        432.0,
+        162.0,
+        446.0,
+        174.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolCode_G",
+      "page": 2,
+      "rect": [
+        446.0,
+        161.73,
+        461.0,
+        174.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyTwoIndicator_B",
+      "page": 2,
+      "rect": [
+        86.0,
+        174.0,
+        101.0,
+        186.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyFourIndicator_B",
+      "page": 2,
+      "rect": [
+        115.0,
+        174.0,
+        130.0,
+        186.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolIndicator_B",
+      "page": 2,
+      "rect": [
+        144.0,
+        174.0,
+        158.0,
+        186.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolCode_B",
+      "page": 2,
+      "rect": [
+        158.0,
+        173.73,
+        173.0,
+        186.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyThreeIndicator_H",
+      "page": 2,
+      "rect": [
+        396.0,
+        174.0,
+        410.0,
+        186.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolIndicator_H",
+      "page": 2,
+      "rect": [
+        432.0,
+        174.0,
+        446.0,
+        186.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolCode_H",
+      "page": 2,
+      "rect": [
+        446.0,
+        173.73,
+        461.0,
+        186.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MedicalPayments_PerPersonLimitAmount_C",
+      "page": 2,
+      "rect": [
+        263.0,
+        179.73,
+        331.0,
+        192.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TowingAndLabour_LimitAmount_C",
+      "page": 2,
+      "rect": [
+        472.0,
+        179.73,
+        544.0,
+        192.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyThreeIndicator_B",
+      "page": 2,
+      "rect": [
+        86.0,
+        186.0,
+        101.0,
+        198.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtySevenIndicator_B",
+      "page": 2,
+      "rect": [
+        115.0,
+        186.0,
+        130.0,
+        198.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtySevenIndicator_H",
+      "page": 2,
+      "rect": [
+        396.0,
+        186.0,
+        410.0,
+        198.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyTwoIndicator_C",
+      "page": 2,
+      "rect": [
+        86.0,
+        198.0,
+        101.0,
+        210.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtySixIndicator_C",
+      "page": 2,
+      "rect": [
+        115.0,
+        198.0,
+        130.0,
+        210.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_CombinedSingleLimit_LimitIndicator_H",
+      "page": 2,
+      "rect": [
+        173.0,
+        198.0,
+        187.0,
+        210.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_EachPersonLimitIndicator_H",
+      "page": 2,
+      "rect": [
+        209.0,
+        198.0,
+        223.0,
+        210.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_UninsuredMotorists_BodilyInjuryPerPersonLimitAmount_C",
+      "page": 2,
+      "rect": [
+        263.0,
+        197.73,
+        331.0,
+        210.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyThreeIndicator_C",
+      "page": 2,
+      "rect": [
+        86.0,
+        210.0,
+        101.0,
+        222.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtySevenIndicator_C",
+      "page": 2,
+      "rect": [
+        115.0,
+        210.0,
+        130.0,
+        222.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_UninsuredMotorists_BodilyInjuryPerAccidentLimitAmount_C",
+      "page": 2,
+      "rect": [
+        263.0,
+        209.73,
+        331.0,
+        222.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyFourIndicator_C",
+      "page": 2,
+      "rect": [
+        86.0,
+        222.0,
+        101.0,
+        234.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolIndicator_C",
+      "page": 2,
+      "rect": [
+        115.0,
+        222.0,
+        130.0,
+        234.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_OtherSymbolCode_C",
+      "page": 2,
+      "rect": [
+        130.0,
+        221.73,
+        144.0,
+        234.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_UninsuredMotorists_PropertyDamagePerAccidentLimit_C",
+      "page": 2,
+      "rect": [
+        263.0,
+        221.73,
+        331.0,
+        234.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyNineIndicator_I",
+      "page": 2,
+      "rect": [
+        396.0,
+        222.0,
+        410.0,
+        234.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_TrailerCount_D",
+      "page": 2,
+      "rect": [
+        436.0,
+        227.73,
+        464.0,
+        240.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_StateOrProvinceCode_D",
+      "page": 2,
+      "rect": [
+        468.0,
+        227.73,
+        490.0,
+        240.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_DayCount_D",
+      "page": 2,
+      "rect": [
+        493.0,
+        227.73,
+        515.0,
+        240.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_Radius_D",
+      "page": 2,
+      "rect": [
+        522.0,
+        227.73,
+        544.0,
+        240.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SeventyIndicator_I",
+      "page": 2,
+      "rect": [
+        396.0,
+        234.0,
+        410.0,
+        246.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyNineIndicator_J",
+      "page": 2,
+      "rect": [
+        396.0,
+        246.0,
+        410.0,
+        258.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_TrailerCount_E",
+      "page": 2,
+      "rect": [
+        436.0,
+        251.73,
+        464.0,
+        264.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_StateOrProvinceCode_E",
+      "page": 2,
+      "rect": [
+        468.0,
+        251.73,
+        490.0,
+        264.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_DayCount_E",
+      "page": 2,
+      "rect": [
+        493.0,
+        251.73,
+        515.0,
+        264.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_Radius_E",
+      "page": 2,
+      "rect": [
+        522.0,
+        251.73,
+        544.0,
+        264.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SeventyIndicator_J",
+      "page": 2,
+      "rect": [
+        396.0,
+        258.0,
+        410.0,
+        270.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_YesIndicator_C",
+      "page": 2,
+      "rect": [
+        86.0,
+        270.0,
+        101.0,
+        282.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_IfAnyBasisIndicator_C",
+      "page": 2,
+      "rect": [
+        245.0,
+        270.0,
+        259.0,
+        282.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SixtyNineIndicator_K",
+      "page": 2,
+      "rect": [
+        396.0,
+        270.0,
+        410.0,
+        282.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_TrailerCount_F",
+      "page": 2,
+      "rect": [
+        436.0,
+        275.73,
+        464.0,
+        288.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_StateOrProvinceCode_F",
+      "page": 2,
+      "rect": [
+        468.0,
+        275.73,
+        490.0,
+        288.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_DayCount_F",
+      "page": 2,
+      "rect": [
+        493.0,
+        275.73,
+        515.0,
+        288.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_Radius_F",
+      "page": 2,
+      "rect": [
+        522.0,
+        275.73,
+        544.0,
+        288.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchangeCollision_DeductibleAmount_C",
+      "page": 2,
+      "rect": [
+        558.0,
+        275.73,
+        590.0,
+        288.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_NoIndicator_C",
+      "page": 2,
+      "rect": [
+        86.0,
+        282.0,
+        101.0,
+        294.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_StateOrProvinceCode_G",
+      "page": 2,
+      "rect": [
+        119.0,
+        281.73,
+        137.0,
+        294.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_StateOrProvinceCode_H",
+      "page": 2,
+      "rect": [
+        137.0,
+        281.73,
+        155.0,
+        294.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_StateOrProvinceCode_I",
+      "page": 2,
+      "rect": [
+        155.0,
+        281.73,
+        173.0,
+        294.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredBorrowed_HiredCostAmount_C",
+      "page": 2,
+      "rect": [
+        184.0,
+        281.73,
+        331.0,
+        294.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchangeCollision_DeductibleWaiverIndicator_C",
+      "page": 2,
+      "rect": [
+        335.0,
+        282.0,
+        349.0,
+        294.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_MotorCarrierSymbol_SeventyIndicator_K",
+      "page": 2,
+      "rect": [
+        396.0,
+        282.0,
+        410.0,
+        294.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_YesIndicator_C",
+      "page": 2,
+      "rect": [
+        86.0,
+        294.0,
+        101.0,
+        306.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_IfAnyBasisIndicator_C",
+      "page": 2,
+      "rect": [
+        245.0,
+        294.0,
+        259.0,
+        306.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TrailerInterchange_TrailerValueAmount_B",
+      "page": 2,
+      "rect": [
+        410.0,
+        293.73,
+        518.0,
+        306.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_NoIndicator_C",
+      "page": 2,
+      "rect": [
+        86.0,
+        306.0,
+        101.0,
+        318.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_StateOrProvinceCode_D",
+      "page": 2,
+      "rect": [
+        119.0,
+        305.73,
+        137.0,
+        318.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_StateOrProvinceCode_E",
+      "page": 2,
+      "rect": [
+        137.0,
+        305.73,
+        155.0,
+        318.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_StateOrProvinceCode_F",
+      "page": 2,
+      "rect": [
+        155.0,
+        305.73,
+        173.0,
+        318.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_TruckersHiredBorrowed_HiredCostAmount_C",
+      "page": 2,
+      "rect": [
+        184.0,
+        305.73,
+        331.0,
+        318.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_YesIndicator_C",
+      "page": 2,
+      "rect": [
+        86.0,
+        318.0,
+        101.0,
+        330.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_NoIndicator_C",
+      "page": 2,
+      "rect": [
+        86.0,
+        330.0,
+        101.0,
+        342.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_T",
+      "page": 2,
+      "rect": [
+        119.0,
+        329.73,
+        137.0,
+        342.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_U",
+      "page": 2,
+      "rect": [
+        137.0,
+        329.73,
+        155.0,
+        342.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_V",
+      "page": 2,
+      "rect": [
+        155.0,
+        329.73,
+        173.0,
+        342.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_EmployeeIndicator_C",
+      "page": 2,
+      "rect": [
+        173.0,
+        330.0,
+        187.0,
+        342.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_EmployeeCount_C",
+      "page": 2,
+      "rect": [
+        266.0,
+        329.73,
+        331.0,
+        342.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_M",
+      "page": 2,
+      "rect": [
+        378.0,
+        329.73,
+        396.0,
+        342.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_N",
+      "page": 2,
+      "rect": [
+        396.0,
+        329.73,
+        414.0,
+        342.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 4096,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_DayCount_C",
+      "page": 2,
+      "rect": [
+        421.0,
+        330.0,
+        443.0,
+        366.0
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 4096,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_VehicleCount_C",
+      "page": 2,
+      "rect": [
+        450.0,
+        330.0,
+        486.0,
+        366.0
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_W",
+      "page": 2,
+      "rect": [
+        119.0,
+        341.73,
+        137.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_X",
+      "page": 2,
+      "rect": [
+        137.0,
+        341.73,
+        155.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_Y",
+      "page": 2,
+      "rect": [
+        155.0,
+        341.73,
+        173.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_VolunteerIndicator_C",
+      "page": 2,
+      "rect": [
+        173.0,
+        342.0,
+        187.0,
+        354.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_VolunteerCount_C",
+      "page": 2,
+      "rect": [
+        266.0,
+        341.73,
+        331.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_O",
+      "page": 2,
+      "rect": [
+        378.0,
+        341.73,
+        396.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_P",
+      "page": 2,
+      "rect": [
+        396.0,
+        341.73,
+        414.0,
+        354.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_Z",
+      "page": 2,
+      "rect": [
+        119.0,
+        353.73,
+        137.0,
+        366.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_AA",
+      "page": 2,
+      "rect": [
+        137.0,
+        353.73,
+        155.0,
+        366.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwned_StateOrProvinceCode_AB",
+      "page": 2,
+      "rect": [
+        155.0,
+        353.73,
+        173.0,
+        366.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_PartnerIndicator_C",
+      "page": 2,
+      "rect": [
+        173.0,
+        354.0,
+        187.0,
+        366.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_NonOwnedGroup_PartnerCount_C",
+      "page": 2,
+      "rect": [
+        266.0,
+        353.73,
+        331.0,
+        366.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_Q",
+      "page": 2,
+      "rect": [
+        378.0,
+        353.73,
+        396.0,
+        366.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_StateOrProvinceCode_R",
+      "page": 2,
+      "rect": [
+        396.0,
+        353.73,
+        414.0,
+        366.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_PrimaryIndicator_C",
+      "page": 2,
+      "rect": [
+        468.0,
+        366.0,
+        482.0,
+        378.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_HiredPhysicalDamage_SecondaryIndicator_C",
+      "page": 2,
+      "rect": [
+        526.0,
+        366.0,
+        540.0,
+        378.0
+      ],
+      "tooltip": "",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverageDescription_N",
+      "page": 2,
+      "rect": [
+        22.0,
+        377.73,
+        83.0,
+        390.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_SymbolDescription_N",
+      "page": 2,
+      "rect": [
+        90.0,
+        377.73,
+        169.0,
+        390.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_LimitAmount_N",
+      "page": 2,
+      "rect": [
+        176.0,
+        377.73,
+        331.0,
+        390.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverageDescription_O",
+      "page": 2,
+      "rect": [
+        338.0,
+        389.73,
+        392.0,
+        402.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_SymbolDescription_O",
+      "page": 2,
+      "rect": [
+        400.0,
+        389.73,
+        472.0,
+        402.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Vehicle_OtherCoverage_LimitAmount_O",
+      "page": 2,
+      "rect": [
+        479.0,
+        389.73,
+        590.0,
+        402.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 4096,
+      "is_readonly": false,
+      "name": "CommercialVehicleLineOfBusiness_RemarkText_C",
+      "page": 2,
+      "rect": [
+        22.0,
+        453.0,
+        590.0,
+        570.0
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "NamedInsured_Signature_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        743.73,
+        216.0,
+        756.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "NamedInsured_SignatureDate_A",
+      "page": 2,
+      "rect": [
+        223.0,
+        743.73,
+        288.0,
+        756.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Producer_AuthorizedRepresentative_Signature_A",
+      "page": 2,
+      "rect": [
+        295.0,
+        743.73,
+        490.0,
+        756.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 0,
+      "is_readonly": false,
+      "name": "Producer_NationalIdentifier_A",
+      "page": 2,
+      "rect": [
+        497.0,
+        743.73,
+        590.0,
+        756.27
+      ],
+      "tooltip": "",
+      "type": "text",
+      "type_code": 7
+    }
+  ]
+}

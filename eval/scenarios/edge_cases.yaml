@@ -1,0 +1,281 @@
+scenarios:
+  - id: edge-compound-city-kansas-city
+    name: "Edge: Compound City Name – Kansas City"
+    tags: [edge_case, address, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: edge_cases
+    turns:
+      - "Need commercial auto for Midwest Freight Brokers LLC in Kansas City, Missouri 64105."
+      - "Contact is Darlene Hopper, 816-555-0294, darlene@midwestfreight.com. EIN 44-8172935. 10 years, 20 employees."
+      - "One truck, 2024 Peterbilt 579 VIN 1XPBD49X6RD123456, long haul, garaged in Kansas City MO 64105, 500 mile radius."
+      - "Driver Darlene Hopper DOB 06/11/1977 MO CDL-A H82649371 25 years. Effective 07/01/2026."
+    expected:
+      business.business_name: "Midwest Freight Brokers LLC"
+      business.mailing_address.city: "Kansas City"
+      business.mailing_address.state: "MO"
+      business.mailing_address.zip: "64105"
+      vehicles[0].garaging_address.city: "Kansas City"
+      vehicles[0].garaging_address.state: "MO"
+      vehicles[0].garaging_address.zip: "64105"
+      drivers[0].full_name: "Darlene Hopper"
+    absent:
+      - auto_info.dash_cam
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: edge-esl-speaker
+    name: "Edge: ESL Speaker with Broken English"
+    tags: [edge_case, esl, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: edge_cases
+    turns:
+      - "Hello yes I need the insurance for truck of my company. Company name Kim's Auto Repair, is LLC. We in Los Angeles California 90012."
+      - "My name Sung Kim, phone number is 213-555-0418. The email is skim@kimsautorepair.com. Tax number 95-3847261. Business maybe 8 year now. I have 5 worker."
+      - "Truck is 2023 Ford F-150, the VIN is 1FTEW1EP5PKD12345. We use for pick up parts, the garage is same our shop Los Angeles 90012. Drive maybe 20 mile around."
+      - "I am only driver. My birthday April 3 1980. License California number E1234567. I drive 20 year. Want to start policy June 1 2026."
+    expected:
+      business.business_name: "Kim's Auto Repair"
+      business.entity_type: "llc"
+      business.contact_name: "Sung Kim"
+      business.phone: "213-555-0418"
+      business.email: "skim@kimsautorepair.com"
+      business.tax_id: "95-3847261"
+      business.years_in_business: "8"
+      business.employee_count: "5"
+      business.mailing_address.city: "Los Angeles"
+      business.mailing_address.state: "CA"
+      business.mailing_address.zip: "90012"
+      vehicles[0].year: "2023"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "F-150"
+      vehicles[0].vin: "1FTEW1EP5PKD12345"
+      vehicles[0].radius: "20"
+      drivers[0].full_name: "Sung Kim"
+      drivers[0].dob: "04/03/1980"
+      drivers[0].license_number: "E1234567"
+      drivers[0].license_state: "CA"
+      drivers[0].years_experience: "20"
+      policy.effective_date: "06/01/2026"
+    absent:
+      - auto_info.telematics
+      - loss_history
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: edge-typos-business-name
+    name: "Edge: Typos in Business Name and Other Fields"
+    tags: [edge_case, typos, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: edge_cases
+    turns:
+      - "Comercial auto for Johnsons Lanscaping Servies LLC, we're a LLC in Columbs OH 43215."
+      - "I'm Rbert Johnson, 614-555-0382. EIN 31-5847291. Been in buisness 11 years."
+      - "2023 Chev Silverado 1500 VIN 3GCUYDED7PG456789, serivce use, garaged Columubs OH 43215, 35 mile radus."
+      - "Actually let me spell things correctly. The business is Johnson's Landscaping Services LLC in Columbus OH 43215. I'm Robert Johnson."
+    expected:
+      business.business_name: "Johnson's Landscaping Services LLC"
+      business.entity_type: "llc"
+      business.contact_name: "Robert Johnson"
+      business.mailing_address.city: "Columbus"
+      business.mailing_address.state: "OH"
+      business.mailing_address.zip: "43215"
+      business.tax_id: "31-5847291"
+      business.years_in_business: "11"
+      vehicles[0].year: "2023"
+      vehicles[0].make: "Chevrolet"
+      vehicles[0].model: "Silverado 1500"
+      vehicles[0].vin: "3GCUYDED7PG456789"
+      vehicles[0].radius: "35"
+    absent:
+      - auto_info.dash_cam
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: edge-frustrated-customer
+    name: "Edge: Frustrated Customer with Filler Words"
+    tags: [edge_case, sentiment, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: edge_cases
+    turns:
+      - "Ugh, I've been on hold with three other companies already today. Look, I just need basic commercial auto for my business. It's called Prestige Painting Corp, we're a corporation in, uh, let me think, Richmond VA 23219."
+      - "Fine, my name is Donna Fitzpatrick, geez, phone 804-555-0167, email donna@prestigepainting.com. EIN is, hold on, 54-3829174. Like 7 years in business, I don't know exactly, and we have around 12 employees I guess."
+      - "OK so we have a, um, 2024 Chevy Express 3500 VIN 1GCWGBFG8R1234567. We use it for, you know, carrying paint and equipment to job sites. Garaged at our shop in Richmond VA 23219. We go like maybe 40 miles out at most."
+      - "I'm the driver, Donna Fitzpatrick, born 11/08/1981, Virginia license F1234567890, been driving, I don't know, 20 plus years. Just start the policy whenever, let's say August 1 2026."
+    expected:
+      business.business_name: "Prestige Painting Corp"
+      business.entity_type: "corporation"
+      business.contact_name: "Donna Fitzpatrick"
+      business.phone: "804-555-0167"
+      business.email: "donna@prestigepainting.com"
+      business.tax_id: "54-3829174"
+      business.years_in_business: "7"
+      business.employee_count: "12"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Chevrolet"
+      vehicles[0].model: "Express 3500"
+      vehicles[0].vin: "1GCWGBFG8R1234567"
+      vehicles[0].radius: "40"
+      drivers[0].full_name: "Donna Fitzpatrick"
+      drivers[0].dob: "11/08/1981"
+      drivers[0].license_number: "F1234567890"
+      drivers[0].license_state: "VA"
+      policy.effective_date: "08/01/2026"
+    absent:
+      - loss_history
+      - auto_info.telematics
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: edge-extremely-long-message
+    name: "Edge: Extremely Long Single Message"
+    tags: [edge_case, long_input, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: edge_cases
+    turns:
+      - "OK so let me tell you about our company and what we need. My company is called Continental Distributors Inc and we are a corporation headquartered at 8900 Distribution Way in Dayton Ohio 45402. We've been doing this for a really long time, about 25 years now, and we have grown quite a bit over the years. Currently we have about 60 employees working for us across our main facility and our satellite locations. My name is George Pappas and I'm the fleet manager here. You can reach me at 937-555-0814 or email me at gpappas@continentaldist.com. Our federal tax ID is 31-2948573 and our NAICS code is 424490. We also go by ContiDist which is our DBA. Our website is continentaldist.com. We need commercial auto insurance for our delivery fleet. We operate across Ohio Indiana Kentucky and West Virginia. Now for the vehicles, we have two main delivery trucks. The first one is a 2024 Freightliner M2 106 with VIN 1FVACXDT5RHKG1234, we use it for regional delivery runs, and it's garaged right here at our Dayton facility zip 45402, and the typical radius for that truck is about 200 miles. The second truck is a 2023 International CV515 with VIN 3HAMMAAM2PL567890, also used for delivery, same garage location, and it runs a similar 200 mile radius. Both of these trucks have dash cameras and GPS telematics installed. We do not use any hired autos and we do not have any non-owned auto exposure. For drivers we have George Pappas that's me, date of birth January 5 1972, Ohio CDL class A number PP2849317, and I've been driving for 30 years. Second driver is Rosa Martinez date of birth March 22 1985 Ohio CDL class B number RM4817293 with 16 years of experience. We want the policy to be effective November 1 2026. This would be a renewal for us, our current carrier is Travelers policy number TV-83924751 and it expires October 31 2026. For coverage we need 1 million combined single limit, comprehensive and collision each with a 2500 dollar deductible, and cargo coverage of 250 thousand. We had one claim back in 2023, it was a minor fender bender in a parking lot, cost about 4200 dollars in repairs, classified as a collision loss."
+    expected:
+      business.business_name: "Continental Distributors Inc"
+      business.entity_type: "corporation"
+      business.contact_name: "George Pappas"
+      business.phone: "937-555-0814"
+      business.email: "gpappas@continentaldist.com"
+      business.mailing_address.line_one: "8900 Distribution Way"
+      business.mailing_address.city: "Dayton"
+      business.mailing_address.state: "OH"
+      business.mailing_address.zip: "45402"
+      business.tax_id: "31-2948573"
+      business.dba: "ContiDist"
+      business.website: "continentaldist.com"
+      business.naics_code: "424490"
+      business.years_in_business: "25"
+      business.employee_count: "60"
+      business.states_of_operation: ["OH", "IN", "KY", "WV"]
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Freightliner"
+      vehicles[0].model: "M2 106"
+      vehicles[0].vin: "1FVACXDT5RHKG1234"
+      vehicles[0].radius: "200"
+      vehicles[1].year: "2023"
+      vehicles[1].make: "International"
+      vehicles[1].model: "CV515"
+      vehicles[1].vin: "3HAMMAAM2PL567890"
+      vehicles[1].radius: "200"
+      auto_info.dash_cam: true
+      auto_info.telematics: true
+      auto_info.hired_auto: false
+      auto_info.non_owned_auto: false
+      drivers[0].full_name: "George Pappas"
+      drivers[0].dob: "01/05/1972"
+      drivers[0].years_experience: "30"
+      drivers[1].full_name: "Rosa Martinez"
+      drivers[1].dob: "03/22/1985"
+      drivers[1].years_experience: "16"
+      policy.effective_date: "11/01/2026"
+      policy.status: "renewal"
+      prior_insurance[0].carrier: "Travelers"
+      prior_insurance[0].policy_number: "TV-83924751"
+      prior_insurance[0].expiration_date: "10/31/2026"
+      loss_history[0].type: "collision"
+      loss_history[0].amount: "4200"
+      coverages[0].deductible: "2500"
+    absent: []
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: edge-abbreviations
+    name: "Edge: Heavy Use of Abbreviations"
+    tags: [edge_case, abbreviations, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: edge_cases
+    turns:
+      - "Comm auto for Rapid Response Med Transport LLC, LLC, OKC OK 73102. Contact Dr. Raj Patel, 405-555-0293."
+      - "Veh 1: 2024 Ford Transit 350 Hi Roof, VIN 1FTBW2CM6RKA34567, med transport, gar OKC OK 73102, rad 80 mi. Veh 2: 2023 Merc Sprinter 2500, VIN WD4PF0CD5SP789012, same use, same gar, same rad."
+      - "Drv 1: Raj Patel, DOB 09/14/82, OK lic P73829146, 20 yrs exp. Drv 2: Nina Shah, DOB 03/27/90, OK lic S46281739, 12 yrs. Eff dt 06/01/26. Cov 1M CSL, comp/coll 500 ded."
+    expected:
+      business.business_name: "Rapid Response Med Transport LLC"
+      business.entity_type: "llc"
+      business.contact_name: "Raj Patel"
+      business.mailing_address.city: "Oklahoma City"
+      business.mailing_address.state: "OK"
+      business.mailing_address.zip: "73102"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "Transit 350"
+      vehicles[0].vin: "1FTBW2CM6RKA34567"
+      vehicles[0].radius: "80"
+      vehicles[1].year: "2023"
+      vehicles[1].make: "Mercedes"
+      vehicles[1].model: "Sprinter 2500"
+      vehicles[1].vin: "WD4PF0CD5SP789012"
+      drivers[0].full_name: "Raj Patel"
+      drivers[0].dob: "09/14/1982"
+      drivers[0].years_experience: "20"
+      drivers[1].full_name: "Nina Shah"
+      drivers[1].dob: "03/27/1990"
+      drivers[1].years_experience: "12"
+      policy.effective_date: "06/01/2026"
+      coverages[0].deductible: "500"
+    absent:
+      - auto_info.dash_cam
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: edge-special-characters-name
+    name: "Edge: Special Characters in Business Name"
+    tags: [edge_case, special_chars, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: edge_cases
+    turns:
+      - "Need commercial auto for O'Brien & Sons Masonry, LLC in St. Louis MO 63101. It's an LLC."
+      - "Contact is Patrick O'Brien Jr., 314-555-0847, pobrien@obrienmasonry.com. EIN 43-6729184. 16 years in business, 22 employees."
+      - "2024 Ford F-450 VIN 1FD0W4HT9RED34567, hauling, garaged St. Louis MO 63101, 55 mile radius. Driver Patrick O'Brien Jr. DOB 02/28/1976 MO license O482917365 26 years. Effective 08/01/2026."
+    expected:
+      business.business_name: "O'Brien & Sons Masonry, LLC"
+      business.entity_type: "llc"
+      business.contact_name: "Patrick O'Brien Jr."
+      business.phone: "314-555-0847"
+      business.tax_id: "43-6729184"
+      business.mailing_address.city: "St. Louis"
+      business.mailing_address.state: "MO"
+      business.mailing_address.zip: "63101"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "F-450"
+      drivers[0].full_name: "Patrick O'Brien Jr."
+      drivers[0].dob: "02/28/1976"
+      policy.effective_date: "08/01/2026"
+    absent:
+      - loss_history
+      - auto_info.telematics
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: edge-ambiguous-state
+    name: "Edge: Ambiguous City Name in Multiple States"
+    tags: [edge_case, address, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: edge_cases
+    turns:
+      - "Commercial auto for Summit Plumbing Solutions LLC in Springfield. We're an LLC."
+      - "Oh sorry, Springfield Illinois, zip 62701. Contact is Dale Emerson, 217-555-0534, dale@summitplumbing.com. EIN 37-4918253. 9 years, 14 employees."
+      - "2023 Chevy Silverado 2500HD VIN 2GC4YREY9P1567890, service, garaged Springfield IL 62701, 45 miles. Driver Dale Emerson DOB 07/19/1979 IL license E392847156 22 years. Start Sept 1 2026."
+    expected:
+      business.business_name: "Summit Plumbing Solutions LLC"
+      business.entity_type: "llc"
+      business.contact_name: "Dale Emerson"
+      business.mailing_address.city: "Springfield"
+      business.mailing_address.state: "IL"
+      business.mailing_address.zip: "62701"
+      business.tax_id: "37-4918253"
+      vehicles[0].year: "2023"
+      vehicles[0].garaging_address.city: "Springfield"
+      vehicles[0].garaging_address.state: "IL"
+      vehicles[0].garaging_address.zip: "62701"
+      drivers[0].full_name: "Dale Emerson"
+      drivers[0].dob: "07/19/1979"
+      policy.effective_date: "09/01/2026"
+    absent:
+      - auto_info.hired_auto
+      - prior_insurance
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]

@@ -1,0 +1,270 @@
+version: "1"
+initial_flow: greet
+flows:
+
+  - id: greet
+    description: "Welcome + LOB introduction"
+    required_fields: []
+    questions:
+      - id: welcome
+        text: >
+          Welcome! I'll help you set up an insurance quote. What's your business,
+          and what kind of insurance are you looking for? (commercial auto,
+          general liability, workers' compensation)
+        expected_fields:
+          - business_name
+          - lob_details.lob
+    next:
+      - flow: business_identity
+
+  - id: business_identity
+    description: "EIN, entity type, NAICS code, industry description"
+    entry_conditions:
+      - kind: field_set
+        path: lob_details.lob
+    required_fields:
+      - business_name
+      - ein
+      - entity_type
+    questions:
+      - id: ask_ein
+        text: "What's your EIN or TIN?"
+        expected_fields:
+          - ein
+        skip_when:
+          kind: field_set
+          path: ein
+      - id: ask_entity_type
+        text: "What type of business entity? (LLC, Corp, S-Corp, Sole Prop, Partnership)"
+        expected_fields:
+          - entity_type
+        skip_when:
+          kind: field_set
+          path: entity_type
+      - id: ask_naics
+        text: "What's your NAICS code, or describe what your business does?"
+        expected_fields:
+          - naics_code
+          - naics_description
+        skip_when:
+          kind: any_of
+          conditions:
+            - kind: field_set
+              path: naics_code
+            - kind: field_set
+              path: naics_description
+    next:
+      - flow: addresses
+
+  - id: addresses
+    description: "Mailing address, business address"
+    required_fields:
+      - mailing_address.line_one
+      - mailing_address.city
+      - mailing_address.state
+      - mailing_address.zip_code
+    questions:
+      - id: ask_mailing_address
+        text: "What's your mailing address? (street, city, state, ZIP)"
+        expected_fields:
+          - mailing_address
+        skip_when:
+          kind: field_set
+          path: mailing_address.line_one
+    next:
+      - flow: contacts
+
+  - id: contacts
+    description: "Primary contact name, phone, and email"
+    required_fields:
+      - contacts[0].full_name
+      - contacts[0].phone
+    questions:
+      - id: ask_contact
+        text: "Who's the primary contact, and what's the best phone and email to reach them?"
+        expected_fields:
+          - contacts
+        skip_when:
+          kind: field_set
+          path: contacts[0].full_name
+    next:
+      - flow: policy_dates
+
+  - id: policy_dates
+    description: "Coverage effective and expiration dates"
+    required_fields:
+      - policy_dates.effective_date
+      - policy_dates.expiration_date
+    questions:
+      - id: ask_effective
+        text: "When should coverage start? (MM/DD/YYYY)"
+        expected_fields:
+          - policy_dates.effective_date
+        skip_when:
+          kind: field_set
+          path: policy_dates.effective_date
+      - id: ask_expiration
+        text: "When should coverage end? (typically 1 year from start)"
+        expected_fields:
+          - policy_dates.expiration_date
+        skip_when:
+          kind: field_set
+          path: policy_dates.expiration_date
+    next:
+      - when:
+          kind: field_equals
+          path: lob_details.lob
+          value: commercial_auto
+        flow: ca_vehicles_drivers
+      - when:
+          kind: field_equals
+          path: lob_details.lob
+          value: general_liability
+        flow: gl_operations_revenue
+      - when:
+          kind: field_equals
+          path: lob_details.lob
+          value: workers_comp
+        flow: wc_payroll_classes
+
+  - id: ca_vehicles_drivers
+    description: "Vehicles, drivers, fleet use type, and operations (commercial auto)"
+    entry_conditions:
+      - kind: field_equals
+        path: lob_details.lob
+        value: commercial_auto
+    required_fields:
+      - lob_details.fleet_use_type
+      - lob_details.vehicle_count
+      - lob_details.hazmat
+    questions:
+      - id: ask_fleet_use
+        text: "How is the fleet used? (service, delivery, transport, for-hire trucking, personal)"
+        expected_fields:
+          - lob_details.fleet_use_type
+        skip_when:
+          kind: field_set
+          path: lob_details.fleet_use_type
+      - id: ask_vehicles
+        text: "Tell me about your vehicles — year, make, model, and VIN for each."
+        expected_fields:
+          - lob_details.vehicles
+        skip_when:
+          kind: field_set
+          path: lob_details.vehicles[0].vin
+      - id: ask_drivers
+        text: "Who are the drivers? Names, DOBs, license numbers, years of experience."
+        expected_fields:
+          - lob_details.drivers
+        skip_when:
+          kind: field_set
+          path: lob_details.drivers[0].full_name
+    next:
+      - flow: coverage
+
+  - id: gl_operations_revenue
+    description: "Operations description, annual revenue, employee count (general liability)"
+    entry_conditions:
+      - kind: field_equals
+        path: lob_details.lob
+        value: general_liability
+    required_fields:
+      - operations_description
+      - annual_revenue
+    questions:
+      - id: ask_operations
+        text: "Describe your operations — what services or products do you provide?"
+        expected_fields:
+          - operations_description
+        skip_when:
+          kind: field_set
+          path: operations_description
+      - id: ask_revenue
+        text: "Annual revenue?"
+        expected_fields:
+          - annual_revenue
+        skip_when:
+          kind: field_set
+          path: annual_revenue
+      - id: ask_employees
+        text: "How many employees (full-time + part-time)?"
+        expected_fields:
+          - full_time_employees
+          - part_time_employees
+        skip_when:
+          kind: field_set
+          path: full_time_employees
+    next:
+      - flow: coverage
+
+  - id: wc_payroll_classes
+    description: "Payroll by class code and employer liability limits (workers comp)"
+    entry_conditions:
+      - kind: field_equals
+        path: lob_details.lob
+        value: workers_comp
+    required_fields:
+      - lob_details.payroll_by_class
+      - lob_details.coverage.employers_liability_per_accident
+    questions:
+      - id: ask_payroll
+        text: "Payroll by class code — how are employees grouped and what's the payroll per class?"
+        expected_fields:
+          - lob_details.payroll_by_class
+        skip_when:
+          kind: field_set
+          path: lob_details.payroll_by_class
+      - id: ask_el_limits
+        text: "Employer's liability limits — per accident, per disease, aggregate?"
+        expected_fields:
+          - lob_details.coverage.employers_liability_per_accident
+        skip_when:
+          kind: field_set
+          path: lob_details.coverage.employers_liability_per_accident
+    next:
+      - flow: coverage
+
+  - id: coverage
+    description: "Coverage limits, deductibles, and endorsements"
+    required_fields:
+      - lob_details.coverage
+    questions:
+      - id: ask_limits
+        text: "What coverage limits do you need? (per occurrence, aggregate)"
+        expected_fields:
+          - lob_details.coverage
+        skip_when:
+          kind: field_set
+          path: lob_details.coverage
+    next:
+      - when:
+          kind: field_equals
+          path: lob_details.lob
+          value: commercial_auto
+        flow: hazmat_finalize
+      - flow: finalize
+
+  - id: hazmat_finalize
+    description: "Hazmat declaration (commercial auto only)"
+    entry_conditions:
+      - kind: field_equals
+        path: lob_details.lob
+        value: commercial_auto
+    required_fields:
+      - lob_details.hazmat
+    questions:
+      - id: ask_hazmat
+        text: "Do any vehicles haul hazardous materials?"
+        expected_fields:
+          - lob_details.hazmat
+        skip_when:
+          kind: field_set
+          path: lob_details.hazmat
+    next:
+      - flow: finalize
+
+  - id: finalize
+    description: "Terminal state — ready to generate PDFs and submit"
+    required_fields: []
+    questions: []
+    next: []

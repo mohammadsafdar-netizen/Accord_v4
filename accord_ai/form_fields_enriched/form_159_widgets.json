@@ -1,0 +1,2936 @@
+{
+  "form": "159",
+  "pdf_path": "accord_ai/form_templates/acord_159_blank.pdf",
+  "unique_names": 183,
+  "widget_count": 183,
+  "widgets": [
+    {
+      "choices": null,
+      "flags": 1,
+      "is_readonly": true,
+      "name": "Form_EditionIdentifier_A",
+      "page": 0,
+      "rect": [
+        0.0,
+        791.0,
+        0.0,
+        791.0
+      ],
+      "tooltip": "The edition identifier of the form including the form number and edition (the date is typically formatted YYYY/MM).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Form_CompletionDate_A",
+      "page": 0,
+      "rect": [
+        511.0,
+        42.0,
+        590.0,
+        54.0
+      ],
+      "tooltip": "Enter date: The date on which the form is completed.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_FullName_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        66.0,
+        241.0,
+        78.0
+      ],
+      "tooltip": "Enter text: The full name of the producer / agency.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_MailingAddress_LineOne_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        78.0,
+        241.0,
+        90.0
+      ],
+      "tooltip": "Enter text: The mailing address line one of the producer / agency.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_MailingAddress_LineTwo_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        90.0,
+        241.0,
+        102.0
+      ],
+      "tooltip": "Enter text: The mailing address line two of the producer / agency.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_MailingAddress_CityName_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        102.0,
+        176.0,
+        114.0
+      ],
+      "tooltip": "Enter text: The mailing address city name of the producer / agency.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_MailingAddress_StateOrProvinceCode_A",
+      "page": 0,
+      "rect": [
+        176.0,
+        102.0,
+        194.0,
+        114.0
+      ],
+      "tooltip": "Enter code: The mailing address state or province code of the producer / agency.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_MailingAddress_PostalCode_A",
+      "page": 0,
+      "rect": [
+        194.0,
+        102.0,
+        241.0,
+        114.0
+      ],
+      "tooltip": "Enter code: The mailing address postal code of the producer / agency.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_ContactPerson_FullName_A",
+      "page": 0,
+      "rect": [
+        68.0,
+        114.0,
+        241.0,
+        126.0
+      ],
+      "tooltip": "Enter text: The name of the individual at the producer's establishment that is the primary contact.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_ContactPerson_PhoneNumber_A",
+      "page": 0,
+      "rect": [
+        68.0,
+        126.0,
+        241.0,
+        138.0
+      ],
+      "tooltip": "Enter number: The producer's contact person's phone number.  If applicable, include the area code and extension.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_FaxNumber_A",
+      "page": 0,
+      "rect": [
+        68.0,
+        138.0,
+        241.0,
+        150.0
+      ],
+      "tooltip": "Enter number: The fax number of the producer / agency.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_ContactPerson_EmailAddress_A",
+      "page": 0,
+      "rect": [
+        68.0,
+        150.0,
+        241.0,
+        162.0
+      ],
+      "tooltip": "Enter text: The producer's contact person's e-mail address.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Insurer_ProducerIdentifier_A",
+      "page": 0,
+      "rect": [
+        47.0,
+        162.0,
+        151.0,
+        174.0
+      ],
+      "tooltip": "Enter code: The identification code assigned to the producer (e.g., agency or brokerage firm) by the insurer.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Insurer_SubProducerIdentifier_A",
+      "page": 0,
+      "rect": [
+        191.0,
+        162.0,
+        241.0,
+        174.0
+      ],
+      "tooltip": "Enter code: The identification code assigned by the insurer to the sub-producer (e.g., individual) within a producer's office (e.g., agency or brokerage).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 0,
+      "rect": [
+        97.0,
+        174.0,
+        241.0,
+        186.0
+      ],
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Insurer_FullName_A",
+      "page": 0,
+      "rect": [
+        248.0,
+        66.0,
+        504.0,
+        78.0
+      ],
+      "tooltip": "Enter text: The insurer's full legal company name(s) as found in the file copy of the policy.  Use the actual name of the company within the group to which the policy has been issued.  This is not the insurer's group name or trade name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Insurer_NAICCode_A",
+      "page": 0,
+      "rect": [
+        439.0,
+        54.0,
+        504.0,
+        66.0
+      ],
+      "tooltip": "Enter code: The identification code assigned to the insurer by the National Association of Insurance Commissioners (NAIC).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Form_CurrentPageNumber_A",
+      "page": 0,
+      "rect": [
+        511.0,
+        66.0,
+        544.0,
+        78.0
+      ],
+      "tooltip": "Enter number: The page number applicable to this page.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Form_TotalPageNumber_A",
+      "page": 0,
+      "rect": [
+        558.0,
+        66.0,
+        590.0,
+        78.0
+      ],
+      "tooltip": "Enter number: The total number of pages applicable to this form (e.g., Page 1 of 4).  If only one page, indicate Page 1 of 1.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_FullName_A",
+      "page": 0,
+      "rect": [
+        248.0,
+        90.0,
+        392.0,
+        102.0
+      ],
+      "tooltip": "Enter text: The named insured(s) as it / they will appear on the policy declarations page.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Policy_PolicyNumberIdentifier_A",
+      "page": 0,
+      "rect": [
+        400.0,
+        90.0,
+        504.0,
+        102.0
+      ],
+      "tooltip": "Enter identifier: The identifier assigned by the insurer to the policy, or submission, being referenced exactly as it appears on the policy, including prefix and suffix symbols.  If required for self-insurance, the self-insured license or contract number.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Policy_EffectiveDate_A",
+      "page": 0,
+      "rect": [
+        511.0,
+        90.0,
+        590.0,
+        102.0
+      ],
+      "tooltip": "Enter date: The effective date of the policy.  The date that the terms and conditions of the policy commence.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_MailingAddress_LineOne_A",
+      "page": 0,
+      "rect": [
+        248.0,
+        114.0,
+        403.0,
+        126.0
+      ],
+      "tooltip": "Enter text: The named insured's mailing address line one.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_MailingAddress_CityName_A",
+      "page": 0,
+      "rect": [
+        403.0,
+        114.0,
+        526.0,
+        126.0
+      ],
+      "tooltip": "Enter text: The named insured's mailing address city name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_MailingAddress_StateOrProvinceCode_A",
+      "page": 0,
+      "rect": [
+        526.0,
+        114.0,
+        544.0,
+        126.0
+      ],
+      "tooltip": "Enter code: The named insured's mailing address state or province code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_MailingAddress_PostalCode_A",
+      "page": 0,
+      "rect": [
+        544.0,
+        114.0,
+        590.0,
+        126.0
+      ],
+      "tooltip": "Enter code: The named insured's mailing address postal code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Coinsurance_EightyPercentIndicator_A",
+      "page": 0,
+      "rect": [
+        245.0,
+        138.0,
+        259.0,
+        150.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates that 80% coinsurance is applicable.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Coinsurance_NinetyPercentIndicator_A",
+      "page": 0,
+      "rect": [
+        245.0,
+        150.0,
+        259.0,
+        162.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates that 90% coinsurance is applicable.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Coinsurance_OneHundredPercentIndicator_A",
+      "page": 0,
+      "rect": [
+        281.0,
+        138.0,
+        295.0,
+        150.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates that 100% coinsurance is applicable.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Coinsurance_OtherIndicator_A",
+      "page": 0,
+      "rect": [
+        281.0,
+        150.0,
+        295.0,
+        162.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates that a coinsurance percentage other than those listed is applicable.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Coinsurance_OtherPercent_A",
+      "page": 0,
+      "rect": [
+        299.0,
+        150.0,
+        320.0,
+        162.0
+      ],
+      "tooltip": "Enter percentage: The coinsurance percentage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_CauseOfLoss_BasicIndicator_A",
+      "page": 0,
+      "rect": [
+        324.0,
+        138.0,
+        338.0,
+        150.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is basic.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_CauseOfLoss_BroadIndicator_A",
+      "page": 0,
+      "rect": [
+        324.0,
+        150.0,
+        338.0,
+        162.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is broad.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_CauseOfLoss_Specialindicator_A",
+      "page": 0,
+      "rect": [
+        324.0,
+        162.0,
+        338.0,
+        174.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is special.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_CauseOfLoss_OtherIndicator_A",
+      "page": 0,
+      "rect": [
+        324.0,
+        174.0,
+        338.0,
+        186.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is other than those listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_CauseOfLoss_OtherDescription_A",
+      "page": 0,
+      "rect": [
+        342.0,
+        174.0,
+        454.0,
+        186.0
+      ],
+      "tooltip": "Enter text: The cause of loss for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_CauseOfLoss_EarthquakeIndicator_A",
+      "page": 0,
+      "rect": [
+        457.0,
+        138.0,
+        472.0,
+        150.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is earthquake.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_CauseOfLoss_FloodIndicator_A",
+      "page": 0,
+      "rect": [
+        457.0,
+        150.0,
+        472.0,
+        162.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is flood.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_CauseOfLoss_OtherIndicator_B",
+      "page": 0,
+      "rect": [
+        457.0,
+        162.0,
+        472.0,
+        174.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is other than those listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_CauseOfLoss_OtherDescription_B",
+      "page": 0,
+      "rect": [
+        475.0,
+        162.0,
+        590.0,
+        174.0
+      ],
+      "tooltip": "Enter text: The cause of loss for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_CauseOfLoss_SprinklerLeakageExclusionIndicator_A",
+      "page": 0,
+      "rect": [
+        522.0,
+        138.0,
+        536.0,
+        150.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is sprinkler leakage exclusion.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_CauseOfLoss_VandalismExclusionIndicator_A",
+      "page": 0,
+      "rect": [
+        522.0,
+        150.0,
+        536.0,
+        162.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is vandalism exclusion.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_A",
+      "page": 0,
+      "rect": [
+        18.0,
+        222.0,
+        50.0,
+        234.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_A",
+      "page": 0,
+      "rect": [
+        50.0,
+        222.0,
+        72.0,
+        234.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        222.0,
+        94.0,
+        234.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_A",
+      "page": 0,
+      "rect": [
+        119.0,
+        213.0,
+        454.0,
+        225.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_A",
+      "page": 0,
+      "rect": [
+        130.0,
+        231.0,
+        266.0,
+        243.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_A",
+      "page": 0,
+      "rect": [
+        266.0,
+        231.0,
+        389.0,
+        243.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_A",
+      "page": 0,
+      "rect": [
+        389.0,
+        231.0,
+        407.0,
+        243.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_A",
+      "page": 0,
+      "rect": [
+        407.0,
+        231.0,
+        453.0,
+        243.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_A",
+      "page": 0,
+      "rect": [
+        461.0,
+        222.0,
+        511.0,
+        234.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_A",
+      "page": 0,
+      "rect": [
+        518.0,
+        222.0,
+        590.0,
+        234.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_B",
+      "page": 0,
+      "rect": [
+        18.0,
+        258.0,
+        50.0,
+        270.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_B",
+      "page": 0,
+      "rect": [
+        50.0,
+        258.0,
+        72.0,
+        270.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_B",
+      "page": 0,
+      "rect": [
+        72.0,
+        258.0,
+        94.0,
+        270.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_B",
+      "page": 0,
+      "rect": [
+        119.0,
+        249.0,
+        454.0,
+        261.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_B",
+      "page": 0,
+      "rect": [
+        130.0,
+        267.0,
+        266.0,
+        279.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_B",
+      "page": 0,
+      "rect": [
+        266.0,
+        267.0,
+        389.0,
+        279.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_B",
+      "page": 0,
+      "rect": [
+        389.0,
+        267.0,
+        407.0,
+        279.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_B",
+      "page": 0,
+      "rect": [
+        407.0,
+        267.0,
+        453.0,
+        279.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_B",
+      "page": 0,
+      "rect": [
+        461.0,
+        258.0,
+        511.0,
+        270.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_B",
+      "page": 0,
+      "rect": [
+        518.0,
+        255.0,
+        590.0,
+        267.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_C",
+      "page": 0,
+      "rect": [
+        18.0,
+        294.0,
+        50.0,
+        306.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_C",
+      "page": 0,
+      "rect": [
+        50.0,
+        294.0,
+        72.0,
+        306.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_C",
+      "page": 0,
+      "rect": [
+        72.0,
+        294.0,
+        94.0,
+        306.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_C",
+      "page": 0,
+      "rect": [
+        119.0,
+        285.0,
+        454.0,
+        297.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_C",
+      "page": 0,
+      "rect": [
+        130.0,
+        303.0,
+        266.0,
+        315.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_C",
+      "page": 0,
+      "rect": [
+        266.0,
+        303.0,
+        389.0,
+        315.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_C",
+      "page": 0,
+      "rect": [
+        389.0,
+        303.0,
+        407.0,
+        315.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_C",
+      "page": 0,
+      "rect": [
+        407.0,
+        303.0,
+        453.0,
+        315.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_C",
+      "page": 0,
+      "rect": [
+        461.0,
+        294.0,
+        511.0,
+        306.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_C",
+      "page": 0,
+      "rect": [
+        518.0,
+        291.0,
+        590.0,
+        303.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_D",
+      "page": 0,
+      "rect": [
+        18.0,
+        330.0,
+        50.0,
+        342.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_D",
+      "page": 0,
+      "rect": [
+        50.0,
+        330.0,
+        72.0,
+        342.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_D",
+      "page": 0,
+      "rect": [
+        72.0,
+        330.0,
+        94.0,
+        342.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_D",
+      "page": 0,
+      "rect": [
+        119.0,
+        321.0,
+        454.0,
+        333.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_D",
+      "page": 0,
+      "rect": [
+        130.0,
+        339.0,
+        266.0,
+        351.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_D",
+      "page": 0,
+      "rect": [
+        266.0,
+        339.0,
+        389.0,
+        351.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_D",
+      "page": 0,
+      "rect": [
+        389.0,
+        339.0,
+        407.0,
+        351.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_D",
+      "page": 0,
+      "rect": [
+        407.0,
+        339.0,
+        453.0,
+        351.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_D",
+      "page": 0,
+      "rect": [
+        461.0,
+        330.0,
+        511.0,
+        342.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_D",
+      "page": 0,
+      "rect": [
+        518.0,
+        330.0,
+        590.0,
+        342.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_E",
+      "page": 0,
+      "rect": [
+        18.0,
+        366.0,
+        50.0,
+        378.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_E",
+      "page": 0,
+      "rect": [
+        50.0,
+        366.0,
+        72.0,
+        378.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_E",
+      "page": 0,
+      "rect": [
+        72.0,
+        366.0,
+        94.0,
+        378.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_E",
+      "page": 0,
+      "rect": [
+        119.0,
+        357.0,
+        454.0,
+        369.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_E",
+      "page": 0,
+      "rect": [
+        130.0,
+        375.0,
+        266.0,
+        387.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_E",
+      "page": 0,
+      "rect": [
+        266.0,
+        375.0,
+        389.0,
+        387.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_E",
+      "page": 0,
+      "rect": [
+        389.0,
+        375.0,
+        407.0,
+        387.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_E",
+      "page": 0,
+      "rect": [
+        407.0,
+        375.0,
+        453.0,
+        387.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_E",
+      "page": 0,
+      "rect": [
+        461.0,
+        366.0,
+        511.0,
+        378.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_E",
+      "page": 0,
+      "rect": [
+        518.0,
+        366.0,
+        590.0,
+        378.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_F",
+      "page": 0,
+      "rect": [
+        18.0,
+        402.0,
+        50.0,
+        414.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_F",
+      "page": 0,
+      "rect": [
+        50.0,
+        402.0,
+        72.0,
+        414.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_F",
+      "page": 0,
+      "rect": [
+        72.0,
+        402.0,
+        94.0,
+        414.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_F",
+      "page": 0,
+      "rect": [
+        119.0,
+        393.0,
+        454.0,
+        405.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_F",
+      "page": 0,
+      "rect": [
+        130.0,
+        411.0,
+        266.0,
+        423.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_F",
+      "page": 0,
+      "rect": [
+        266.0,
+        411.0,
+        389.0,
+        423.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_F",
+      "page": 0,
+      "rect": [
+        389.0,
+        411.0,
+        407.0,
+        423.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_F",
+      "page": 0,
+      "rect": [
+        407.0,
+        411.0,
+        453.0,
+        423.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_F",
+      "page": 0,
+      "rect": [
+        461.0,
+        402.0,
+        511.0,
+        414.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_F",
+      "page": 0,
+      "rect": [
+        518.0,
+        399.0,
+        590.0,
+        411.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_G",
+      "page": 0,
+      "rect": [
+        18.0,
+        438.0,
+        50.0,
+        450.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_G",
+      "page": 0,
+      "rect": [
+        50.0,
+        438.0,
+        72.0,
+        450.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_G",
+      "page": 0,
+      "rect": [
+        72.0,
+        438.0,
+        94.0,
+        450.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_G",
+      "page": 0,
+      "rect": [
+        119.0,
+        429.0,
+        454.0,
+        441.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_G",
+      "page": 0,
+      "rect": [
+        130.0,
+        447.0,
+        266.0,
+        459.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_G",
+      "page": 0,
+      "rect": [
+        266.0,
+        447.0,
+        389.0,
+        459.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_G",
+      "page": 0,
+      "rect": [
+        389.0,
+        447.0,
+        407.0,
+        459.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_G",
+      "page": 0,
+      "rect": [
+        407.0,
+        447.0,
+        453.0,
+        459.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_G",
+      "page": 0,
+      "rect": [
+        461.0,
+        438.0,
+        511.0,
+        450.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_G",
+      "page": 0,
+      "rect": [
+        518.0,
+        438.0,
+        590.0,
+        450.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_H",
+      "page": 0,
+      "rect": [
+        18.0,
+        474.0,
+        50.0,
+        486.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_H",
+      "page": 0,
+      "rect": [
+        50.0,
+        474.0,
+        72.0,
+        486.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_H",
+      "page": 0,
+      "rect": [
+        72.0,
+        474.0,
+        94.0,
+        486.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_H",
+      "page": 0,
+      "rect": [
+        119.0,
+        465.0,
+        454.0,
+        477.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_H",
+      "page": 0,
+      "rect": [
+        130.0,
+        483.0,
+        266.0,
+        495.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_H",
+      "page": 0,
+      "rect": [
+        266.0,
+        483.0,
+        389.0,
+        495.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_H",
+      "page": 0,
+      "rect": [
+        389.0,
+        483.0,
+        407.0,
+        495.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_H",
+      "page": 0,
+      "rect": [
+        407.0,
+        483.0,
+        453.0,
+        495.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_H",
+      "page": 0,
+      "rect": [
+        461.0,
+        474.0,
+        511.0,
+        486.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_H",
+      "page": 0,
+      "rect": [
+        518.0,
+        474.0,
+        590.0,
+        486.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_I",
+      "page": 0,
+      "rect": [
+        18.0,
+        510.0,
+        50.0,
+        522.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_I",
+      "page": 0,
+      "rect": [
+        50.0,
+        510.0,
+        72.0,
+        522.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_I",
+      "page": 0,
+      "rect": [
+        72.0,
+        510.0,
+        94.0,
+        522.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_I",
+      "page": 0,
+      "rect": [
+        119.0,
+        501.0,
+        454.0,
+        513.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_I",
+      "page": 0,
+      "rect": [
+        130.0,
+        520.0,
+        266.0,
+        532.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_I",
+      "page": 0,
+      "rect": [
+        266.0,
+        519.0,
+        389.0,
+        531.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_I",
+      "page": 0,
+      "rect": [
+        389.0,
+        519.0,
+        407.0,
+        531.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_I",
+      "page": 0,
+      "rect": [
+        407.0,
+        519.0,
+        453.0,
+        531.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_I",
+      "page": 0,
+      "rect": [
+        461.0,
+        510.0,
+        511.0,
+        522.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_I",
+      "page": 0,
+      "rect": [
+        518.0,
+        510.0,
+        590.0,
+        522.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_J",
+      "page": 0,
+      "rect": [
+        18.0,
+        546.0,
+        50.0,
+        558.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_J",
+      "page": 0,
+      "rect": [
+        50.0,
+        546.0,
+        72.0,
+        558.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_J",
+      "page": 0,
+      "rect": [
+        72.0,
+        546.0,
+        94.0,
+        558.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_J",
+      "page": 0,
+      "rect": [
+        119.0,
+        537.0,
+        454.0,
+        549.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_J",
+      "page": 0,
+      "rect": [
+        130.0,
+        555.0,
+        266.0,
+        567.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_J",
+      "page": 0,
+      "rect": [
+        266.0,
+        555.0,
+        389.0,
+        567.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_J",
+      "page": 0,
+      "rect": [
+        389.0,
+        555.0,
+        407.0,
+        567.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_J",
+      "page": 0,
+      "rect": [
+        407.0,
+        555.0,
+        453.0,
+        567.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_J",
+      "page": 0,
+      "rect": [
+        461.0,
+        546.0,
+        511.0,
+        558.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_J",
+      "page": 0,
+      "rect": [
+        518.0,
+        546.0,
+        590.0,
+        558.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_K",
+      "page": 0,
+      "rect": [
+        18.0,
+        582.0,
+        50.0,
+        594.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_K",
+      "page": 0,
+      "rect": [
+        50.0,
+        582.0,
+        72.0,
+        594.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_K",
+      "page": 0,
+      "rect": [
+        72.0,
+        582.0,
+        94.0,
+        594.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_K",
+      "page": 0,
+      "rect": [
+        119.0,
+        573.0,
+        454.0,
+        585.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_K",
+      "page": 0,
+      "rect": [
+        130.0,
+        591.0,
+        266.0,
+        603.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_K",
+      "page": 0,
+      "rect": [
+        266.0,
+        591.0,
+        389.0,
+        603.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_K",
+      "page": 0,
+      "rect": [
+        389.0,
+        591.0,
+        407.0,
+        603.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_K",
+      "page": 0,
+      "rect": [
+        407.0,
+        591.0,
+        453.0,
+        603.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_K",
+      "page": 0,
+      "rect": [
+        461.0,
+        582.0,
+        511.0,
+        594.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_K",
+      "page": 0,
+      "rect": [
+        518.0,
+        582.0,
+        590.0,
+        594.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_L",
+      "page": 0,
+      "rect": [
+        18.0,
+        618.0,
+        50.0,
+        630.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_L",
+      "page": 0,
+      "rect": [
+        50.0,
+        618.0,
+        72.0,
+        630.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_L",
+      "page": 0,
+      "rect": [
+        72.0,
+        618.0,
+        94.0,
+        630.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_L",
+      "page": 0,
+      "rect": [
+        119.0,
+        609.0,
+        454.0,
+        621.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_L",
+      "page": 0,
+      "rect": [
+        130.0,
+        627.0,
+        266.0,
+        639.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_L",
+      "page": 0,
+      "rect": [
+        266.0,
+        627.0,
+        389.0,
+        639.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_L",
+      "page": 0,
+      "rect": [
+        389.0,
+        627.0,
+        407.0,
+        639.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_L",
+      "page": 0,
+      "rect": [
+        407.0,
+        627.0,
+        453.0,
+        639.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_L",
+      "page": 0,
+      "rect": [
+        461.0,
+        618.0,
+        511.0,
+        630.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_L",
+      "page": 0,
+      "rect": [
+        518.0,
+        618.0,
+        590.0,
+        630.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_M",
+      "page": 0,
+      "rect": [
+        18.0,
+        654.0,
+        50.0,
+        666.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_M",
+      "page": 0,
+      "rect": [
+        50.0,
+        654.0,
+        72.0,
+        666.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_M",
+      "page": 0,
+      "rect": [
+        72.0,
+        654.0,
+        94.0,
+        666.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_M",
+      "page": 0,
+      "rect": [
+        119.0,
+        645.0,
+        454.0,
+        657.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_M",
+      "page": 0,
+      "rect": [
+        130.0,
+        663.0,
+        266.0,
+        675.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_M",
+      "page": 0,
+      "rect": [
+        266.0,
+        663.0,
+        389.0,
+        675.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_M",
+      "page": 0,
+      "rect": [
+        389.0,
+        663.0,
+        407.0,
+        675.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_M",
+      "page": 0,
+      "rect": [
+        407.0,
+        663.0,
+        453.0,
+        675.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_M",
+      "page": 0,
+      "rect": [
+        461.0,
+        654.0,
+        511.0,
+        666.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_M",
+      "page": 0,
+      "rect": [
+        518.0,
+        654.0,
+        590.0,
+        666.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_ClassCode_N",
+      "page": 0,
+      "rect": [
+        18.0,
+        690.0,
+        50.0,
+        702.0
+      ],
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_N",
+      "page": 0,
+      "rect": [
+        50.0,
+        690.0,
+        72.0,
+        702.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_ProducerIdentifier_N",
+      "page": 0,
+      "rect": [
+        72.0,
+        690.0,
+        94.0,
+        702.0
+      ],
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Building_SublocationDescription_N",
+      "page": 0,
+      "rect": [
+        119.0,
+        681.0,
+        454.0,
+        693.0
+      ],
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_N",
+      "page": 0,
+      "rect": [
+        130.0,
+        700.0,
+        266.0,
+        712.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_N",
+      "page": 0,
+      "rect": [
+        266.0,
+        699.0,
+        389.0,
+        711.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_N",
+      "page": 0,
+      "rect": [
+        389.0,
+        699.0,
+        407.0,
+        711.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_N",
+      "page": 0,
+      "rect": [
+        407.0,
+        699.0,
+        453.0,
+        711.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialProperty_Premises_SubjectOfInsuranceCode_N",
+      "page": 0,
+      "rect": [
+        461.0,
+        690.0,
+        511.0,
+        702.0
+      ],
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_LimitAmount_N",
+      "page": 0,
+      "rect": [
+        518.0,
+        690.0,
+        590.0,
+        702.0
+      ],
+      "tooltip": "Enter limit: The limit amount for the subject of insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "StatementOfValues_Premises_TotalLimitAmount_A",
+      "page": 0,
+      "rect": [
+        526.0,
+        714.0,
+        590.0,
+        726.0
+      ],
+      "tooltip": "Enter amount: The total limit amount.",
+      "type": "text",
+      "type_code": 7
+    }
+  ]
+}

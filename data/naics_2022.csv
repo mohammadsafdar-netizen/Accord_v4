@@ -1,0 +1,140 @@
+code,title
+11,"Agriculture, Forestry, Fishing and Hunting"
+111,Crop Production
+1111,Oilseed and Grain Farming
+11111,Soybean Farming
+111110,Soybean Farming
+1112,Vegetable and Melon Farming
+11121,Vegetable and Melon Farming
+111219,"Other Vegetable (except Potato) and Melon Farming"
+112,Animal Production and Aquaculture
+1121,Cattle Ranching and Farming
+11211,Beef Cattle Ranching and Farming
+112111,Beef Cattle Ranching and Farming
+1122,Hog and Pig Farming
+11221,Hog and Pig Farming
+112210,Hog and Pig Farming
+23,Construction
+236,"Construction of Buildings"
+2361,Residential Building Construction
+23611,Residential Building Construction
+236115,New Single-Family Housing Construction (Except For-Sale Builders)
+236116,New Multifamily Housing Construction (Except For-Sale Builders)
+236117,New Housing For-Sale Builders
+237,Heavy and Civil Engineering Construction
+2371,Utility System Construction
+23711,Water and Sewer Line and Related Structures Construction
+237110,Water and Sewer Line and Related Structures Construction
+238,Specialty Trade Contractors
+2381,Foundation, Structure, and Building Exterior Contractors
+23811,Poured Concrete Foundation and Structure Contractors
+238110,Poured Concrete Foundation and Structure Contractors
+31-33,Manufacturing
+311,Food Manufacturing
+3111,Animal Food Manufacturing
+31111,Animal Food Manufacturing
+311111,Dog and Cat Food Manufacturing
+312,Beverage and Tobacco Product Manufacturing
+3121,Beverage Manufacturing
+31211,Soft Drink and Ice Manufacturing
+312111,Soft Drink Manufacturing
+42,Wholesale Trade
+423,Merchant Wholesalers, Durable Goods
+4231,Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers
+42311,Automobile and Other Motor Vehicle Merchant Wholesalers
+423110,Automobile and Other Motor Vehicle Merchant Wholesalers
+44-45,Retail Trade
+441,Motor Vehicle and Parts Dealers
+4411,Automobile Dealers
+44111,New Car Dealers
+441110,New Car Dealers
+44112,Used Car Dealers
+441120,Used Car Dealers
+48-49,Transportation and Warehousing
+484,Truck Transportation
+4841,General Freight Trucking
+48411,General Freight Trucking, Local
+484110,General Freight Trucking, Local
+48412,General Freight Trucking, Long-Distance
+484121,General Freight Trucking, Long-Distance, Truckload
+484122,General Freight Trucking, Long-Distance, Less Than Truckload
+52,Finance and Insurance
+522,Credit Intermediation and Related Activities
+5221,Depository Credit Intermediation
+52211,Commercial Banking
+522110,Commercial Banking
+524,Insurance Carriers and Related Activities
+5241,Insurance Carriers
+52411,Life Insurance Carriers
+524113,Direct Life Insurance Carriers
+54,Professional, Scientific, and Technical Services
+541,Professional, Scientific, and Technical Services
+5411,Legal Services
+54111,Offices of Lawyers
+541110,Offices of Lawyers
+5412,Accounting, Tax Preparation, Bookkeeping, and Payroll Services
+54121,Accounting, Tax Preparation, Bookkeeping, and Payroll Services
+541211,Offices of Certified Public Accountants
+5415,Computer Systems Design and Related Services
+54151,Computer Systems Design and Related Services
+541511,Custom Computer Programming Services
+541512,Computer Systems Design Services
+541513,Computer Facilities Management Services
+541519,"Other Computer Related Services"
+5416,Management, Scientific, and Technical Consulting Services
+54161,Management Consulting Services
+541611,"Administrative Management and General Management Consulting Services"
+56,Administrative and Support and Waste Management and Remediation Services
+561,Administrative and Support Services
+5613,Employment Services
+56131,Employment Placement Agencies and Executive Search Services
+561311,Employment Placement Agencies
+561312,Executive Search Services
+5614,Business Support Services
+56141,Document Preparation Services
+561410,Document Preparation Services
+61,Educational Services
+611,Educational Services
+6111,Elementary and Secondary Schools
+61111,Elementary and Secondary Schools
+611110,Elementary and Secondary Schools
+62,Health Care and Social Assistance
+621,Ambulatory Health Care Services
+6211,Offices of Physicians
+62111,Offices of Physicians (except Mental Health Specialists)
+621111,Offices of Physicians (except Mental Health Specialists)
+6213,Offices of Other Health Practitioners
+62131,Offices of Chiropractors
+621310,Offices of Chiropractors
+622,Hospitals
+6221,General Medical and Surgical Hospitals
+62211,General Medical and Surgical Hospitals
+622110,General Medical and Surgical Hospitals
+72,Accommodation and Food Services
+721,Accommodation
+7211,Traveler Accommodation
+72111,Hotels (except Casino Hotels) and Motels
+721110,Hotels (except Casino Hotels) and Motels
+722,Food Services and Drinking Places
+7221,Full-Service Restaurants
+72211,Full-Service Restaurants
+722511,Full-Service Restaurants
+7222,Limited-Service Eating Places
+72221,Limited-Service Eating Places
+722513,Limited-Service Restaurants
+81,Other Services (except Public Administration)
+811,Repair and Maintenance
+8111,Automotive Repair and Maintenance
+81111,Automotive Mechanical and Electrical Repair and Maintenance
+811111,General Automotive Repair
+811112,Automotive Exhaust System Repair
+812,Personal and Laundry Services
+8121,Personal Care Services
+81211,Hair, Nail, and Skin Care Services
+812111,Barber Shops
+812112,Beauty Salons
+92,Public Administration
+921,Executive, Legislative, and Other General Government Support
+9211,Executive, Legislative, and Other General Government Support
+92111,Executive Offices
+921110,Executive Offices

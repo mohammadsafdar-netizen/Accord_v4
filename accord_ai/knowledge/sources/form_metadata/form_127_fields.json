@@ -1,0 +1,2544 @@
+{
+  "form_number": "127",
+  "field_count": 634,
+  "text_field_count": 470,
+  "checkbox_field_count": 164,
+  "fields": {
+    "Form_EditionIdentifier_A": {
+      "type": "text",
+      "tooltip": "The edition identifier of the form including the form number and edition (the date is typically formatted YYYY/MM)."
+    },
+    "Producer_CustomerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage)."
+    },
+    "Form_CompletionDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date on which the form is completed.  (MM/DD/YYYY)"
+    },
+    "Producer_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The full name of the producer / agency."
+    },
+    "Policy_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The identifier assigned by the insurer to the policy, or submission, being referenced exactly as it appears on the policy, including prefix and suffix symbols.  If required for self-insurance, the self-insured license or contract number."
+    },
+    "Policy_EffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the policy.  The date that the terms and conditions of the policy commence.  (MM/DD/YYYY)"
+    },
+    "Insurer_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The insurer's full legal company name(s) as found in the file copy of the policy.  Use the actual name of the company within the group to which the policy has been issued.  This is not the insurer's group name or trade name."
+    },
+    "Insurer_NAICCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The identification code assigned to the insurer by the National Association of Insurance Commissioners (NAIC)."
+    },
+    "NamedInsured_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured(s) as it / they will appear on the policy declarations page."
+    },
+    "CommercialVehicleLineOfBusiness_Attachment_CommercialAutoDriverInformationScheduleIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that additional drivers appear on the attached ACORD 163 Commercial Auto Driver Information Schedule."
+    },
+    "Driver_ProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number assigned to the driver by the producer."
+    },
+    "Driver_GivenName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's first name (given name)."
+    },
+    "Driver_OtherGivenNameInitial_A": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's middle name or initial (other given name)."
+    },
+    "Driver_Surname_A": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's last name (surname)."
+    },
+    "Driver_MailingAddress_CityName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the driver."
+    },
+    "Driver_MailingAddress_StateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province of the driver."
+    },
+    "Driver_MailingAddress_PostalCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the driver."
+    },
+    "Driver_GenderCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The gender of the driver."
+    },
+    "Driver_MaritalStatusCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The marital status of the driver. Examples are: S - Single; M - Married; D - Divorced; P - Separated; W - Widowed, C - Domestic Partner (unmarried), V - Civil Union / Registered Domestic Partner, F- Fiancé / Fiancée, U - Unknown, O - Other"
+    },
+    "Driver_BirthDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The birth date of the driver.  (MM/DD/YYYY)"
+    },
+    "Driver_ExperienceYearCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of driving experience for the driver."
+    },
+    "Driver_LicensedYear_A": {
+      "type": "text",
+      "tooltip": "Enter year: The original year in which a driver's license was issued to this driver."
+    },
+    "Driver_LicenseNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The driver's license number."
+    },
+    "Driver_TaxIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier (social security number) of the driver. As used here, only enter the social security number if the driver’s license number is unavailable."
+    },
+    "Driver_LicensedStateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The state in which the driver is licensed."
+    },
+    "Driver_HiredDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver was hired."
+    },
+    "Driver_Coverage_BroadenedNoFaultCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if broadened no fault coverage applies to the driver (not applicable in all states)."
+    },
+    "Driver_Coverage_DriverOtherCarCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if driver is covered by Drive Other Car coverage."
+    },
+    "Driver_Vehicle_ProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number that this driver primarily uses."
+    },
+    "Driver_Vehicle_UsePercent_A": {
+      "type": "text",
+      "tooltip": "Enter percentage: Indicates the percentage of driving done by this driver in the primary vehicle that this driver uses."
+    },
+    "Driver_ProducerIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number assigned to the driver by the producer."
+    },
+    "Driver_GivenName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's first name (given name)."
+    },
+    "Driver_OtherGivenNameInitial_B": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's middle name or initial (other given name)."
+    },
+    "Driver_Surname_B": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's last name (surname)."
+    },
+    "Driver_MailingAddress_CityName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the driver."
+    },
+    "Driver_MailingAddress_StateOrProvinceCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province of the driver."
+    },
+    "Driver_MailingAddress_PostalCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the driver."
+    },
+    "Driver_GenderCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The gender of the driver."
+    },
+    "Driver_MaritalStatusCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The marital status of the driver. Examples are: S - Single; M - Married; D - Divorced; P - Separated; W - Widowed, C - Domestic Partner (unmarried), V - Civil Union / Registered Domestic Partner, F- Fiancé / Fiancée, U - Unknown, O - Other"
+    },
+    "Driver_BirthDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The birth date of the driver.  (MM/DD/YYYY)"
+    },
+    "Driver_ExperienceYearCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of driving experience for the driver."
+    },
+    "Driver_LicensedYear_B": {
+      "type": "text",
+      "tooltip": "Enter year: The original year in which a driver's license was issued to this driver."
+    },
+    "Driver_LicenseNumberIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter identifier: The driver's license number."
+    },
+    "Driver_TaxIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier (social security number) of the driver. As used here, only enter the social security number if the driver’s license number is unavailable."
+    },
+    "Driver_LicensedStateOrProvinceCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The state in which the driver is licensed."
+    },
+    "Driver_HiredDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver was hired."
+    },
+    "Driver_Coverage_BroadenedNoFaultCode_B": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if broadened no fault coverage applies to the driver (not applicable in all states)."
+    },
+    "Driver_Coverage_DriverOtherCarCode_B": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if driver is covered by Drive Other Car coverage."
+    },
+    "Driver_Vehicle_ProducerIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number that this driver primarily uses."
+    },
+    "Driver_Vehicle_UsePercent_B": {
+      "type": "text",
+      "tooltip": "Enter percentage: Indicates the percentage of driving done by this driver in the primary vehicle that this driver uses."
+    },
+    "Driver_ProducerIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: The number assigned to the driver by the producer."
+    },
+    "Driver_GivenName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's first name (given name)."
+    },
+    "Driver_OtherGivenNameInitial_C": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's middle name or initial (other given name)."
+    },
+    "Driver_Surname_C": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's last name (surname)."
+    },
+    "Driver_MailingAddress_CityName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the driver."
+    },
+    "Driver_MailingAddress_StateOrProvinceCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province of the driver."
+    },
+    "Driver_MailingAddress_PostalCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the driver."
+    },
+    "Driver_GenderCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The gender of the driver."
+    },
+    "Driver_MaritalStatusCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The marital status of the driver. Examples are: S - Single; M - Married; D - Divorced; P - Separated; W - Widowed, C - Domestic Partner (unmarried), V - Civil Union / Registered Domestic Partner, F- Fiancé / Fiancée, U - Unknown, O - Other"
+    },
+    "Driver_BirthDate_C": {
+      "type": "text",
+      "tooltip": "Enter date: The birth date of the driver.  (MM/DD/YYYY)"
+    },
+    "Driver_ExperienceYearCount_C": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of driving experience for the driver."
+    },
+    "Driver_LicensedYear_C": {
+      "type": "text",
+      "tooltip": "Enter year: The original year in which a driver's license was issued to this driver."
+    },
+    "Driver_LicenseNumberIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter identifier: The driver's license number."
+    },
+    "Driver_TaxIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier (social security number) of the driver. As used here, only enter the social security number if the driver’s license number is unavailable."
+    },
+    "Driver_LicensedStateOrProvinceCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The state in which the driver is licensed."
+    },
+    "Driver_HiredDate_C": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver was hired."
+    },
+    "Driver_Coverage_BroadenedNoFaultCode_C": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if broadened no fault coverage applies to the driver (not applicable in all states)."
+    },
+    "Driver_Coverage_DriverOtherCarCode_C": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if driver is covered by Drive Other Car coverage."
+    },
+    "Driver_Vehicle_ProducerIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number that this driver primarily uses."
+    },
+    "Driver_Vehicle_UsePercent_C": {
+      "type": "text",
+      "tooltip": "Enter percentage: Indicates the percentage of driving done by this driver in the primary vehicle that this driver uses."
+    },
+    "Driver_ProducerIdentifier_D": {
+      "type": "text",
+      "tooltip": "Enter number: The number assigned to the driver by the producer."
+    },
+    "Driver_GivenName_D": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's first name (given name)."
+    },
+    "Driver_OtherGivenNameInitial_D": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's middle name or initial (other given name)."
+    },
+    "Driver_Surname_D": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's last name (surname)."
+    },
+    "Driver_MailingAddress_CityName_D": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the driver."
+    },
+    "Driver_MailingAddress_StateOrProvinceCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province of the driver."
+    },
+    "Driver_MailingAddress_PostalCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the driver."
+    },
+    "Driver_GenderCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The gender of the driver."
+    },
+    "Driver_MaritalStatusCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The marital status of the driver. Examples are: S - Single; M - Married; D - Divorced; P - Separated; W - Widowed, C - Domestic Partner (unmarried), V - Civil Union / Registered Domestic Partner, F- Fiancé / Fiancée, U - Unknown, O - Other"
+    },
+    "Driver_BirthDate_D": {
+      "type": "text",
+      "tooltip": "Enter date: The birth date of the driver.  (MM/DD/YYYY)"
+    },
+    "Driver_ExperienceYearCount_D": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of driving experience for the driver."
+    },
+    "Driver_LicensedYear_D": {
+      "type": "text",
+      "tooltip": "Enter year: The original year in which a driver's license was issued to this driver."
+    },
+    "Driver_LicenseNumberIdentifier_D": {
+      "type": "text",
+      "tooltip": "Enter identifier: The driver's license number."
+    },
+    "Driver_TaxIdentifier_D": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier (social security number) of the driver. As used here, only enter the social security number if the driver’s license number is unavailable."
+    },
+    "Driver_LicensedStateOrProvinceCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The state in which the driver is licensed."
+    },
+    "Driver_HiredDate_D": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver was hired."
+    },
+    "Driver_Coverage_BroadenedNoFaultCode_D": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if broadened no fault coverage applies to the driver (not applicable in all states)."
+    },
+    "Driver_Coverage_DriverOtherCarCode_D": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if driver is covered by Drive Other Car coverage."
+    },
+    "Driver_Vehicle_ProducerIdentifier_D": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number that this driver primarily uses."
+    },
+    "Driver_Vehicle_UsePercent_D": {
+      "type": "text",
+      "tooltip": "Enter percentage: Indicates the percentage of driving done by this driver in the primary vehicle that this driver uses."
+    },
+    "Driver_ProducerIdentifier_E": {
+      "type": "text",
+      "tooltip": "Enter number: The number assigned to the driver by the producer."
+    },
+    "Driver_GivenName_E": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's first name (given name)."
+    },
+    "Driver_OtherGivenNameInitial_E": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's middle name or initial (other given name)."
+    },
+    "Driver_Surname_E": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's last name (surname)."
+    },
+    "Driver_MailingAddress_CityName_E": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the driver."
+    },
+    "Driver_MailingAddress_StateOrProvinceCode_E": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province of the driver."
+    },
+    "Driver_MailingAddress_PostalCode_E": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the driver."
+    },
+    "Driver_GenderCode_E": {
+      "type": "text",
+      "tooltip": "Enter code: The gender of the driver."
+    },
+    "Driver_MaritalStatusCode_E": {
+      "type": "text",
+      "tooltip": "Enter code: The marital status of the driver. Examples are: S - Single; M - Married; D - Divorced; P - Separated; W - Widowed, C - Domestic Partner (unmarried), V - Civil Union / Registered Domestic Partner, F- Fiancé / Fiancée, U - Unknown, O - Other"
+    },
+    "Driver_BirthDate_E": {
+      "type": "text",
+      "tooltip": "Enter date: The birth date of the driver.  (MM/DD/YYYY)"
+    },
+    "Driver_ExperienceYearCount_E": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of driving experience for the driver."
+    },
+    "Driver_LicensedYear_E": {
+      "type": "text",
+      "tooltip": "Enter year: The original year in which a driver's license was issued to this driver."
+    },
+    "Driver_LicenseNumberIdentifier_E": {
+      "type": "text",
+      "tooltip": "Enter identifier: The driver's license number."
+    },
+    "Driver_TaxIdentifier_E": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier (social security number) of the driver. As used here, only enter the social security number if the driver’s license number is unavailable."
+    },
+    "Driver_LicensedStateOrProvinceCode_E": {
+      "type": "text",
+      "tooltip": "Enter code: The state in which the driver is licensed."
+    },
+    "Driver_HiredDate_E": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver was hired."
+    },
+    "Driver_Coverage_BroadenedNoFaultCode_E": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if broadened no fault coverage applies to the driver (not applicable in all states)."
+    },
+    "Driver_Coverage_DriverOtherCarCode_E": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if driver is covered by Drive Other Car coverage."
+    },
+    "Driver_Vehicle_ProducerIdentifier_E": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number that this driver primarily uses."
+    },
+    "Driver_Vehicle_UsePercent_E": {
+      "type": "text",
+      "tooltip": "Enter percentage: Indicates the percentage of driving done by this driver in the primary vehicle that this driver uses."
+    },
+    "Driver_ProducerIdentifier_F": {
+      "type": "text",
+      "tooltip": "Enter number: The number assigned to the driver by the producer."
+    },
+    "Driver_GivenName_F": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's first name (given name)."
+    },
+    "Driver_OtherGivenNameInitial_F": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's middle name or initial (other given name)."
+    },
+    "Driver_Surname_F": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's last name (surname)."
+    },
+    "Driver_MailingAddress_CityName_F": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the driver."
+    },
+    "Driver_MailingAddress_StateOrProvinceCode_F": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province of the driver."
+    },
+    "Driver_MailingAddress_PostalCode_F": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the driver."
+    },
+    "Driver_GenderCode_F": {
+      "type": "text",
+      "tooltip": "Enter code: The gender of the driver."
+    },
+    "Driver_MaritalStatusCode_F": {
+      "type": "text",
+      "tooltip": "Enter code: The marital status of the driver. Examples are: S - Single; M - Married; D - Divorced; P - Separated; W - Widowed, C - Domestic Partner (unmarried), V - Civil Union / Registered Domestic Partner, F- Fiancé / Fiancée, U - Unknown, O - Other"
+    },
+    "Driver_BirthDate_F": {
+      "type": "text",
+      "tooltip": "Enter date: The birth date of the driver.  (MM/DD/YYYY)"
+    },
+    "Driver_ExperienceYearCount_F": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of driving experience for the driver."
+    },
+    "Driver_LicensedYear_F": {
+      "type": "text",
+      "tooltip": "Enter year: The original year in which a driver's license was issued to this driver."
+    },
+    "Driver_LicenseNumberIdentifier_F": {
+      "type": "text",
+      "tooltip": "Enter identifier: The driver's license number."
+    },
+    "Driver_TaxIdentifier_F": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier (social security number) of the driver. As used here, only enter the social security number if the driver’s license number is unavailable."
+    },
+    "Driver_LicensedStateOrProvinceCode_F": {
+      "type": "text",
+      "tooltip": "Enter code: The state in which the driver is licensed."
+    },
+    "Driver_HiredDate_F": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver was hired."
+    },
+    "Driver_Coverage_BroadenedNoFaultCode_F": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if broadened no fault coverage applies to the driver (not applicable in all states)."
+    },
+    "Driver_Coverage_DriverOtherCarCode_F": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if driver is covered by Drive Other Car coverage."
+    },
+    "Driver_Vehicle_ProducerIdentifier_F": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number that this driver primarily uses."
+    },
+    "Driver_Vehicle_UsePercent_F": {
+      "type": "text",
+      "tooltip": "Enter percentage: Indicates the percentage of driving done by this driver in the primary vehicle that this driver uses."
+    },
+    "Driver_ProducerIdentifier_G": {
+      "type": "text",
+      "tooltip": "Enter number: The number assigned to the driver by the producer."
+    },
+    "Driver_GivenName_G": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's first name (given name)."
+    },
+    "Driver_OtherGivenNameInitial_G": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's middle name or initial (other given name)."
+    },
+    "Driver_Surname_G": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's last name (surname)."
+    },
+    "Driver_MailingAddress_CityName_G": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the driver."
+    },
+    "Driver_MailingAddress_StateOrProvinceCode_G": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province of the driver."
+    },
+    "Driver_MailingAddress_PostalCode_G": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the driver."
+    },
+    "Driver_GenderCode_G": {
+      "type": "text",
+      "tooltip": "Enter code: The gender of the driver."
+    },
+    "Driver_MaritalStatusCode_G": {
+      "type": "text",
+      "tooltip": "Enter code: The marital status of the driver. Examples are: S - Single; M - Married; D - Divorced; P - Separated; W - Widowed, C - Domestic Partner (unmarried), V - Civil Union / Registered Domestic Partner, F- Fiancé / Fiancée, U - Unknown, O - Other"
+    },
+    "Driver_BirthDate_G": {
+      "type": "text",
+      "tooltip": "Enter date: The birth date of the driver.  (MM/DD/YYYY)"
+    },
+    "Driver_ExperienceYearCount_G": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of driving experience for the driver."
+    },
+    "Driver_LicensedYear_G": {
+      "type": "text",
+      "tooltip": "Enter year: The original year in which a driver's license was issued to this driver."
+    },
+    "Driver_LicenseNumberIdentifier_G": {
+      "type": "text",
+      "tooltip": "Enter identifier: The driver's license number."
+    },
+    "Driver_TaxIdentifier_G": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier (social security number) of the driver. As used here, only enter the social security number if the driver’s license number is unavailable."
+    },
+    "Driver_LicensedStateOrProvinceCode_G": {
+      "type": "text",
+      "tooltip": "Enter code: The state in which the driver is licensed."
+    },
+    "Driver_HiredDate_G": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver was hired."
+    },
+    "Driver_Coverage_BroadenedNoFaultCode_G": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if broadened no fault coverage applies to the driver (not applicable in all states)."
+    },
+    "Driver_Coverage_DriverOtherCarCode_G": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if driver is covered by Drive Other Car coverage."
+    },
+    "Driver_Vehicle_ProducerIdentifier_G": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number that this driver primarily uses."
+    },
+    "Driver_Vehicle_UsePercent_G": {
+      "type": "text",
+      "tooltip": "Enter percentage: Indicates the percentage of driving done by this driver in the primary vehicle that this driver uses."
+    },
+    "Driver_ProducerIdentifier_H": {
+      "type": "text",
+      "tooltip": "Enter number: The number assigned to the driver by the producer."
+    },
+    "Driver_GivenName_H": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's first name (given name)."
+    },
+    "Driver_OtherGivenNameInitial_H": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's middle name or initial (other given name)."
+    },
+    "Driver_Surname_H": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's last name (surname)."
+    },
+    "Driver_MailingAddress_CityName_H": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the driver."
+    },
+    "Driver_MailingAddress_StateOrProvinceCode_H": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province of the driver."
+    },
+    "Driver_MailingAddress_PostalCode_H": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the driver."
+    },
+    "Driver_GenderCode_H": {
+      "type": "text",
+      "tooltip": "Enter code: The gender of the driver."
+    },
+    "Driver_MaritalStatusCode_H": {
+      "type": "text",
+      "tooltip": "Enter code: The marital status of the driver. Examples are: S - Single; M - Married; D - Divorced; P - Separated; W - Widowed, C - Domestic Partner (unmarried), V - Civil Union / Registered Domestic Partner, F- Fiancé / Fiancée, U - Unknown, O - Other"
+    },
+    "Driver_BirthDate_H": {
+      "type": "text",
+      "tooltip": "Enter date: The birth date of the driver.  (MM/DD/YYYY)"
+    },
+    "Driver_ExperienceYearCount_H": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of driving experience for the driver."
+    },
+    "Driver_LicensedYear_H": {
+      "type": "text",
+      "tooltip": "Enter year: The original year in which a driver's license was issued to this driver."
+    },
+    "Driver_LicenseNumberIdentifier_H": {
+      "type": "text",
+      "tooltip": "Enter identifier: The driver's license number."
+    },
+    "Driver_TaxIdentifier_H": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier (social security number) of the driver. As used here, only enter the social security number if the driver’s license number is unavailable."
+    },
+    "Driver_LicensedStateOrProvinceCode_H": {
+      "type": "text",
+      "tooltip": "Enter code: The state in which the driver is licensed."
+    },
+    "Driver_HiredDate_H": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver was hired."
+    },
+    "Driver_Coverage_BroadenedNoFaultCode_H": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if broadened no fault coverage applies to the driver (not applicable in all states)."
+    },
+    "Driver_Coverage_DriverOtherCarCode_H": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if driver is covered by Drive Other Car coverage."
+    },
+    "Driver_Vehicle_ProducerIdentifier_H": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number that this driver primarily uses."
+    },
+    "Driver_Vehicle_UsePercent_H": {
+      "type": "text",
+      "tooltip": "Enter percentage: Indicates the percentage of driving done by this driver in the primary vehicle that this driver uses."
+    },
+    "Driver_ProducerIdentifier_I": {
+      "type": "text",
+      "tooltip": "Enter number: The number assigned to the driver by the producer."
+    },
+    "Driver_GivenName_I": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's first name (given name)."
+    },
+    "Driver_OtherGivenNameInitial_I": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's middle name or initial (other given name)."
+    },
+    "Driver_Surname_I": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's last name (surname)."
+    },
+    "Driver_MailingAddress_CityName_I": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the driver."
+    },
+    "Driver_MailingAddress_StateOrProvinceCode_I": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province of the driver."
+    },
+    "Driver_MailingAddress_PostalCode_I": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the driver."
+    },
+    "Driver_GenderCode_I": {
+      "type": "text",
+      "tooltip": "Enter code: The gender of the driver."
+    },
+    "Driver_MaritalStatusCode_I": {
+      "type": "text",
+      "tooltip": "Enter code: The marital status of the driver. Examples are: S - Single; M - Married; D - Divorced; P - Separated; W - Widowed, C - Domestic Partner (unmarried), V - Civil Union / Registered Domestic Partner, F- Fiancé / Fiancée, U - Unknown, O - Other"
+    },
+    "Driver_BirthDate_I": {
+      "type": "text",
+      "tooltip": "Enter date: The birth date of the driver.  (MM/DD/YYYY)"
+    },
+    "Driver_ExperienceYearCount_I": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of driving experience for the driver."
+    },
+    "Driver_LicensedYear_I": {
+      "type": "text",
+      "tooltip": "Enter year: The original year in which a driver's license was issued to this driver."
+    },
+    "Driver_LicenseNumberIdentifier_I": {
+      "type": "text",
+      "tooltip": "Enter identifier: The driver's license number."
+    },
+    "Driver_TaxIdentifier_I": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier (social security number) of the driver. As used here, only enter the social security number if the driver’s license number is unavailable."
+    },
+    "Driver_LicensedStateOrProvinceCode_I": {
+      "type": "text",
+      "tooltip": "Enter code: The state in which the driver is licensed."
+    },
+    "Driver_HiredDate_I": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver was hired."
+    },
+    "Driver_Coverage_BroadenedNoFaultCode_I": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if broadened no fault coverage applies to the driver (not applicable in all states)."
+    },
+    "Driver_Coverage_DriverOtherCarCode_I": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if driver is covered by Drive Other Car coverage."
+    },
+    "Driver_Vehicle_ProducerIdentifier_I": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number that this driver primarily uses."
+    },
+    "Driver_Vehicle_UsePercent_I": {
+      "type": "text",
+      "tooltip": "Enter percentage: Indicates the percentage of driving done by this driver in the primary vehicle that this driver uses."
+    },
+    "Driver_ProducerIdentifier_J": {
+      "type": "text",
+      "tooltip": "Enter number: The number assigned to the driver by the producer."
+    },
+    "Driver_GivenName_J": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's first name (given name)."
+    },
+    "Driver_OtherGivenNameInitial_J": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's middle name or initial (other given name)."
+    },
+    "Driver_Surname_J": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's last name (surname)."
+    },
+    "Driver_MailingAddress_CityName_J": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the driver."
+    },
+    "Driver_MailingAddress_StateOrProvinceCode_J": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province of the driver."
+    },
+    "Driver_MailingAddress_PostalCode_J": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the driver."
+    },
+    "Driver_GenderCode_J": {
+      "type": "text",
+      "tooltip": "Enter code: The gender of the driver."
+    },
+    "Driver_MaritalStatusCode_J": {
+      "type": "text",
+      "tooltip": "Enter code: The marital status of the driver. Examples are: S - Single; M - Married; D - Divorced; P - Separated; W - Widowed, C - Domestic Partner (unmarried), V - Civil Union / Registered Domestic Partner, F- Fiancé / Fiancée, U - Unknown, O - Other"
+    },
+    "Driver_BirthDate_J": {
+      "type": "text",
+      "tooltip": "Enter date: The birth date of the driver.  (MM/DD/YYYY)"
+    },
+    "Driver_ExperienceYearCount_J": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of driving experience for the driver."
+    },
+    "Driver_LicensedYear_J": {
+      "type": "text",
+      "tooltip": "Enter year: The original year in which a driver's license was issued to this driver."
+    },
+    "Driver_LicenseNumberIdentifier_J": {
+      "type": "text",
+      "tooltip": "Enter identifier: The driver's license number."
+    },
+    "Driver_TaxIdentifier_J": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier (social security number) of the driver. As used here, only enter the social security number if the driver’s license number is unavailable."
+    },
+    "Driver_LicensedStateOrProvinceCode_J": {
+      "type": "text",
+      "tooltip": "Enter code: The state in which the driver is licensed."
+    },
+    "Driver_HiredDate_J": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver was hired."
+    },
+    "Driver_Coverage_BroadenedNoFaultCode_J": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if broadened no fault coverage applies to the driver (not applicable in all states)."
+    },
+    "Driver_Coverage_DriverOtherCarCode_J": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if driver is covered by Drive Other Car coverage."
+    },
+    "Driver_Vehicle_ProducerIdentifier_J": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number that this driver primarily uses."
+    },
+    "Driver_Vehicle_UsePercent_J": {
+      "type": "text",
+      "tooltip": "Enter percentage: Indicates the percentage of driving done by this driver in the primary vehicle that this driver uses."
+    },
+    "Driver_ProducerIdentifier_K": {
+      "type": "text",
+      "tooltip": "Enter number: The number assigned to the driver by the producer."
+    },
+    "Driver_GivenName_K": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's first name (given name)."
+    },
+    "Driver_OtherGivenNameInitial_K": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's middle name or initial (other given name)."
+    },
+    "Driver_Surname_K": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's last name (surname)."
+    },
+    "Driver_MailingAddress_CityName_K": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the driver."
+    },
+    "Driver_MailingAddress_StateOrProvinceCode_K": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province of the driver."
+    },
+    "Driver_MailingAddress_PostalCode_K": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the driver."
+    },
+    "Driver_GenderCode_K": {
+      "type": "text",
+      "tooltip": "Enter code: The gender of the driver."
+    },
+    "Driver_MaritalStatusCode_K": {
+      "type": "text",
+      "tooltip": "Enter code: The marital status of the driver. Examples are: S - Single; M - Married; D - Divorced; P - Separated; W - Widowed, C - Domestic Partner (unmarried), V - Civil Union / Registered Domestic Partner, F- Fiancé / Fiancée, U - Unknown, O - Other"
+    },
+    "Driver_BirthDate_K": {
+      "type": "text",
+      "tooltip": "Enter date: The birth date of the driver.  (MM/DD/YYYY)"
+    },
+    "Driver_ExperienceYearCount_K": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of driving experience for the driver."
+    },
+    "Driver_LicensedYear_K": {
+      "type": "text",
+      "tooltip": "Enter year: The original year in which a driver's license was issued to this driver."
+    },
+    "Driver_LicenseNumberIdentifier_K": {
+      "type": "text",
+      "tooltip": "Enter identifier: The driver's license number."
+    },
+    "Driver_TaxIdentifier_K": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier (social security number) of the driver. As used here, only enter the social security number if the driver’s license number is unavailable."
+    },
+    "Driver_LicensedStateOrProvinceCode_K": {
+      "type": "text",
+      "tooltip": "Enter code: The state in which the driver is licensed."
+    },
+    "Driver_HiredDate_K": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver was hired."
+    },
+    "Driver_Coverage_BroadenedNoFaultCode_K": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if broadened no fault coverage applies to the driver (not applicable in all states)."
+    },
+    "Driver_Coverage_DriverOtherCarCode_K": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if driver is covered by Drive Other Car coverage."
+    },
+    "Driver_Vehicle_ProducerIdentifier_K": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number that this driver primarily uses."
+    },
+    "Driver_Vehicle_UsePercent_K": {
+      "type": "text",
+      "tooltip": "Enter percentage: Indicates the percentage of driving done by this driver in the primary vehicle that this driver uses."
+    },
+    "Driver_ProducerIdentifier_L": {
+      "type": "text",
+      "tooltip": "Enter number: The number assigned to the driver by the producer."
+    },
+    "Driver_GivenName_L": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's first name (given name)."
+    },
+    "Driver_OtherGivenNameInitial_L": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's middle name or initial (other given name)."
+    },
+    "Driver_Surname_L": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's last name (surname)."
+    },
+    "Driver_MailingAddress_CityName_L": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the driver."
+    },
+    "Driver_MailingAddress_StateOrProvinceCode_L": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province of the driver."
+    },
+    "Driver_MailingAddress_PostalCode_L": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the driver."
+    },
+    "Driver_GenderCode_L": {
+      "type": "text",
+      "tooltip": "Enter code: The gender of the driver."
+    },
+    "Driver_MaritalStatusCode_L": {
+      "type": "text",
+      "tooltip": "Enter code: The marital status of the driver. Examples are: S - Single; M - Married; D - Divorced; P - Separated; W - Widowed, C - Domestic Partner (unmarried), V - Civil Union / Registered Domestic Partner, F- Fiancé / Fiancée, U - Unknown, O - Other"
+    },
+    "Driver_BirthDate_L": {
+      "type": "text",
+      "tooltip": "Enter date: The birth date of the driver.  (MM/DD/YYYY)"
+    },
+    "Driver_ExperienceYearCount_L": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of driving experience for the driver."
+    },
+    "Driver_LicensedYear_L": {
+      "type": "text",
+      "tooltip": "Enter year: The original year in which a driver's license was issued to this driver."
+    },
+    "Driver_LicenseNumberIdentifier_L": {
+      "type": "text",
+      "tooltip": "Enter identifier: The driver's license number."
+    },
+    "Driver_TaxIdentifier_L": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier (social security number) of the driver. As used here, only enter the social security number if the driver’s license number is unavailable."
+    },
+    "Driver_LicensedStateOrProvinceCode_L": {
+      "type": "text",
+      "tooltip": "Enter code: The state in which the driver is licensed."
+    },
+    "Driver_HiredDate_L": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver was hired."
+    },
+    "Driver_Coverage_BroadenedNoFaultCode_L": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if broadened no fault coverage applies to the driver (not applicable in all states)."
+    },
+    "Driver_Coverage_DriverOtherCarCode_L": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if driver is covered by Drive Other Car coverage."
+    },
+    "Driver_Vehicle_ProducerIdentifier_L": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number that this driver primarily uses."
+    },
+    "Driver_Vehicle_UsePercent_L": {
+      "type": "text",
+      "tooltip": "Enter percentage: Indicates the percentage of driving done by this driver in the primary vehicle that this driver uses."
+    },
+    "Driver_ProducerIdentifier_M": {
+      "type": "text",
+      "tooltip": "Enter number: The number assigned to the driver by the producer."
+    },
+    "Driver_GivenName_M": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's first name (given name)."
+    },
+    "Driver_OtherGivenNameInitial_M": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's middle name or initial (other given name)."
+    },
+    "Driver_Surname_M": {
+      "type": "text",
+      "tooltip": "Enter text: The driver's last name (surname)."
+    },
+    "Driver_MailingAddress_CityName_M": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the driver."
+    },
+    "Driver_MailingAddress_StateOrProvinceCode_M": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province of the driver."
+    },
+    "Driver_MailingAddress_PostalCode_M": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the driver."
+    },
+    "Driver_GenderCode_M": {
+      "type": "text",
+      "tooltip": "Enter code: The gender of the driver."
+    },
+    "Driver_MaritalStatusCode_M": {
+      "type": "text",
+      "tooltip": "Enter code: The marital status of the driver. Examples are: S - Single; M - Married; D - Divorced; P - Separated; W - Widowed, C - Domestic Partner (unmarried), V - Civil Union / Registered Domestic Partner, F- Fiancé / Fiancée, U - Unknown, O - Other"
+    },
+    "Driver_BirthDate_M": {
+      "type": "text",
+      "tooltip": "Enter date: The birth date of the driver.  (MM/DD/YYYY)"
+    },
+    "Driver_ExperienceYearCount_M": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of driving experience for the driver."
+    },
+    "Driver_LicensedYear_M": {
+      "type": "text",
+      "tooltip": "Enter year: The original year in which a driver's license was issued to this driver."
+    },
+    "Driver_LicenseNumberIdentifier_M": {
+      "type": "text",
+      "tooltip": "Enter identifier: The driver's license number."
+    },
+    "Driver_TaxIdentifier_M": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier (social security number) of the driver. As used here, only enter the social security number if the driver’s license number is unavailable."
+    },
+    "Driver_LicensedStateOrProvinceCode_M": {
+      "type": "text",
+      "tooltip": "Enter code: The state in which the driver is licensed."
+    },
+    "Driver_HiredDate_M": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver was hired."
+    },
+    "Driver_Coverage_BroadenedNoFaultCode_M": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if broadened no fault coverage applies to the driver (not applicable in all states)."
+    },
+    "Driver_Coverage_DriverOtherCarCode_M": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if driver is covered by Drive Other Car coverage."
+    },
+    "Driver_Vehicle_ProducerIdentifier_M": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number that this driver primarily uses."
+    },
+    "Driver_Vehicle_UsePercent_M": {
+      "type": "text",
+      "tooltip": "Enter percentage: Indicates the percentage of driving done by this driver in the primary vehicle that this driver uses."
+    },
+    "CommercialVehicleLineOfBusiness_Question_AAJCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"With the exception of encumbrances, are any vehicles not solely owned by and registered to the application\"?."
+    },
+    "Vehicle_ProducerIdentifier_AA": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number."
+    },
+    "AdditionalInterest_FullName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's full name. As used here, this is the name of the other owner of the vehicle."
+    },
+    "Vehicle_ProducerIdentifier_AB": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number."
+    },
+    "AdditionalInterest_FullName_D": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's full name. As used here, this is the name of the other owner of the vehicle."
+    },
+    "CommercialVehicleLineOfBusiness_Question_ABACode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Do over 50% of the employees use their own autos in the business?\"."
+    },
+    "CommercialVehicleLineOfBusiness_Question_KADCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Is there a vehicle maintenance program in operation?\"."
+    },
+    "CommercialVehicleLineOfBusiness_VehicleMaintenanceProgramInOperationExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any vehicle maintenance program in operation."
+    },
+    "CommercialVehicleLineOfBusiness_Question_ABCCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Are any vehicles leased to others?\"."
+    },
+    "CommercialVehicleLineOfBusiness_VehiclesLeasedToOthersExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any vehicles leased to others."
+    },
+    "CommercialVehicleLineOfBusiness_Question_AAGCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Are any vehicle customized, altered or have special equipment?\"."
+    },
+    "Vehicle_ProducerIdentifier_AC": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number."
+    },
+    "Vehicle_Question_ModifiedEquipmentDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of modified or special equipment on the vehicle."
+    },
+    "Vehicle_Question_ModifiedEquipmentCostAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The cost of the modified or special equipment on the vehicle."
+    },
+    "Vehicle_ProducerIdentifier_AD": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number."
+    },
+    "Vehicle_Question_ModifiedEquipmentDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of modified or special equipment on the vehicle."
+    },
+    "Vehicle_Question_ModifiedEquipmentCostAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The cost of the modified or special equipment on the vehicle."
+    },
+    "CommercialVehicleLineOfBusiness_Question_AAECode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Are ICC, PUC or other filings required?\"."
+    },
+    "CommercialVehicleLineOfBusiness_Question_AAFCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Do operations involve transporting hazardous material?\"."
+    },
+    "CommercialVehicleLineOfBusiness_OperationInvolveTransportingHazardousMaterialsExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any operations that involve transporting hazardous materials.."
+    },
+    "CommercialVehicleLineOfBusiness_Question_AABCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Any hold harmless agreements?\"."
+    },
+    "CommercialVehicleLineOfBusiness_HoldHarmlessAgreementsExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any Hold Harmless Agreements."
+    },
+    "CommercialVehicleLineOfBusiness_Question_AACCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Any vehicles used by family members?\"."
+    },
+    "CommercialVehicleLineOfBusiness_VehiclesUsedByFamilyMembersExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any vehicles used by family members."
+    },
+    "CommercialVehicleLineOfBusiness_Question_KAECode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Does the applicant obtain MVR verifications?\"."
+    },
+    "CommercialVehicleLineOfBusiness_ApplicantObtainMVRVerificationsExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any applicant needing to obtain MVR verifications."
+    },
+    "CommercialVehicleLineOfBusiness_Question_KAFCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Does the applicant have a specific driver recruiting method?\"."
+    },
+    "CommercialVehicleLineOfBusiness_ApplicantSpecificDriverRecruitingMethodExplanation_K": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any applicant specific driver recruiting methods."
+    },
+    "CommercialVehicleLineOfBusiness_Question_AAHCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Are any drivers not covered by workers compensation?\"."
+    },
+    "CommercialVehicleLineOfBusiness_AnyDriversNotCoveredWorkersCompensationExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any drivers not covered by workers compensation."
+    },
+    "CommercialVehicleLineOfBusiness_Question_AADCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Any vehicles owned but not scheduled on this application?\"."
+    },
+    "CommercialVehicleLineOfBusiness_AnyVehiclesOwnedNotScheduledExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any vehicles owned but not scheduled on this application."
+    },
+    "CommercialVehicleLineOfBusiness_Question_AAICode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Any drivers with convictions for moving traffic violations?\"."
+    },
+    "AccidentConviction_DriverProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer's driver number for the driver involved in the accident or conviction."
+    },
+    "AccidentConviction_TrafficViolationDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date the driver received the traffic violation."
+    },
+    "AccidentConviction_TrafficViolationDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the traffic violation.  ACORD 101, Additional Remarks Schedule, may be attached if more space is required."
+    },
+    "AccidentConviction_PlaceOfIncident_A": {
+      "type": "text",
+      "tooltip": "Enter text: The place of the accident or conviction."
+    },
+    "AccidentConviction_ViolationYearCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years associated with \"… an accident... or convicted of a moving violation\" question."
+    },
+    "CommercialVehicleLineOfBusiness_Question_ABBCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Has agent inspected vehicles?\"."
+    },
+    "CommercialVehicleLineOfBusiness_AgentInspectedVehiclesExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any vehicles inspected by an agent."
+    },
+    "CommercialVehicleLineOfBusiness_Question_KAGCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Are all vehicles to be included in this policy part of a fleet?\"."
+    },
+    "CommercialVehicleLineOfBusiness_KAHCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Do you have electronic monitoring devices that record and transmit data in any of your vehicles.\""
+    },
+    "CommercialVehicleLineOfBusiness_ElectronicDataMonitoringDevice_FleetMonitoredPercent_A": {
+      "type": "text",
+      "tooltip": "Enter percentage: The percentage of vehicles in your overall fleet that are monitored."
+    },
+    "CommercialVehicleLineOfBusiness_ElectronicDataMonitoringDevice_MonitorDriverSafetyIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that driver safety is monitored."
+    },
+    "CommercialVehicleLineOfBusiness_ElectronicDataMonitoringDevice_TrackFuelConsumptionIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that a track fuel consumption device is utilized."
+    },
+    "CommercialVehicleLineOfBusiness_ElectronicDataMonitoringDevice_MonitorVehicleMaintenanceIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that a vehicle maintenance monitor device is utilized."
+    },
+    "CommercialVehicleLineOfBusiness_ElectronicDataMonitoringDevice_MileageTrackingDeviceIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that a mileage tracking device is utilized."
+    },
+    "CommercialVehicleLineOfBusiness_LocationTrackingDeviceIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that a location tracking device is utilized."
+    },
+    "CommercialVehicleLineOfBusiness_ElectronicDataMonitoringDevice_NavigationIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that a navigation device is utilized."
+    },
+    "CommercialVehicleLineOfBusiness_ElectronicDataMonitoringDevice_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that an electronic data monitoring device other than those listed is utilized."
+    },
+    "CommercialVehicleLineOfBusiness_ElectronicDataMonitoringDevice_OtherDesciption_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the other electronic tracking device."
+    },
+    "CommercialVehicleLineOfBusiness_ElectronicDataMonitoringDevice_AdditionalDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: Provide additional information clarifying the general use of electronic monitoring devices."
+    },
+    "CommercialVehicleLineOfBusiness_GarageStorageDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the garage / storage location."
+    },
+    "CommercialVehicleLineOfBusiness_MaximumExposureAllVehiclesAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The highest value that the insurer would be subject to if a major automobile loss occurred on the insured premises."
+    },
+    "CommercialVehicleLineOfBusiness_Attachment_AdditionalInterestIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that further additional interests appear on the attached ACORD 45."
+    },
+    "AdditionalInterest_Interest_AdditionalInsuredIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is an additional insured."
+    },
+    "AdditionalInterest_Interest_EmployeeAsLessorIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is an employee as lessor."
+    },
+    "AdditionalInterest_Interest_LendersLossPayableIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a lender's loss payable."
+    },
+    "AdditionalInterest_Interest_LienholderIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a lien holder."
+    },
+    "AdditionalInterest_Interest_LossPayeeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a loss payee."
+    },
+    "AdditionalInterest_Interest_OwnerIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is an owner."
+    },
+    "AdditionalInterest_Interest_RegistrantIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a registrant."
+    },
+    "AdditionalInterest_Interest_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest is other than those listed."
+    },
+    "AdditionalInterest_Interest_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other type of additional interest."
+    },
+    "AdditionalInterest_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's full name."
+    },
+    "AdditionalInterest_MailingAddress_LineOne_A": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's mailing address line one."
+    },
+    "AdditionalInterest_MailingAddress_LineTwo_A": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's mailing address line two."
+    },
+    "AdditionalInterest_MailingAddress_CityName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's mailing address city name."
+    },
+    "AdditionalInterest_MailingAddress_StateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The additional interest's mailing address state or province code."
+    },
+    "AdditionalInterest_MailingAddress_PostalCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The additional interest's mailing address postal code."
+    },
+    "AdditionalInterest_InterestRank_A": {
+      "type": "text",
+      "tooltip": "Enter number: The ranking of 'this' additional interest when multiple additional interests are associated with the same item."
+    },
+    "AdditionalInterest_CertificateRequiredIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates if the additional interest requires a Certificate of Insurance."
+    },
+    "AdditionalInterest_AccountNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The loan number, account number or other controlling number that the additional interest may have assigned the insured."
+    },
+    "AdditionalInterest_Item_VehicleProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number of the vehicle which has an additional interest."
+    },
+    "AdditionalInterest_Item_LocationProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number of the location which has an additional interest."
+    },
+    "AdditionalInterest_Interest_AdditionalInsuredIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is an additional insured."
+    },
+    "AdditionalInterest_Interest_EmployeeAsLessorIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is an employee as lessor."
+    },
+    "AdditionalInterest_Interest_LendersLossPayableIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a lender's loss payable."
+    },
+    "AdditionalInterest_Interest_LienholderIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a lien holder."
+    },
+    "AdditionalInterest_Interest_LossPayeeIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a loss payee."
+    },
+    "AdditionalInterest_Interest_OwnerIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is an owner."
+    },
+    "AdditionalInterest_Interest_RegistrantIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a registrant."
+    },
+    "AdditionalInterest_Interest_OtherIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest is other than those listed."
+    },
+    "AdditionalInterest_Interest_OtherDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other type of additional interest."
+    },
+    "AdditionalInterest_FullName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's full name."
+    },
+    "AdditionalInterest_MailingAddress_LineOne_B": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's mailing address line one."
+    },
+    "AdditionalInterest_MailingAddress_LineTwo_B": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's mailing address line two."
+    },
+    "AdditionalInterest_MailingAddress_CityName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's mailing address city name."
+    },
+    "AdditionalInterest_MailingAddress_StateOrProvinceCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The additional interest's mailing address state or province code."
+    },
+    "AdditionalInterest_MailingAddress_PostalCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The additional interest's mailing address postal code."
+    },
+    "AdditionalInterest_InterestRank_B": {
+      "type": "text",
+      "tooltip": "Enter number: The ranking of 'this' additional interest when multiple additional interests are associated with the same item."
+    },
+    "AdditionalInterest_CertificateRequiredIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates if the additional interest requires a Certificate of Insurance."
+    },
+    "AdditionalInterest_AccountNumberIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter identifier: The loan number, account number or other controlling number that the additional interest may have assigned the insured."
+    },
+    "AdditionalInterest_Item_VehicleProducerIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number of the vehicle which has an additional interest."
+    },
+    "AdditionalInterest_Item_LocationProducerIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number of the location which has an additional interest."
+    },
+    "CommercialVehicleLineOfBusiness_RemarkText_A": {
+      "type": "text",
+      "tooltip": "Enter text: The remarks associated with the commercial vehicle line of business.  Enter any endorsements that apply. Be sure to include the form numbers and the required information for attaching the endorsement.   ACORD 101, Additional Remarks Schedule, may be attached if more space is required."
+    },
+    "CommercialVehicleLineOfBusiness_Attachment_VehicleScheduleIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that additional vehicles appear on the attached ACORD 129."
+    },
+    "Vehicle_ProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number."
+    },
+    "Vehicle_ModelYear_A": {
+      "type": "text",
+      "tooltip": "Enter year: The model year of the vehicle."
+    },
+    "Vehicle_ManufacturersName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The manufacturer of the vehicle (e.g., Ford, Chevy)."
+    },
+    "Vehicle_ModelName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The manufacturer's model name for the vehicle."
+    },
+    "Vehicle_BodyCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The body type of the vehicle."
+    },
+    "Vehicle_VINIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The vehicle identification number (VIN) or serial number assigned by the manufacturer."
+    },
+    "Vehicle_VehicleType_PrivatePassengerIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is private passenger."
+    },
+    "Vehicle_VehicleType_SpecialIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is special (e.g. classic, antique automobile)."
+    },
+    "Vehicle_VehicleType_CommercialIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is commercial."
+    },
+    "Vehicle_SymbolCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The symbol required for physical damage coverage."
+    },
+    "Vehicle_ComprehensiveSymbolCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The symbol required for comprehensive / other than collision coverage."
+    },
+    "Vehicle_CollisionSymbolCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The symbol required for collision coverage."
+    },
+    "Vehicle_PhysicalAddress_LineOne_A": {
+      "type": "text",
+      "tooltip": "Enter text: The vehicle's physical address line one."
+    },
+    "Vehicle_PhysicalAddress_CityName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The vehicle's physical address city name."
+    },
+    "Vehicle_PhysicalAddress_CountyName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The vehicle's physical address county name."
+    },
+    "Vehicle_PhysicalAddress_StateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The vehicle's physical address state or province code."
+    },
+    "Vehicle_PhysicalAddress_PostalCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The vehicle's physical address postal code."
+    },
+    "Vehicle_Registration_StateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province in which the vehicle is registered."
+    },
+    "Vehicle_RatingTerritoryCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The rating territory code where the vehicle is principally garaged."
+    },
+    "Vehicle_GrossVehicleWeight_A": {
+      "type": "text",
+      "tooltip": "Enter number: The actual weight of the vehicle or the combined weight of tractor and trailer in pounds."
+    },
+    "Vehicle_RateClassCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The rate class of the vehicle.  If two rate classes are required, this element should be used to enter the liability code."
+    },
+    "Vehicle_SpecialIndustryClassCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The secondary Special Industry Class code which applies to commercial vehicles as determined by industry rating manuals."
+    },
+    "Vehicle_PrimaryLiabilityRatingFactor_A": {
+      "type": "text",
+      "tooltip": "Enter rate: The primary liability rating factor contains the number which is used, along with the secondary rating factor, in determining the liability premium.  The primary rating factor which is always positive is based on the primary class."
+    },
+    "Vehicle_SeatingCapacityCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The seating capacity of the vehicle.  Required for rating public passenger vehicles."
+    },
+    "Vehicle_RadiusOfUse_A": {
+      "type": "text",
+      "tooltip": "Enter number: The radius in whole numbers within which this vehicle is operated."
+    },
+    "Vehicle_FarthestZoneCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: Identifies the location of the farthest zone from the vehicle's base of operation in which the vehicle is operated. The source of this code is the Insurance Services Office Zone code list."
+    },
+    "Vehicle_CostNewAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The original cost of the vehicle."
+    },
+    "Vehicle_Use_PleasureIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for pleasure."
+    },
+    "Vehicle_Use_FarmIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for farming."
+    },
+    "Vehicle_Use_CommercialIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for commercial purposes."
+    },
+    "Vehicle_Use_RetailIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the retail industry."
+    },
+    "Vehicle_Use_ServiceIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the service industry."
+    },
+    "Vehicle_Use_ForHireIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for hire."
+    },
+    "Vehicle_Use_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is other than those listed."
+    },
+    "Vehicle_Use_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other vehicle usage."
+    },
+    "Vehicle_Coverage_LiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has liability coverage."
+    },
+    "Vehicle_Coverage_NoFaultIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has no-fault coverage."
+    },
+    "Vehicle_Coverage_AdditionalNoFaultIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has additional no-fault coverage."
+    },
+    "Vehicle_Coverage_MedicalPaymentsIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has medical payments coverage."
+    },
+    "Vehicle_Coverage_UninsuredMotoristsIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has uninsured motorists coverage."
+    },
+    "Vehicle_Coverage_UnderinsuredMotoristsIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has underinsured motorists coverage."
+    },
+    "Vehicle_Coverage_TowingAndLabourIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has towing and labor coverage."
+    },
+    "Vehicle_Coverage_SpecifiedCauseOfLossIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has specified cause of loss coverage."
+    },
+    "Vehicle_Coverage_FireIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates fire is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_FireTheftIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates fire and theft is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_FireTheftWindstormIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates fire, theft and windstorm is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_LimitedSpecifiedPerilsIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates limited specified perils is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_ComprehensiveIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has comprehensive or other than collision coverage."
+    },
+    "Vehicle_Coverage_CollisionIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has collision coverage."
+    },
+    "Vehicle_Coverage_RentalReimbursementIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has rental reimbursement or transportation expense coverage."
+    },
+    "Vehicle_Coverage_FullGlassIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has full glass coverage."
+    },
+    "Vehicle_Coverage_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has a type of coverage not specifically listed."
+    },
+    "Vehicle_Coverage_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other type of coverage on the vehicle."
+    },
+    "Vehicle_Coverage_ValuationActualCashValueIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the actual cash value or market value."
+    },
+    "Vehicle_Coverage_ValuationAgreedAmountIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the agreed amount."
+    },
+    "Vehicle_Coverage_ValuationStatedAmountIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the stated amount."
+    },
+    "Vehicle_Coverage_AgreedOrStatedAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The agreed or stated amount used in determining the value of the vehicle at the time of loss."
+    },
+    "Vehicle_Coverage_ComprehensiveDeductibleIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for comprehensive or other than collision coverage."
+    },
+    "Vehicle_Coverage_SpecifiedCauseOfLossDeductibleIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for specified causes of loss.  The Specified Cause of Loss Codes are:\n\nSCL        Specified Cause of Loss\nF            Fire\nF&T        Fire and Theft\nF,T&W    Fire, Theft and Wind\nLSP        Limited Specified Perils\nSP         Specified Perils"
+    },
+    "Vehicle_Coverage_ComprehensiveOrSpecifiedCauseOfLossDeductibleAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The comprehensive or specified cause of loss deductible amount."
+    },
+    "Vehicle_Collision_DeductibleAmount_A": {
+      "type": "text",
+      "tooltip": "Enter deductible: The collision deductible amount."
+    },
+    "Vehicle_Use_UnderFifteenMilesIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school under 15 miles one way."
+    },
+    "Vehicle_Use_FifteenMilesOrOverIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school 15 miles or over one way."
+    },
+    "Vehicle_NetRatingFactor_A": {
+      "type": "text",
+      "tooltip": "Enter rate: The net rating factor that applies to this vehicle. Do not include debits or credits that apply on a policy level. Provide under remarks a description of each debit or credit used in the calculation of the net rating factor."
+    },
+    "Vehicle_TotalPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The total amount for the vehicle."
+    },
+    "Vehicle_ProducerIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number."
+    },
+    "Vehicle_ModelYear_B": {
+      "type": "text",
+      "tooltip": "Enter year: The model year of the vehicle."
+    },
+    "Vehicle_ManufacturersName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The manufacturer of the vehicle (e.g., Ford, Chevy)."
+    },
+    "Vehicle_ModelName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The manufacturer's model name for the vehicle."
+    },
+    "Vehicle_BodyCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The body type of the vehicle."
+    },
+    "Vehicle_VINIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter identifier: The vehicle identification number (VIN) or serial number assigned by the manufacturer."
+    },
+    "Vehicle_VehicleType_PrivatePassengerIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is private passenger."
+    },
+    "Vehicle_VehicleType_SpecialIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is special (e.g. classic, antique automobile)."
+    },
+    "Vehicle_VehicleType_CommercialIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is commercial."
+    },
+    "Vehicle_SymbolCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The symbol required for physical damage coverage."
+    },
+    "Vehicle_ComprehensiveSymbolCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The symbol required for comprehensive / other than collision coverage."
+    },
+    "Vehicle_CollisionSymbolCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The symbol required for collision coverage."
+    },
+    "Vehicle_PhysicalAddress_LineOne_B": {
+      "type": "text",
+      "tooltip": "Enter text: The vehicle's physical address line one."
+    },
+    "Vehicle_PhysicalAddress_CityName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The vehicle's physical address city name."
+    },
+    "Vehicle_PhysicalAddress_CountyName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The vehicle's physical address county name."
+    },
+    "Vehicle_PhysicalAddress_StateOrProvinceCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The vehicle's physical address state or province code."
+    },
+    "Vehicle_PhysicalAddress_PostalCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The vehicle's physical address postal code."
+    },
+    "Vehicle_Registration_StateOrProvinceCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province in which the vehicle is registered."
+    },
+    "Vehicle_RatingTerritoryCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The rating territory code where the vehicle is principally garaged."
+    },
+    "Vehicle_GrossVehicleWeight_B": {
+      "type": "text",
+      "tooltip": "Enter number: The actual weight of the vehicle or the combined weight of tractor and trailer in pounds."
+    },
+    "Vehicle_RateClassCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The rate class of the vehicle.  If two rate classes are required, this element should be used to enter the liability code."
+    },
+    "Vehicle_SpecialIndustryClassCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The secondary Special Industry Class code which applies to commercial vehicles as determined by industry rating manuals."
+    },
+    "Vehicle_PrimaryLiabilityRatingFactor_B": {
+      "type": "text",
+      "tooltip": "Enter rate: The primary liability rating factor contains the number which is used, along with the secondary rating factor, in determining the liability premium.  The primary rating factor which is always positive is based on the primary class."
+    },
+    "Vehicle_SeatingCapacityCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The seating capacity of the vehicle.  Required for rating public passenger vehicles."
+    },
+    "Vehicle_RadiusOfUse_B": {
+      "type": "text",
+      "tooltip": "Enter number: The radius in whole numbers within which this vehicle is operated."
+    },
+    "Vehicle_FarthestZoneCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: Identifies the location of the farthest zone from the vehicle's base of operation in which the vehicle is operated. The source of this code is the Insurance Services Office Zone code list."
+    },
+    "Vehicle_CostNewAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The original cost of the vehicle."
+    },
+    "Vehicle_Use_PleasureIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for pleasure."
+    },
+    "Vehicle_Use_FarmIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for farming."
+    },
+    "Vehicle_Use_CommercialIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for commercial purposes."
+    },
+    "Vehicle_Use_RetailIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the retail industry."
+    },
+    "Vehicle_Use_ServiceIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the service industry."
+    },
+    "Vehicle_Use_ForHireIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for hire."
+    },
+    "Vehicle_Use_OtherIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is other than those listed."
+    },
+    "Vehicle_Use_OtherDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other vehicle usage."
+    },
+    "Vehicle_Coverage_LiabilityIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has liability coverage."
+    },
+    "Vehicle_Coverage_NoFaultIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has no-fault coverage."
+    },
+    "Vehicle_Coverage_AdditionalNoFaultIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has additional no-fault coverage."
+    },
+    "Vehicle_Coverage_MedicalPaymentsIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has medical payments coverage."
+    },
+    "Vehicle_Coverage_UninsuredMotoristsIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has uninsured motorists coverage."
+    },
+    "Vehicle_Coverage_UnderinsuredMotoristsIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has underinsured motorists coverage."
+    },
+    "Vehicle_Coverage_TowingAndLabourIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has towing and labor coverage."
+    },
+    "Vehicle_Coverage_SpecifiedCauseOfLossIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has specified cause of loss coverage."
+    },
+    "Vehicle_Coverage_FireIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates fire is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_FireTheftIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates fire and theft is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_FireTheftWindstormIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates fire, theft and windstorm is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_LimitedSpecifiedPerilsIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates limited specified perils is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_ComprehensiveIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has comprehensive or other than collision coverage."
+    },
+    "Vehicle_Coverage_CollisionIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has collision coverage."
+    },
+    "Vehicle_Coverage_RentalReimbursementIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has rental reimbursement or transportation expense coverage."
+    },
+    "Vehicle_Coverage_FullGlassIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has full glass coverage."
+    },
+    "Vehicle_Coverage_OtherIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has a type of coverage not specifically listed."
+    },
+    "Vehicle_Coverage_OtherDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other type of coverage on the vehicle."
+    },
+    "Vehicle_Coverage_ValuationActualCashValueIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the actual cash value or market value."
+    },
+    "Vehicle_Coverage_ValuationAgreedAmountIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the agreed amount."
+    },
+    "Vehicle_Coverage_ValuationStatedAmountIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the stated amount."
+    },
+    "Vehicle_Coverage_AgreedOrStatedAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The agreed or stated amount used in determining the value of the vehicle at the time of loss."
+    },
+    "Vehicle_Coverage_ComprehensiveDeductibleIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for comprehensive or other than collision coverage."
+    },
+    "Vehicle_Coverage_SpecifiedCauseOfLossDeductibleIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for specified causes of loss.  The Specified Cause of Loss Codes are:\n\nSCL        Specified Cause of Loss\nF            Fire\nF&T        Fire and Theft\nF,T&W    Fire, Theft and Wind\nLSP        Limited Specified Perils\nSP         Specified Perils"
+    },
+    "Vehicle_Coverage_ComprehensiveOrSpecifiedCauseOfLossDeductibleAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The comprehensive or specified cause of loss deductible amount."
+    },
+    "Vehicle_Collision_DeductibleAmount_B": {
+      "type": "text",
+      "tooltip": "Enter deductible: The collision deductible amount."
+    },
+    "Vehicle_Use_UnderFifteenMilesIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school under 15 miles one way."
+    },
+    "Vehicle_Use_FifteenMilesOrOverIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school 15 miles or over one way."
+    },
+    "Vehicle_NetRatingFactor_B": {
+      "type": "text",
+      "tooltip": "Enter rate: The net rating factor that applies to this vehicle. Do not include debits or credits that apply on a policy level. Provide under remarks a description of each debit or credit used in the calculation of the net rating factor."
+    },
+    "Vehicle_TotalPremiumAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The total amount for the vehicle."
+    },
+    "Vehicle_ProducerIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number."
+    },
+    "Vehicle_ModelYear_C": {
+      "type": "text",
+      "tooltip": "Enter year: The model year of the vehicle."
+    },
+    "Vehicle_ManufacturersName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The manufacturer of the vehicle (e.g., Ford, Chevy)."
+    },
+    "Vehicle_ModelName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The manufacturer's model name for the vehicle."
+    },
+    "Vehicle_BodyCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The body type of the vehicle."
+    },
+    "Vehicle_VINIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter identifier: The vehicle identification number (VIN) or serial number assigned by the manufacturer."
+    },
+    "Vehicle_VehicleType_PrivatePassengerIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is private passenger."
+    },
+    "Vehicle_VehicleType_SpecialIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is special (e.g. classic, antique automobile)."
+    },
+    "Vehicle_VehicleType_CommercialIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is commercial."
+    },
+    "Vehicle_SymbolCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The symbol required for physical damage coverage."
+    },
+    "Vehicle_ComprehensiveSymbolCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The symbol required for comprehensive / other than collision coverage."
+    },
+    "Vehicle_CollisionSymbolCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The symbol required for collision coverage."
+    },
+    "Vehicle_PhysicalAddress_LineOne_C": {
+      "type": "text",
+      "tooltip": "Enter text: The vehicle's physical address line one."
+    },
+    "Vehicle_PhysicalAddress_CityName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The vehicle's physical address city name."
+    },
+    "Vehicle_PhysicalAddress_CountyName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The vehicle's physical address county name."
+    },
+    "Vehicle_PhysicalAddress_StateOrProvinceCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The vehicle's physical address state or province code."
+    },
+    "Vehicle_PhysicalAddress_PostalCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The vehicle's physical address postal code."
+    },
+    "Vehicle_Registration_StateOrProvinceCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province in which the vehicle is registered."
+    },
+    "Vehicle_RatingTerritoryCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The rating territory code where the vehicle is principally garaged."
+    },
+    "Vehicle_GrossVehicleWeight_C": {
+      "type": "text",
+      "tooltip": "Enter number: The actual weight of the vehicle or the combined weight of tractor and trailer in pounds."
+    },
+    "Vehicle_RateClassCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The rate class of the vehicle.  If two rate classes are required, this element should be used to enter the liability code."
+    },
+    "Vehicle_SpecialIndustryClassCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The secondary Special Industry Class code which applies to commercial vehicles as determined by industry rating manuals."
+    },
+    "Vehicle_PrimaryLiabilityRatingFactor_C": {
+      "type": "text",
+      "tooltip": "Enter rate: The primary liability rating factor contains the number which is used, along with the secondary rating factor, in determining the liability premium.  The primary rating factor which is always positive is based on the primary class."
+    },
+    "Vehicle_SeatingCapacityCount_C": {
+      "type": "text",
+      "tooltip": "Enter number: The seating capacity of the vehicle.  Required for rating public passenger vehicles."
+    },
+    "Vehicle_RadiusOfUse_C": {
+      "type": "text",
+      "tooltip": "Enter number: The radius in whole numbers within which this vehicle is operated."
+    },
+    "Vehicle_FarthestZoneCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: Identifies the location of the farthest zone from the vehicle's base of operation in which the vehicle is operated. The source of this code is the Insurance Services Office Zone code list."
+    },
+    "Vehicle_CostNewAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The original cost of the vehicle."
+    },
+    "Vehicle_Use_PleasureIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for pleasure."
+    },
+    "Vehicle_Use_FarmIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for farming."
+    },
+    "Vehicle_Use_CommercialIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for commercial purposes."
+    },
+    "Vehicle_Use_RetailIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the retail industry."
+    },
+    "Vehicle_Use_ServiceIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the service industry."
+    },
+    "Vehicle_Use_ForHireIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for hire."
+    },
+    "Vehicle_Use_OtherIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is other than those listed."
+    },
+    "Vehicle_Use_OtherDescription_C": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other vehicle usage."
+    },
+    "Vehicle_Coverage_LiabilityIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has liability coverage."
+    },
+    "Vehicle_Coverage_NoFaultIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has no-fault coverage."
+    },
+    "Vehicle_Coverage_AdditionalNoFaultIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has additional no-fault coverage."
+    },
+    "Vehicle_Coverage_MedicalPaymentsIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has medical payments coverage."
+    },
+    "Vehicle_Coverage_UninsuredMotoristsIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has uninsured motorists coverage."
+    },
+    "Vehicle_Coverage_UnderinsuredMotoristsIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has underinsured motorists coverage."
+    },
+    "Vehicle_Coverage_TowingAndLabourIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has towing and labor coverage."
+    },
+    "Vehicle_Coverage_SpecifiedCauseOfLossIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has specified cause of loss coverage."
+    },
+    "Vehicle_Coverage_FireIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates fire is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_FireTheftIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates fire and theft is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_FireTheftWindstormIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates fire, theft and windstorm is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_LimitedSpecifiedPerilsIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates limited specified perils is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_ComprehensiveIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has comprehensive or other than collision coverage."
+    },
+    "Vehicle_Coverage_CollisionIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has collision coverage."
+    },
+    "Vehicle_Coverage_RentalReimbursementIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has rental reimbursement or transportation expense coverage."
+    },
+    "Vehicle_Coverage_FullGlassIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has full glass coverage."
+    },
+    "Vehicle_Coverage_OtherIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has a type of coverage not specifically listed."
+    },
+    "Vehicle_Coverage_OtherDescription_C": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other type of coverage on the vehicle."
+    },
+    "Vehicle_Coverage_ValuationActualCashValueIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the actual cash value or market value."
+    },
+    "Vehicle_Coverage_ValuationAgreedAmountIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the agreed amount."
+    },
+    "Vehicle_Coverage_ValuationStatedAmountIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the stated amount."
+    },
+    "Vehicle_Coverage_AgreedOrStatedAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The agreed or stated amount used in determining the value of the vehicle at the time of loss."
+    },
+    "Vehicle_Coverage_ComprehensiveDeductibleIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for comprehensive or other than collision coverage."
+    },
+    "Vehicle_Coverage_SpecifiedCauseOfLossDeductibleIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for specified causes of loss.  The Specified Cause of Loss Codes are:\n\nSCL        Specified Cause of Loss\nF            Fire\nF&T        Fire and Theft\nF,T&W    Fire, Theft and Wind\nLSP        Limited Specified Perils\nSP         Specified Perils"
+    },
+    "Vehicle_Coverage_ComprehensiveOrSpecifiedCauseOfLossDeductibleAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The comprehensive or specified cause of loss deductible amount."
+    },
+    "Vehicle_Collision_DeductibleAmount_C": {
+      "type": "text",
+      "tooltip": "Enter deductible: The collision deductible amount."
+    },
+    "Vehicle_Use_UnderFifteenMilesIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school under 15 miles one way."
+    },
+    "Vehicle_Use_FifteenMilesOrOverIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school 15 miles or over one way."
+    },
+    "Vehicle_NetRatingFactor_C": {
+      "type": "text",
+      "tooltip": "Enter rate: The net rating factor that applies to this vehicle. Do not include debits or credits that apply on a policy level. Provide under remarks a description of each debit or credit used in the calculation of the net rating factor."
+    },
+    "Vehicle_TotalPremiumAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The total amount for the vehicle."
+    },
+    "Vehicle_ProducerIdentifier_D": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned vehicle number."
+    },
+    "Vehicle_ModelYear_D": {
+      "type": "text",
+      "tooltip": "Enter year: The model year of the vehicle."
+    },
+    "Vehicle_ManufacturersName_D": {
+      "type": "text",
+      "tooltip": "Enter text: The manufacturer of the vehicle (e.g., Ford, Chevy)."
+    },
+    "Vehicle_ModelName_D": {
+      "type": "text",
+      "tooltip": "Enter text: The manufacturer's model name for the vehicle."
+    },
+    "Vehicle_BodyCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The body type of the vehicle."
+    },
+    "Vehicle_VINIdentifier_D": {
+      "type": "text",
+      "tooltip": "Enter identifier: The vehicle identification number (VIN) or serial number assigned by the manufacturer."
+    },
+    "Vehicle_VehicleType_PrivatePassengerIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is private passenger."
+    },
+    "Vehicle_VehicleType_SpecialIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is special (e.g. classic, antique automobile)."
+    },
+    "Vehicle_VehicleType_CommercialIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is commercial."
+    },
+    "Vehicle_SymbolCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The symbol required for physical damage coverage."
+    },
+    "Vehicle_ComprehensiveSymbolCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The symbol required for comprehensive / other than collision coverage."
+    },
+    "Vehicle_CollisionSymbolCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The symbol required for collision coverage."
+    },
+    "Vehicle_PhysicalAddress_LineOne_D": {
+      "type": "text",
+      "tooltip": "Enter text: The vehicle's physical address line one."
+    },
+    "Vehicle_PhysicalAddress_CityName_D": {
+      "type": "text",
+      "tooltip": "Enter text: The vehicle's physical address city name."
+    },
+    "Vehicle_PhysicalAddress_CountyName_D": {
+      "type": "text",
+      "tooltip": "Enter text: The vehicle's physical address county name."
+    },
+    "Vehicle_PhysicalAddress_StateOrProvinceCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The vehicle's physical address state or province code."
+    },
+    "Vehicle_PhysicalAddress_PostalCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The vehicle's physical address postal code."
+    },
+    "Vehicle_Registration_StateOrProvinceCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province in which the vehicle is registered."
+    },
+    "Vehicle_RatingTerritoryCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The rating territory code where the vehicle is principally garaged."
+    },
+    "Vehicle_GrossVehicleWeight_D": {
+      "type": "text",
+      "tooltip": "Enter number: The actual weight of the vehicle or the combined weight of tractor and trailer in pounds."
+    },
+    "Vehicle_RateClassCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The rate class of the vehicle.  If two rate classes are required, this element should be used to enter the liability code."
+    },
+    "Vehicle_SpecialIndustryClassCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The secondary Special Industry Class code which applies to commercial vehicles as determined by industry rating manuals."
+    },
+    "Vehicle_PrimaryLiabilityRatingFactor_D": {
+      "type": "text",
+      "tooltip": "Enter rate: The primary liability rating factor contains the number which is used, along with the secondary rating factor, in determining the liability premium.  The primary rating factor which is always positive is based on the primary class."
+    },
+    "Vehicle_SeatingCapacityCount_D": {
+      "type": "text",
+      "tooltip": "Enter number: The seating capacity of the vehicle.  Required for rating public passenger vehicles."
+    },
+    "Vehicle_RadiusOfUse_D": {
+      "type": "text",
+      "tooltip": "Enter number: The radius in whole numbers within which this vehicle is operated."
+    },
+    "Vehicle_FarthestZoneCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: Identifies the location of the farthest zone from the vehicle's base of operation in which the vehicle is operated. The source of this code is the Insurance Services Office Zone code list."
+    },
+    "Vehicle_CostNewAmount_D": {
+      "type": "text",
+      "tooltip": "Enter amount: The original cost of the vehicle."
+    },
+    "Vehicle_Use_PleasureIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for pleasure."
+    },
+    "Vehicle_Use_FarmIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for farming."
+    },
+    "Vehicle_Use_CommercialIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for commercial purposes."
+    },
+    "Vehicle_Use_RetailIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the retail industry."
+    },
+    "Vehicle_Use_ServiceIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the service industry."
+    },
+    "Vehicle_Use_ForHireIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for hire."
+    },
+    "Vehicle_Use_OtherIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is other than those listed."
+    },
+    "Vehicle_Use_OtherDescription_D": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other vehicle usage."
+    },
+    "Vehicle_Coverage_LiabilityIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has liability coverage."
+    },
+    "Vehicle_Coverage_NoFaultIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has no-fault coverage."
+    },
+    "Vehicle_Coverage_AdditionalNoFaultIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has additional no-fault coverage."
+    },
+    "Vehicle_Coverage_MedicalPaymentsIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has medical payments coverage."
+    },
+    "Vehicle_Coverage_UninsuredMotoristsIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has uninsured motorists coverage."
+    },
+    "Vehicle_Coverage_UnderinsuredMotoristsIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has underinsured motorists coverage."
+    },
+    "Vehicle_Coverage_TowingAndLabourIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has towing and labor coverage."
+    },
+    "Vehicle_Coverage_SpecifiedCauseOfLossIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has specified cause of loss coverage."
+    },
+    "Vehicle_Coverage_FireIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates fire is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_FireTheftIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates fire and theft is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_FireTheftWindstormIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates fire, theft and windstorm is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_LimitedSpecifiedPerilsIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates limited specified perils is a specified cause of loss on this vehicle."
+    },
+    "Vehicle_Coverage_ComprehensiveIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has comprehensive or other than collision coverage."
+    },
+    "Vehicle_Coverage_CollisionIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has collision coverage."
+    },
+    "Vehicle_Coverage_RentalReimbursementIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has rental reimbursement or transportation expense coverage."
+    },
+    "Vehicle_Coverage_FullGlassIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has full glass coverage."
+    },
+    "Vehicle_Coverage_OtherIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has a type of coverage not specifically listed."
+    },
+    "Vehicle_Coverage_OtherDescription_D": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other type of coverage on the vehicle."
+    },
+    "Vehicle_Coverage_ValuationActualCashValueIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the actual cash value or market value."
+    },
+    "Vehicle_Coverage_ValuationAgreedAmountIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the agreed amount."
+    },
+    "Vehicle_Coverage_ValuationStatedAmountIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the stated amount."
+    },
+    "Vehicle_Coverage_AgreedOrStatedAmount_D": {
+      "type": "text",
+      "tooltip": "Enter amount: The agreed or stated amount used in determining the value of the vehicle at the time of loss."
+    },
+    "Vehicle_Coverage_ComprehensiveDeductibleIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for comprehensive or other than collision coverage."
+    },
+    "Vehicle_Coverage_SpecifiedCauseOfLossDeductibleIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for specified causes of loss.  The Specified Cause of Loss Codes are:\n\nSCL        Specified Cause of Loss\nF            Fire\nF&T        Fire and Theft\nF,T&W    Fire, Theft and Wind\nLSP        Limited Specified Perils\nSP         Specified Perils"
+    },
+    "Vehicle_Coverage_ComprehensiveOrSpecifiedCauseOfLossDeductibleAmount_D": {
+      "type": "text",
+      "tooltip": "Enter amount: The comprehensive or specified cause of loss deductible amount."
+    },
+    "Vehicle_Collision_DeductibleAmount_D": {
+      "type": "text",
+      "tooltip": "Enter deductible: The collision deductible amount."
+    },
+    "Vehicle_Use_UnderFifteenMilesIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school under 15 miles one way."
+    },
+    "Vehicle_Use_FifteenMilesOrOverIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school 15 miles or over one way."
+    },
+    "Vehicle_NetRatingFactor_D": {
+      "type": "text",
+      "tooltip": "Enter rate: The net rating factor that applies to this vehicle. Do not include debits or credits that apply on a policy level. Provide under remarks a description of each debit or credit used in the calculation of the net rating factor."
+    },
+    "Vehicle_TotalPremiumAmount_D": {
+      "type": "text",
+      "tooltip": "Enter amount: The total amount for the vehicle."
+    },
+    "CommercialVehicleLineOfBusiness_RemarkText_B": {
+      "type": "text",
+      "tooltip": "Enter text: The remarks associated with the commercial vehicle line of business.  Enter any endorsements that apply. Be sure to include the form numbers and the required information for attaching the endorsement.   ACORD 101, Additional Remarks Schedule, may be attached if more space is required."
+    },
+    "Producer_AuthorizedRepresentative_Signature_A": {
+      "type": "text",
+      "tooltip": "Sign here: Accommodates the signature of the authorized representative (e.g., producer, agent, broker, etc.) of the company(ies) listed on the document.  This is required in most states."
+    },
+    "Producer_AuthorizedRepresentative_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the authorized representative of the producer, agency and/or broker that signed the form."
+    },
+    "Producer_StateLicenseIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The State License Number of the producer."
+    },
+    "NamedInsured_Signature_A": {
+      "type": "text",
+      "tooltip": "Sign here: Accommodates the signature of the applicant or named insured."
+    },
+    "NamedInsured_SignatureDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date the form was signed by the applicant or named insured.  (MM/DD/YYYY)"
+    },
+    "Producer_NationalIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The National Producer Number (NPN) as defined in the National Insurance Producer Registry (NIPR).  Note: The NPN is not the same as the producer state license number."
+    }
+  }
+}

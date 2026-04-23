@@ -1,0 +1,340 @@
+area_code,state,region
+201,NJ,New Jersey
+202,DC,District of Columbia
+203,CT,Connecticut
+205,AL,Alabama
+206,WA,Washington
+207,ME,Maine
+208,ID,Idaho
+209,CA,California
+210,TX,Texas
+212,NY,New York
+213,CA,California
+214,TX,Texas
+215,PA,Pennsylvania
+216,OH,Ohio
+217,IL,Illinois
+218,MN,Minnesota
+219,IN,Indiana
+220,OH,Ohio
+223,PA,Pennsylvania
+224,IL,Illinois
+225,LA,Louisiana
+228,MS,Mississippi
+229,GA,Georgia
+231,MI,Michigan
+234,OH,Ohio
+239,FL,Florida
+240,MD,Maryland
+248,MI,Michigan
+251,AL,Alabama
+252,NC,North Carolina
+253,WA,Washington
+254,TX,Texas
+256,AL,Alabama
+260,IN,Indiana
+262,WI,Wisconsin
+267,PA,Pennsylvania
+269,MI,Michigan
+270,KY,Kentucky
+272,PA,Pennsylvania
+274,WI,Wisconsin
+276,VA,Virginia
+279,CA,California
+281,TX,Texas
+283,OH,Ohio
+301,MD,Maryland
+302,DE,Delaware
+303,CO,Colorado
+304,WV,West Virginia
+305,FL,Florida
+307,WY,Wyoming
+308,NE,Nebraska
+309,IL,Illinois
+310,CA,California
+312,IL,Illinois
+313,MI,Michigan
+314,MO,Missouri
+315,NY,New York
+316,KS,Kansas
+317,IN,Indiana
+318,LA,Louisiana
+319,IA,Iowa
+320,MN,Minnesota
+321,FL,Florida
+323,CA,California
+325,TX,Texas
+326,OH,Ohio
+330,OH,Ohio
+331,IL,Illinois
+332,NY,New York
+334,AL,Alabama
+336,NC,North Carolina
+337,LA,Louisiana
+339,MA,Massachusetts
+341,CA,California
+346,TX,Texas
+347,NY,New York
+351,MA,Massachusetts
+352,FL,Florida
+360,WA,Washington
+361,TX,Texas
+364,KY,Kentucky
+380,OH,Ohio
+385,UT,Utah
+386,FL,Florida
+401,RI,Rhode Island
+402,NE,Nebraska
+404,GA,Georgia
+405,OK,Oklahoma
+406,MT,Montana
+407,FL,Florida
+408,CA,California
+409,TX,Texas
+410,MD,Maryland
+412,PA,Pennsylvania
+413,MA,Massachusetts
+414,WI,Wisconsin
+415,CA,California
+417,MO,Missouri
+419,OH,Ohio
+423,TN,Tennessee
+424,CA,California
+425,WA,Washington
+430,TX,Texas
+432,TX,Texas
+434,VA,Virginia
+435,UT,Utah
+440,OH,Ohio
+442,CA,California
+443,MD,Maryland
+445,PA,Pennsylvania
+447,IL,Illinois
+448,NC,North Carolina
+458,OR,Oregon
+463,IN,Indiana
+464,IL,Illinois
+469,TX,Texas
+470,GA,Georgia
+475,CT,Connecticut
+478,GA,Georgia
+479,AR,Arkansas
+480,AZ,Arizona
+484,PA,Pennsylvania
+501,AR,Arkansas
+502,KY,Kentucky
+503,OR,Oregon
+504,LA,Louisiana
+505,NM,New Mexico
+507,MN,Minnesota
+508,MA,Massachusetts
+509,WA,Washington
+510,CA,California
+512,TX,Texas
+513,OH,Ohio
+515,IA,Iowa
+516,NY,New York
+517,MI,Michigan
+518,NY,New York
+520,AZ,Arizona
+530,CA,California
+531,NE,Nebraska
+539,OK,Oklahoma
+540,VA,Virginia
+541,OR,Oregon
+551,NJ,New Jersey
+557,MO,Missouri
+559,CA,California
+561,FL,Florida
+562,CA,California
+563,IA,Iowa
+564,WA,Washington
+567,OH,Ohio
+570,PA,Pennsylvania
+571,VA,Virginia
+573,MO,Missouri
+574,IN,Indiana
+575,NM,New Mexico
+580,OK,Oklahoma
+585,NY,New York
+586,MI,Michigan
+601,MS,Mississippi
+602,AZ,Arizona
+603,NH,New Hampshire
+605,SD,South Dakota
+606,KY,Kentucky
+607,NY,New York
+608,WI,Wisconsin
+609,NJ,New Jersey
+610,PA,Pennsylvania
+612,MN,Minnesota
+614,OH,Ohio
+615,TN,Tennessee
+616,MI,Michigan
+617,MA,Massachusetts
+618,IL,Illinois
+619,CA,California
+620,KS,Kansas
+623,AZ,Arizona
+626,CA,California
+627,CA,California
+628,CA,California
+629,TN,Tennessee
+630,IL,Illinois
+631,NY,New York
+636,MO,Missouri
+641,IA,Iowa
+645,NY,New York
+646,NY,New York
+650,CA,California
+651,MN,Minnesota
+657,CA,California
+659,AL,Alabama
+660,MO,Missouri
+661,CA,California
+662,MS,Mississippi
+667,MD,Maryland
+669,CA,California
+678,GA,Georgia
+680,NY,New York
+681,WV,West Virginia
+682,TX,Texas
+689,FL,Florida
+701,ND,North Dakota
+702,NV,Nevada
+703,VA,Virginia
+704,NC,North Carolina
+706,GA,Georgia
+707,CA,California
+708,IL,Illinois
+712,IA,Iowa
+713,TX,Texas
+714,CA,California
+715,WI,Wisconsin
+716,NY,New York
+717,PA,Pennsylvania
+718,NY,New York
+719,CO,Colorado
+720,CO,Colorado
+724,PA,Pennsylvania
+725,NV,Nevada
+726,TX,Texas
+727,FL,Florida
+730,IL,Illinois
+731,TN,Tennessee
+732,NJ,New Jersey
+734,MI,Michigan
+737,TX,Texas
+740,OH,Ohio
+743,NC,North Carolina
+747,CA,California
+754,FL,Florida
+757,VA,Virginia
+760,CA,California
+762,GA,Georgia
+763,MN,Minnesota
+765,IN,Indiana
+769,MS,Mississippi
+770,GA,Georgia
+771,MD,Maryland
+772,FL,Florida
+773,IL,Illinois
+774,MA,Massachusetts
+775,NV,Nevada
+779,IL,Illinois
+781,MA,Massachusetts
+785,KS,Kansas
+786,FL,Florida
+787,PR,Puerto Rico
+801,UT,Utah
+802,VT,Vermont
+803,SC,South Carolina
+804,VA,Virginia
+805,CA,California
+806,TX,Texas
+808,HI,Hawaii
+810,MI,Michigan
+812,IN,Indiana
+813,FL,Florida
+814,PA,Pennsylvania
+815,IL,Illinois
+816,MO,Missouri
+817,TX,Texas
+818,CA,California
+820,CA,California
+826,VA,Virginia
+828,NC,North Carolina
+830,TX,Texas
+831,CA,California
+832,TX,Texas
+835,PA,Pennsylvania
+838,NY,New York
+839,SC,South Carolina
+840,CA,California
+843,SC,South Carolina
+845,NY,New York
+847,IL,Illinois
+848,NJ,New Jersey
+850,FL,Florida
+854,SC,South Carolina
+856,NJ,New Jersey
+857,MA,Massachusetts
+858,CA,California
+859,KY,Kentucky
+860,CT,Connecticut
+862,NJ,New Jersey
+863,FL,Florida
+864,SC,South Carolina
+865,TN,Tennessee
+870,AR,Arkansas
+872,IL,Illinois
+878,PA,Pennsylvania
+901,TN,Tennessee
+903,TX,Texas
+904,FL,Florida
+906,MI,Michigan
+907,AK,Alaska
+908,NJ,New Jersey
+909,CA,California
+910,NC,North Carolina
+912,GA,Georgia
+913,KS,Kansas
+914,NY,New York
+915,TX,Texas
+916,CA,California
+917,NY,New York
+918,OK,Oklahoma
+919,NC,North Carolina
+920,WI,Wisconsin
+925,CA,California
+928,AZ,Arizona
+929,NY,New York
+930,IN,Indiana
+931,TN,Tennessee
+934,NY,New York
+936,TX,Texas
+937,OH,Ohio
+938,AL,Alabama
+940,TX,Texas
+941,FL,Florida
+943,FL,Florida
+945,TX,Texas
+947,MI,Michigan
+949,CA,California
+951,CA,California
+952,MN,Minnesota
+954,FL,Florida
+956,TX,Texas
+959,CT,Connecticut
+970,CO,Colorado
+971,OR,Oregon
+972,TX,Texas
+973,NJ,New Jersey
+975,MO,Missouri
+978,MA,Massachusetts
+979,TX,Texas
+980,NC,North Carolina
+984,NC,North Carolina
+985,LA,Louisiana
+986,ID,Idaho
+989,MI,Michigan

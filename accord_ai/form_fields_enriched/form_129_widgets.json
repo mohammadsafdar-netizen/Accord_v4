@@ -1,0 +1,5352 @@
+{
+  "form": "129",
+  "pdf_path": "accord_ai/form_templates/acord_129_blank.pdf",
+  "unique_names": 334,
+  "widget_count": 334,
+  "widgets": [
+    {
+      "choices": null,
+      "flags": 1,
+      "is_readonly": true,
+      "name": "Form_EditionIdentifier_A",
+      "page": 0,
+      "rect": [
+        0.0,
+        791.0,
+        0.0,
+        791.0
+      ],
+      "tooltip": "The edition identifier of the form including the form number and edition (the date is typically formatted YYYY/MM).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 0,
+      "rect": [
+        414.0,
+        24.0,
+        594.0,
+        36.0
+      ],
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g. agency or brokerage).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Form_CompletionDate_A",
+      "page": 0,
+      "rect": [
+        511.0,
+        54.0,
+        590.0,
+        66.0
+      ],
+      "tooltip": "Enter date: The date on which the form is completed.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_FullName_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        78.0,
+        302.0,
+        90.0
+      ],
+      "tooltip": "Enter text: The full name of the producer/agency.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Policy_PolicyNumberIdentifier_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        102.0,
+        245.0,
+        114.0
+      ],
+      "tooltip": "Enter identifier: The identifier assigned by the insurer to the policy, or submission, being referenced exactly as it appears on the policy, including prefix and suffix symbols. If required for self-insurance, the self-insured license or contract number.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Policy_EffectiveDate_A",
+      "page": 0,
+      "rect": [
+        252.0,
+        102.0,
+        302.0,
+        114.0
+      ],
+      "tooltip": "Enter date: The effective date of the policy.  The date that the terms and conditions of the policy commence.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Insurer_FullName_A",
+      "page": 0,
+      "rect": [
+        310.0,
+        78.0,
+        540.0,
+        90.0
+      ],
+      "tooltip": "Enter text: The insurer's full legal company name(s) as found in the file copy of the policy.  Use the actual name of the company within the group to which the policy has been issued.  This is not the insurer's group name or trade name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Insurer_NAICCode_A",
+      "page": 0,
+      "rect": [
+        547.0,
+        78.0,
+        590.0,
+        90.0
+      ],
+      "tooltip": "Enter code: The identification code assigned to the insurer by the NAIC.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_FullName_A",
+      "page": 0,
+      "rect": [
+        310.0,
+        102.0,
+        590.0,
+        114.0
+      ],
+      "tooltip": "Enter text: The named insured(s) as it/they will appear on the policy declarations page.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ProducerIdentifier_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        138.0,
+        47.0,
+        150.0
+      ],
+      "tooltip": "Enter number: The producer assigned vehicle number.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ModelYear_A",
+      "page": 0,
+      "rect": [
+        50.0,
+        138.0,
+        79.0,
+        150.0
+      ],
+      "tooltip": "Enter year: The model year of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ManufacturersName_A",
+      "page": 0,
+      "rect": [
+        108.0,
+        126.0,
+        234.0,
+        138.0
+      ],
+      "tooltip": "Enter text: The manufacturer of the vehicle (e.g. Ford, Chevy).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ModelName_A",
+      "page": 0,
+      "rect": [
+        108.0,
+        138.0,
+        234.0,
+        150.0
+      ],
+      "tooltip": "Enter text: The manufacturer's model name for the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_BodyCode_A",
+      "page": 0,
+      "rect": [
+        263.0,
+        126.0,
+        382.0,
+        138.0
+      ],
+      "tooltip": "Enter code: The body type of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VINIdentifier_A",
+      "page": 0,
+      "rect": [
+        263.0,
+        138.0,
+        382.0,
+        150.0
+      ],
+      "tooltip": "Enter identifier: The vehicle identification number (VIN) or serial number assigned by the manufacturer.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_PrivatePassengerIndicator_A",
+      "page": 0,
+      "rect": [
+        385.0,
+        138.0,
+        400.0,
+        150.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is private passenger.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_SpecialIndicator_A",
+      "page": 0,
+      "rect": [
+        418.0,
+        138.0,
+        432.0,
+        150.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is special (e.g. classic, antique automobile).",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_CommercialIndicator_A",
+      "page": 0,
+      "rect": [
+        457.0,
+        138.0,
+        472.0,
+        150.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is commercial.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SymbolCode_A",
+      "page": 0,
+      "rect": [
+        504.0,
+        138.0,
+        533.0,
+        150.0
+      ],
+      "tooltip": "Enter code: The symbol required for physical damage coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ComprehensiveSymbolCode_A",
+      "page": 0,
+      "rect": [
+        540.0,
+        138.0,
+        562.0,
+        150.0
+      ],
+      "tooltip": "Enter code: The symbol required for comprehensive / other than collision coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_CollisionSymbolCode_A",
+      "page": 0,
+      "rect": [
+        569.0,
+        138.0,
+        590.0,
+        150.0
+      ],
+      "tooltip": "Enter code: The symbol required for collision coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_LineOne_A",
+      "page": 0,
+      "rect": [
+        61.0,
+        162.0,
+        205.0,
+        174.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address line one.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_CityName_A",
+      "page": 0,
+      "rect": [
+        212.0,
+        162.0,
+        356.0,
+        174.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address city name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_CountyName_A",
+      "page": 0,
+      "rect": [
+        364.0,
+        162.0,
+        508.0,
+        174.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address county name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_StateOrProvinceCode_A",
+      "page": 0,
+      "rect": [
+        515.0,
+        162.0,
+        536.0,
+        174.0
+      ],
+      "tooltip": "Enter code: The vehicle's physical address state or province code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_PostalCode_A",
+      "page": 0,
+      "rect": [
+        544.0,
+        162.0,
+        590.0,
+        174.0
+      ],
+      "tooltip": "Enter code: The vehicle's physical address postal code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Registration_StateOrProvinceCode_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        186.0,
+        40.0,
+        198.0
+      ],
+      "tooltip": "Enter code: The state or province in which the vehicle is registered.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RatingTerritoryCode_A",
+      "page": 0,
+      "rect": [
+        47.0,
+        186.0,
+        97.0,
+        198.0
+      ],
+      "tooltip": "Enter code: The rating territory code where the vehicle is principally garaged.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_GrossVehicleWeight_A",
+      "page": 0,
+      "rect": [
+        104.0,
+        186.0,
+        176.0,
+        198.0
+      ],
+      "tooltip": "Enter number: The actual weight of the vehicle or the combined weight of tractor and trailer in pounds.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RateClassCode_A",
+      "page": 0,
+      "rect": [
+        184.0,
+        186.0,
+        227.0,
+        198.0
+      ],
+      "tooltip": "Enter code: The rate class of the vehicle.  If two rate classes are required, this element should be used to enter the liability code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SpecialIndustryClassCode_A",
+      "page": 0,
+      "rect": [
+        234.0,
+        186.0,
+        277.0,
+        198.0
+      ],
+      "tooltip": "Enter code: The secondary Special Industry Class code which applies to commercial vehicles as determined by industry rating manuals.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PrimaryLiabilityRatingFactor_A",
+      "page": 0,
+      "rect": [
+        284.0,
+        186.0,
+        320.0,
+        198.0
+      ],
+      "tooltip": "Enter rate: The primary liability rating factor contains the number which is used, along with the secondary rating factor, in determining the liability premium.  The primary rating factor which is always positive is based on the primary class.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SeatingCapacityCount_A",
+      "page": 0,
+      "rect": [
+        328.0,
+        186.0,
+        349.0,
+        198.0
+      ],
+      "tooltip": "Enter number: The seating capacity of the vehicle.  Required for rating public passenger vehicles.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RadiusOfUse_A",
+      "page": 0,
+      "rect": [
+        356.0,
+        186.0,
+        385.0,
+        198.0
+      ],
+      "tooltip": "Enter number: The radius in whole numbers within which this vehicle is operated.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_FarthestZoneCode_A",
+      "page": 0,
+      "rect": [
+        392.0,
+        186.0,
+        508.0,
+        198.0
+      ],
+      "tooltip": "Enter code: Identifies the location of the farthest zone from the vehicle's base of operation in which the vehicle is operated. The source of this code is the Insurance Services Office Zone code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_CostNewAmount_A",
+      "page": 0,
+      "rect": [
+        526.0,
+        186.0,
+        590.0,
+        198.0
+      ],
+      "tooltip": "Enter amount: The original cost of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_PleasureIndicator_A",
+      "page": 0,
+      "rect": [
+        18.0,
+        210.0,
+        32.0,
+        222.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for pleasure.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_FarmIndicator_A",
+      "page": 0,
+      "rect": [
+        18.0,
+        222.0,
+        32.0,
+        234.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for farming.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_CommercialIndicator_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        198.0,
+        86.0,
+        210.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for commercial purposes.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_RetailIndicator_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        210.0,
+        86.0,
+        222.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the retail industry.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_ServiceIndicator_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        222.0,
+        86.0,
+        234.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the service industry.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_ForHireIndicator_A",
+      "page": 0,
+      "rect": [
+        119.0,
+        198.0,
+        133.0,
+        210.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for hire. 11/9/2009 - added field to 11/2009 version",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_OtherIndicator_A",
+      "page": 0,
+      "rect": [
+        119.0,
+        210.0,
+        133.0,
+        222.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for other purposes. 11/9/2009 - added field to 11/2009 version",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_OtherDescription_A",
+      "page": 0,
+      "rect": [
+        137.0,
+        210.0,
+        166.0,
+        222.0
+      ],
+      "tooltip": "Enter text: The description of the other vehicle usage. 11/24/2009 - added field to 11/2009 version",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_LiabilityIndicator_A",
+      "page": 0,
+      "rect": [
+        169.0,
+        210.0,
+        184.0,
+        222.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_NoFaultIndicator_A",
+      "page": 0,
+      "rect": [
+        169.0,
+        222.0,
+        184.0,
+        234.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has no-fault coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_AdditionalNoFaultIndicator_A",
+      "page": 0,
+      "rect": [
+        212.0,
+        198.0,
+        227.0,
+        210.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has additional no-fault coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_MedicalPaymentsIndicator_A",
+      "page": 0,
+      "rect": [
+        212.0,
+        210.0,
+        227.0,
+        222.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has medical payments coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_UninsuredMotoristsIndicator_A",
+      "page": 0,
+      "rect": [
+        212.0,
+        222.0,
+        227.0,
+        234.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has uninsured motorists coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_UnderinsuredMotoristsIndicator_A",
+      "page": 0,
+      "rect": [
+        263.0,
+        198.0,
+        277.0,
+        210.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has underinsured motorists coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_TowingAndLabourIndicator_A",
+      "page": 0,
+      "rect": [
+        263.0,
+        210.0,
+        277.0,
+        222.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has towing and labor coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_SpecifiedCauseOfLossIndicator_A",
+      "page": 0,
+      "rect": [
+        263.0,
+        222.0,
+        277.0,
+        234.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has specified cause of loss coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireIndicator_A",
+      "page": 0,
+      "rect": [
+        313.0,
+        198.0,
+        328.0,
+        210.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftIndicator_A",
+      "page": 0,
+      "rect": [
+        313.0,
+        210.0,
+        328.0,
+        222.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire and theft is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftWindstormIndicator_A",
+      "page": 0,
+      "rect": [
+        313.0,
+        222.0,
+        328.0,
+        234.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire, theft and windstorm is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_LimitedSpecifiedPerilsIndicator_A",
+      "page": 0,
+      "rect": [
+        349.0,
+        198.0,
+        364.0,
+        210.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates limited specified perils is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveIndicator_A",
+      "page": 0,
+      "rect": [
+        349.0,
+        210.0,
+        364.0,
+        222.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has comprehensive or other than collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_CollisionIndicator_A",
+      "page": 0,
+      "rect": [
+        349.0,
+        222.0,
+        364.0,
+        234.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_RentalReimbursementIndicator_A",
+      "page": 0,
+      "rect": [
+        389.0,
+        198.0,
+        403.0,
+        210.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has rental reimbursement or transportation expense coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FullGlassIndicator_A",
+      "page": 0,
+      "rect": [
+        389.0,
+        210.0,
+        403.0,
+        222.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has full glass coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_OtherIndicator_A",
+      "page": 0,
+      "rect": [
+        389.0,
+        222.0,
+        403.0,
+        234.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has a type of coverage not specifically listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_OtherDescription_A",
+      "page": 0,
+      "rect": [
+        407.0,
+        222.0,
+        436.0,
+        234.0
+      ],
+      "tooltip": "Enter text: The description of the other type of coverage on the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationActualCashValueIndicator_A",
+      "page": 0,
+      "rect": [
+        490.0,
+        198.0,
+        504.0,
+        210.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the actual cash value or market value.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationAgreedAmountIndicator_A",
+      "page": 0,
+      "rect": [
+        439.0,
+        210.0,
+        454.0,
+        222.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the agreed amount.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationStatedAmountIndicator_A",
+      "page": 0,
+      "rect": [
+        475.0,
+        210.0,
+        490.0,
+        222.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the stated amount.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_AgreedOrStatedAmount_A",
+      "page": 0,
+      "rect": [
+        450.0,
+        222.0,
+        518.0,
+        234.0
+      ],
+      "tooltip": "Enter amount: The agreed or stated amount used in determining the value of the vehicle at the time of loss.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveDeductibleIndicator_A",
+      "page": 0,
+      "rect": [
+        522.0,
+        198.0,
+        536.0,
+        210.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for comprehensive or other than collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_SpecifiedCauseOfLossDeductibleIndicator_A",
+      "page": 0,
+      "rect": [
+        558.0,
+        198.0,
+        572.0,
+        210.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for specified causes of loss.  The Specified Cause of Loss Codes are:\n\nSCL        Specified Cause of Loss\nF            Fire\nF&T        Fire and Theft\nF,T&W    Fire, Theft and Wind\nLSP        Limited Specified Perils\nSP         Specified Perils",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveOrSpecifiedCauseOfLossDeductibleAmount_A",
+      "page": 0,
+      "rect": [
+        533.0,
+        210.0,
+        590.0,
+        222.0
+      ],
+      "tooltip": "Enter amount: The comprehensive or specified cause of loss deductible amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Collision_DeductibleAmount_A",
+      "page": 0,
+      "rect": [
+        533.0,
+        222.0,
+        572.0,
+        234.0
+      ],
+      "tooltip": "Enter deductible: The collision deductible amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_UnderFifteenMilesIndicator_A",
+      "page": 0,
+      "rect": [
+        76.0,
+        234.0,
+        90.0,
+        246.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school under 15 miles one way.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_FifteenMilesOrOverIndicator_A",
+      "page": 0,
+      "rect": [
+        130.0,
+        234.0,
+        144.0,
+        246.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school 15 miles or over one way.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_NetRatingFactor_A",
+      "page": 0,
+      "rect": [
+        223.0,
+        234.0,
+        436.0,
+        246.0
+      ],
+      "tooltip": "Enter rate: The net rating factor that applies to this vehicle. Do not include debits or credits that apply on a policy level. Provide under remarks a description of each debit or credit used in the calculation of the net rating factor.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_TotalPremiumAmount_A",
+      "page": 0,
+      "rect": [
+        497.0,
+        234.0,
+        590.0,
+        246.0
+      ],
+      "tooltip": "Enter amount: The total amount for the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ProducerIdentifier_B",
+      "page": 0,
+      "rect": [
+        22.0,
+        258.0,
+        47.0,
+        270.0
+      ],
+      "tooltip": "Enter number: The producer assigned vehicle number.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ModelYear_B",
+      "page": 0,
+      "rect": [
+        50.0,
+        258.0,
+        79.0,
+        270.0
+      ],
+      "tooltip": "Enter year: The model year of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ManufacturersName_B",
+      "page": 0,
+      "rect": [
+        108.0,
+        246.0,
+        234.0,
+        258.0
+      ],
+      "tooltip": "Enter text: The manufacturer of the vehicle (e.g. Ford, Chevy).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ModelName_B",
+      "page": 0,
+      "rect": [
+        108.0,
+        258.0,
+        234.0,
+        270.0
+      ],
+      "tooltip": "Enter text: The manufacturer's model name for the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_BodyCode_B",
+      "page": 0,
+      "rect": [
+        263.0,
+        246.0,
+        382.0,
+        258.0
+      ],
+      "tooltip": "Enter code: The body type of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VINIdentifier_B",
+      "page": 0,
+      "rect": [
+        263.0,
+        258.0,
+        382.0,
+        270.0
+      ],
+      "tooltip": "Enter identifier: The vehicle identification number (VIN) or serial number assigned by the manufacturer.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_PrivatePassengerIndicator_B",
+      "page": 0,
+      "rect": [
+        385.0,
+        258.0,
+        400.0,
+        270.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is private passenger.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_SpecialIndicator_B",
+      "page": 0,
+      "rect": [
+        418.0,
+        258.0,
+        432.0,
+        270.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is special (e.g. classic, antique automobile).",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_CommercialIndicator_B",
+      "page": 0,
+      "rect": [
+        457.0,
+        258.0,
+        472.0,
+        270.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is commercial.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SymbolCode_B",
+      "page": 0,
+      "rect": [
+        504.0,
+        258.0,
+        533.0,
+        270.0
+      ],
+      "tooltip": "Enter code: The symbol required for physical damage coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ComprehensiveSymbolCode_B",
+      "page": 0,
+      "rect": [
+        540.0,
+        258.0,
+        562.0,
+        270.0
+      ],
+      "tooltip": "Enter code: The symbol required for comprehensive / other than collision coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_CollisionSymbolCode_B",
+      "page": 0,
+      "rect": [
+        569.0,
+        258.0,
+        590.0,
+        270.0
+      ],
+      "tooltip": "Enter code: The symbol required for collision coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_LineOne_B",
+      "page": 0,
+      "rect": [
+        61.0,
+        282.0,
+        205.0,
+        294.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address line one.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_CityName_B",
+      "page": 0,
+      "rect": [
+        212.0,
+        282.0,
+        356.0,
+        294.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address city name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_CountyName_B",
+      "page": 0,
+      "rect": [
+        364.0,
+        282.0,
+        508.0,
+        294.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address county name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_StateOrProvinceCode_B",
+      "page": 0,
+      "rect": [
+        515.0,
+        282.0,
+        536.0,
+        294.0
+      ],
+      "tooltip": "Enter code: The vehicle's physical address state or province code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_PostalCode_B",
+      "page": 0,
+      "rect": [
+        544.0,
+        282.0,
+        590.0,
+        294.0
+      ],
+      "tooltip": "Enter code: The vehicle's physical address postal code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Registration_StateOrProvinceCode_B",
+      "page": 0,
+      "rect": [
+        22.0,
+        306.0,
+        40.0,
+        318.0
+      ],
+      "tooltip": "Enter code: The state or province in which the vehicle is registered.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RatingTerritoryCode_B",
+      "page": 0,
+      "rect": [
+        47.0,
+        306.0,
+        97.0,
+        318.0
+      ],
+      "tooltip": "Enter code: The rating territory code where the vehicle is principally garaged.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_GrossVehicleWeight_B",
+      "page": 0,
+      "rect": [
+        104.0,
+        306.0,
+        176.0,
+        318.0
+      ],
+      "tooltip": "Enter number: The actual weight of the vehicle or the combined weight of tractor and trailer in pounds.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RateClassCode_B",
+      "page": 0,
+      "rect": [
+        184.0,
+        306.0,
+        227.0,
+        318.0
+      ],
+      "tooltip": "Enter code: The rate class of the vehicle.  If two rate classes are required, this element should be used to enter the liability code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SpecialIndustryClassCode_B",
+      "page": 0,
+      "rect": [
+        234.0,
+        306.0,
+        277.0,
+        318.0
+      ],
+      "tooltip": "Enter code: The secondary Special Industry Class code which applies to commercial vehicles as determined by industry rating manuals.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PrimaryLiabilityRatingFactor_B",
+      "page": 0,
+      "rect": [
+        284.0,
+        306.0,
+        320.0,
+        318.0
+      ],
+      "tooltip": "Enter rate: The primary liability rating factor contains the number which is used, along with the secondary rating factor, in determining the liability premium.  The primary rating factor which is always positive is based on the primary class.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SeatingCapacityCount_B",
+      "page": 0,
+      "rect": [
+        328.0,
+        306.0,
+        349.0,
+        318.0
+      ],
+      "tooltip": "Enter number: The seating capacity of the vehicle.  Required for rating public passenger vehicles.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RadiusOfUse_B",
+      "page": 0,
+      "rect": [
+        356.0,
+        306.0,
+        385.0,
+        318.0
+      ],
+      "tooltip": "Enter number: The radius in whole numbers within which this vehicle is operated.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_FarthestZoneCode_B",
+      "page": 0,
+      "rect": [
+        392.0,
+        306.0,
+        508.0,
+        318.0
+      ],
+      "tooltip": "Enter code: Identifies the location of the farthest zone from the vehicle's base of operation in which the vehicle is operated. The source of this code is the Insurance Services Office Zone code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_CostNewAmount_B",
+      "page": 0,
+      "rect": [
+        526.0,
+        306.0,
+        590.0,
+        318.0
+      ],
+      "tooltip": "Enter amount: The original cost of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_PleasureIndicator_B",
+      "page": 0,
+      "rect": [
+        18.0,
+        330.0,
+        32.0,
+        342.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for pleasure.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_FarmIndicator_B",
+      "page": 0,
+      "rect": [
+        18.0,
+        342.0,
+        32.0,
+        354.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for farming.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_CommercialIndicator_B",
+      "page": 0,
+      "rect": [
+        72.0,
+        318.0,
+        86.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for commercial purposes.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_RetailIndicator_B",
+      "page": 0,
+      "rect": [
+        72.0,
+        330.0,
+        86.0,
+        342.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the retail industry.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_ServiceIndicator_B",
+      "page": 0,
+      "rect": [
+        72.0,
+        342.0,
+        86.0,
+        354.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the service industry.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_ForHireIndicator_B",
+      "page": 0,
+      "rect": [
+        119.0,
+        318.0,
+        133.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for hire. 11/9/2009 - added field to 11/2009 version",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_OtherIndicator_B",
+      "page": 0,
+      "rect": [
+        119.0,
+        330.0,
+        133.0,
+        342.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for other purposes. 11/9/2009 - added field to 11/2009 version",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_OtherDescription_B",
+      "page": 0,
+      "rect": [
+        137.0,
+        330.0,
+        166.0,
+        342.0
+      ],
+      "tooltip": "Enter text: The description of the other vehicle usage. 11/24/2009 - added field to 11/2009 version",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_LiabilityIndicator_B",
+      "page": 0,
+      "rect": [
+        169.0,
+        330.0,
+        184.0,
+        342.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_NoFaultIndicator_B",
+      "page": 0,
+      "rect": [
+        169.0,
+        342.0,
+        184.0,
+        354.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has no-fault coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_AdditionalNoFaultIndicator_B",
+      "page": 0,
+      "rect": [
+        212.0,
+        318.0,
+        227.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has additional no-fault coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_MedicalPaymentsIndicator_B",
+      "page": 0,
+      "rect": [
+        212.0,
+        330.0,
+        227.0,
+        342.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has medical payments coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_UninsuredMotoristsIndicator_B",
+      "page": 0,
+      "rect": [
+        212.0,
+        342.0,
+        227.0,
+        354.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has uninsured motorists coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_UnderinsuredMotoristsIndicator_B",
+      "page": 0,
+      "rect": [
+        263.0,
+        318.0,
+        277.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has underinsured motorists coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_TowingAndLabourIndicator_B",
+      "page": 0,
+      "rect": [
+        263.0,
+        330.0,
+        277.0,
+        342.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has towing and labor coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_SpecifiedCauseOfLossIndicator_B",
+      "page": 0,
+      "rect": [
+        263.0,
+        342.0,
+        277.0,
+        354.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has specified cause of loss coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireIndicator_B",
+      "page": 0,
+      "rect": [
+        313.0,
+        318.0,
+        328.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftIndicator_B",
+      "page": 0,
+      "rect": [
+        313.0,
+        330.0,
+        328.0,
+        342.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire and theft is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftWindstormIndicator_B",
+      "page": 0,
+      "rect": [
+        313.0,
+        342.0,
+        328.0,
+        354.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire, theft and windstorm is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_LimitedSpecifiedPerilsIndicator_B",
+      "page": 0,
+      "rect": [
+        349.0,
+        318.0,
+        364.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates limited specified perils is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveIndicator_B",
+      "page": 0,
+      "rect": [
+        349.0,
+        330.0,
+        364.0,
+        342.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has comprehensive or other than collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_CollisionIndicator_B",
+      "page": 0,
+      "rect": [
+        349.0,
+        342.0,
+        364.0,
+        354.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_RentalReimbursementIndicator_B",
+      "page": 0,
+      "rect": [
+        389.0,
+        318.0,
+        403.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has rental reimbursement or transportation expense coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FullGlassIndicator_B",
+      "page": 0,
+      "rect": [
+        389.0,
+        330.0,
+        403.0,
+        342.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has full glass coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_OtherIndicator_B",
+      "page": 0,
+      "rect": [
+        389.0,
+        342.0,
+        403.0,
+        354.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has a type of coverage not specifically listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_OtherDescription_B",
+      "page": 0,
+      "rect": [
+        407.0,
+        342.0,
+        436.0,
+        354.0
+      ],
+      "tooltip": "Enter text: The description of the other type of coverage on the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationActualCashValueIndicator_B",
+      "page": 0,
+      "rect": [
+        490.0,
+        318.0,
+        504.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the actual cash value or market value.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationAgreedAmountIndicator_B",
+      "page": 0,
+      "rect": [
+        439.0,
+        330.0,
+        454.0,
+        342.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the agreed amount.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationStatedAmountIndicator_B",
+      "page": 0,
+      "rect": [
+        475.0,
+        330.0,
+        490.0,
+        342.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the stated amount.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_AgreedOrStatedAmount_B",
+      "page": 0,
+      "rect": [
+        450.0,
+        342.0,
+        518.0,
+        354.0
+      ],
+      "tooltip": "Enter amount: The agreed or stated amount used in determining the value of the vehicle at the time of loss.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveDeductibleIndicator_B",
+      "page": 0,
+      "rect": [
+        522.0,
+        318.0,
+        536.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for comprehensive or other than collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_SpecifiedCauseOfLossDeductibleIndicator_B",
+      "page": 0,
+      "rect": [
+        558.0,
+        318.0,
+        572.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for specified causes of loss.  The Specified Cause of Loss Codes are:\n\nSCL        Specified Cause of Loss\nF            Fire\nF&T        Fire and Theft\nF,T&W    Fire, Theft and Wind\nLSP        Limited Specified Perils\nSP         Specified Perils",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveOrSpecifiedCauseOfLossDeductibleAmount_B",
+      "page": 0,
+      "rect": [
+        533.0,
+        330.0,
+        590.0,
+        342.0
+      ],
+      "tooltip": "Enter amount: The comprehensive or specified cause of loss deductible amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Collision_DeductibleAmount_B",
+      "page": 0,
+      "rect": [
+        533.0,
+        342.0,
+        572.0,
+        354.0
+      ],
+      "tooltip": "Enter deductible: The collision deductible amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_UnderFifteenMilesIndicator_B",
+      "page": 0,
+      "rect": [
+        76.0,
+        354.0,
+        90.0,
+        366.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school under 15 miles one way.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_FifteenMilesOrOverIndicator_B",
+      "page": 0,
+      "rect": [
+        130.0,
+        354.0,
+        144.0,
+        366.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school 15 miles or over one way.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_NetRatingFactor_B",
+      "page": 0,
+      "rect": [
+        223.0,
+        354.0,
+        436.0,
+        366.0
+      ],
+      "tooltip": "Enter rate: The net rating factor that applies to this vehicle. Do not include debits or credits that apply on a policy level. Provide under remarks a description of each debit or credit used in the calculation of the net rating factor.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_TotalPremiumAmount_B",
+      "page": 0,
+      "rect": [
+        497.0,
+        354.0,
+        590.0,
+        366.0
+      ],
+      "tooltip": "Enter amount: The total amount for the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ProducerIdentifier_C",
+      "page": 0,
+      "rect": [
+        22.0,
+        378.0,
+        47.0,
+        390.0
+      ],
+      "tooltip": "Enter number: The producer assigned vehicle number.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ModelYear_C",
+      "page": 0,
+      "rect": [
+        50.0,
+        378.0,
+        79.0,
+        390.0
+      ],
+      "tooltip": "Enter year: The model year of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ManufacturersName_C",
+      "page": 0,
+      "rect": [
+        108.0,
+        366.0,
+        234.0,
+        378.0
+      ],
+      "tooltip": "Enter text: The manufacturer of the vehicle (e.g. Ford, Chevy).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ModelName_C",
+      "page": 0,
+      "rect": [
+        108.0,
+        378.0,
+        234.0,
+        390.0
+      ],
+      "tooltip": "Enter text: The manufacturer's model name for the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_BodyCode_C",
+      "page": 0,
+      "rect": [
+        263.0,
+        366.0,
+        382.0,
+        378.0
+      ],
+      "tooltip": "Enter code: The body type of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VINIdentifier_C",
+      "page": 0,
+      "rect": [
+        263.0,
+        378.0,
+        382.0,
+        390.0
+      ],
+      "tooltip": "Enter identifier: The vehicle identification number (VIN) or serial number assigned by the manufacturer.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_PrivatePassengerIndicator_C",
+      "page": 0,
+      "rect": [
+        385.0,
+        378.0,
+        400.0,
+        390.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is private passenger.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_SpecialIndicator_C",
+      "page": 0,
+      "rect": [
+        418.0,
+        378.0,
+        432.0,
+        390.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is special (e.g. classic, antique automobile).",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_CommercialIndicator_C",
+      "page": 0,
+      "rect": [
+        457.0,
+        378.0,
+        472.0,
+        390.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is commercial.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SymbolCode_C",
+      "page": 0,
+      "rect": [
+        504.0,
+        378.0,
+        533.0,
+        390.0
+      ],
+      "tooltip": "Enter code: The symbol required for physical damage coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ComprehensiveSymbolCode_C",
+      "page": 0,
+      "rect": [
+        540.0,
+        378.0,
+        562.0,
+        390.0
+      ],
+      "tooltip": "Enter code: The symbol required for comprehensive / other than collision coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_CollisionSymbolCode_C",
+      "page": 0,
+      "rect": [
+        569.0,
+        378.0,
+        590.0,
+        390.0
+      ],
+      "tooltip": "Enter code: The symbol required for collision coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_LineOne_C",
+      "page": 0,
+      "rect": [
+        61.0,
+        402.0,
+        205.0,
+        414.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address line one.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_CityName_C",
+      "page": 0,
+      "rect": [
+        212.0,
+        402.0,
+        356.0,
+        414.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address city name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_CountyName_C",
+      "page": 0,
+      "rect": [
+        364.0,
+        402.0,
+        508.0,
+        414.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address county name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_StateOrProvinceCode_C",
+      "page": 0,
+      "rect": [
+        515.0,
+        402.0,
+        536.0,
+        414.0
+      ],
+      "tooltip": "Enter code: The vehicle's physical address state or province code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_PostalCode_C",
+      "page": 0,
+      "rect": [
+        544.0,
+        402.0,
+        590.0,
+        414.0
+      ],
+      "tooltip": "Enter code: The vehicle's physical address postal code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Registration_StateOrProvinceCode_C",
+      "page": 0,
+      "rect": [
+        22.0,
+        426.0,
+        40.0,
+        438.0
+      ],
+      "tooltip": "Enter code: The state or province in which the vehicle is registered.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RatingTerritoryCode_C",
+      "page": 0,
+      "rect": [
+        47.0,
+        426.0,
+        97.0,
+        438.0
+      ],
+      "tooltip": "Enter code: The rating territory code where the vehicle is principally garaged.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_GrossVehicleWeight_C",
+      "page": 0,
+      "rect": [
+        104.0,
+        426.0,
+        176.0,
+        438.0
+      ],
+      "tooltip": "Enter number: The actual weight of the vehicle or the combined weight of tractor and trailer in pounds.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RateClassCode_C",
+      "page": 0,
+      "rect": [
+        184.0,
+        426.0,
+        227.0,
+        438.0
+      ],
+      "tooltip": "Enter code: The rate class of the vehicle.  If two rate classes are required, this element should be used to enter the liability code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SpecialIndustryClassCode_C",
+      "page": 0,
+      "rect": [
+        234.0,
+        426.0,
+        277.0,
+        438.0
+      ],
+      "tooltip": "Enter code: The secondary Special Industry Class code which applies to commercial vehicles as determined by industry rating manuals.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PrimaryLiabilityRatingFactor_C",
+      "page": 0,
+      "rect": [
+        284.0,
+        426.0,
+        320.0,
+        438.0
+      ],
+      "tooltip": "Enter rate: The primary liability rating factor contains the number which is used, along with the secondary rating factor, in determining the liability premium.  The primary rating factor which is always positive is based on the primary class.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SeatingCapacityCount_C",
+      "page": 0,
+      "rect": [
+        328.0,
+        426.0,
+        349.0,
+        438.0
+      ],
+      "tooltip": "Enter number: The seating capacity of the vehicle.  Required for rating public passenger vehicles.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RadiusOfUse_C",
+      "page": 0,
+      "rect": [
+        356.0,
+        426.0,
+        385.0,
+        438.0
+      ],
+      "tooltip": "Enter number: The radius in whole numbers within which this vehicle is operated.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_FarthestZoneCode_C",
+      "page": 0,
+      "rect": [
+        392.0,
+        426.0,
+        508.0,
+        438.0
+      ],
+      "tooltip": "Enter code: Identifies the location of the farthest zone from the vehicle's base of operation in which the vehicle is operated. The source of this code is the Insurance Services Office Zone code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_CostNewAmount_C",
+      "page": 0,
+      "rect": [
+        526.0,
+        426.0,
+        590.0,
+        438.0
+      ],
+      "tooltip": "Enter amount: The original cost of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_PleasureIndicator_C",
+      "page": 0,
+      "rect": [
+        18.0,
+        450.0,
+        32.0,
+        462.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for pleasure.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_FarmIndicator_C",
+      "page": 0,
+      "rect": [
+        18.0,
+        462.0,
+        32.0,
+        474.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for farming.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_CommercialIndicator_C",
+      "page": 0,
+      "rect": [
+        72.0,
+        438.0,
+        86.0,
+        450.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for commercial purposes.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_RetailIndicator_C",
+      "page": 0,
+      "rect": [
+        72.0,
+        450.0,
+        86.0,
+        462.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the retail industry.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_ServiceIndicator_C",
+      "page": 0,
+      "rect": [
+        72.0,
+        462.0,
+        86.0,
+        474.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the service industry.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_ForHireIndicator_C",
+      "page": 0,
+      "rect": [
+        119.0,
+        438.0,
+        133.0,
+        450.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for hire. 11/9/2009 - added field to 11/2009 version",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_OtherIndicator_C",
+      "page": 0,
+      "rect": [
+        119.0,
+        450.0,
+        133.0,
+        462.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for other purposes. 11/9/2009 - added field to 11/2009 version",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_OtherDescription_C",
+      "page": 0,
+      "rect": [
+        137.0,
+        450.0,
+        166.0,
+        462.0
+      ],
+      "tooltip": "Enter text: The description of the other vehicle usage. 11/24/2009 - added field to 11/2009 version",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_LiabilityIndicator_C",
+      "page": 0,
+      "rect": [
+        169.0,
+        450.0,
+        184.0,
+        462.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_NoFaultIndicator_C",
+      "page": 0,
+      "rect": [
+        169.0,
+        462.0,
+        184.0,
+        474.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has no-fault coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_AdditionalNoFaultIndicator_C",
+      "page": 0,
+      "rect": [
+        212.0,
+        438.0,
+        227.0,
+        450.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has additional no-fault coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_MedicalPaymentsIndicator_C",
+      "page": 0,
+      "rect": [
+        212.0,
+        450.0,
+        227.0,
+        462.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has medical payments coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_UninsuredMotoristsIndicator_C",
+      "page": 0,
+      "rect": [
+        212.0,
+        462.0,
+        227.0,
+        474.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has uninsured motorists coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_UnderinsuredMotoristsIndicator_C",
+      "page": 0,
+      "rect": [
+        263.0,
+        438.0,
+        277.0,
+        450.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has underinsured motorists coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_TowingAndLabourIndicator_C",
+      "page": 0,
+      "rect": [
+        263.0,
+        450.0,
+        277.0,
+        462.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has towing and labor coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_SpecifiedCauseOfLossIndicator_C",
+      "page": 0,
+      "rect": [
+        263.0,
+        462.0,
+        277.0,
+        474.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has specified cause of loss coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireIndicator_C",
+      "page": 0,
+      "rect": [
+        313.0,
+        438.0,
+        328.0,
+        450.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftIndicator_C",
+      "page": 0,
+      "rect": [
+        313.0,
+        450.0,
+        328.0,
+        462.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire and theft is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftWindstormIndicator_C",
+      "page": 0,
+      "rect": [
+        313.0,
+        462.0,
+        328.0,
+        474.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire, theft and windstorm is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_LimitedSpecifiedPerilsIndicator_C",
+      "page": 0,
+      "rect": [
+        349.0,
+        438.0,
+        364.0,
+        450.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates limited specified perils is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveIndicator_C",
+      "page": 0,
+      "rect": [
+        349.0,
+        450.0,
+        364.0,
+        462.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has comprehensive or other than collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_CollisionIndicator_C",
+      "page": 0,
+      "rect": [
+        349.0,
+        462.0,
+        364.0,
+        474.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_RentalReimbursementIndicator_C",
+      "page": 0,
+      "rect": [
+        389.0,
+        438.0,
+        403.0,
+        450.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has rental reimbursement or transportation expense coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FullGlassIndicator_C",
+      "page": 0,
+      "rect": [
+        389.0,
+        450.0,
+        403.0,
+        462.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has full glass coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_OtherIndicator_C",
+      "page": 0,
+      "rect": [
+        389.0,
+        462.0,
+        403.0,
+        474.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has a type of coverage not specifically listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_OtherDescription_C",
+      "page": 0,
+      "rect": [
+        407.0,
+        462.0,
+        436.0,
+        474.0
+      ],
+      "tooltip": "Enter text: The description of the other type of coverage on the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationActualCashValueIndicator_C",
+      "page": 0,
+      "rect": [
+        490.0,
+        438.0,
+        504.0,
+        450.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the actual cash value or market value.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationAgreedAmountIndicator_C",
+      "page": 0,
+      "rect": [
+        439.0,
+        450.0,
+        454.0,
+        462.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the agreed amount.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationStatedAmountIndicator_C",
+      "page": 0,
+      "rect": [
+        475.0,
+        450.0,
+        490.0,
+        462.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the stated amount.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_AgreedOrStatedAmount_C",
+      "page": 0,
+      "rect": [
+        450.0,
+        462.0,
+        518.0,
+        474.0
+      ],
+      "tooltip": "Enter amount: The agreed or stated amount used in determining the value of the vehicle at the time of loss.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveDeductibleIndicator_C",
+      "page": 0,
+      "rect": [
+        522.0,
+        438.0,
+        536.0,
+        450.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for comprehensive or other than collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_SpecifiedCauseOfLossDeductibleIndicator_C",
+      "page": 0,
+      "rect": [
+        558.0,
+        438.0,
+        572.0,
+        450.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for specified causes of loss.  The Specified Cause of Loss Codes are:\n\nSCL        Specified Cause of Loss\nF            Fire\nF&T        Fire and Theft\nF,T&W    Fire, Theft and Wind\nLSP        Limited Specified Perils\nSP         Specified Perils",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveOrSpecifiedCauseOfLossDeductibleAmount_C",
+      "page": 0,
+      "rect": [
+        533.0,
+        450.0,
+        590.0,
+        462.0
+      ],
+      "tooltip": "Enter amount: The comprehensive or specified cause of loss deductible amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Collision_DeductibleAmount_C",
+      "page": 0,
+      "rect": [
+        533.0,
+        462.0,
+        572.0,
+        474.0
+      ],
+      "tooltip": "Enter deductible: The collision deductible amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_UnderFifteenMilesIndicator_C",
+      "page": 0,
+      "rect": [
+        76.0,
+        474.0,
+        90.0,
+        486.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school under 15 miles one way.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_FifteenMilesOrOverIndicator_C",
+      "page": 0,
+      "rect": [
+        130.0,
+        474.0,
+        144.0,
+        486.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school 15 miles or over one way.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_NetRatingFactor_C",
+      "page": 0,
+      "rect": [
+        223.0,
+        474.0,
+        436.0,
+        486.0
+      ],
+      "tooltip": "Enter rate: The net rating factor that applies to this vehicle. Do not include debits or credits that apply on a policy level. Provide under remarks a description of each debit or credit used in the calculation of the net rating factor.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_TotalPremiumAmount_C",
+      "page": 0,
+      "rect": [
+        497.0,
+        474.0,
+        590.0,
+        486.0
+      ],
+      "tooltip": "Enter amount: The total amount for the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ProducerIdentifier_D",
+      "page": 0,
+      "rect": [
+        22.0,
+        498.0,
+        47.0,
+        510.0
+      ],
+      "tooltip": "Enter number: The producer assigned vehicle number.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ModelYear_D",
+      "page": 0,
+      "rect": [
+        50.0,
+        498.0,
+        79.0,
+        510.0
+      ],
+      "tooltip": "Enter year: The model year of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ManufacturersName_D",
+      "page": 0,
+      "rect": [
+        108.0,
+        486.0,
+        234.0,
+        498.0
+      ],
+      "tooltip": "Enter text: The manufacturer of the vehicle (e.g. Ford, Chevy).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ModelName_D",
+      "page": 0,
+      "rect": [
+        108.0,
+        498.0,
+        234.0,
+        510.0
+      ],
+      "tooltip": "Enter text: The manufacturer's model name for the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_BodyCode_D",
+      "page": 0,
+      "rect": [
+        263.0,
+        486.0,
+        382.0,
+        498.0
+      ],
+      "tooltip": "Enter code: The body type of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VINIdentifier_D",
+      "page": 0,
+      "rect": [
+        263.0,
+        498.0,
+        382.0,
+        510.0
+      ],
+      "tooltip": "Enter identifier: The vehicle identification number (VIN) or serial number assigned by the manufacturer.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_PrivatePassengerIndicator_D",
+      "page": 0,
+      "rect": [
+        385.0,
+        498.0,
+        400.0,
+        510.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is private passenger.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_SpecialIndicator_D",
+      "page": 0,
+      "rect": [
+        418.0,
+        498.0,
+        432.0,
+        510.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is special (e.g. classic, antique automobile).",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_CommercialIndicator_D",
+      "page": 0,
+      "rect": [
+        457.0,
+        498.0,
+        472.0,
+        510.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is commercial.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SymbolCode_D",
+      "page": 0,
+      "rect": [
+        504.0,
+        498.0,
+        533.0,
+        510.0
+      ],
+      "tooltip": "Enter code: The symbol required for physical damage coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ComprehensiveSymbolCode_D",
+      "page": 0,
+      "rect": [
+        540.0,
+        498.0,
+        562.0,
+        510.0
+      ],
+      "tooltip": "Enter code: The symbol required for comprehensive / other than collision coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_CollisionSymbolCode_D",
+      "page": 0,
+      "rect": [
+        569.0,
+        498.0,
+        590.0,
+        510.0
+      ],
+      "tooltip": "Enter code: The symbol required for collision coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_LineOne_D",
+      "page": 0,
+      "rect": [
+        61.0,
+        522.0,
+        205.0,
+        534.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address line one.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_CityName_D",
+      "page": 0,
+      "rect": [
+        212.0,
+        522.0,
+        356.0,
+        534.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address city name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_CountyName_D",
+      "page": 0,
+      "rect": [
+        364.0,
+        522.0,
+        508.0,
+        534.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address county name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_StateOrProvinceCode_D",
+      "page": 0,
+      "rect": [
+        515.0,
+        522.0,
+        536.0,
+        534.0
+      ],
+      "tooltip": "Enter code: The vehicle's physical address state or province code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_PostalCode_D",
+      "page": 0,
+      "rect": [
+        544.0,
+        522.0,
+        590.0,
+        534.0
+      ],
+      "tooltip": "Enter code: The vehicle's physical address postal code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Registration_StateOrProvinceCode_D",
+      "page": 0,
+      "rect": [
+        22.0,
+        546.0,
+        40.0,
+        558.0
+      ],
+      "tooltip": "Enter code: The state or province in which the vehicle is registered.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RatingTerritoryCode_D",
+      "page": 0,
+      "rect": [
+        47.0,
+        546.0,
+        97.0,
+        558.0
+      ],
+      "tooltip": "Enter code: The rating territory code where the vehicle is principally garaged.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_GrossVehicleWeight_D",
+      "page": 0,
+      "rect": [
+        104.0,
+        546.0,
+        176.0,
+        558.0
+      ],
+      "tooltip": "Enter number: The actual weight of the vehicle or the combined weight of tractor and trailer in pounds.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RateClassCode_D",
+      "page": 0,
+      "rect": [
+        184.0,
+        546.0,
+        227.0,
+        558.0
+      ],
+      "tooltip": "Enter code: The rate class of the vehicle.  If two rate classes are required, this element should be used to enter the liability code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SpecialIndustryClassCode_D",
+      "page": 0,
+      "rect": [
+        234.0,
+        546.0,
+        277.0,
+        558.0
+      ],
+      "tooltip": "Enter code: The secondary Special Industry Class code which applies to commercial vehicles as determined by industry rating manuals.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PrimaryLiabilityRatingFactor_D",
+      "page": 0,
+      "rect": [
+        284.0,
+        546.0,
+        320.0,
+        558.0
+      ],
+      "tooltip": "Enter rate: The primary liability rating factor contains the number which is used, along with the secondary rating factor, in determining the liability premium.  The primary rating factor which is always positive is based on the primary class.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SeatingCapacityCount_D",
+      "page": 0,
+      "rect": [
+        328.0,
+        546.0,
+        349.0,
+        558.0
+      ],
+      "tooltip": "Enter number: The seating capacity of the vehicle.  Required for rating public passenger vehicles.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RadiusOfUse_D",
+      "page": 0,
+      "rect": [
+        356.0,
+        546.0,
+        385.0,
+        558.0
+      ],
+      "tooltip": "Enter number: The radius in whole numbers within which this vehicle is operated.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_FarthestZoneCode_D",
+      "page": 0,
+      "rect": [
+        392.0,
+        546.0,
+        508.0,
+        558.0
+      ],
+      "tooltip": "Enter code: Identifies the location of the farthest zone from the vehicle's base of operation in which the vehicle is operated. The source of this code is the Insurance Services Office Zone code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_CostNewAmount_D",
+      "page": 0,
+      "rect": [
+        526.0,
+        546.0,
+        590.0,
+        558.0
+      ],
+      "tooltip": "Enter amount: The original cost of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_PleasureIndicator_D",
+      "page": 0,
+      "rect": [
+        18.0,
+        570.0,
+        32.0,
+        582.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for pleasure.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_FarmIndicator_D",
+      "page": 0,
+      "rect": [
+        18.0,
+        582.0,
+        32.0,
+        594.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for farming.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_CommercialIndicator_D",
+      "page": 0,
+      "rect": [
+        72.0,
+        558.0,
+        86.0,
+        570.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for commercial purposes.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_RetailIndicator_D",
+      "page": 0,
+      "rect": [
+        72.0,
+        570.0,
+        86.0,
+        582.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the retail industry.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_ServiceIndicator_D",
+      "page": 0,
+      "rect": [
+        72.0,
+        582.0,
+        86.0,
+        594.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the service industry.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_ForHireIndicator_D",
+      "page": 0,
+      "rect": [
+        119.0,
+        558.0,
+        133.0,
+        570.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for hire. 11/9/2009 - added field to 11/2009 version",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_OtherIndicator_D",
+      "page": 0,
+      "rect": [
+        119.0,
+        570.0,
+        133.0,
+        582.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for other purposes. 11/9/2009 - added field to 11/2009 version",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_OtherDescription_D",
+      "page": 0,
+      "rect": [
+        137.0,
+        570.0,
+        166.0,
+        582.0
+      ],
+      "tooltip": "Enter text: The description of the other vehicle usage. 11/24/2009 - added field to 11/2009 version",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_LiabilityIndicator_D",
+      "page": 0,
+      "rect": [
+        169.0,
+        570.0,
+        184.0,
+        582.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_NoFaultIndicator_D",
+      "page": 0,
+      "rect": [
+        169.0,
+        582.0,
+        184.0,
+        594.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has no-fault coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_AdditionalNoFaultIndicator_D",
+      "page": 0,
+      "rect": [
+        212.0,
+        558.0,
+        227.0,
+        570.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has additional no-fault coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_MedicalPaymentsIndicator_D",
+      "page": 0,
+      "rect": [
+        212.0,
+        570.0,
+        227.0,
+        582.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has medical payments coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_UninsuredMotoristsIndicator_D",
+      "page": 0,
+      "rect": [
+        212.0,
+        582.0,
+        227.0,
+        594.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has uninsured motorists coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_UnderinsuredMotoristsIndicator_D",
+      "page": 0,
+      "rect": [
+        263.0,
+        558.0,
+        277.0,
+        570.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has underinsured motorists coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_TowingAndLabourIndicator_D",
+      "page": 0,
+      "rect": [
+        263.0,
+        570.0,
+        277.0,
+        582.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has towing and labor coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_SpecifiedCauseOfLossIndicator_D",
+      "page": 0,
+      "rect": [
+        263.0,
+        582.0,
+        277.0,
+        594.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has specified cause of loss coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireIndicator_D",
+      "page": 0,
+      "rect": [
+        313.0,
+        558.0,
+        328.0,
+        570.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftIndicator_D",
+      "page": 0,
+      "rect": [
+        313.0,
+        570.0,
+        328.0,
+        582.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire and theft is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftWindstormIndicator_D",
+      "page": 0,
+      "rect": [
+        313.0,
+        582.0,
+        328.0,
+        594.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire, theft and windstorm is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_LimitedSpecifiedPerilsIndicator_D",
+      "page": 0,
+      "rect": [
+        349.0,
+        558.0,
+        364.0,
+        570.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates limited specified perils is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveIndicator_D",
+      "page": 0,
+      "rect": [
+        349.0,
+        570.0,
+        364.0,
+        582.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has comprehensive or other than collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_CollisionIndicator_D",
+      "page": 0,
+      "rect": [
+        349.0,
+        582.0,
+        364.0,
+        594.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_RentalReimbursementIndicator_D",
+      "page": 0,
+      "rect": [
+        389.0,
+        558.0,
+        403.0,
+        570.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has rental reimbursement or transportation expense coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FullGlassIndicator_D",
+      "page": 0,
+      "rect": [
+        389.0,
+        570.0,
+        403.0,
+        582.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has full glass coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_OtherIndicator_D",
+      "page": 0,
+      "rect": [
+        389.0,
+        582.0,
+        403.0,
+        594.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has a type of coverage not specifically listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_OtherDescription_D",
+      "page": 0,
+      "rect": [
+        407.0,
+        582.0,
+        436.0,
+        594.0
+      ],
+      "tooltip": "Enter text: The description of the other type of coverage on the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationActualCashValueIndicator_D",
+      "page": 0,
+      "rect": [
+        490.0,
+        558.0,
+        504.0,
+        570.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the actual cash value or market value.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationAgreedAmountIndicator_D",
+      "page": 0,
+      "rect": [
+        439.0,
+        570.0,
+        454.0,
+        582.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the agreed amount.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationStatedAmountIndicator_D",
+      "page": 0,
+      "rect": [
+        475.0,
+        570.0,
+        490.0,
+        582.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the stated amount.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_AgreedOrStatedAmount_D",
+      "page": 0,
+      "rect": [
+        450.0,
+        582.0,
+        518.0,
+        594.0
+      ],
+      "tooltip": "Enter amount: The agreed or stated amount used in determining the value of the vehicle at the time of loss.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveDeductibleIndicator_D",
+      "page": 0,
+      "rect": [
+        522.0,
+        558.0,
+        536.0,
+        570.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for comprehensive or other than collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_SpecifiedCauseOfLossDeductibleIndicator_D",
+      "page": 0,
+      "rect": [
+        558.0,
+        558.0,
+        572.0,
+        570.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for specified causes of loss.  The Specified Cause of Loss Codes are:\n\nSCL        Specified Cause of Loss\nF            Fire\nF&T        Fire and Theft\nF,T&W    Fire, Theft and Wind\nLSP        Limited Specified Perils\nSP         Specified Perils",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveOrSpecifiedCauseOfLossDeductibleAmount_D",
+      "page": 0,
+      "rect": [
+        533.0,
+        570.0,
+        590.0,
+        582.0
+      ],
+      "tooltip": "Enter amount: The comprehensive or specified cause of loss deductible amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Collision_DeductibleAmount_D",
+      "page": 0,
+      "rect": [
+        533.0,
+        582.0,
+        572.0,
+        594.0
+      ],
+      "tooltip": "Enter deductible: The collision deductible amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_UnderFifteenMilesIndicator_D",
+      "page": 0,
+      "rect": [
+        76.0,
+        594.0,
+        90.0,
+        606.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school under 15 miles one way.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_FifteenMilesOrOverIndicator_D",
+      "page": 0,
+      "rect": [
+        130.0,
+        594.0,
+        144.0,
+        606.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school 15 miles or over one way.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_NetRatingFactor_D",
+      "page": 0,
+      "rect": [
+        223.0,
+        594.0,
+        436.0,
+        606.0
+      ],
+      "tooltip": "Enter rate: The net rating factor that applies to this vehicle. Do not include debits or credits that apply on a policy level. Provide under remarks a description of each debit or credit used in the calculation of the net rating factor.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_TotalPremiumAmount_D",
+      "page": 0,
+      "rect": [
+        497.0,
+        594.0,
+        590.0,
+        606.0
+      ],
+      "tooltip": "Enter amount: The total amount for the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ProducerIdentifier_E",
+      "page": 0,
+      "rect": [
+        22.0,
+        618.0,
+        47.0,
+        630.0
+      ],
+      "tooltip": "Enter number: The producer assigned vehicle number.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ModelYear_E",
+      "page": 0,
+      "rect": [
+        50.0,
+        618.0,
+        79.0,
+        630.0
+      ],
+      "tooltip": "Enter year: The model year of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ManufacturersName_E",
+      "page": 0,
+      "rect": [
+        108.0,
+        606.0,
+        234.0,
+        618.0
+      ],
+      "tooltip": "Enter text: The manufacturer of the vehicle (e.g. Ford, Chevy).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ModelName_E",
+      "page": 0,
+      "rect": [
+        108.0,
+        618.0,
+        234.0,
+        630.0
+      ],
+      "tooltip": "Enter text: The manufacturer's model name for the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_BodyCode_E",
+      "page": 0,
+      "rect": [
+        263.0,
+        606.0,
+        382.0,
+        618.0
+      ],
+      "tooltip": "Enter code: The body type of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VINIdentifier_E",
+      "page": 0,
+      "rect": [
+        263.0,
+        618.0,
+        382.0,
+        630.0
+      ],
+      "tooltip": "Enter identifier: The vehicle identification number (VIN) or serial number assigned by the manufacturer.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_PrivatePassengerIndicator_E",
+      "page": 0,
+      "rect": [
+        385.0,
+        618.0,
+        400.0,
+        630.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is private passenger.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_SpecialIndicator_E",
+      "page": 0,
+      "rect": [
+        418.0,
+        618.0,
+        432.0,
+        630.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is special (e.g. classic, antique automobile).",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_VehicleType_CommercialIndicator_E",
+      "page": 0,
+      "rect": [
+        457.0,
+        618.0,
+        472.0,
+        630.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the predominant type of the vehicle is commercial.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SymbolCode_E",
+      "page": 0,
+      "rect": [
+        504.0,
+        618.0,
+        533.0,
+        630.0
+      ],
+      "tooltip": "Enter code: The symbol required for physical damage coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_ComprehensiveSymbolCode_E",
+      "page": 0,
+      "rect": [
+        540.0,
+        618.0,
+        562.0,
+        630.0
+      ],
+      "tooltip": "Enter code: The symbol required for comprehensive / other than collision coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_CollisionSymbolCode_E",
+      "page": 0,
+      "rect": [
+        569.0,
+        618.0,
+        590.0,
+        630.0
+      ],
+      "tooltip": "Enter code: The symbol required for collision coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_LineOne_E",
+      "page": 0,
+      "rect": [
+        61.0,
+        642.0,
+        205.0,
+        654.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address line one.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_CityName_E",
+      "page": 0,
+      "rect": [
+        212.0,
+        642.0,
+        356.0,
+        654.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address city name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_CountyName_E",
+      "page": 0,
+      "rect": [
+        364.0,
+        642.0,
+        508.0,
+        654.0
+      ],
+      "tooltip": "Enter text: The vehicle's physical address county name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_StateOrProvinceCode_E",
+      "page": 0,
+      "rect": [
+        515.0,
+        642.0,
+        536.0,
+        654.0
+      ],
+      "tooltip": "Enter code: The vehicle's physical address state or province code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PhysicalAddress_PostalCode_E",
+      "page": 0,
+      "rect": [
+        544.0,
+        642.0,
+        590.0,
+        654.0
+      ],
+      "tooltip": "Enter code: The vehicle's physical address postal code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Registration_StateOrProvinceCode_E",
+      "page": 0,
+      "rect": [
+        22.0,
+        666.0,
+        40.0,
+        678.0
+      ],
+      "tooltip": "Enter code: The state or province in which the vehicle is registered.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RatingTerritoryCode_E",
+      "page": 0,
+      "rect": [
+        47.0,
+        666.0,
+        97.0,
+        678.0
+      ],
+      "tooltip": "Enter code: The rating territory code where the vehicle is principally garaged.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_GrossVehicleWeight_E",
+      "page": 0,
+      "rect": [
+        104.0,
+        666.0,
+        176.0,
+        678.0
+      ],
+      "tooltip": "Enter number: The actual weight of the vehicle or the combined weight of tractor and trailer in pounds.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RateClassCode_E",
+      "page": 0,
+      "rect": [
+        184.0,
+        666.0,
+        227.0,
+        678.0
+      ],
+      "tooltip": "Enter code: The rate class of the vehicle.  If two rate classes are required, this element should be used to enter the liability code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SpecialIndustryClassCode_E",
+      "page": 0,
+      "rect": [
+        234.0,
+        666.0,
+        277.0,
+        678.0
+      ],
+      "tooltip": "Enter code: The secondary Special Industry Class code which applies to commercial vehicles as determined by industry rating manuals.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PrimaryLiabilityRatingFactor_E",
+      "page": 0,
+      "rect": [
+        284.0,
+        666.0,
+        320.0,
+        678.0
+      ],
+      "tooltip": "Enter rate: The primary liability rating factor contains the number which is used, along with the secondary rating factor, in determining the liability premium.  The primary rating factor which is always positive is based on the primary class.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_SeatingCapacityCount_E",
+      "page": 0,
+      "rect": [
+        328.0,
+        666.0,
+        349.0,
+        678.0
+      ],
+      "tooltip": "Enter number: The seating capacity of the vehicle.  Required for rating public passenger vehicles.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_RadiusOfUse_E",
+      "page": 0,
+      "rect": [
+        356.0,
+        666.0,
+        385.0,
+        678.0
+      ],
+      "tooltip": "Enter number: The radius in whole numbers within which this vehicle is operated.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_FarthestZoneCode_E",
+      "page": 0,
+      "rect": [
+        392.0,
+        666.0,
+        508.0,
+        678.0
+      ],
+      "tooltip": "Enter code: Identifies the location of the farthest zone from the vehicle's base of operation in which the vehicle is operated. The source of this code is the Insurance Services Office Zone code list.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_CostNewAmount_E",
+      "page": 0,
+      "rect": [
+        526.0,
+        666.0,
+        590.0,
+        678.0
+      ],
+      "tooltip": "Enter amount: The original cost of the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_PleasureIndicator_E",
+      "page": 0,
+      "rect": [
+        18.0,
+        690.0,
+        32.0,
+        702.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for pleasure.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_FarmIndicator_E",
+      "page": 0,
+      "rect": [
+        18.0,
+        702.0,
+        32.0,
+        714.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for farming.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_CommercialIndicator_E",
+      "page": 0,
+      "rect": [
+        72.0,
+        678.0,
+        86.0,
+        690.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for commercial purposes.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_RetailIndicator_E",
+      "page": 0,
+      "rect": [
+        72.0,
+        690.0,
+        86.0,
+        702.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the retail industry.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_ServiceIndicator_E",
+      "page": 0,
+      "rect": [
+        72.0,
+        702.0,
+        86.0,
+        714.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for the service industry.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_ForHireIndicator_E",
+      "page": 0,
+      "rect": [
+        119.0,
+        678.0,
+        133.0,
+        690.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for hire. 11/9/2009 - added field to 11/2009 version",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_OtherIndicator_E",
+      "page": 0,
+      "rect": [
+        119.0,
+        690.0,
+        133.0,
+        702.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the primary use for the vehicle is for other purposes. 11/9/2009 - added field to 11/2009 version",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_OtherDescription_E",
+      "page": 0,
+      "rect": [
+        137.0,
+        690.0,
+        166.0,
+        702.0
+      ],
+      "tooltip": "Enter text: The description of the other vehicle usage. 11/24/2009 - added field to 11/2009 version",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_LiabilityIndicator_E",
+      "page": 0,
+      "rect": [
+        169.0,
+        690.0,
+        184.0,
+        702.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_NoFaultIndicator_E",
+      "page": 0,
+      "rect": [
+        169.0,
+        702.0,
+        184.0,
+        714.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has no-fault coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_AdditionalNoFaultIndicator_E",
+      "page": 0,
+      "rect": [
+        212.0,
+        678.0,
+        227.0,
+        690.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has additional no-fault coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_MedicalPaymentsIndicator_E",
+      "page": 0,
+      "rect": [
+        212.0,
+        690.0,
+        227.0,
+        702.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has medical payments coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_UninsuredMotoristsIndicator_E",
+      "page": 0,
+      "rect": [
+        212.0,
+        702.0,
+        227.0,
+        714.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has uninsured motorists coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_UnderinsuredMotoristsIndicator_E",
+      "page": 0,
+      "rect": [
+        263.0,
+        678.0,
+        277.0,
+        690.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has underinsured motorists coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_TowingAndLabourIndicator_E",
+      "page": 0,
+      "rect": [
+        263.0,
+        690.0,
+        277.0,
+        702.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has towing and labor coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_SpecifiedCauseOfLossIndicator_E",
+      "page": 0,
+      "rect": [
+        263.0,
+        702.0,
+        277.0,
+        714.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has specified cause of loss coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireIndicator_E",
+      "page": 0,
+      "rect": [
+        313.0,
+        678.0,
+        328.0,
+        690.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftIndicator_E",
+      "page": 0,
+      "rect": [
+        313.0,
+        690.0,
+        328.0,
+        702.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire and theft is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FireTheftWindstormIndicator_E",
+      "page": 0,
+      "rect": [
+        313.0,
+        702.0,
+        328.0,
+        714.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates fire, theft and windstorm is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_LimitedSpecifiedPerilsIndicator_E",
+      "page": 0,
+      "rect": [
+        349.0,
+        678.0,
+        364.0,
+        690.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates limited specified perils is a specified cause of loss on this vehicle.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveIndicator_E",
+      "page": 0,
+      "rect": [
+        349.0,
+        690.0,
+        364.0,
+        702.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has comprehensive or other than collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_CollisionIndicator_E",
+      "page": 0,
+      "rect": [
+        349.0,
+        702.0,
+        364.0,
+        714.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_RentalReimbursementIndicator_E",
+      "page": 0,
+      "rect": [
+        389.0,
+        678.0,
+        403.0,
+        690.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has rental reimbursement or transportation expense coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_FullGlassIndicator_E",
+      "page": 0,
+      "rect": [
+        389.0,
+        690.0,
+        403.0,
+        702.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has full glass coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_OtherIndicator_E",
+      "page": 0,
+      "rect": [
+        389.0,
+        702.0,
+        403.0,
+        714.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle has a type of coverage not specifically listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_OtherDescription_E",
+      "page": 0,
+      "rect": [
+        407.0,
+        702.0,
+        436.0,
+        714.0
+      ],
+      "tooltip": "Enter text: The description of the other type of coverage on the vehicle.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationActualCashValueIndicator_E",
+      "page": 0,
+      "rect": [
+        490.0,
+        678.0,
+        504.0,
+        690.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the actual cash value or market value.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationAgreedAmountIndicator_E",
+      "page": 0,
+      "rect": [
+        439.0,
+        690.0,
+        454.0,
+        702.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the agreed amount.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ValuationStatedAmountIndicator_E",
+      "page": 0,
+      "rect": [
+        475.0,
+        690.0,
+        490.0,
+        702.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the valuation method used in determining the value of the vehicle at the time of loss is the stated amount.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_AgreedOrStatedAmount_E",
+      "page": 0,
+      "rect": [
+        450.0,
+        702.0,
+        518.0,
+        714.0
+      ],
+      "tooltip": "Enter amount: The agreed or stated amount used in determining the value of the vehicle at the time of loss.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveDeductibleIndicator_E",
+      "page": 0,
+      "rect": [
+        522.0,
+        678.0,
+        536.0,
+        690.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for comprehensive or other than collision coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_SpecifiedCauseOfLossDeductibleIndicator_E",
+      "page": 0,
+      "rect": [
+        558.0,
+        678.0,
+        572.0,
+        690.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the deductible is for specified causes of loss.  The Specified Cause of Loss Codes are:\n\nSCL        Specified Cause of Loss\nF            Fire\nF&T        Fire and Theft\nF,T&W    Fire, Theft and Wind\nLSP        Limited Specified Perils\nSP         Specified Perils",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Coverage_ComprehensiveOrSpecifiedCauseOfLossDeductibleAmount_E",
+      "page": 0,
+      "rect": [
+        533.0,
+        690.0,
+        590.0,
+        702.0
+      ],
+      "tooltip": "Enter amount: The comprehensive or specified cause of loss deductible amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Collision_DeductibleAmount_E",
+      "page": 0,
+      "rect": [
+        533.0,
+        702.0,
+        572.0,
+        714.0
+      ],
+      "tooltip": "Enter deductible: The collision deductible amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_UnderFifteenMilesIndicator_E",
+      "page": 0,
+      "rect": [
+        76.0,
+        714.0,
+        90.0,
+        726.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school under 15 miles one way.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_Use_FifteenMilesOrOverIndicator_E",
+      "page": 0,
+      "rect": [
+        130.0,
+        714.0,
+        144.0,
+        726.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the vehicle is used for commuting purposes to work or school, and is driven to work or school 15 miles or over one way.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_NetRatingFactor_E",
+      "page": 0,
+      "rect": [
+        223.0,
+        714.0,
+        436.0,
+        726.0
+      ],
+      "tooltip": "Enter rate: The net rating factor that applies to this vehicle. Do not include debits or credits that apply on a policy level. Provide under remarks a description of each debit or credit used in the calculation of the net rating factor.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_TotalPremiumAmount_E",
+      "page": 0,
+      "rect": [
+        497.0,
+        714.0,
+        590.0,
+        726.0
+      ],
+      "tooltip": "Enter amount: The total amount for the vehicle.",
+      "type": "text",
+      "type_code": 7
+    }
+  ]
+}

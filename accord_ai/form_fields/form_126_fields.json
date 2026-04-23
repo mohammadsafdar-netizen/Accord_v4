@@ -1,0 +1,1028 @@
+{
+  "form_number": "126",
+  "field_count": 255,
+  "text_field_count": 211,
+  "checkbox_field_count": 44,
+  "fields": {
+    "Form_EditionIdentifier_A": {
+      "type": "text",
+      "tooltip": "The edition identifier of the form including the form number and edition (the date is typically formatted YYYY/MM)."
+    },
+    "Producer_CustomerIdentifier_A": {
+      "type": "text",
+      "tooltip": ""
+    },
+    "Form_CompletionDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date on which the form is completed.  (MM/DD/YYYY)"
+    },
+    "Producer_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The full name of the producer / agency."
+    },
+    "Policy_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The identifier assigned by the insurer to the policy, or submission, being referenced exactly as it appears on the policy, including prefix and suffix symbols.  If required for self-insurance, the self-insured license or contract number."
+    },
+    "Policy_EffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the policy.  The date that the terms and conditions of the policy commence.  (MM/DD/YYYY)"
+    },
+    "Insurer_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The insurer's full legal company name(s) as found in the file copy of the policy.  Use the actual name of the company within the group to which the policy has been issued.  This is not the insurer's group name or trade name."
+    },
+    "Insurer_NAICCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The identification code assigned to the insurer by the National Association of Insurance Commissioners (NAIC)."
+    },
+    "NamedInsured_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured(s) as it / they will appear on the policy declarations page."
+    },
+    "GeneralLiability_CoverageIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the claims made or occurrence option applies for the general liability policy."
+    },
+    "GeneralLiability_ClaimsMadeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the \"claims made\" option applies on the general liability policy."
+    },
+    "GeneralLiability_OccurrenceIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the general liability policy, occurrence basis applies."
+    },
+    "GeneralLiability_OwnersAndContractorsProtectiveIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the owners and contractors protective option applies for the general liability policy."
+    },
+    "GeneralLiability_OtherCoverageIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates other coverage not found on the form exists for the general liability policy."
+    },
+    "GeneralLiability_OtherCoverageDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of other coverage (not the limit) on the general liability policy.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s)."
+    },
+    "GeneralLiability_PropertyDamage_DeductibleIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates if a property damage deductible is requested."
+    },
+    "GeneralLiability_PropertyDamage_DeductibleAmount_A": {
+      "type": "text",
+      "tooltip": "Enter deductible: The deductible applicable to the Property Damage coverage."
+    },
+    "GeneralLiability_BodilyInjury_DeductibleIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates if a bodily injury deductible is requested."
+    },
+    "GeneralLiability_BodilyInjury_DeductibleAmount_A": {
+      "type": "text",
+      "tooltip": "Enter deductible: The deductible applicable to the Bodily Injury coverage."
+    },
+    "GeneralLiability_OtherDeductibleIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that a deductible is requested on the coverage other than Property Damage or Bodily Injury."
+    },
+    "GeneralLiability_OtherDeductibleDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The type of deductible being requested other than property damage and bodily injury."
+    },
+    "GeneralLiability_OtherDeductibleAmount_A": {
+      "type": "text",
+      "tooltip": "Enter deductible: The deductible applicable to the Other Coverage."
+    },
+    "GeneralLiability_DeductiblePerClaimIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that a per claim deductible applies to individual claims even if the claims are all related to the same occurrence or event."
+    },
+    "GeneralLiability_DeductiblePerOccurrenceIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that a per occurrence deductible applies once to each occurrence no matter how many individual claims result from the occurrence or event."
+    },
+    "GeneralLiability_GeneralAggregate_LimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability, general aggregate limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s)."
+    },
+    "GeneralLiability_GeneralAggregate_LimitAppliesPerPolicyIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the general liability policy, general aggregate limit applies per policy."
+    },
+    "GeneralLiability_GeneralAggregate_LimitAppliesPerProjectIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the general liability policy, general aggregate limit applies per project."
+    },
+    "GeneralLiability_GeneralAggregate_LimitAppliesPerLocationIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the general liability policy, general aggregate limit applies per location."
+    },
+    "GeneralLiability_GeneralAggregate_LimitAppliesToOtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the general liability policy, general aggregate limit applies to option is other than those listed on the form."
+    },
+    "GeneralLiability_GeneralAggregate_LimitAppliesToCode_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other option to which the general liability policy, general aggregate limit applies."
+    },
+    "GeneralLiability_ProductsAndCompletedOperations_AggregateLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability, products and completed operations aggregate limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s)."
+    },
+    "GeneralLiability_PersonalAndAdvertisingInjury_LimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability, personal and advertising injury limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s)."
+    },
+    "GeneralLiability_EachOccurrence_LimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability, each occurrence limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s)."
+    },
+    "GeneralLiability_FireDamageRentedPremises_EachOccurrenceLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability, damage to rented premises each occurrence limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s)."
+    },
+    "GeneralLiability_MedicalExpense_EachPersonLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability, medical expense each person limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s)."
+    },
+    "GeneralLiability_EmployeeBenefits_LimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability employee benefits limit amount."
+    },
+    "GeneralLiability_OtherCoverageLimitDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of other coverage (not the limit) on the general liability policy.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s)."
+    },
+    "GeneralLiability_OtherCoverageLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability, other coverage limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s)."
+    },
+    "GeneralLiability_PremisesOperations_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium for premises/operations coverage."
+    },
+    "GeneralLiability_Products_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium for products coverage."
+    },
+    "GeneralLiability_OtherCoveragePremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium for other general liability coverage."
+    },
+    "GeneralLiabilityLineOfBusiness_TotalPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The total premium amount for the commercial general liability line of business."
+    },
+    "GeneralLiabilityLineOfBusiness_RemarkText_A": {
+      "type": "text",
+      "tooltip": "Enter text: The remarks associated with the general liability line of business.  Use this section to provide any additional information required for underwriting or rating.  ACORD 101, Additional Remarks Schedule, may be attached if more space is required."
+    },
+    "GeneralLiability_UninsuredUnderinsuredMotorists_CoverageAvailableIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates if uninsured/underinsured motorist coverage is to be provided under the policy."
+    },
+    "GeneralLiability_UninsuredUnderinsuredMotorists_CoverageAvailableNoIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that  uninsured/underinsured motorist coverage is not  to be provided under the policy."
+    },
+    "GeneralLiability_MedicalPayments_CoverageAvailableIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that medical payment coverage is to be provided under the policy."
+    },
+    "GeneralLiability_MedicalPayments_CoverageAvailableNoIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that medical payment coverage is not to be provided under the policy."
+    },
+    "GeneralLiability_Hazard_LocationProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned identifier for the location number of the risk's location as it appears on the Applicant Information Section of ACORD 125.  All classifications should be grouped by location number."
+    },
+    "GeneralLiability_Hazard_HazardProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: A unique (within location) number distinguishing this unit-at-risk from the others."
+    },
+    "GeneralLiability_Hazard_ClassCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The general liability class code that corresponds to the classification description shown in the previous field."
+    },
+    "GeneralLiability_Hazard_PremiumBasisCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: An industry code designating the rating basis of the exposure amount."
+    },
+    "GeneralLiability_Hazard_Exposure_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount of the exposure used for this class code in calculating the premium.  The contents of this data element depends on the rating basis used.  The full amount of exposure is contained."
+    },
+    "GeneralLiability_Hazard_TerritoryCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The rating territory code based on location from the appropriate state exception page."
+    },
+    "GeneralLiability_Hazard_PremisesOperationsRate_A": {
+      "type": "text",
+      "tooltip": "Enter rate: The separate Premises Operations manual rate applicable to the classification."
+    },
+    "GeneralLiability_Hazard_ProductsRate_A": {
+      "type": "text",
+      "tooltip": "Enter rate: The separate Products rate applicable to the classification."
+    },
+    "GeneralLiability_Hazard_PremisesOperationsPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium associated with the premises operations coverage."
+    },
+    "GeneralLiability_Hazard_ProductsPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium associated with the products coverage."
+    },
+    "GeneralLiability_Hazard_Classification_A": {
+      "type": "text",
+      "tooltip": "Enter text: The classification of the applicant's liability exposures by location, using the ISO Classification Table or other industry organization rules.  Enter the appropriate class description from the table in this field."
+    },
+    "GeneralLiability_Hazard_LocationProducerIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned identifier for the location number of the risk's location as it appears on the Applicant Information Section of ACORD 125.  All classifications should be grouped by location number."
+    },
+    "GeneralLiability_Hazard_HazardProducerIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: A unique (within location) number distinguishing this unit-at-risk from the others."
+    },
+    "GeneralLiability_Hazard_ClassCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The general liability class code that corresponds to the classification description shown in the previous field."
+    },
+    "GeneralLiability_Hazard_PremiumBasisCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: An industry code designating the rating basis of the exposure amount."
+    },
+    "GeneralLiability_Hazard_Exposure_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount of the exposure used for this class code in calculating the premium.  The contents of this data element depends on the rating basis used.  The full amount of exposure is contained."
+    },
+    "GeneralLiability_Hazard_TerritoryCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The rating territory code based on location from the appropriate state exception page."
+    },
+    "GeneralLiability_Hazard_PremisesOperationsRate_B": {
+      "type": "text",
+      "tooltip": "Enter rate: The separate Premises Operations manual rate applicable to the classification."
+    },
+    "GeneralLiability_Hazard_ProductsRate_B": {
+      "type": "text",
+      "tooltip": "Enter rate: The separate Products rate applicable to the classification."
+    },
+    "GeneralLiability_Hazard_PremisesOperationsPremiumAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium associated with the premises operations coverage."
+    },
+    "GeneralLiability_Hazard_ProductsPremiumAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium associated with the products coverage."
+    },
+    "GeneralLiability_Hazard_Classification_B": {
+      "type": "text",
+      "tooltip": "Enter text: The classification of the applicant's liability exposures by location, using the ISO Classification Table or other industry organization rules.  Enter the appropriate class description from the table in this field."
+    },
+    "GeneralLiability_Hazard_LocationProducerIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned identifier for the location number of the risk's location as it appears on the Applicant Information Section of ACORD 125.  All classifications should be grouped by location number."
+    },
+    "GeneralLiability_Hazard_HazardProducerIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: A unique (within location) number distinguishing this unit-at-risk from the others."
+    },
+    "GeneralLiability_Hazard_ClassCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The general liability class code that corresponds to the classification description shown in the previous field."
+    },
+    "GeneralLiability_Hazard_PremiumBasisCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: An industry code designating the rating basis of the exposure amount."
+    },
+    "GeneralLiability_Hazard_Exposure_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount of the exposure used for this class code in calculating the premium.  The contents of this data element depends on the rating basis used.  The full amount of exposure is contained."
+    },
+    "GeneralLiability_Hazard_TerritoryCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The rating territory code based on location from the appropriate state exception page."
+    },
+    "GeneralLiability_Hazard_PremisesOperationsRate_C": {
+      "type": "text",
+      "tooltip": "Enter rate: The separate Premises Operations manual rate applicable to the classification."
+    },
+    "GeneralLiability_Hazard_ProductsRate_C": {
+      "type": "text",
+      "tooltip": "Enter rate: The separate Products rate applicable to the classification."
+    },
+    "GeneralLiability_Hazard_PremisesOperationsPremiumAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium associated with the premises operations coverage."
+    },
+    "GeneralLiability_Hazard_ProductsPremiumAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium associated with the products coverage."
+    },
+    "GeneralLiability_Hazard_Classification_C": {
+      "type": "text",
+      "tooltip": "Enter text: The classification of the applicant's liability exposures by location, using the ISO Classification Table or other industry organization rules.  Enter the appropriate class description from the table in this field."
+    },
+    "GeneralLiability_ClaimsMade_ProposedRetroactiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The retroactive date you are requesting for the policy being applied for. This is the proposed earliest date for which an occurrence could \"trigger\" coverage under a Claims Made policy."
+    },
+    "GeneralLiability_ClaimsMade_UninterruptedCoverageEntryDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The retroactive date shown on the applicant's first Claims Made policy.  If this is the first such policy, the date will be the same as the proposed retroactive date shown on the preceding field. If this is a renewal, it is the effective date of the first policy issued in the sequence of uninterrupted Claims Made policies."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_AAHCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Has any product, work, accident or location been excluded, uninsured or self-insured from any previous coverage?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_AnyProductWorkAccidentLocationExcludedUninsuredPreviousCoverageExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any work, accident or location that has been excluded, uninsured or self-insured from any previous coverage."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_AAICode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Was tail coverage purchased under any previous policy?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_TailCoveragePurchasedPreviousPolicyExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation if tail was coverage purchased under any previous policy."
+    },
+    "GeneralLiability_EmployeeBenefits_PerClaimDeductibleAmount_A": {
+      "type": "text",
+      "tooltip": "Enter deductible: The deductible per claim applicable to Employee Benefits Liability coverage."
+    },
+    "GeneralLiability_EmployeeBenefits_EmployeeCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The total number of employees."
+    },
+    "GeneralLiability_EmployeeBenefits_EmployeeCoveredCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The total number of employees covered by employee benefits plans."
+    },
+    "GeneralLiability_EmployeeBenefits_RetroactiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The retroactive date that is the earliest date for which an occurrence could \"trigger\" coverage under Employee Benefits coverage.  (MM/DD/YYYY)"
+    },
+    "Contractors_Question_AABCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Does applicant draw plans, designs or specifications for others?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_ApplicantDrawPlansForOthersExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any plans, designs or specifications drawn for others."
+    },
+    "Contractors_Question_AAICode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Do any operations include blasting or utilize, or store explosive material?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_OperationsIncludeBlastingExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of  any operations that  include blasting or utilize , store explosive material."
+    },
+    "Contractors_Question_AACCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Does any operation involve excavation, tunneling, underground work or earth moving?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_OperationsIncludeEvacuationExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of  any operations which include evacuation, tunneling, underground work or earth moving."
+    },
+    "Contractors_Question_ABBCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Do subcontractors carry coverages or limits less than applicant?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_SubcontractorsCarryLowerLimitsExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any of your subcontractors who carry coverages or limits less than yours."
+    },
+    "Contractors_Question_AADCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Are subcontractors allowed to work without providing you with a certificate of insurance?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_SubcontractorsWorksWithoutCertificatesOfInsuranceExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any subcontractors allowed to work without providing you with Certificates of Insurance."
+    },
+    "Contractors_Question_AAECode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Does applicant lease equipment to others with or without operators?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_ApplicantLeaseEquipmentToOthersExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any  applicant who leases equipment to others with or without operators."
+    },
+    "Contractors_SubcontractorsPaidAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The total dollar amount for work that the contractor pays to subcontractors."
+    },
+    "Contractors_WorkSubcontractedPercent_A": {
+      "type": "text",
+      "tooltip": "Enter percentage: The percentage of the work described by the applicant as subcontracted out."
+    },
+    "Contractors_FullTimeEmployeeCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of individuals employed full time by the applicant."
+    },
+    "Contractors_PartTimeEmployeeCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of individuals employed part time by the applicant."
+    },
+    "GeneralLiabilityLineOfBusiness_TypeOfWorkSubcontractedDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: Describe the type of work and percentage subcontracted."
+    },
+    "ProductAndCompletedOperations_ProductName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name used to identify the product manufactured or sold or service provided by the applicant."
+    },
+    "ProductAndCompletedOperations_AnnualGrossSalesAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The whole dollar estimate of the annual sales receipts realized by this product or service."
+    },
+    "ProductAndCompletedOperations_UnitCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of units of this product manufactured and/or sold each year."
+    },
+    "ProductAndCompletedOperations_InMarketMonthCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of months the product or service has been marketed to the public."
+    },
+    "ProductAndCompletedOperations_ExpectedLifeMonthCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The anticipated number of months of useful life of the product or service."
+    },
+    "ProductAndCompletedOperations_IntendedUse_A": {
+      "type": "text",
+      "tooltip": "Enter text: The intended use of the product."
+    },
+    "ProductAndCompletedOperations_PrincipalComponents_A": {
+      "type": "text",
+      "tooltip": "Enter text: The principal components of the product."
+    },
+    "ProductAndCompletedOperations_ProductName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The name used to identify the product manufactured or sold or service provided by the applicant."
+    },
+    "ProductAndCompletedOperations_AnnualGrossSalesAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The whole dollar estimate of the annual sales receipts realized by this product or service."
+    },
+    "ProductAndCompletedOperations_UnitCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number of units of this product manufactured and/or sold each year."
+    },
+    "ProductAndCompletedOperations_InMarketMonthCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number of months the product or service has been marketed to the public."
+    },
+    "ProductAndCompletedOperations_ExpectedLifeMonthCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The anticipated number of months of useful life of the product or service."
+    },
+    "ProductAndCompletedOperations_IntendedUse_B": {
+      "type": "text",
+      "tooltip": "Enter text: The intended use of the product."
+    },
+    "ProductAndCompletedOperations_PrincipalComponents_B": {
+      "type": "text",
+      "tooltip": "Enter text: The principal components of the product."
+    },
+    "ProductAndCompletedOperations_ProductName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The name used to identify the product manufactured or sold or service provided by the applicant."
+    },
+    "ProductAndCompletedOperations_AnnualGrossSalesAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The whole dollar estimate of the annual sales receipts realized by this product or service."
+    },
+    "ProductAndCompletedOperations_UnitCount_C": {
+      "type": "text",
+      "tooltip": "Enter number: The number of units of this product manufactured and/or sold each year."
+    },
+    "ProductAndCompletedOperations_InMarketMonthCount_C": {
+      "type": "text",
+      "tooltip": "Enter number: The number of months the product or service has been marketed to the public."
+    },
+    "ProductAndCompletedOperations_ExpectedLifeMonthCount_C": {
+      "type": "text",
+      "tooltip": "Enter number: The anticipated number of months of useful life of the product or service."
+    },
+    "ProductAndCompletedOperations_IntendedUse_C": {
+      "type": "text",
+      "tooltip": "Enter text: The intended use of the product."
+    },
+    "ProductAndCompletedOperations_PrincipalComponents_C": {
+      "type": "text",
+      "tooltip": "Enter text: The principal components of the product."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_AAJCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Does applicant install, service or demonstrate products?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_ApplicantInstallServiceProductsExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any installation, service or product demonstration applicant would perform."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ABACode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Foreign products, sold, distributed, used as components?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ABBCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Research and development conducted or new products planned?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_ResearchDevelopmentConductedNewProductsPlannedExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any research and development conducted on new products planned."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ABCCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Guarantees, warrantees, hold harmless agreements?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_GuaranteesWarrantiesHoldHarmlessExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any guarantees, warranties, hold harmless agreements."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ABDCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Products related to aircraft/space industry?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_ProductsRelatedToAircraftIndustryExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation products related to aircraft/space industry."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ABECode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Products recalled, discontinued, changed?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_ProductsRecalledDiscontinuedExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation products recalled, discontinued, changed."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ABFCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Products of others sold or repackaged under applicant label?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_ProductsOfOthersSoldUnderApplicantLabelExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of products of others sold or repackaged under applicant's label."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ABGCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Products under label of others?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_ProductsUnderLabelOfOthersExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of products under label of others."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ABHCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Vendors coverage required?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_VendorCoverageRequiredExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation any vendor's coverage required."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ABICode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Does any named insured sell to other named insured?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_NamedInsuredSellToOtherNamedInsuredExplanation_R": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any named insured who sells to any other named insured."
+    },
+    "GeneralLiabilityLineOfBusiness_Attachment_AdditionalInterestIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that further additional interests appear on the attached ACORD 45."
+    },
+    "AdditionalInterest_Interest_AdditionalInsuredIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is an additional insured."
+    },
+    "AdditionalInterest_Interest_EmployeeAsLessorIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is an employee as lessor."
+    },
+    "AdditionalInterest_Interest_LendersLossPayableIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a lender's loss payable."
+    },
+    "AdditionalInterest_Interest_LienholderIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a lien holder."
+    },
+    "AdditionalInterest_Interest_LossPayeeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a loss payee."
+    },
+    "AdditionalInterest_Interest_MortgageeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a mortgagee."
+    },
+    "AdditionalInterest_Interest_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest is other than those listed."
+    },
+    "AdditionalInterest_Interest_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other type of additional interest."
+    },
+    "AdditionalInterest_InterestRank_A": {
+      "type": "text",
+      "tooltip": "Enter number: The ranking of 'this' additional interest when multiple additional interests are associated with the same item."
+    },
+    "AdditionalInterest_CertificateRequiredIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates if the additional interest requires a Certificate of Insurance."
+    },
+    "AdditionalInterest_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's full name."
+    },
+    "AdditionalInterest_MailingAddress_LineOne_A": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's mailing address line one."
+    },
+    "AdditionalInterest_MailingAddress_LineTwo_A": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's mailing address line two."
+    },
+    "AdditionalInterest_MailingAddress_CityName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's mailing address city name."
+    },
+    "AdditionalInterest_MailingAddress_StateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The additional interest's mailing address state or province code."
+    },
+    "AdditionalInterest_MailingAddress_PostalCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The additional interest's mailing address postal code."
+    },
+    "AdditionalInterest_MailingAddress_CountryCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The additional interest's country code."
+    },
+    "AdditionalInterest_AccountNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The loan number, account number or other controlling number that the additional interest may have assigned the insured."
+    },
+    "AdditionalInterest_Item_LocationProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number of the location which has an additional interest."
+    },
+    "AdditionalInterest_Item_BuildingProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number of the building which has an additional interest."
+    },
+    "AdditionalInterest_Item_ScheduledItemClassCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The description of the property class of the scheduled item (i.e. Jewelry, Furs, Contractors Equipment, etc.)."
+    },
+    "AdditionalInterest_Item_ScheduledItemProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number of the scheduled item which has an additional interest."
+    },
+    "AdditionalInterest_ItemDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the item of interest if needed to further clarify.  For a vehicle, list the make, model and VIN number.  For a scheduled item, list the description, such as three carat diamond in six point setting."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ABJCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Any medical facilities provided or medical professionals employed or contracted?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_AnyMedicalFacilitiesProvidedMedicalProfessionalsEmployedExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any medical facilities provided or medical professionals employed or contracted."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ACACode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Any exposure to radioactive/nuclear materials?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_AnyExposureRadioactiveMaterialsExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any exposure to radioactive/nuclear materials"
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ACJCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Do/have past, present or discontinued operations involve(d) storing, treating, discharging, applying, disposing, or transporting of hazardous material?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_OperationsInvolveStoringDisposingTransportingHazardousMaterialExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation any operations that involve storing, treating, discharging, applying, disposing or transporting hazardous material."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ACBCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Any operations sold, acquired or discontinued in the last specified number of years?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_AnyListedOperationsSoldAcquiredLastFiveYearsExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any listed operations sold, acquired, or discontinued in the last five (5) years."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ACCCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Do you rent or loan equipment to others?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_MachineryOrEquipmentLoanedRentedOthersExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of  any machinery or equipment that is loaned or rented to others."
+    },
+    "CommercialInlandMarineProperty_PropertySubClass_SmallToolsIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the subclass / grouping of property into which the item falls is small tools."
+    },
+    "CommercialInlandMarineProperty_PropertySubClass_LargeEquipmentIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the subclass / grouping of property into which the item falls is large equipment."
+    },
+    "PropertyItem_ItemDetail_InstructionGivenCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates whether instruction is given on how to use the item when it is rented or loaned to others."
+    },
+    "GeneralLiabilityLineOfBusiness_MachineryOrEquipmentLoanedRentedOthersExplanation_B": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of  any machinery or equipment that is loaned or rented to others."
+    },
+    "CommercialInlandMarineProperty_PropertySubClass_SmallToolsIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the subclass / grouping of property into which the item falls is small tools."
+    },
+    "CommercialInlandMarineProperty_PropertySubClass_LargeEquipmentIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the subclass / grouping of property into which the item falls is large equipment."
+    },
+    "PropertyItem_ItemDetail_InstructionGivenCode_B": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates whether instruction is given on how to use the item when it is rented or loaned to others."
+    },
+    "Contractors_Question_AAHCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Any watercraft, docks, floats owned, hired or leased?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_WatercraftDocksFloatsOwnedHiredLeasedExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any watercraft, docks, floats owned, hired, or leased."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ACDCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Any parking facilities owned/rented?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_AnyParkingFacilitiesOwnedRentedExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any parking facilities owned/ rented."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_KAGCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Is a fee charged for parking?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_FeeChargedForParkingExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any fee charged for parking."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ACECode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Recreation facilities provided?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_RecreationalFacilitiesProvidedExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of  any recreational facilities provided."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_KAACode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \" Are there any lodging operations including apartments?\""
+    },
+    "BuildingOccupancy_ApartmentCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of separate living units in structure."
+    },
+    "BuildingOccupancy_ApartmentArea_A": {
+      "type": "text",
+      "tooltip": "Enter number: The area, in square feet, of the building used as apartments."
+    },
+    "GeneralLiability_Otherlodgingoperationsdescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of other lodging operations."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_KAHCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Is there a swimming pool on the premises?\"."
+    },
+    "SwimmingPool_ApprovedFenceIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the swimming pool is surrounded by a fence that is an approved height."
+    },
+    "SwimmingPool_LimitedAccessIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates there is limited access to the swimming pool."
+    },
+    "SwimmingPool_DivingBoardIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the swimming pool has a diving board."
+    },
+    "SwimmingPool_SlideIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the swimming pool has a slide."
+    },
+    "SwimmingPool_AboveGroundIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the swimming pool is above ground."
+    },
+    "SwimmingPool_InGroundIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the swimming pool is in the ground."
+    },
+    "SwimmingPool_LifeGuardIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates there is life guard for the swimming pool."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ACFCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Are social events sponsored?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_SportingOrSocialEventsSponsoredExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any social events sponsored."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_KABCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Are athletic teams sponsored?\""
+    },
+    "AthleticTeam_SportDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the type of sport in which the sponsored athletic team is involved."
+    },
+    "AthleticTeam_ContactSportCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if the sponsored athletic team is involved in a contact sport."
+    },
+    "AthleticTeam_AgeGroup_TwelveAndUnderIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the sport participants are 12 years old or under."
+    },
+    "AthleticTeam_AgeGroup_ThirteenThroughEighteenIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the sport participants are 13 through 18 years old."
+    },
+    "AthleticTeam_AgeGroup_OverEighteenIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the sport participants are over 18 years old."
+    },
+    "AthleticTeam_SponsorshipExtentDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the extent of sponsorship the named insured provides for the athletic team."
+    },
+    "AthleticTeam_SportDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the type of sport in which the sponsored athletic team is involved."
+    },
+    "AthleticTeam_ContactSportCode_B": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if the sponsored athletic team is involved in a contact sport."
+    },
+    "AthleticTeam_AgeGroup_TwelveAndUnderIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the sport participants are 12 years old or under."
+    },
+    "AthleticTeam_AgeGroup_ThirteenThroughEighteenIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the sport participants are 13 through 18 years old."
+    },
+    "AthleticTeam_AgeGroup_OverEighteenIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the sport participants are over 18 years old."
+    },
+    "AthleticTeam_SponsorshipExtentDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the extent of sponsorship the named insured provides for the athletic team."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ACGCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Any structural alterations contemplated?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_StructuralAlterationsContemplatedExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any structural alterations contemplated."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_ACHCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Any demolition exposure contemplated?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_DemolitionExposureContemplatedExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any demolition exposure contemplated."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_AABCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Has applicant been active in or is currently active in joint ventures?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_ApplicantActiveJointVenturesExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any joint ventures in which the applicant may be currently active."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_AACCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Do you lease employees to or from other employers?\"."
+    },
+    "AdditionalInterest_FullName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's full name. As used here, this is the company to whom employees are leased."
+    },
+    "AdditionalInterest_WorkersCompensationCarriedCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Is workers compensation coverage carried?\"."
+    },
+    "AdditionalInterest_FullName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's full name. As used here, this is the company to whom employees are leased."
+    },
+    "AdditionalInterest_WorkersCompensationCarriedCode_B": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Is workers compensation coverage carried?\"."
+    },
+    "AdditionalInterest_FullName_D": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's full name. As used here, this is the company from whom employees are leased."
+    },
+    "AdditionalInterest_WorkersCompensationCarriedCode_C": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Is workers compensation coverage carried?\"."
+    },
+    "AdditionalInterest_FullName_E": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's full name. As used here, this is the company from whom employees are leased."
+    },
+    "AdditionalInterest_WorkersCompensationCarriedCode_D": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Is workers compensation coverage carried?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_AADCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Is there a labor interchange with any other business or subsidiaries?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_LabourInterchangeOtherBusinessSubsidiariesExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any labor interchange with any other business or subsidiaries."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_AAECode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Are day care facilities operated or controlled?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_DayCareFacilitiesOperatedExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any daycare facilities operated or controlled."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_AAFCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Have any crimes occurred or been attempted on your premises within the last specified number of years?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_CrimesOccurredOrAttemptedLastThreeYearsExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any crimes that  occurred or been attempted on your premises within the last three (3) years"
+    },
+    "Contractors_Question_AAGCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Is there a formal, written safety and security policy in effect?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_FormalSafetySecurityPolicyInEffectExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any formal, written safety and security policy in effect."
+    },
+    "GeneralLiabilityLineOfBusiness_Question_AAGCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Does the business' promotional literature make any representation about the safety or security of the premises?\"."
+    },
+    "GeneralLiabilityLineOfBusiness_BusinessPromotionalLiteratureSafetyRepresentationsExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any business promotional literature that makes any representations about the safety or security of the premises."
+    },
+    "GeneralLiabilityLineOfBusiness_RemarkText_B": {
+      "type": "text",
+      "tooltip": "Enter text: The remarks associated with the general liability line of business.  Use this section to provide any additional information required for underwriting or rating.  ACORD 101, Additional Remarks Schedule, may be attached if more space is required."
+    },
+    "Producer_AuthorizedRepresentative_Signature_A": {
+      "type": "text",
+      "tooltip": "Sign here: Accommodates the signature of the authorized representative (e.g., producer, agent, broker, etc.) of the company(ies) listed on the document.  This is required in most states."
+    },
+    "Producer_AuthorizedRepresentative_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the authorized representative of the producer, agency and/or broker that signed the form."
+    },
+    "Producer_StateLicenseIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The State License Number of the producer."
+    },
+    "NamedInsured_Signature_A": {
+      "type": "text",
+      "tooltip": "Sign here: Accommodates the signature of the applicant or named insured."
+    },
+    "NamedInsured_SignatureDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date the form was signed by the applicant or named insured.  (MM/DD/YYYY)"
+    },
+    "Producer_NationalIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The National Producer Number (NPN) as defined in the National Insurance Producer Registry (NIPR).  Note: The NPN is not the same as the producer state license number."
+    }
+  }
+}

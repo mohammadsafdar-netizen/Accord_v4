@@ -1,0 +1,267 @@
+scenarios:
+  - id: upload-pdf-basic
+    name: "Document Upload: Basic PDF Extraction"
+    tags: [upload, pdf, commercial_auto]
+    layers: [L5]
+    category: document_upload
+    upload_turns:
+      - type: pdf
+        filename: "acord_125_app.pdf"
+        extracted_data:
+          business:
+            business_name: "Westfield Mechanical Contractors Inc"
+            entity_type: "corporation"
+            contact_name: "Alan Westfield"
+            phone: "614-555-0312"
+            email: "alan@westfieldmech.com"
+            mailing_address:
+              line_one: "780 Industrial Parkway"
+              city: "Columbus"
+              state: "OH"
+              zip: "43215"
+            tax_id: "31-4829175"
+            years_in_business: "17"
+            employee_count: "42"
+          vehicles:
+            - year: "2024"
+              make: "Ford"
+              model: "F-350"
+              vin: "1FT8W3DT7RED56789"
+              use_type: "service"
+              garaging_address:
+                city: "Columbus"
+                state: "OH"
+                zip: "43215"
+              radius: "55"
+          drivers:
+            - full_name: "Alan Westfield"
+              dob: "06/14/1973"
+              license_number: "WS4829176"
+              license_state: "OH"
+              years_experience: "29"
+          policy:
+            effective_date: "08/01/2026"
+            status: "new"
+    expected:
+      business.business_name: "Westfield Mechanical Contractors Inc"
+      business.entity_type: "corporation"
+      business.contact_name: "Alan Westfield"
+      business.phone: "614-555-0312"
+      business.email: "alan@westfieldmech.com"
+      business.mailing_address.line_one: "780 Industrial Parkway"
+      business.mailing_address.city: "Columbus"
+      business.mailing_address.state: "OH"
+      business.mailing_address.zip: "43215"
+      business.tax_id: "31-4829175"
+      business.years_in_business: "17"
+      business.employee_count: "42"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "F-350"
+      vehicles[0].vin: "1FT8W3DT7RED56789"
+      vehicles[0].use_type: "service"
+      vehicles[0].radius: "55"
+      drivers[0].full_name: "Alan Westfield"
+      drivers[0].dob: "06/14/1973"
+      policy.effective_date: "08/01/2026"
+      policy.status: "new"
+    absent:
+      - loss_history
+      - auto_info.dash_cam
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: upload-merge-with-session
+    name: "Document Upload: Merge PDF Data with Existing Chat Session"
+    tags: [upload, merge, commercial_auto]
+    layers: [L5]
+    category: document_upload
+    turns:
+      - "Hi, I need commercial auto for my company. It's called Ridgeline Excavation LLC, an LLC in Salt Lake City UT 84101. My name is Frank Delaney, 801-555-0478."
+    upload_turns:
+      - type: pdf
+        filename: "acord_137_auto_schedule.pdf"
+        extracted_data:
+          vehicles:
+            - year: "2024"
+              make: "Caterpillar"
+              model: "CT660"
+              vin: "CAT0CT66XRL987654"
+              use_type: "hauling"
+              body_type: "dump"
+              garaging_address:
+                city: "Salt Lake City"
+                state: "UT"
+                zip: "84101"
+              radius: "80"
+            - year: "2023"
+              make: "Kenworth"
+              model: "T880"
+              vin: "1NKZL40X5PJ234567"
+              use_type: "hauling"
+              body_type: "dump"
+              garaging_address:
+                city: "Salt Lake City"
+                state: "UT"
+                zip: "84101"
+              radius: "80"
+          drivers:
+            - full_name: "Frank Delaney"
+              dob: "03/22/1974"
+              license_number: "182947365"
+              license_state: "UT"
+              years_experience: "28"
+            - full_name: "Jake Sorensen"
+              dob: "11/08/1987"
+              license_number: "294817352"
+              license_state: "UT"
+              years_experience: "15"
+    expected:
+      business.business_name: "Ridgeline Excavation LLC"
+      business.entity_type: "llc"
+      business.contact_name: "Frank Delaney"
+      business.phone: "801-555-0478"
+      business.mailing_address.city: "Salt Lake City"
+      business.mailing_address.state: "UT"
+      business.mailing_address.zip: "84101"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Caterpillar"
+      vehicles[0].model: "CT660"
+      vehicles[0].vin: "CAT0CT66XRL987654"
+      vehicles[0].body_type: "dump"
+      vehicles[0].radius: "80"
+      vehicles[1].year: "2023"
+      vehicles[1].make: "Kenworth"
+      vehicles[1].model: "T880"
+      vehicles[1].vin: "1NKZL40X5PJ234567"
+      drivers[0].full_name: "Frank Delaney"
+      drivers[0].dob: "03/22/1974"
+      drivers[1].full_name: "Jake Sorensen"
+      drivers[1].dob: "11/08/1987"
+    absent:
+      - loss_history
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: upload-partial-prefill
+    name: "Document Upload: Partial Prefill Completed by Chat"
+    tags: [upload, partial, commercial_auto]
+    layers: [L5]
+    category: document_upload
+    upload_turns:
+      - type: pdf
+        filename: "partial_acord_125.pdf"
+        extracted_data:
+          business:
+            business_name: "Beacon Safety Systems Inc"
+            entity_type: "corporation"
+            mailing_address:
+              line_one: "1450 Safety Drive"
+              city: "Pittsburgh"
+              state: "PA"
+              zip: "15219"
+          vehicles:
+            - year: "2024"
+              make: "Ford"
+              model: "Transit 350"
+              vin: "1FTBW2CM8RKA67890"
+    turns:
+      - "The PDF has our basic info but it's missing a lot. Contact is Margaret Sullivan, 412-555-0693, margaret@beaconsafety.com. EIN 25-3918472. 11 years, 28 employees."
+      - "The van in the PDF is used for service, garaged at our Pittsburgh address 15219, 40 mile radius. Driver Margaret Sullivan DOB 01/30/1979 PA license 37184926 23 years. Effective 07/01/2026."
+    expected:
+      business.business_name: "Beacon Safety Systems Inc"
+      business.entity_type: "corporation"
+      business.contact_name: "Margaret Sullivan"
+      business.phone: "412-555-0693"
+      business.email: "margaret@beaconsafety.com"
+      business.mailing_address.line_one: "1450 Safety Drive"
+      business.mailing_address.city: "Pittsburgh"
+      business.mailing_address.state: "PA"
+      business.mailing_address.zip: "15219"
+      business.tax_id: "25-3918472"
+      business.years_in_business: "11"
+      business.employee_count: "28"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "Transit 350"
+      vehicles[0].vin: "1FTBW2CM8RKA67890"
+      vehicles[0].use_type: "service"
+      vehicles[0].radius: "40"
+      drivers[0].full_name: "Margaret Sullivan"
+      drivers[0].dob: "01/30/1979"
+      drivers[0].license_number: "37184926"
+      drivers[0].license_state: "PA"
+      policy.effective_date: "07/01/2026"
+    absent:
+      - loss_history
+      - auto_info.dash_cam
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: upload-conflict-resolution
+    name: "Document Upload: Conflicting Data Between PDF and Chat"
+    tags: [upload, conflict, commercial_auto]
+    layers: [L5]
+    category: document_upload
+    upload_turns:
+      - type: pdf
+        filename: "old_acord_application.pdf"
+        extracted_data:
+          business:
+            business_name: "Pacific Coast Welding Inc"
+            entity_type: "corporation"
+            contact_name: "Henry Nakamura"
+            phone: "503-555-0284"
+            email: "henry@pacificwelding.com"
+            mailing_address:
+              line_one: "2200 Harbor Blvd"
+              city: "Portland"
+              state: "OR"
+              zip: "97201"
+            tax_id: "93-7284915"
+            employee_count: "18"
+          vehicles:
+            - year: "2022"
+              make: "Ford"
+              model: "F-350"
+              vin: "1FT8W3DT3NED12345"
+              garaging_address:
+                city: "Portland"
+                state: "OR"
+                zip: "97201"
+          policy:
+            effective_date: "06/01/2025"
+            status: "renewal"
+    turns:
+      - "That PDF is from last year's application. A few things have changed. We moved to 4100 Industrial Way, Portland OR 97203. And we have a new truck now."
+      - "The old F-350 is gone. Our new vehicle is a 2025 Ford F-450 VIN 1FD0W4HT1SED78901, service use, garaged at the new address 97203, 65 mile radius. Employee count is now 24."
+      - "Same driver, Henry Nakamura DOB 05/19/1971 OR license 8394716 31 years. New effective date is 06/01/2026. Still a renewal."
+    expected:
+      business.business_name: "Pacific Coast Welding Inc"
+      business.entity_type: "corporation"
+      business.contact_name: "Henry Nakamura"
+      business.phone: "503-555-0284"
+      business.email: "henry@pacificwelding.com"
+      business.mailing_address.line_one: "4100 Industrial Way"
+      business.mailing_address.city: "Portland"
+      business.mailing_address.state: "OR"
+      business.mailing_address.zip: "97203"
+      business.tax_id: "93-7284915"
+      business.employee_count: "24"
+      vehicles[0].year: "2025"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "F-450"
+      vehicles[0].vin: "1FD0W4HT1SED78901"
+      vehicles[0].use_type: "service"
+      vehicles[0].radius: "65"
+      vehicles[0].garaging_address.city: "Portland"
+      vehicles[0].garaging_address.state: "OR"
+      vehicles[0].garaging_address.zip: "97203"
+      drivers[0].full_name: "Henry Nakamura"
+      drivers[0].dob: "05/19/1971"
+      policy.effective_date: "06/01/2026"
+      policy.status: "renewal"
+    absent:
+      - vehicles[1]
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]

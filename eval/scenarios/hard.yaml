@@ -1,0 +1,272 @@
+scenarios:
+  # --- HARD 1: Dense multi-entity dump in a single message ---
+  - id: hard-bulk-fleet-dump
+    name: "Dense Fleet Dump – 4 vehicles + 3 drivers in one message"
+    tags: [commercial_auto, hard, bulk, multi_entity]
+    layers: [L2, L3]
+    category: hard
+    turns:
+      - "Cascade Hauling Inc, a Washington corporation. 7892 River Road, Tacoma WA 98402. Contact Denise Yamoto, denise@cascadehauling.com, (253) 555-6104. FEIN 91-4827361. Founded 2014, 22 employees, $9.4M revenue. Regional freight."
+      - "Vehicles: 2023 Kenworth T680 VIN 1XKYDP9X4NJ487236 $148K, 2022 Peterbilt 579 VIN 1XPWD49X8MD692847 $136K, 2021 Freightliner Cascadia VIN 3AKJHHDR1LSKV2918 $119K, 2023 Utility 3000R trailer VIN 1UYVS2537NM483921 $34K. Drivers: James Okoro DOB 06/12/1976 WA D4827391 23 years, Linda Park DOB 09/28/1983 WA D5938274 15 years, Miguel Flores DOB 02/14/1979 OR D6749283 20 years. We operate WA OR ID, radius 450 miles, no hazmat."
+      - "Prior carrier Old Republic, expired 04/30/2026, premium $47,200. Renewal effective 05/01/2026."
+    expected:
+      business.business_name: "Cascade Hauling Inc"
+      business.entity_type: "corporation"
+      business.contact_name: "Denise Yamoto"
+      business.email: "denise@cascadehauling.com"
+      business.phone: "(253) 555-6104"
+      business.tax_id: "91-4827361"
+      business.employee_count: "22"
+      business.mailing_address.state: "WA"
+      business.mailing_address.zip: "98402"
+      vehicles[0].make: "Kenworth"
+      vehicles[0].vin: "1XKYDP9X4NJ487236"
+      vehicles[1].make: "Peterbilt"
+      vehicles[2].make: "Freightliner"
+      drivers[0].full_name: "James Okoro"
+      drivers[0].dob: "06/12/1976"
+      drivers[1].full_name: "Linda Park"
+      drivers[2].full_name: "Miguel Flores"
+      auto_info.vehicle_count: "4"
+      auto_info.hazmat: "false"
+      policy.status: "renewal"
+      policy.effective_date: "05/01/2026"
+    absent:
+      - auto_info.hired_auto
+    expected_lobs: [commercial_auto]
+
+  # --- HARD 2: Correction storm — 3 corrections in 2 turns ---
+  - id: hard-correction-storm
+    name: "Correction Storm – Multiple mid-conversation corrections"
+    tags: [commercial_auto, hard, correction]
+    layers: [L2, L3]
+    category: hard
+    turns:
+      - "Iron Peak Construction LLC, Denver CO 80216. Tom Reyes, tom@ironpeak.com, (303) 555-8821. EIN 84-2937461."
+      - "Wait, actually the EIN is 84-2937462, I misread it. Also the email should be tom@ironpeakconstruction.com not tom@ironpeak.com."
+      - "We have 18 employees, $6.2M revenue. Actually correction, it's 21 employees not 18."
+      - "2022 Ford F-550 VIN 1FDUF5HT4NED12345 $68,000. I drive it for construction jobs, 80 mile radius. Colorado and Wyoming operations."
+    expected:
+      business.business_name: "Iron Peak Construction LLC"
+      business.entity_type: "llc"
+      business.tax_id: "84-2937462"
+      business.email: "tom@ironpeakconstruction.com"
+      business.employee_count: "21"
+      business.mailing_address.state: "CO"
+      vehicles[0].year: "2022"
+      vehicles[0].make: "Ford"
+      vehicles[0].vin: "1FDUF5HT4NED12345"
+    expected_lobs: [commercial_auto]
+
+  # --- HARD 3: Heavy negation — everything is "no" ---
+  - id: hard-negation-heavy
+    name: "Negation Heavy – No to everything optional"
+    tags: [commercial_auto, hard, negation]
+    layers: [L2, L3]
+    category: hard
+    turns:
+      - "Quick Stop Courier LLC, Austin TX 78704. Maria Sanchez, maria@quickstopcourier.com, (512) 555-3319. FEIN 74-8293641."
+      - "Local delivery only, 20 mile radius. No hazmat at all. No trailer interchange. No hired vehicles, no non-owned vehicles. No dash cameras. No telematics. No driver training program. No cargo insurance needed."
+      - "One 2023 Ford Transit 250, VIN 1FTYE2CM3PKA45678. Worth $36,000."
+      - "Just me driving. DOB 04/22/1988. TX license B8472916."
+    expected:
+      business.business_name: "Quick Stop Courier LLC"
+      business.email: "maria@quickstopcourier.com"
+      business.tax_id: "74-8293641"
+      auto_info.hazmat: "false"
+      auto_info.trailer_interchange: "false"
+      auto_info.hired_auto: "false"
+      auto_info.non_owned_auto: "false"
+      auto_info.dash_cam: "false"
+      auto_info.telematics: "false"
+      auto_info.driver_training: "false"
+      vehicles[0].vin: "1FTYE2CM3PKA45678"
+      drivers[0].dob: "04/22/1988"
+    absent:
+      - auto_info.hazmat_commodity
+    expected_lobs: [commercial_auto]
+
+  # --- HARD 4: Hazmat carrier with complex cargo + loss history ---
+  - id: hard-hazmat-loss-history
+    name: "Hazmat + Loss History – Class 3 flammables with two prior claims"
+    tags: [commercial_auto, hard, hazmat, loss_history]
+    layers: [L2, L3]
+    category: hard
+    turns:
+      - "Titan Chemical Transport Inc, Newark NJ 07114. Diana Kowalski, diana@titanchem.com, (201) 555-6739. FEIN 22-8473926. Corporation, founded 2012."
+      - "We haul hazardous materials, specifically Class 3 flammable liquids. Interstate: NJ NY PA CT MA. Radius 400 miles. For hire carrier. 55 employees, $24M revenue."
+      - "3 tanker trucks: 2023 Mack Anthem VIN 1M1AN4GY5PM012345 $185K, 2022 Mack Anthem VIN 1M1AN4GY5PM012346 $175K, 2021 Kenworth T880 VIN 1NKZL70X4MJ987654 $162K."
+      - "Drivers: Peter Nowak DOB 01/05/1975 NJ N4729183 25 years CDL hazmat. James O'Brien DOB 09/18/1980 NJ N5847293 20 years."
+      - "We had 2 claims: June 2023 minor collision $8,400 paid driver Nowak. February 2024 cargo damage from strap failure $21,500 paid no driver at fault."
+      - "Prior carrier Zurich, expired 06/01/2026, premium $127,500. Renewal effective 06/01/2026."
+    expected:
+      business.business_name: "Titan Chemical Transport Inc"
+      business.entity_type: "corporation"
+      business.tax_id: "22-8473926"
+      business.email: "diana@titanchem.com"
+      business.employee_count: "55"
+      auto_info.hazmat: "true"
+      auto_info.for_hire: "true"
+      auto_info.vehicle_count: "3"
+      vehicles[0].make: "Mack"
+      vehicles[0].vin: "1M1AN4GY5PM012345"
+      vehicles[1].vin: "1M1AN4GY5PM012346"
+      vehicles[2].make: "Kenworth"
+      drivers[0].full_name: "Peter Nowak"
+      drivers[1].full_name: "James O'Brien"
+      policy.status: "renewal"
+      policy.effective_date: "06/01/2026"
+    expected_lobs: [commercial_auto]
+
+  # --- HARD 5: Special characters in names + unusual entity type ---
+  - id: hard-special-chars
+    name: "Special Characters – Ampersand, apostrophe, S-corp"
+    tags: [commercial_auto, hard, edge_case]
+    layers: [L2, L3]
+    category: hard
+    turns:
+      - "Johnson & O'Malley's Trucking Services, we're an S-corporation in Illinois. Address: 2841 West Lake Street, Chicago IL 60612."
+      - "Contact Sean O'Malley Jr., sean.omalley@johnsonomalley.com, (312) 555-4478. Our tax ID is 36-7294815."
+      - "18 employees, $5.8M revenue. Regional trucking, IL IN WI. 300 mile radius. No hazmat."
+      - "2 trucks: 2022 International LT VIN 3HSDJAPR5NN123456 $128K, 2023 Mack Anthem VIN 1M1AN4GY5PM654321 $155K."
+    expected:
+      business.business_name: "Johnson & O'Malley's Trucking Services"
+      business.entity_type: "subchapter_s"
+      business.contact_name: "Sean O'Malley"
+      business.email: "sean.omalley@johnsonomalley.com"
+      business.tax_id: "36-7294815"
+      business.mailing_address.city: "Chicago"
+      business.mailing_address.state: "IL"
+      vehicles[0].make: "International"
+      vehicles[1].make: "Mack"
+      auto_info.hazmat: "false"
+    expected_lobs: [commercial_auto]
+
+  # --- HARD 6: Sole proprietor edge case — ambiguous employee count ---
+  - id: hard-sole-prop-ambiguous
+    name: "Sole Proprietor – Ambiguous 'just me' employee count"
+    tags: [commercial_auto, hard, edge_case, sole_proprietor]
+    layers: [L2, L3]
+    category: hard
+    turns:
+      - "Mike's Plumbing, it's a sole proprietorship, just me. Mike Johnson, mike@mikesplumbing.com, (972) 555-2281. EIN 75-9284716."
+      - "I'm at 123 Elm Street, Dallas TX 75201. Been doing this since 2020. About $180K revenue."
+      - "I drive a 2019 Ford F-150 VIN 1FTEW1EP5KKC12345, worth $28,000. Local service calls, 30 mile radius."
+      - "My license is TX D8472916, DOB 06/15/1985, 12 years driving. No hazmat, no trailers."
+    expected:
+      business.business_name: "Mike's Plumbing"
+      business.email: "mike@mikesplumbing.com"
+      business.tax_id: "75-9284716"
+      business.mailing_address.city: "Dallas"
+      business.mailing_address.state: "TX"
+      business.mailing_address.zip: "75201"
+      vehicles[0].year: "2019"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "F-150"
+      vehicles[0].vin: "1FTEW1EP5KKC12345"
+      drivers[0].full_name: "Mike Johnson"
+      drivers[0].dob: "06/15/1985"
+      drivers[0].license_state: "TX"
+      auto_info.hazmat: "false"
+    expected_lobs: [commercial_auto]
+
+  # --- HARD 7: Multi-state with compound city names ---
+  - id: hard-compound-cities
+    name: "Compound Cities – Kansas City, Salt Lake City, etc."
+    tags: [commercial_auto, hard, edge_case]
+    layers: [L2, L3]
+    category: hard
+    turns:
+      - "Heartland Express LLC, Kansas City MO 64108. Operations center at 2847 Grand Boulevard."
+      - "Robert Chen, robert@heartlandexpress.com, (816) 555-7729. FEIN 43-8274916. Started 2016, 35 employees, $11M revenue."
+      - "Long haul trucking across MO KS OK TX NE. 800 mile radius. NAICS 484121."
+      - "3 vehicles, 4 drivers. New policy effective 07/01/2026."
+    expected:
+      business.business_name: "Heartland Express LLC"
+      business.mailing_address.city: "Kansas City"
+      business.mailing_address.state: "MO"
+      business.mailing_address.zip: "64108"
+      business.email: "robert@heartlandexpress.com"
+      business.tax_id: "43-8274916"
+      business.employee_count: "35"
+      auto_info.vehicle_count: "3"
+      auto_info.driver_count: "4"
+      policy.effective_date: "07/01/2026"
+    expected_lobs: [commercial_auto]
+
+  # --- HARD 8: Renewal with prior insurance details ---
+  - id: hard-renewal-prior
+    name: "Renewal – Prior carrier, premium, and policy number"
+    tags: [commercial_auto, hard, renewal]
+    layers: [L2, L3]
+    category: hard
+    turns:
+      - "Valley Transport Services Inc, Phoenix AZ 85034. 1847 East Van Buren Street."
+      - "Contact Lisa Martinez, lisa@valleytransport.com, (602) 555-3894. FEIN 86-4729183. Corporation, 2009, 42 employees."
+      - "This is a renewal. Our current carrier is Progressive Commercial, policy number PC-2025-847291, expires 08/15/2026. Premium was $52,300 last year."
+      - "Same fleet: 5 trucks, 6 drivers. Long haul, AZ NM TX CA NV. 700 mile radius. No hazmat. Effective date 08/15/2026."
+    expected:
+      business.business_name: "Valley Transport Services Inc"
+      business.entity_type: "corporation"
+      business.email: "lisa@valleytransport.com"
+      business.tax_id: "86-4729183"
+      business.mailing_address.state: "AZ"
+      policy.status: "renewal"
+      policy.effective_date: "08/15/2026"
+      auto_info.vehicle_count: "5"
+      auto_info.driver_count: "6"
+      auto_info.hazmat: "false"
+    expected_lobs: [commercial_auto]
+
+  # --- HARD 9: FT/PT employee split + revenue abbreviation ---
+  - id: hard-employee-split
+    name: "Employee Split – FT/PT distinction + $2.5M abbreviated"
+    tags: [commercial_auto, hard, edge_case]
+    layers: [L2, L3]
+    category: hard
+    turns:
+      - "Green Valley Landscaping LLC, Portland OR 97205. Contact Amy Chen, amy@greenvalleylandscape.com, (503) 555-4192. FEIN 93-7284916."
+      - "We have 12 full-time employees and 8 part-time seasonal workers. Revenue is about $2.5 million. Started in 2017."
+      - "3 trucks used for hauling equipment to job sites. Local operations, 40 mile radius. No hazmat."
+      - "New policy, effective 06/01/2026."
+    expected:
+      business.business_name: "Green Valley Landscaping LLC"
+      business.entity_type: "llc"
+      business.email: "amy@greenvalleylandscape.com"
+      business.tax_id: "93-7284916"
+      business.mailing_address.state: "OR"
+      business.employee_count: "12"
+      business.full_time_employees: "12"
+      business.part_time_employees: "8"
+      auto_info.vehicle_count: "3"
+      auto_info.hazmat: "false"
+      policy.status: "new"
+      policy.effective_date: "06/01/2026"
+    expected_lobs: [commercial_auto]
+
+  # --- HARD 10: Coverage details + lienholder ---
+  - id: hard-coverage-lienholder
+    name: "Coverage + Lienholder – CSL limit, deductibles, lienholder on vehicle"
+    tags: [commercial_auto, hard, coverage]
+    layers: [L2, L3]
+    category: hard
+    turns:
+      - "Summit Freight LLC, Salt Lake City UT 84101. Contact David Park, david@summitfreight.com, (801) 555-6638. FEIN 87-3294716."
+      - "12 employees, $4.8M revenue. Regional trucking UT CO WY ID. 500 mile radius."
+      - "2 trucks: 2023 Kenworth T680 VIN 1XKYDP9X4NJ487001 $145K financed through Wells Fargo Equipment Finance. 2022 Peterbilt 579 VIN 1XPWD49X8MD692002 $132K paid off."
+      - "Liability: $1M combined single limit. Comprehensive and collision on both trucks, $1,000 deductible. Cargo coverage $100K."
+      - "Effective 05/01/2026, new policy."
+    expected:
+      business.business_name: "Summit Freight LLC"
+      business.mailing_address.city: "Salt Lake City"
+      business.mailing_address.state: "UT"
+      business.email: "david@summitfreight.com"
+      business.tax_id: "87-3294716"
+      vehicles[0].make: "Kenworth"
+      vehicles[0].vin: "1XKYDP9X4NJ487001"
+      vehicles[1].make: "Peterbilt"
+      vehicles[1].vin: "1XPWD49X8MD692002"
+      auto_info.vehicle_count: "2"
+      policy.effective_date: "05/01/2026"
+      policy.status: "new"
+    expected_lobs: [commercial_auto]

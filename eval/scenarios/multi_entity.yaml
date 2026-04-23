@@ -1,0 +1,228 @@
+scenarios:
+  - id: multi-five-vehicle-fleet
+    name: "Multi-Entity: Five Vehicle Fleet"
+    tags: [multi_entity, fleet, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: multi_entity
+    turns:
+      - "Need commercial auto for CrossCountry Express LLC, LLC in Columbus OH 43215. Contact Brian Schuster, 614-555-0729, brian@crosscountryexpress.com. EIN 31-8472935. 12 years, 30 employees."
+      - "Fleet vehicle 1: 2024 Kenworth T680 VIN 1XKYD49X6RJ234567, long haul, Columbus OH 43215, 700 miles. Vehicle 2: 2024 Kenworth T680 VIN 1XKYD49X8RJ345678, long haul, same garage, 700 miles."
+      - "Vehicle 3: 2023 Peterbilt 579 VIN 1XPBD49X2PD456789, long haul, same garage, 700 miles. Vehicle 4: 2023 Freightliner Cascadia VIN 3AKJGLDR4RSAB5678, regional, same garage, 300 miles."
+      - "Vehicle 5: 2022 International LT625 VIN 3HSDZSJR3NN123456, regional delivery, same garage, 300 miles. All trucks have dash cams and telematics."
+      - "Drivers: Brian Schuster DOB 03/15/1975 OH CDL-A S29481735 27 years. Tony Velasquez DOB 08/21/1983 OH CDL-A V48291637 19 years. Jamal Washington DOB 12/02/1988 OH CDL-A W63718294 14 years. Kim Novak DOB 05/30/1990 OH CDL-A N17294836 12 years. Effective 10/01/2026."
+    expected:
+      business.business_name: "CrossCountry Express LLC"
+      business.entity_type: "llc"
+      business.contact_name: "Brian Schuster"
+      business.tax_id: "31-8472935"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Kenworth"
+      vehicles[0].model: "T680"
+      vehicles[0].vin: "1XKYD49X6RJ234567"
+      vehicles[0].radius: "700"
+      vehicles[1].year: "2024"
+      vehicles[1].make: "Kenworth"
+      vehicles[1].model: "T680"
+      vehicles[1].vin: "1XKYD49X8RJ345678"
+      vehicles[2].year: "2023"
+      vehicles[2].make: "Peterbilt"
+      vehicles[2].model: "579"
+      vehicles[2].vin: "1XPBD49X2PD456789"
+      vehicles[3].year: "2023"
+      vehicles[3].make: "Freightliner"
+      vehicles[3].model: "Cascadia"
+      vehicles[3].vin: "3AKJGLDR4RSAB5678"
+      vehicles[4].year: "2022"
+      vehicles[4].make: "International"
+      vehicles[4].model: "LT625"
+      vehicles[4].vin: "3HSDZSJR3NN123456"
+      auto_info.dash_cam: true
+      auto_info.telematics: true
+      drivers[0].full_name: "Brian Schuster"
+      drivers[1].full_name: "Tony Velasquez"
+      drivers[2].full_name: "Jamal Washington"
+      drivers[3].full_name: "Kim Novak"
+      policy.effective_date: "10/01/2026"
+    absent:
+      - auto_info.hired_auto
+      - auto_info.non_owned_auto
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: multi-three-plus-drivers
+    name: "Multi-Entity: Three Plus Drivers with Details"
+    tags: [multi_entity, drivers, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: multi_entity
+    turns:
+      - "Commercial auto for Valley Concrete Pumping Inc, corporation, Phoenix AZ 85004. Contact Ed Brennan, 602-555-0483, ed@valleyconcrete.com. EIN 86-5173924. 20 years, 28 employees."
+      - "Two trucks: 2024 Mack Granite VIN 1M2AX04C3RM012345, commercial hauling, Phoenix AZ 85004, 100 miles. 2023 Kenworth T880 VIN 1NKZL40X2PJ678901, same use, same garage, 100 miles."
+      - "Driver 1: Ed Brennan DOB 11/04/1970 AZ CDL-A B48293715 32 years. Driver 2: Marco Reyes DOB 02/18/1984 AZ CDL-A R62847193 18 years. Driver 3: Tyrone Banks DOB 06/25/1989 AZ CDL-A B39172846 13 years. Driver 4: Hung Nguyen DOB 09/09/1992 AZ CDL-A N41827395 10 years."
+      - "Effective 07/01/2026. We want 1M CSL and 2500 deductible on comp and collision."
+    expected:
+      business.business_name: "Valley Concrete Pumping Inc"
+      business.entity_type: "corporation"
+      drivers[0].full_name: "Ed Brennan"
+      drivers[0].dob: "11/04/1970"
+      drivers[0].license_state: "AZ"
+      drivers[0].years_experience: "32"
+      drivers[1].full_name: "Marco Reyes"
+      drivers[1].dob: "02/18/1984"
+      drivers[1].years_experience: "18"
+      drivers[2].full_name: "Tyrone Banks"
+      drivers[2].dob: "06/25/1989"
+      drivers[2].years_experience: "13"
+      drivers[3].full_name: "Hung Nguyen"
+      drivers[3].dob: "09/09/1992"
+      drivers[3].years_experience: "10"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Mack"
+      vehicles[1].year: "2023"
+      vehicles[1].make: "Kenworth"
+      policy.effective_date: "07/01/2026"
+    absent:
+      - loss_history
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: multi-auto-plus-gl
+    name: "Multi-LOB: Commercial Auto and General Liability"
+    tags: [multi_entity, multi_lob, commercial_auto, general_liability]
+    layers: [L2, L3, L4, L5]
+    category: multi_entity
+    turns:
+      - "I need commercial auto and general liability for Evergreen Tree Service LLC, an LLC in Portland OR 97205. Contact Sam Whitaker, 503-555-0612, sam@evergreentreeservice.com. EIN 93-4817263. 14 years, 18 employees."
+      - "One truck: 2024 Ford F-550 VIN 1FDUF5HT6RED78901, service use, garaged Portland OR 97205, 50 mile radius."
+      - "Driver Sam Whitaker DOB 04/12/1978 OR license 7482916 24 years. We need 1M CSL on the auto and 1M per occurrence / 2M aggregate on GL."
+      - "Effective 06/01/2026 new policy. No dash cams or telematics."
+    expected:
+      business.business_name: "Evergreen Tree Service LLC"
+      business.entity_type: "llc"
+      business.contact_name: "Sam Whitaker"
+      business.tax_id: "93-4817263"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "F-550"
+      drivers[0].full_name: "Sam Whitaker"
+      auto_info.dash_cam: false
+      auto_info.telematics: false
+      policy.effective_date: "06/01/2026"
+      policy.status: "new"
+    absent:
+      - auto_info.hired_auto
+      - auto_info.non_owned_auto
+    expected_lobs: [commercial_auto, general_liability]
+    expected_forms: ["125", "126", "127", "129", "137", "163"]
+
+  - id: multi-auto-wc-umbrella
+    name: "Multi-LOB: Auto + Workers Comp + Umbrella"
+    tags: [multi_entity, multi_lob, commercial_auto, workers_compensation, commercial_umbrella]
+    layers: [L2, L3, L4, L5]
+    category: multi_entity
+    turns:
+      - "We need commercial auto, workers comp, and a commercial umbrella for Pinnacle Mechanical Inc, corporation, in Denver CO 80202. Contact is Sandra Cho, 303-555-0918, sandra@pinnaclemech.com. EIN 84-2917463. 22 years, 55 employees."
+      - "Three service vans: 2024 Ford Transit 250 VIN 1FTBR1C84RKA12345, 2024 Ford Transit 250 VIN 1FTBR1C86RKA23456, 2023 Chevy Express 2500 VIN 1GCWGAFG3P1345678. All service use, garaged Denver CO 80202, 45 mile radius."
+      - "Drivers: Sandra Cho DOB 10/05/1976 CO DL 92-789-1234 26 years. James Ford DOB 01/22/1985 CO DL 92-456-7890 17 years. Rachel Kim DOB 07/14/1991 CO DL 92-123-4567 11 years."
+      - "Effective 09/01/2026. 1M CSL on auto, statutory WC limits, 2M umbrella over auto and WC. Annual payroll is $2.8 million."
+    expected:
+      business.business_name: "Pinnacle Mechanical Inc"
+      business.entity_type: "corporation"
+      business.contact_name: "Sandra Cho"
+      business.tax_id: "84-2917463"
+      business.years_in_business: "22"
+      business.employee_count: "55"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "Transit 250"
+      vehicles[1].year: "2024"
+      vehicles[1].make: "Ford"
+      vehicles[1].model: "Transit 250"
+      vehicles[2].year: "2023"
+      vehicles[2].make: "Chevrolet"
+      vehicles[2].model: "Express 2500"
+      drivers[0].full_name: "Sandra Cho"
+      drivers[1].full_name: "James Ford"
+      drivers[2].full_name: "Rachel Kim"
+      policy.effective_date: "09/01/2026"
+    absent:
+      - auto_info.dash_cam
+      - loss_history
+    expected_lobs: [commercial_auto, workers_compensation, commercial_umbrella]
+    expected_forms: ["125", "127", "129", "130", "137", "163"]
+
+  - id: multi-property-bop
+    name: "Multi-LOB: Commercial Property + BOP"
+    tags: [multi_entity, multi_lob, commercial_property, bop]
+    layers: [L2, L3, L4, L5]
+    category: multi_entity
+    turns:
+      - "I need commercial property insurance and a BOP for my retail store. Business name is Harbor View Gift Shop LLC, an LLC at 320 Waterfront Drive, Annapolis MD 21401."
+      - "Contact is Lydia Marchetti, 410-555-0267, lydia@harborviewgifts.com. EIN 52-3847192. 6 years in business, 8 employees."
+      - "The building is about 2,400 square feet, we lease it. Building value is $450,000 and our business personal property is worth about $175,000. We need $1M general liability included in the BOP."
+      - "Effective date 05/01/2026. New policy. No prior commercial insurance, this is our first time getting proper coverage."
+    expected:
+      business.business_name: "Harbor View Gift Shop LLC"
+      business.entity_type: "llc"
+      business.contact_name: "Lydia Marchetti"
+      business.phone: "410-555-0267"
+      business.email: "lydia@harborviewgifts.com"
+      business.mailing_address.line_one: "320 Waterfront Drive"
+      business.mailing_address.city: "Annapolis"
+      business.mailing_address.state: "MD"
+      business.mailing_address.zip: "21401"
+      business.tax_id: "52-3847192"
+      business.years_in_business: "6"
+      business.employee_count: "8"
+      policy.effective_date: "05/01/2026"
+      policy.status: "new"
+    absent:
+      - vehicles
+      - drivers
+      - auto_info
+      - prior_insurance
+    expected_lobs: [commercial_property, bop]
+    expected_forms: ["125", "159", "160"]
+
+  - id: multi-full-coverage-all-lobs
+    name: "Multi-LOB: All Eight Lines of Business"
+    tags: [multi_entity, multi_lob, comprehensive]
+    layers: [L2, L3, L4, L5]
+    category: multi_entity
+    turns:
+      - "I need the full package for our company. All lines of business. Titan Industries Inc, a corporation at 5000 Enterprise Parkway, Charlotte NC 28202. Contact is Richard Blackwell, CEO."
+      - "Phone 704-555-0193, email rblackwell@titanindustries.com. EIN 56-1948273. 30 years in business, 250 employees. Website titanindustries.com. NAICS 332710. We operate in NC SC GA VA TN."
+      - "We need commercial auto, general liability, commercial property, workers comp, commercial umbrella, cyber liability, D&O, and a BOP for our satellite office."
+      - "For auto: two vehicles. 2024 Ford F-250 VIN 1FT7W2BT0RED12345 service, Charlotte NC 28202, 60 miles. 2023 Chevy Silverado 1500 VIN 3GCUYDED9PG234567, same use and garage. Dash cams yes, telematics yes."
+      - "Drivers: Richard Blackwell DOB 08/17/1965 NC license B49281736 37 years. Susan Park DOB 03/29/1982 NC license P38172946 20 years. Effective 01/01/2027. Umbrella 5M over all underlying. Annual payroll 12 million, annual revenue 45 million."
+    expected:
+      business.business_name: "Titan Industries Inc"
+      business.entity_type: "corporation"
+      business.contact_name: "Richard Blackwell"
+      business.phone: "704-555-0193"
+      business.email: "rblackwell@titanindustries.com"
+      business.mailing_address.line_one: "5000 Enterprise Parkway"
+      business.mailing_address.city: "Charlotte"
+      business.mailing_address.state: "NC"
+      business.mailing_address.zip: "28202"
+      business.tax_id: "56-1948273"
+      business.years_in_business: "30"
+      business.employee_count: "250"
+      business.website: "titanindustries.com"
+      business.naics_code: "332710"
+      business.states_of_operation: ["NC", "SC", "GA", "VA", "TN"]
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "F-250"
+      vehicles[1].year: "2023"
+      vehicles[1].make: "Chevrolet"
+      vehicles[1].model: "Silverado 1500"
+      auto_info.dash_cam: true
+      auto_info.telematics: true
+      drivers[0].full_name: "Richard Blackwell"
+      drivers[0].dob: "08/17/1965"
+      drivers[1].full_name: "Susan Park"
+      drivers[1].dob: "03/29/1982"
+      policy.effective_date: "01/01/2027"
+    absent: []
+    expected_lobs: [commercial_auto, general_liability, commercial_property, workers_compensation, commercial_umbrella, cyber, directors_officers, bop]
+    expected_forms: ["125", "126", "127", "129", "130", "137", "159", "160", "163"]

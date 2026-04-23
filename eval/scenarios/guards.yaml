@@ -1,0 +1,237 @@
+scenarios:
+  # ── Guard 1: _fix_boolean_negations ──
+  - id: guard-negation-dash-cam
+    name: "Guard: Negation flips dash_cam"
+    tags: [guard, negation]
+    layers: [L1]
+    category: guards
+    l1_guard: "_fix_boolean_negations"
+    l1_user_message: "no we don't have dash cameras"
+    l1_mock_delta:
+      auto_info:
+        dash_cam: true
+    l1_expected:
+      auto_info:
+        dash_cam: false
+
+  - id: guard-negation-telematics
+    name: "Guard: Negation flips telematics"
+    tags: [guard, negation]
+    layers: [L1]
+    category: guards
+    l1_guard: "_fix_boolean_negations"
+    l1_user_message: "we do not use telematics"
+    l1_mock_delta:
+      auto_info:
+        telematics: true
+    l1_expected:
+      auto_info:
+        telematics: false
+
+  # ── Guard 2: _strip_ungrounded_fields ──
+  - id: guard-strip-ungrounded-fields
+    name: "Guard: Strip fields with no textual evidence"
+    tags: [guard, ungrounded]
+    layers: [L1]
+    category: guards
+    l1_guard: "_strip_ungrounded_fields"
+    l1_user_message: "My business is called Acme Plumbing LLC in Dallas TX"
+    l1_mock_delta:
+      business:
+        business_name: "Acme Plumbing LLC"
+        entity_type: "llc"
+        naics_code: "238220"
+        sic_code: "1711"
+        employee_count: "10"
+    l1_expected:
+      business:
+        business_name: "Acme Plumbing LLC"
+        entity_type: "llc"
+
+  # ── Guard 3: _strip_phantom_vehicles ──
+  - id: guard-strip-phantom-vehicles
+    name: "Guard: Remove phantom vehicle not in user message"
+    tags: [guard, phantom]
+    layers: [L1]
+    category: guards
+    l1_guard: "_strip_phantom_vehicles"
+    l1_user_message: "I have a 2024 Ford F-150"
+    l1_mock_delta:
+      vehicles:
+        - year: "2024"
+          make: "Ford"
+          model: "F-150"
+        - year: "2023"
+          make: "Chevrolet"
+          model: "Silverado 1500"
+    l1_expected:
+      vehicles:
+        - year: "2024"
+          make: "Ford"
+          model: "F-150"
+
+  # ── Guard 4: _strip_hired_nonowned_cluster ──
+  - id: guard-strip-hired-nonowned
+    name: "Guard: Remove hired/non-owned block when not mentioned"
+    tags: [guard, hired_nonowned]
+    layers: [L1]
+    category: guards
+    l1_guard: "_strip_hired_nonowned_cluster"
+    l1_user_message: "We have one company truck, a 2023 Toyota Tacoma"
+    l1_mock_delta:
+      auto_info:
+        hired_auto: true
+        non_owned_auto: true
+    l1_expected:
+      auto_info: {}
+
+  # ── Guard 5: _collapse_synthetic_loss_history ──
+  - id: guard-collapse-synthetic-loss
+    name: "Guard: Remove fabricated loss history entries"
+    tags: [guard, loss_history]
+    layers: [L1]
+    category: guards
+    l1_guard: "_collapse_synthetic_loss_history"
+    l1_user_message: "We have a clean record, no claims at all"
+    l1_mock_delta:
+      loss_history:
+        - date: "2024-03-15"
+          type: "collision"
+          amount: "5000"
+          description: "Minor fender bender"
+        - date: "2023-07-20"
+          type: "comprehensive"
+          amount: "2500"
+          description: "Windshield damage"
+    l1_expected:
+      loss_history: []
+
+  # ── Guard 6: _resolve_garaging_address ──
+  - id: guard-resolve-garaging-address
+    name: "Guard: Copy first vehicle garaging address for same address"
+    tags: [guard, garaging]
+    layers: [L1]
+    category: guards
+    l1_guard: "_resolve_garaging_address"
+    l1_user_message: "Second vehicle is garaged at the same address"
+    l1_mock_delta:
+      vehicles:
+        - year: "2024"
+          make: "Ford"
+          model: "F-250"
+          garaging_address:
+            city: "Houston"
+            state: "TX"
+            zip: "77001"
+        - year: "2023"
+          make: "Ram"
+          model: "2500"
+          garaging_address: {}
+    l1_expected:
+      vehicles:
+        - year: "2024"
+          make: "Ford"
+          model: "F-250"
+          garaging_address:
+            city: "Houston"
+            state: "TX"
+            zip: "77001"
+        - year: "2023"
+          make: "Ram"
+          model: "2500"
+          garaging_address:
+            city: "Houston"
+            state: "TX"
+            zip: "77001"
+
+  # ── Guard 7: _dedup_coverages ──
+  - id: guard-dedup-coverages
+    name: "Guard: Remove duplicate coverage entries"
+    tags: [guard, dedup]
+    layers: [L1]
+    category: guards
+    l1_guard: "_dedup_coverages"
+    l1_user_message: "I want 1 million CSL"
+    l1_mock_delta:
+      coverages:
+        - coverage_type: "combined_single_limit"
+          limit: "1000000"
+        - coverage_type: "combined_single_limit"
+          limit: "1000000"
+        - coverage_type: "comprehensive"
+          deductible: "1000"
+    l1_expected:
+      coverages:
+        - coverage_type: "combined_single_limit"
+          limit: "1000000"
+        - coverage_type: "comprehensive"
+          deductible: "1000"
+
+  # ── Guard 8: _strip_phantom_cyber_info ──
+  - id: guard-strip-phantom-cyber
+    name: "Guard: Remove cyber_info with only revenue copy"
+    tags: [guard, phantom, cyber]
+    layers: [L1]
+    category: guards
+    l1_guard: "_strip_phantom_cyber_info"
+    l1_user_message: "Our annual revenue is about 3 million dollars"
+    l1_mock_delta:
+      cyber_info:
+        annual_revenue: "3000000"
+        has_security_policy: true
+        has_incident_response_plan: true
+    l1_expected:
+      cyber_info: {}
+
+  # ── Guard 9: _strip_annual_payroll_dup ──
+  - id: guard-strip-payroll-dup
+    name: "Guard: Remove payroll when it duplicates revenue"
+    tags: [guard, dedup, payroll]
+    layers: [L1]
+    category: guards
+    l1_guard: "_strip_annual_payroll_dup"
+    l1_user_message: "Our annual revenue is 5 million"
+    l1_mock_delta:
+      business:
+        annual_revenue: "5000000"
+        annual_payroll: "5000000"
+    l1_expected:
+      business:
+        annual_revenue: "5000000"
+
+  # ── Combo: Multiple guards in sequence ──
+  - id: guard-combo-negation-phantom-ungrounded
+    name: "Guard Combo: Negation + Phantom Vehicle + Ungrounded Fields"
+    tags: [guard, combo]
+    layers: [L1]
+    category: guards
+    l1_guard:
+      - "_fix_boolean_negations"
+      - "_strip_phantom_vehicles"
+      - "_strip_ungrounded_fields"
+    l1_user_message: "I have a 2024 Ford F-150 and no dash cams. Business is Acme Services LLC."
+    l1_mock_delta:
+      auto_info:
+        dash_cam: true
+      vehicles:
+        - year: "2024"
+          make: "Ford"
+          model: "F-150"
+        - year: "2022"
+          make: "Toyota"
+          model: "Camry"
+      business:
+        business_name: "Acme Services LLC"
+        entity_type: "llc"
+        naics_code: "561720"
+        website: "acmeservices.com"
+    l1_expected:
+      auto_info:
+        dash_cam: false
+      vehicles:
+        - year: "2024"
+          make: "Ford"
+          model: "F-150"
+      business:
+        business_name: "Acme Services LLC"
+        entity_type: "llc"

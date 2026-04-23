@@ -1,0 +1,127 @@
+scenarios:
+  - id: correction-vehicle-year
+    name: "Correction: Change Vehicle Year Mid-Conversation"
+    tags: [correction, vehicle, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: correction
+    turns:
+      - "Need commercial auto for Pioneer Pest Control LLC, Tucson AZ 85701. I'm Calvin Reed, 520-555-0483, calvin@pioneerpest.com. EIN 86-9134725. We have a 2022 Toyota Tacoma TRD VIN 3TMCZ5AN8NM345678 used for service, garaged Tucson AZ 85701, 40 mile radius."
+      - "Sorry, I misspoke. The Tacoma is actually a 2023, not a 2022. Everything else is correct."
+    expected:
+      business.business_name: "Pioneer Pest Control LLC"
+      business.contact_name: "Calvin Reed"
+      vehicles[0].year: "2023"
+      vehicles[0].make: "Toyota"
+      vehicles[0].model: "Tacoma TRD"
+      vehicles[0].vin: "3TMCZ5AN8NM345678"
+      vehicles[0].garaging_address.city: "Tucson"
+      vehicles[0].garaging_address.state: "AZ"
+    absent:
+      - loss_history
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: correction-ein
+    name: "Correction: Change EIN / Tax ID"
+    tags: [correction, business, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: correction
+    turns:
+      - "Commercial auto for Lakeside Marine Services LLC in Traverse City MI 49684. Contact is Brenda Kowalski, 231-555-0619, brenda@lakesidemarine.com. Our EIN is 38-4521789."
+      - "2024 Ford F-350 VIN 1FT8W3DT0RED45678 for service, garaged Traverse City MI 49684, 50 miles."
+      - "Correction on the EIN: it should be 38-4527189, I transposed some digits. Sorry about that."
+    expected:
+      business.business_name: "Lakeside Marine Services LLC"
+      business.tax_id: "38-4527189"
+      business.contact_name: "Brenda Kowalski"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "F-350"
+    absent:
+      - prior_insurance
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: correction-business-name
+    name: "Correction: Change Business Name"
+    tags: [correction, business, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: correction
+    turns:
+      - "I need commercial auto for Precision Welding Inc, corporation in Milwaukee WI 53202. My name is Harold Stenger, 414-555-0752. EIN 39-6128347."
+      - "2023 Ram 2500 VIN 3C6UR5DL1PG678901, service use, Milwaukee WI 53202, 60 miles."
+      - "Actually the legal name of the business is Precision Welding & Fabrication Inc. I left off the fabrication part."
+    expected:
+      business.business_name: "Precision Welding & Fabrication Inc"
+      business.entity_type: "corporation"
+      business.contact_name: "Harold Stenger"
+      business.tax_id: "39-6128347"
+      vehicles[0].year: "2023"
+      vehicles[0].make: "Ram"
+      vehicles[0].model: "2500"
+    absent:
+      - auto_info.dash_cam
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: correction-driver-dob
+    name: "Correction: Change Driver Date of Birth"
+    tags: [correction, driver, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: correction
+    turns:
+      - "Commercial auto for Cascade Window Cleaning LLC, Tacoma WA 98402. I'm Neil Andersen, 253-555-0198. 2024 Chevy Express 2500 VIN 1GCWGAFG4R1456789, service, Tacoma WA 98402, 35 miles."
+      - "Driver Neil Andersen DOB 03/21/1984 WA license ANDER*N*321QP 16 years experience."
+      - "Wait, my birthday is March 12 not March 21. It's 03/12/1984."
+    expected:
+      business.business_name: "Cascade Window Cleaning LLC"
+      drivers[0].full_name: "Neil Andersen"
+      drivers[0].dob: "03/12/1984"
+      drivers[0].license_number: "ANDER*N*321QP"
+      drivers[0].license_state: "WA"
+      vehicles[0].year: "2024"
+    absent:
+      - loss_history
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: correction-effective-date
+    name: "Correction: Change Policy Effective Date"
+    tags: [correction, policy, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: correction
+    turns:
+      - "Need commercial auto for Blue Ridge Excavation LLC, Asheville NC 28801. Contact Jerry Blackburn 828-555-0435. EIN 56-8392147. 2022 Cat CT660 VIN CAT0CT66XNL123456 for hauling, Asheville NC 28801, 70 miles. Effective date May 1 2026."
+      - "The effective date needs to change to June 1 2026. We're pushing back our start."
+    expected:
+      business.business_name: "Blue Ridge Excavation LLC"
+      business.contact_name: "Jerry Blackburn"
+      policy.effective_date: "06/01/2026"
+      vehicles[0].year: "2022"
+    absent:
+      - prior_insurance
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: correction-entity-type
+    name: "Correction: Change Entity Type"
+    tags: [correction, business, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: correction
+    turns:
+      - "Hi, I need commercial auto for Redwood Construction, we're a partnership in Sacramento CA 95814. My name is Victor Huang, 916-555-0867, victor@redwoodconstruction.com."
+      - "2023 Ford F-450 VIN 1FD0W4HT7PED98765 for hauling, Sacramento CA 95814, 55 miles."
+      - "I need to correct the entity type. We actually restructured last year and we're now an LLC, not a partnership."
+    expected:
+      business.business_name: "Redwood Construction"
+      business.entity_type: "llc"
+      business.contact_name: "Victor Huang"
+      business.mailing_address.city: "Sacramento"
+      business.mailing_address.state: "CA"
+      vehicles[0].year: "2023"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "F-450"
+    absent:
+      - loss_history
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]

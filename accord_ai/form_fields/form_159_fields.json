@@ -1,0 +1,740 @@
+{
+  "form_number": "159",
+  "field_count": 183,
+  "text_field_count": 170,
+  "checkbox_field_count": 13,
+  "fields": {
+    "Form_EditionIdentifier_A": {
+      "type": "text",
+      "tooltip": "The edition identifier of the form including the form number and edition (the date is typically formatted YYYY/MM)."
+    },
+    "Form_CompletionDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date on which the form is completed.  (MM/DD/YYYY)"
+    },
+    "Producer_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The full name of the producer / agency."
+    },
+    "Producer_MailingAddress_LineOne_A": {
+      "type": "text",
+      "tooltip": "Enter text: The mailing address line one of the producer / agency."
+    },
+    "Producer_MailingAddress_LineTwo_A": {
+      "type": "text",
+      "tooltip": "Enter text: The mailing address line two of the producer / agency."
+    },
+    "Producer_MailingAddress_CityName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The mailing address city name of the producer / agency."
+    },
+    "Producer_MailingAddress_StateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The mailing address state or province code of the producer / agency."
+    },
+    "Producer_MailingAddress_PostalCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The mailing address postal code of the producer / agency."
+    },
+    "Producer_ContactPerson_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the individual at the producer's establishment that is the primary contact."
+    },
+    "Producer_ContactPerson_PhoneNumber_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer's contact person's phone number.  If applicable, include the area code and extension."
+    },
+    "Producer_FaxNumber_A": {
+      "type": "text",
+      "tooltip": "Enter number: The fax number of the producer / agency."
+    },
+    "Producer_ContactPerson_EmailAddress_A": {
+      "type": "text",
+      "tooltip": "Enter text: The producer's contact person's e-mail address."
+    },
+    "Insurer_ProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter code: The identification code assigned to the producer (e.g., agency or brokerage firm) by the insurer."
+    },
+    "Insurer_SubProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter code: The identification code assigned by the insurer to the sub-producer (e.g., individual) within a producer's office (e.g., agency or brokerage)."
+    },
+    "Producer_CustomerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage)."
+    },
+    "Insurer_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The insurer's full legal company name(s) as found in the file copy of the policy.  Use the actual name of the company within the group to which the policy has been issued.  This is not the insurer's group name or trade name."
+    },
+    "Insurer_NAICCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The identification code assigned to the insurer by the National Association of Insurance Commissioners (NAIC)."
+    },
+    "Form_CurrentPageNumber_A": {
+      "type": "text",
+      "tooltip": "Enter number: The page number applicable to this page."
+    },
+    "Form_TotalPageNumber_A": {
+      "type": "text",
+      "tooltip": "Enter number: The total number of pages applicable to this form (e.g., Page 1 of 4).  If only one page, indicate Page 1 of 1."
+    },
+    "NamedInsured_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured(s) as it / they will appear on the policy declarations page."
+    },
+    "Policy_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The identifier assigned by the insurer to the policy, or submission, being referenced exactly as it appears on the policy, including prefix and suffix symbols.  If required for self-insurance, the self-insured license or contract number."
+    },
+    "Policy_EffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the policy.  The date that the terms and conditions of the policy commence.  (MM/DD/YYYY)"
+    },
+    "NamedInsured_MailingAddress_LineOne_A": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured's mailing address line one."
+    },
+    "NamedInsured_MailingAddress_CityName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured's mailing address city name."
+    },
+    "NamedInsured_MailingAddress_StateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The named insured's mailing address state or province code."
+    },
+    "NamedInsured_MailingAddress_PostalCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The named insured's mailing address postal code."
+    },
+    "StatementOfValues_Coinsurance_EightyPercentIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that 80% coinsurance is applicable."
+    },
+    "StatementOfValues_Coinsurance_NinetyPercentIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that 90% coinsurance is applicable."
+    },
+    "StatementOfValues_Coinsurance_OneHundredPercentIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that 100% coinsurance is applicable."
+    },
+    "StatementOfValues_Coinsurance_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that a coinsurance percentage other than those listed is applicable."
+    },
+    "StatementOfValues_Coinsurance_OtherPercent_A": {
+      "type": "text",
+      "tooltip": "Enter percentage: The coinsurance percentage."
+    },
+    "StatementOfValues_CauseOfLoss_BasicIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is basic."
+    },
+    "StatementOfValues_CauseOfLoss_BroadIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is broad."
+    },
+    "StatementOfValues_CauseOfLoss_Specialindicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is special."
+    },
+    "StatementOfValues_CauseOfLoss_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is other than those listed."
+    },
+    "StatementOfValues_CauseOfLoss_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The cause of loss for the subject of insurance."
+    },
+    "StatementOfValues_CauseOfLoss_EarthquakeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is earthquake."
+    },
+    "StatementOfValues_CauseOfLoss_FloodIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is flood."
+    },
+    "StatementOfValues_CauseOfLoss_OtherIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is other than those listed."
+    },
+    "StatementOfValues_CauseOfLoss_OtherDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The cause of loss for the subject of insurance."
+    },
+    "StatementOfValues_CauseOfLoss_SprinklerLeakageExclusionIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is sprinkler leakage exclusion."
+    },
+    "StatementOfValues_CauseOfLoss_VandalismExclusionIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the cause of loss for the subject of insurance is vandalism exclusion."
+    },
+    "StatementOfValues_Premises_ClassCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_A": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_ClassCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_B": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_B": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_ClassCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_C": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_C": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_C": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_ClassCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_D": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_D": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_D": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_D": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_D": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_D": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_ClassCode_E": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_E": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_E": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_E": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_E": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_E": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_E": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_E": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_E": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_E": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_ClassCode_F": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_F": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_F": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_F": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_F": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_F": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_F": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_F": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_F": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_F": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_ClassCode_G": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_G": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_G": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_G": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_G": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_G": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_G": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_G": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_G": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_G": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_ClassCode_H": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_H": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_H": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_H": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_H": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_H": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_H": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_H": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_H": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_H": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_ClassCode_I": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_I": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_I": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_I": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_I": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_I": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_I": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_I": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_I": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_I": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_ClassCode_J": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_J": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_J": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_J": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_J": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_J": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_J": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_J": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_J": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_J": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_ClassCode_K": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_K": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_K": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_K": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_K": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_K": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_K": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_K": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_K": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_K": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_ClassCode_L": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_L": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_L": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_L": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_L": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_L": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_L": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_L": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_L": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_L": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_ClassCode_M": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_M": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_M": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_M": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_M": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_M": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_M": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_M": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_M": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_M": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_ClassCode_N": {
+      "type": "text",
+      "tooltip": "Enter code: The Class Code for the exposure described by this Group. This code is derived from Insurance Services Office or company code list."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_N": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_N": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_Building_SublocationDescription_N": {
+      "type": "text",
+      "tooltip": "Enter text: This describes the particular sublocation in a manner sufficient to distinguish it from other sublocations at a given location.  An example might be \"3 story blue structure on the left of the main building\"."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_N": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_N": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_N": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_N": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialProperty_Premises_SubjectOfInsuranceCode_N": {
+      "type": "text",
+      "tooltip": "Enter code: The code designating all unit at risk / coverages that are to be insured at this particular location number / building number combination.\n\nExamples:\n\nB - Building\nBUSIN -  Business Income with Extra Expense\nBUSER - Business Income with Extra Expense and Rental Value  \nBUSRN - Business Income with Rental Value without Extra Expense\nBPP - Business Personal Property \nEE - Extra Expense \nFF - Furniture & Fixtures \nLBI - Loss of Business Income \nMACEQ - Machinery, Equipment \nPP - Personal Property \nPOTOP - Property of Others \nSTK - Stock"
+    },
+    "StatementOfValues_Premises_LimitAmount_N": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit amount for the subject of insurance."
+    },
+    "StatementOfValues_Premises_TotalLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The total limit amount."
+    }
+  }
+}

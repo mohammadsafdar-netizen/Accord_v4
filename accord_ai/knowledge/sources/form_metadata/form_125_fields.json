@@ -1,0 +1,2200 @@
+{
+  "form_number": "125",
+  "field_count": 548,
+  "text_field_count": 384,
+  "checkbox_field_count": 164,
+  "fields": {
+    "Form_EditionIdentifier_A": {
+      "type": "text",
+      "tooltip": "The edition identifier of the form including the form number and edition (the date is typically formatted YYYY/MM)."
+    },
+    "Form_CompletionDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date on which the form is completed.  (MM/DD/YYYY)"
+    },
+    "Producer_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The full name of the producer / agency."
+    },
+    "Producer_MailingAddress_LineOne_A": {
+      "type": "text",
+      "tooltip": "Enter text: The mailing address line one of the producer / agency."
+    },
+    "Producer_MailingAddress_LineTwo_A": {
+      "type": "text",
+      "tooltip": "Enter text: The mailing address line two of the producer / agency."
+    },
+    "Producer_MailingAddress_CityName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The mailing address city name of the producer / agency."
+    },
+    "Producer_MailingAddress_StateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The mailing address state or province code of the producer / agency."
+    },
+    "Producer_MailingAddress_PostalCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The mailing address postal code of the producer / agency."
+    },
+    "Producer_ContactPerson_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the individual at the producer's establishment that is the primary contact."
+    },
+    "Producer_ContactPerson_PhoneNumber_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer's contact person's phone number.  If applicable, include the area code and extension."
+    },
+    "Producer_FaxNumber_A": {
+      "type": "text",
+      "tooltip": "Enter number: The fax number of the producer / agency."
+    },
+    "Producer_ContactPerson_EmailAddress_A": {
+      "type": "text",
+      "tooltip": "Enter text: The producer's contact person's e-mail address."
+    },
+    "Insurer_ProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter code: The identification code assigned to the producer (e.g., agency or brokerage firm) by the insurer."
+    },
+    "Insurer_SubProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter code: The identification code assigned by the insurer to the sub-producer (e.g., individual) within a producer's office (e.g., agency or brokerage)."
+    },
+    "Producer_CustomerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage)."
+    },
+    "Insurer_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The insurer's full legal company name(s) as found in the file copy of the policy.  Use the actual name of the company within the group to which the policy has been issued.  This is not the insurer's group name or trade name."
+    },
+    "Insurer_NAICCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The identification code assigned to the insurer by the National Association of Insurance Commissioners (NAIC)."
+    },
+    "Insurer_ProductDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of an independently filed policy or program that may be optionally available from the insurance company.  It may also be used to name the subsidiary company in which the line of business will be placed."
+    },
+    "Insurer_ProductCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The product code assigned by the insurer for the policy."
+    },
+    "Policy_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The identifier assigned by the insurer to the policy, or submission, being referenced exactly as it appears on the policy, including prefix and suffix symbols.  If required for self-insurance, the self-insured license or contract number."
+    },
+    "Insurer_Underwriter_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The company underwriter (or other company staff person) that this form should be directed to."
+    },
+    "Insurer_Underwriter_OfficeIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The company underwriting office that this application should be directed to."
+    },
+    "Policy_Status_QuoteIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the response expected from the company is a quote."
+    },
+    "Policy_Status_IssueIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the response expected from the company is an issued policy."
+    },
+    "Policy_Status_RenewIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the response expected from the company is a renewed policy."
+    },
+    "Policy_Status_BoundIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the coverage has been bound."
+    },
+    "Policy_Status_ChangeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the policy is being submitted for a policy change."
+    },
+    "Policy_Status_CancelIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the policy is being submitted for cancellation."
+    },
+    "Policy_Status_EffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date the policy status becomes effective.  This date is used for policy statuses of bound, change, and cancel.  (MM/DD/YYYY)"
+    },
+    "Policy_Status_EffectiveTime_A": {
+      "type": "text",
+      "tooltip": "Enter time: The time the policy status becomes effective.  The time is used for policy statuses of bound, change, and cancel."
+    },
+    "Policy_Status_EffectiveTimeAMIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the effective time of the policy status is before 12:00 pm."
+    },
+    "Policy_Status_EffectiveTimePMIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the effective time of the policy status is 12:00 pm or later."
+    },
+    "Policy_LineOfBusiness_BoilerAndMachineryIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Boiler & Machinery line of business is being selected for coverage."
+    },
+    "BoilerAndMachineryLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount for the Boiler & Machinery line of business."
+    },
+    "Policy_LineOfBusiness_BusinessAutoIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Business Auto line of business is being selected for coverage."
+    },
+    "CommercialVehicleLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount for the Commercial Vehicle (Business Auto) line of business."
+    },
+    "Policy_LineOfBusiness_BusinessOwnersIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Business Owners line of business is being selected for coverage."
+    },
+    "BusinessOwnersLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The total estimated premium amount for the business owners (BOP) line of business."
+    },
+    "Policy_LineOfBusiness_CommercialGeneralLiability_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Commercial General Liability line of business is being selected for coverage."
+    },
+    "GeneralLiabilityLineOfBusiness_TotalPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The total premium amount for the commercial general liability line of business."
+    },
+    "Policy_LineOfBusiness_CommercialInlandMarineIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Commercial Inland Marine line of business is being selected for coverage."
+    },
+    "CommercialInlandMarineLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount for commercial inland marine line of business."
+    },
+    "Policy_LineOfBusiness_CommercialProperty_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Commercial Property line of business is being selected for coverage."
+    },
+    "CommercialPropertyLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount for the Commercial Property line of business."
+    },
+    "Policy_LineOfBusiness_CrimeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Crime line of business is being selected for coverage."
+    },
+    "CrimeLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount for the Crime line of business."
+    },
+    "Policy_LineOfBusiness_CyberAndPrivacy_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Cyber and Privacy line of business is being selected for coverage."
+    },
+    "CyberAndPrivacyLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount for the Cyber and Privacy line of business"
+    },
+    "Policy_LineOfBusiness_FiduciaryLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Fiduciary Liability line of business is being selected for coverage."
+    },
+    "FiduciaryLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount for the Fiduciary Liability line of business."
+    },
+    "Policy_LineOfBusiness_GarageAndDealersIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Garage and Dealers line of business is being selected for coverage."
+    },
+    "GarageAndDealersLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount for the Garage and Dealers line of business."
+    },
+    "Policy_LineOfBusiness_LiquorLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Liquor Liability line of business is being selected for coverage."
+    },
+    "LiquorLiabilityLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount for the Liquor Liability line of business."
+    },
+    "Policy_LineOfBusiness_MotorCarrierIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Motor Carrier line of business is being selected for coverage."
+    },
+    "MotorCarrierLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount for motor carrier line of business."
+    },
+    "Policy_LineOfBusiness_TruckersIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Truckers line of business is being selected for coverage."
+    },
+    "TruckersLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount for the Truckers line of business."
+    },
+    "Policy_LineOfBusiness_UmbrellaIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Umbrella line of business is being selected for coverage."
+    },
+    "CommercialUmbrellaLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount for the Commercial Umbrella line of business."
+    },
+    "Policy_LineOfBusiness_YachtIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that Yacht line of business is being selected for coverage."
+    },
+    "YachtLineOfBusiness_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount for the Yacht line of business."
+    },
+    "Policy_LineOfBusiness_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that lines of business other than those listed are being selected for coverage."
+    },
+    "Policy_LineOfBusiness_OtherLineOfBusinessDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other line of business."
+    },
+    "Policy_SectionAttached_OtherPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount the for the other line of business."
+    },
+    "Policy_LineOfBusiness_OtherIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that lines of business other than those listed are being selected for coverage."
+    },
+    "Policy_LineOfBusiness_OtherLineOfBusinessDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other line of business."
+    },
+    "Policy_SectionAttached_OtherPremiumAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount the for the other line of business."
+    },
+    "Policy_LineOfBusiness_OtherIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that lines of business other than those listed are being selected for coverage."
+    },
+    "Policy_LineOfBusiness_OtherLineOfBusinessDescription_C": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other line of business."
+    },
+    "Policy_SectionAttached_OtherPremiumAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount the for the other line of business."
+    },
+    "Policy_LineOfBusiness_OtherIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that lines of business other than those listed are being selected for coverage."
+    },
+    "Policy_LineOfBusiness_OtherLineOfBusinessDescription_D": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other line of business."
+    },
+    "Policy_SectionAttached_OtherPremiumAmount_D": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount the for the other line of business."
+    },
+    "Policy_LineOfBusiness_OtherIndicator_E": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that lines of business other than those listed are being selected for coverage."
+    },
+    "Policy_LineOfBusiness_OtherLineOfBusinessDescription_E": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other line of business."
+    },
+    "Policy_SectionAttached_OtherPremiumAmount_E": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount the for the other line of business."
+    },
+    "Policy_LineOfBusiness_OtherIndicator_F": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that lines of business other than those listed are being selected for coverage."
+    },
+    "Policy_LineOfBusiness_OtherLineOfBusinessDescription_F": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other line of business."
+    },
+    "Policy_SectionAttached_OtherPremiumAmount_F": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount the for the other line of business."
+    },
+    "Policy_SectionAttached_AccountsReceivableValuablePapersIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates an Accounts Receivable /  Valuable Papers section is attached to the application."
+    },
+    "CommercialPolicy_Attachment_AdditionalInterestScheduleIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates ACORD 45, Additional Interest Schedule is attached to the application."
+    },
+    "CommercialPolicy_Attachment_AdditionalPremisesScheduleIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates an Additional Premises Information Schedule is attached to the application."
+    },
+    "CommercialPolicy_Attachment_ApartmentBuildingSupplementIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates an Apartment Building Supplement is attached."
+    },
+    "CommercialPolicy_Attachment_CondominiumAssociationByLawsIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the condominium association bylaws are attached to the application."
+    },
+    "CommercialPolicy_Attachment_ContractorsSupplementIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a Contractors Supplement is attached to the application."
+    },
+    "CommercialPolicy_Attachment_CoveragesScheduleIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a coverages schedule is attached."
+    },
+    "Policy_SectionAttached_DealerIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a Dealers Section is attached to the application."
+    },
+    "Policy_SectionAttached_DriverInformationScheduleIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a Driver Information Schedule is attached to the application."
+    },
+    "Policy_SectionAttached_ElectronicDataProcessingIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates an Electronic Data Processing Section is attached to this application."
+    },
+    "Policy_SectionAttached_GlassAndSignIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a Glass and Sign Section is attached to the application."
+    },
+    "CommercialPolicy_Attachment_HotelMotelSupplementIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a Hotel / Motel Supplement is attached to the application."
+    },
+    "Policy_SectionAttached_InstallationBuildersRiskIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates an Installation / Builder's Risk Section is attached to the application."
+    },
+    "CommercialPolicy_Attachment_InternationalLiabilityExposureSupplementIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates an International Liability Exposure Supplement is attached to the application."
+    },
+    "CommercialPolicy_Attachment_InternationalPropertyExposureSupplementIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates an International Property Exposure Supplement is attached to the application."
+    },
+    "CommercialPolicy_Attachment_LossSummaryIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that a loss summary report is attached to the application."
+    },
+    "Policy_SectionAttached_OpenCargoIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates an Open Cargo Section is attached to the application."
+    },
+    "CommercialPolicy_Attachment_PremiumPaymentSupplementIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a Premium Payment Supplement is attached to the application."
+    },
+    "CommercialPolicy_Attachment_ProfessionalLiabilitySupplementIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a Professional Liability Supplement is attached to the application."
+    },
+    "CommercialPolicy_Attachment_RestaurantTavernSupplementIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a Restaurant / Tavern Supplement is attached to the application."
+    },
+    "CommercialPolicy_Attachment_StatementOfValuesIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a Statement / Schedule of Values is attached to the application."
+    },
+    "CommercialPolicy_Attachment_StateSupplementIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that a state supplement is attached to the application."
+    },
+    "CommercialPolicy_Attachment_VacantBuildingSupplementIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a Vacant Building Supplement is attached to the application."
+    },
+    "Policy_SectionAttached_VehicleScheduleIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a Vehicle Schedule is attached to the application."
+    },
+    "CommercialPolicy_Attachment_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates there is an attachment other than those listed on the application."
+    },
+    "CommercialPolicy_Attachment_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the type of other attachment."
+    },
+    "CommercialPolicy_Attachment_OtherIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates there is an attachment other than those listed on the application."
+    },
+    "CommercialPolicy_Attachment_OtherDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the type of other attachment."
+    },
+    "CommercialPolicy_Attachment_OtherIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates there is an attachment other than those listed on the application."
+    },
+    "CommercialPolicy_Attachment_OtherDescription_C": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the type of other attachment."
+    },
+    "CommercialPolicy_Attachment_OtherIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates there is an attachment other than those listed on the application."
+    },
+    "CommercialPolicy_Attachment_OtherDescription_D": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the type of other attachment."
+    },
+    "CommercialPolicy_Attachment_OtherIndicator_E": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates there is an attachment other than those listed on the application."
+    },
+    "CommercialPolicy_Attachment_OtherDescription_E": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the type of other attachment."
+    },
+    "CommercialPolicy_Attachment_OtherIndicator_F": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates there is an attachment other than those listed on the application."
+    },
+    "CommercialPolicy_Attachment_OtherDescription_F": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the type of other attachment."
+    },
+    "Policy_EffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the policy.  The date that the terms and conditions of the policy commence.  (MM/DD/YYYY)  As used here, this is the proposed effective date."
+    },
+    "Policy_ExpirationDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date on which the terms and conditions of the policy will expire.  (MM/DD/YYYY)  As used here, this is the proposed expiration date."
+    },
+    "Policy_Payment_DirectBillIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the policy is to be direct billed."
+    },
+    "Policy_Payment_ProducerBillIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the policy is to be producer / agency billed."
+    },
+    "Policy_Payment_PaymentScheduleCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The payment plan for the policy (i.e., AN - Annual, MO - Monthly, QT - Quarterly, etc.)."
+    },
+    "Policy_PaymentMethod_MethodDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The method the invoice will be paid."
+    },
+    "Policy_Audit_FrequencyCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The audit term for policies that are subject to periodic audit.  If the audit period is known, enter the code; A - annual, S - semi-annual, Q - Quarterly, M - Monthly, O - Other."
+    },
+    "Policy_Payment_DepositAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount of the premium received as a deposit."
+    },
+    "Policy_Payment_MinimumPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The minimum premium amount for the policy."
+    },
+    "Policy_Payment_EstimatedTotalAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The estimated total cost amount of the policy."
+    },
+    "NamedInsured_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured(s) as it / they will appear on the policy declarations page."
+    },
+    "NamedInsured_MailingAddress_LineOne_A": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured's mailing address line one."
+    },
+    "NamedInsured_MailingAddress_LineTwo_A": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured's mailing address line two."
+    },
+    "NamedInsured_MailingAddress_CityName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured's mailing address city name."
+    },
+    "NamedInsured_MailingAddress_StateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The named insured's mailing address state or province code."
+    },
+    "NamedInsured_MailingAddress_PostalCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The named insured's mailing address postal code."
+    },
+    "NamedInsured_GeneralLiabilityCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The code identifying the general liability nature of business for the insured. The source of this code list is the Insurance Services Office Commercial Lines Manual (CLM) or individual insurer rate manuals."
+    },
+    "NamedInsured_SICCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The Standard Industry Classification code assigned to the business activity (if known).  This is the code which represents the nature of the employer's business which is contained in the Standard Industrial Classification Manual published by the Federal Office of Management and Budget."
+    },
+    "NamedInsured_NAICSCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The North American Industry Classification System (NAICS) 6-digit industry code assigned to the business activity (if known)."
+    },
+    "NamedInsured_TaxIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier of the named insured."
+    },
+    "NamedInsured_Primary_PhoneNumber_A": {
+      "type": "text",
+      "tooltip": "Enter number: The named insured's primary phone number."
+    },
+    "NamedInsured_Primary_WebsiteAddress_A": {
+      "type": "text",
+      "tooltip": "Enter text: The primary website address for the named insured."
+    },
+    "NamedInsured_LegalEntity_CorporationIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Corporation\"."
+    },
+    "NamedInsured_LegalEntity_IndividualIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Individual\"."
+    },
+    "NamedInsured_LegalEntity_JointVentureIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Joint Venture\"."
+    },
+    "NamedInsured_LegalEntity_LimitedLiabilityCorporationIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Limited Liability Corporation\"."
+    },
+    "NamedInsured_LegalEntity_MemberManagerCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of members and managers for the limited liability corporation."
+    },
+    "NamedInsured_LegalEntity_NotForProfitIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Not For Profit Organization\"."
+    },
+    "NamedInsured_LegalEntity_PartnershipIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Partnership\"."
+    },
+    "NamedInsured_LegalEntity_SubchapterSCorporationIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Subchapter S Corporation\"."
+    },
+    "NamedInsured_LegalEntity_TrustIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Trust\"."
+    },
+    "NamedInsured_LegalEntity_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is other than those listed on the form."
+    },
+    "NamedInsured_LegalEntity_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other legal entity."
+    },
+    "NamedInsured_FullName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured(s) as it / they will appear on the policy declarations page."
+    },
+    "NamedInsured_MailingAddress_LineOne_B": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured's mailing address line one."
+    },
+    "NamedInsured_MailingAddress_LineTwo_B": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured's mailing address line two."
+    },
+    "NamedInsured_MailingAddress_CityName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured's mailing address city name."
+    },
+    "NamedInsured_MailingAddress_StateOrProvinceCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The named insured's mailing address state or province code."
+    },
+    "NamedInsured_MailingAddress_PostalCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The named insured's mailing address postal code."
+    },
+    "NamedInsured_GeneralLiabilityCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The code identifying the general liability nature of business for the insured. The source of this code list is the Insurance Services Office Commercial Lines Manual (CLM) or individual insurer rate manuals."
+    },
+    "NamedInsured_SICCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The Standard Industry Classification code assigned to the business activity (if known).  This is the code which represents the nature of the employer's business which is contained in the Standard Industrial Classification Manual published by the Federal Office of Management and Budget."
+    },
+    "NamedInsured_NAICSCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The North American Industry Classification System (NAICS) 6-digit industry code assigned to the business activity (if known)."
+    },
+    "NamedInsured_TaxIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier of the named insured."
+    },
+    "NamedInsured_Primary_PhoneNumber_B": {
+      "type": "text",
+      "tooltip": "Enter number: The named insured's primary phone number."
+    },
+    "NamedInsured_Primary_WebsiteAddress_B": {
+      "type": "text",
+      "tooltip": "Enter text: The primary website address for the named insured."
+    },
+    "NamedInsured_LegalEntity_CorporationIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Corporation\"."
+    },
+    "NamedInsured_LegalEntity_IndividualIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Individual\"."
+    },
+    "NamedInsured_LegalEntity_JointVentureIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Joint Venture\"."
+    },
+    "NamedInsured_LegalEntity_LimitedLiabilityCorporationIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Limited Liability Corporation\"."
+    },
+    "NamedInsured_LegalEntity_MemberManagerCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number of members and managers for the limited liability corporation."
+    },
+    "NamedInsured_LegalEntity_NotForProfitIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Not For Profit Organization\"."
+    },
+    "NamedInsured_LegalEntity_PartnershipIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Partnership\"."
+    },
+    "NamedInsured_LegalEntity_SubchapterSCorporationIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Subchapter S Corporation\"."
+    },
+    "NamedInsured_LegalEntity_TrustIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Trust\"."
+    },
+    "NamedInsured_LegalEntity_OtherIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is other than those listed on the form."
+    },
+    "NamedInsured_LegalEntity_OtherDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other legal entity."
+    },
+    "NamedInsured_FullName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured(s) as it / they will appear on the policy declarations page."
+    },
+    "NamedInsured_MailingAddress_LineOne_C": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured's mailing address line one."
+    },
+    "NamedInsured_MailingAddress_LineTwo_C": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured's mailing address line two."
+    },
+    "NamedInsured_MailingAddress_CityName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured's mailing address city name."
+    },
+    "NamedInsured_MailingAddress_StateOrProvinceCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The named insured's mailing address state or province code."
+    },
+    "NamedInsured_MailingAddress_PostalCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The named insured's mailing address postal code."
+    },
+    "NamedInsured_GeneralLiabilityCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The code identifying the general liability nature of business for the insured. The source of this code list is the Insurance Services Office Commercial Lines Manual (CLM) or individual insurer rate manuals."
+    },
+    "NamedInsured_SICCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The Standard Industry Classification code assigned to the business activity (if known).  This is the code which represents the nature of the employer's business which is contained in the Standard Industrial Classification Manual published by the Federal Office of Management and Budget."
+    },
+    "NamedInsured_NAICSCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The North American Industry Classification System (NAICS) 6-digit industry code assigned to the business activity (if known)."
+    },
+    "NamedInsured_TaxIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter identifier: The tax identifier of the named insured."
+    },
+    "NamedInsured_Primary_PhoneNumber_C": {
+      "type": "text",
+      "tooltip": "Enter number: The named insured's primary phone number."
+    },
+    "NamedInsured_Primary_WebsiteAddress_C": {
+      "type": "text",
+      "tooltip": "Enter text: The primary website address for the named insured."
+    },
+    "NamedInsured_LegalEntity_CorporationIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Corporation\"."
+    },
+    "NamedInsured_LegalEntity_IndividualIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Individual\"."
+    },
+    "NamedInsured_LegalEntity_JointVentureIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Joint Venture\"."
+    },
+    "NamedInsured_LegalEntity_LimitedLiabilityCorporationIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Limited Liability Corporation\"."
+    },
+    "NamedInsured_LegalEntity_MemberManagerCount_C": {
+      "type": "text",
+      "tooltip": "Enter number: The number of members and managers for the limited liability corporation."
+    },
+    "NamedInsured_LegalEntity_NotForProfitIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Not For Profit Organization\"."
+    },
+    "NamedInsured_LegalEntity_PartnershipIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Partnership\"."
+    },
+    "NamedInsured_LegalEntity_SubchapterSCorporationIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Subchapter S Corporation\"."
+    },
+    "NamedInsured_LegalEntity_TrustIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is \"Trust\"."
+    },
+    "NamedInsured_LegalEntity_OtherIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the legal entity code for the named insured is other than those listed on the form."
+    },
+    "NamedInsured_LegalEntity_OtherDescription_C": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other legal entity."
+    },
+    "NamedInsured_Contact_ContactDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The type of contact being described (e.g. accounting, claims, etc.)."
+    },
+    "NamedInsured_Contact_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The full name of the contact."
+    },
+    "NamedInsured_Contact_PrimaryPhoneNumber_A": {
+      "type": "text",
+      "tooltip": "Enter number: The primary phone number of the contact."
+    },
+    "NamedInsured_Contact_PrimaryHomePhoneIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the contact's primary phone is a home phone."
+    },
+    "NamedInsured_Contact_PrimaryBusinessPhoneIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the contact's primary phone is a business phone."
+    },
+    "NamedInsured_Contact_PrimaryCellPhoneIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the contact's primary phone is a cell phone."
+    },
+    "NamedInsured_Contact_SecondaryPhoneNumber_A": {
+      "type": "text",
+      "tooltip": "Enter number: The secondary phone number of the contact."
+    },
+    "NamedInsured_Contact_SecondaryHomePhoneIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the contact's secondary phone number is a home phone."
+    },
+    "NamedInsured_Contact_SecondaryBusinessPhoneIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the contact's secondary phone number is a business phone."
+    },
+    "NamedInsured_Contact_SecondaryCellPhoneIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the contact's secondary phone number is a cell phone."
+    },
+    "NamedInsured_Contact_PrimaryEmailAddress_A": {
+      "type": "text",
+      "tooltip": "Enter text: The contact's primary e-mail address."
+    },
+    "NamedInsured_Contact_SecondaryEmailAddress_A": {
+      "type": "text",
+      "tooltip": "Enter text: The contact's secondary e-mail address."
+    },
+    "NamedInsured_Contact_ContactDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The type of contact being described (e.g. accounting, claims, etc.)."
+    },
+    "NamedInsured_Contact_FullName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The full name of the contact."
+    },
+    "NamedInsured_Contact_PrimaryPhoneNumber_B": {
+      "type": "text",
+      "tooltip": "Enter number: The primary phone number of the contact."
+    },
+    "NamedInsured_Contact_PrimaryHomePhoneIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the contact's primary phone is a home phone."
+    },
+    "NamedInsured_Contact_PrimaryBusinessPhoneIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the contact's primary phone is a business phone."
+    },
+    "NamedInsured_Contact_PrimaryCellPhoneIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the contact's primary phone is a cell phone."
+    },
+    "NamedInsured_Contact_SecondaryPhoneNumber_B": {
+      "type": "text",
+      "tooltip": "Enter number: The secondary phone number of the contact."
+    },
+    "NamedInsured_Contact_SecondaryHomePhoneIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the contact's secondary phone number is a home phone."
+    },
+    "NamedInsured_Contact_SecondaryBusinessPhoneIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the contact's secondary phone number is a business phone."
+    },
+    "NamedInsured_Contact_SecondaryCellPhoneIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the contact's secondary phone number is a cell phone."
+    },
+    "NamedInsured_Contact_PrimaryEmailAddress_B": {
+      "type": "text",
+      "tooltip": "Enter text: The contact's primary e-mail address."
+    },
+    "NamedInsured_Contact_SecondaryEmailAddress_B": {
+      "type": "text",
+      "tooltip": "Enter text: The contact's secondary e-mail address."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_A": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_LineTwo_A": {
+      "type": "text",
+      "tooltip": "Enter text: The second address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CountyName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The county of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialStructure_RiskLocation_InsideCityLimitsIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the building is within the city limits."
+    },
+    "CommercialStructure_RiskLocation_OutsideCityLimitsIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the building is outside the city limits."
+    },
+    "CommercialStructure_RiskLocation_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the building is not inside nor outside city limits.  For example, unincorporated."
+    },
+    "CommercialStructure_RiskLocation_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the risk location if not inside nor outside the city limits."
+    },
+    "CommercialStructure_InsuredInterest_OwnerIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the named insured's interest in the building is as its owner."
+    },
+    "CommercialStructure_InsuredInterest_TenantIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the named insured's interest in the building is as its tenant."
+    },
+    "CommercialStructure_InsuredInterest_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the named insured's interest in the building is other than those listed."
+    },
+    "CommercialStructure_InsuredInterest_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the insured's interest in the building when it is other than those listed."
+    },
+    "BusinessInformation_FullTimeEmployeeCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of full time employees."
+    },
+    "BusinessInformation_PartTimeEmployeeCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of part time employees."
+    },
+    "CommercialStructure_AnnualRevenueAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual revenue amount for this location."
+    },
+    "BuildingOccupancy_OccupiedArea_A": {
+      "type": "text",
+      "tooltip": "Enter number: The area, in square feet, of the space in the building that is occupied by the named insured."
+    },
+    "BuildingOccupancy_OpenToPublicArea_A": {
+      "type": "text",
+      "tooltip": "Enter number: The area, in square feet, of the building that is open to the public."
+    },
+    "Construction_BuildingArea_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of square feet of the building at this location for which insurance is being requested."
+    },
+    "BuildingOccupancy_OperationsDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of what business each applicant performs and the way it is conducted by premises.  Operations which may not be apparent in a general description of operations may be segmented by location (e.g., location #1 is a sales office in Paris, France, location #2 is a warehouse in Berlin, Germany).  Include number of leased and owned premises outside of the United States.  The section should be completed in enough detail to enable the underwriter to understand and classify each operation. Do not use the classification wording from the Commercial Lines Manual or Workers Compensation Manual. They do not provide adequate detail. Example: a manufacturer of pulley wheels used in sewing machines should be described as such and not as \"Metal Goods Mfg. N.O.C.\"."
+    },
+    "CommercialStructure_Question_ABBCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response.  Indicates the response to the question, \"Any area leased to others?\"."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_B": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_LineTwo_B": {
+      "type": "text",
+      "tooltip": "Enter text: The second address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CountyName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The county of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialStructure_RiskLocation_InsideCityLimitsIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the building is within the city limits."
+    },
+    "CommercialStructure_RiskLocation_OutsideCityLimitsIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the building is outside the city limits."
+    },
+    "CommercialStructure_RiskLocation_OtherIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the building is not inside nor outside city limits.  For example, unincorporated."
+    },
+    "CommercialStructure_RiskLocation_OtherDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the risk location if not inside nor outside the city limits."
+    },
+    "CommercialStructure_InsuredInterest_OwnerIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the named insured's interest in the building is as its owner."
+    },
+    "CommercialStructure_InsuredInterest_TenantIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the named insured's interest in the building is as its tenant."
+    },
+    "CommercialStructure_InsuredInterest_OtherIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the named insured's interest in the building is other than those listed."
+    },
+    "CommercialStructure_InsuredInterest_OtherDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the insured's interest in the building when it is other than those listed."
+    },
+    "BusinessInformation_FullTimeEmployeeCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number of full time employees."
+    },
+    "BusinessInformation_PartTimeEmployeeCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number of part time employees."
+    },
+    "CommercialStructure_AnnualRevenueAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual revenue amount for this location."
+    },
+    "BuildingOccupancy_OccupiedArea_B": {
+      "type": "text",
+      "tooltip": "Enter number: The area, in square feet, of the space in the building that is occupied by the named insured."
+    },
+    "BuildingOccupancy_OpenToPublicArea_B": {
+      "type": "text",
+      "tooltip": "Enter number: The area, in square feet, of the building that is open to the public."
+    },
+    "Construction_BuildingArea_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number of square feet of the building at this location for which insurance is being requested."
+    },
+    "BuildingOccupancy_OperationsDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of what business each applicant performs and the way it is conducted by premises.  Operations which may not be apparent in a general description of operations may be segmented by location (e.g., location #1 is a sales office in Paris, France, location #2 is a warehouse in Berlin, Germany).  Include number of leased and owned premises outside of the United States.  The section should be completed in enough detail to enable the underwriter to understand and classify each operation. Do not use the classification wording from the Commercial Lines Manual or Workers Compensation Manual. They do not provide adequate detail. Example: a manufacturer of pulley wheels used in sewing machines should be described as such and not as \"Metal Goods Mfg. N.O.C.\"."
+    },
+    "CommercialStructure_Question_ABBCode_B": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response.  Indicates the response to the question, \"Any area leased to others?\"."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_C": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_LineTwo_C": {
+      "type": "text",
+      "tooltip": "Enter text: The second address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CountyName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The county of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialStructure_RiskLocation_InsideCityLimitsIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the building is within the city limits."
+    },
+    "CommercialStructure_RiskLocation_OutsideCityLimitsIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the building is outside the city limits."
+    },
+    "CommercialStructure_RiskLocation_OtherIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the building is not inside nor outside city limits.  For example, unincorporated."
+    },
+    "CommercialStructure_RiskLocation_OtherDescription_C": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the risk location if not inside nor outside the city limits."
+    },
+    "CommercialStructure_InsuredInterest_OwnerIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the named insured's interest in the building is as its owner."
+    },
+    "CommercialStructure_InsuredInterest_TenantIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the named insured's interest in the building is as its tenant."
+    },
+    "CommercialStructure_InsuredInterest_OtherIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the named insured's interest in the building is other than those listed."
+    },
+    "CommercialStructure_InsuredInterest_OtherDescription_C": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the insured's interest in the building when it is other than those listed."
+    },
+    "BusinessInformation_FullTimeEmployeeCount_C": {
+      "type": "text",
+      "tooltip": "Enter number: The number of full time employees."
+    },
+    "BusinessInformation_PartTimeEmployeeCount_C": {
+      "type": "text",
+      "tooltip": "Enter number: The number of part time employees."
+    },
+    "CommercialStructure_AnnualRevenueAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual revenue amount for this location."
+    },
+    "BuildingOccupancy_OccupiedArea_C": {
+      "type": "text",
+      "tooltip": "Enter number: The area, in square feet, of the space in the building that is occupied by the named insured."
+    },
+    "BuildingOccupancy_OpenToPublicArea_C": {
+      "type": "text",
+      "tooltip": "Enter number: The area, in square feet, of the building that is open to the public."
+    },
+    "Construction_BuildingArea_C": {
+      "type": "text",
+      "tooltip": "Enter number: The number of square feet of the building at this location for which insurance is being requested."
+    },
+    "BuildingOccupancy_OperationsDescription_C": {
+      "type": "text",
+      "tooltip": "Enter text: The description of what business each applicant performs and the way it is conducted by premises.  Operations which may not be apparent in a general description of operations may be segmented by location (e.g., location #1 is a sales office in Paris, France, location #2 is a warehouse in Berlin, Germany).  Include number of leased and owned premises outside of the United States.  The section should be completed in enough detail to enable the underwriter to understand and classify each operation. Do not use the classification wording from the Commercial Lines Manual or Workers Compensation Manual. They do not provide adequate detail. Example: a manufacturer of pulley wheels used in sewing machines should be described as such and not as \"Metal Goods Mfg. N.O.C.\"."
+    },
+    "CommercialStructure_Question_ABBCode_C": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response.  Indicates the response to the question, \"Any area leased to others?\"."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_D": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Building_ProducerIdentifier_D": {
+      "type": "text",
+      "tooltip": "Enter number: The building number for the premises.  Used when more than one building exists at an individual location."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_D": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_LineTwo_D": {
+      "type": "text",
+      "tooltip": "Enter text: The second address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_D": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CountyName_D": {
+      "type": "text",
+      "tooltip": "Enter text: The county of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "CommercialStructure_RiskLocation_InsideCityLimitsIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the building is within the city limits."
+    },
+    "CommercialStructure_RiskLocation_OutsideCityLimitsIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the building is outside the city limits."
+    },
+    "CommercialStructure_RiskLocation_OtherIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the building is not inside nor outside city limits.  For example, unincorporated."
+    },
+    "CommercialStructure_RiskLocation_OtherDescription_D": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the risk location if not inside nor outside the city limits."
+    },
+    "CommercialStructure_InsuredInterest_OwnerIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the named insured's interest in the building is as its owner."
+    },
+    "CommercialStructure_InsuredInterest_TenantIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the named insured's interest in the building is as its tenant."
+    },
+    "CommercialStructure_InsuredInterest_OtherIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the named insured's interest in the building is other than those listed."
+    },
+    "CommercialStructure_InsuredInterest_OtherDescription_D": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the insured's interest in the building when it is other than those listed."
+    },
+    "BusinessInformation_FullTimeEmployeeCount_D": {
+      "type": "text",
+      "tooltip": "Enter number: The number of full time employees."
+    },
+    "BusinessInformation_PartTimeEmployeeCount_D": {
+      "type": "text",
+      "tooltip": "Enter number: The number of part time employees."
+    },
+    "CommercialStructure_AnnualRevenueAmount_D": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual revenue amount for this location."
+    },
+    "BuildingOccupancy_OccupiedArea_D": {
+      "type": "text",
+      "tooltip": "Enter number: The area, in square feet, of the space in the building that is occupied by the named insured."
+    },
+    "BuildingOccupancy_OpenToPublicArea_D": {
+      "type": "text",
+      "tooltip": "Enter number: The area, in square feet, of the building that is open to the public."
+    },
+    "Construction_BuildingArea_D": {
+      "type": "text",
+      "tooltip": "Enter number: The number of square feet of the building at this location for which insurance is being requested."
+    },
+    "BuildingOccupancy_OperationsDescription_D": {
+      "type": "text",
+      "tooltip": "Enter text: The description of what business each applicant performs and the way it is conducted by premises.  Operations which may not be apparent in a general description of operations may be segmented by location (e.g., location #1 is a sales office in Paris, France, location #2 is a warehouse in Berlin, Germany).  Include number of leased and owned premises outside of the United States.  The section should be completed in enough detail to enable the underwriter to understand and classify each operation. Do not use the classification wording from the Commercial Lines Manual or Workers Compensation Manual. They do not provide adequate detail. Example: a manufacturer of pulley wheels used in sewing machines should be described as such and not as \"Metal Goods Mfg. N.O.C.\"."
+    },
+    "CommercialStructure_Question_ABBCode_D": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response.  Indicates the response to the question, \"Any area leased to others?\"."
+    },
+    "BusinessInformation_BusinessType_ApartmentsIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the nature of business is apartments."
+    },
+    "BusinessInformation_BusinessType_CondominiumsIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the nature of business is condominiums."
+    },
+    "BusinessInformation_BusinessType_ContractorIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the nature of business is a contractor."
+    },
+    "BusinessInformation_BusinessType_InstitutionalIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the nature of business is institutional."
+    },
+    "BusinessInformation_BusinessType_ManufacturingIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the nature of business is manufacturing."
+    },
+    "BusinessInformation_BusinessType_OfficeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the nature of business is an office."
+    },
+    "BusinessInformation_BusinessType_RestaurantIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the nature of business is a restaurant."
+    },
+    "BusinessInformation_BusinessType_RetailIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the nature of business is retail."
+    },
+    "BusinessInformation_BusinessType_ServiceIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the nature of business is service."
+    },
+    "BusinessInformation_BusinessType_WholesaleIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the nature of business is wholesale."
+    },
+    "BusinessInformation_BusinessType_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the nature of business is other than those listed."
+    },
+    "BusinessInformation_BusinessType_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other nature / type of business."
+    },
+    "NamedInsured_BusinessStartDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date the applicant began in business.  This is important because it helps the underwriter determine the expertise and business success of the applicant."
+    },
+    "CommercialPolicy_OperationsDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the operations of this risk or insured.  As used here, this is the description of primary operations."
+    },
+    "CommercialStructure_InstallationRepairWorkPercent_A": {
+      "type": "text",
+      "tooltip": "Enter percentage: The percentage of total sales of a retail store or service operation attributed to installation, service or repair work."
+    },
+    "CommercialStructure_InstallationRepairWorkOffPremisesPercent_A": {
+      "type": "text",
+      "tooltip": "Enter percentage: The percentage of total sales of a retail store or service operation attributed to installation, service or repair work completed off premises."
+    },
+    "CommercialPolicy_OperationsDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the operations of this risk or insured.  As used here, this is the description of operations for other named insureds."
+    },
+    "AdditionalInterest_Interest_AdditionalInsuredIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is an additional insured."
+    },
+    "AdditionalInterest_Interest_BreachOfWarrantyIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a breach of warranty."
+    },
+    "AdditionalInterest_Interest_CoOwnerIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a co-owner."
+    },
+    "AdditionalInterest_Interest_EmployeeAsLessorIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is an employee as lessor."
+    },
+    "AdditionalInterest_Interest_LeasebackOwnerIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a leaseback owner."
+    },
+    "AdditionalInterest_Interest_LendersLossPayableIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a lender's loss payable."
+    },
+    "AdditionalInterest_Interest_LienholderIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a lien holder."
+    },
+    "AdditionalInterest_Interest_LossPayeeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a loss payee."
+    },
+    "AdditionalInterest_Interest_MortgageeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a mortgagee."
+    },
+    "AdditionalInterest_Interest_OwnerIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is an owner."
+    },
+    "AdditionalInterest_Interest_RegistrantIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a registrant."
+    },
+    "AdditionalInterest_Interest_TrusteeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a trustee."
+    },
+    "AdditionalInterest_Interest_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest is other than those listed."
+    },
+    "AdditionalInterest_Interest_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other type of additional interest."
+    },
+    "AdditionalInterest_InterestReasonDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description for the interest in the item."
+    },
+    "AdditionalInterest_InterestRank_A": {
+      "type": "text",
+      "tooltip": "Enter number: The ranking of 'this' additional interest when multiple additional interests are associated with the same item."
+    },
+    "AdditionalInterest_CertificateRequiredIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates if the additional interest requires a Certificate of Insurance."
+    },
+    "AdditionalInterest_PolicyRequiredIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the additional interest requires a copy of the policy."
+    },
+    "AdditionalInterest_SendBillIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the bill should be sent to the additional interest."
+    },
+    "AdditionalInterest_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's full name."
+    },
+    "AdditionalInterest_MailingAddress_LineOne_A": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's mailing address line one."
+    },
+    "AdditionalInterest_MailingAddress_LineTwo_A": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's mailing address line two."
+    },
+    "AdditionalInterest_MailingAddress_CityName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's mailing address city name."
+    },
+    "AdditionalInterest_MailingAddress_StateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The additional interest's mailing address state or province code."
+    },
+    "AdditionalInterest_MailingAddress_PostalCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The additional interest's mailing address postal code."
+    },
+    "AdditionalInterest_MailingAddress_CountryCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The additional interest's country code."
+    },
+    "AdditionalInterest_AccountNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The loan number, account number or other controlling number that the additional interest may have assigned the insured."
+    },
+    "AdditionalInterest_InterestEndDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date the interest holder's interest terminates."
+    },
+    "AdditionalInterest_LoanAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount of the loan."
+    },
+    "AdditionalInterest_Primary_PhoneNumber_A": {
+      "type": "text",
+      "tooltip": "Enter number: The primary phone number of the additional interest."
+    },
+    "AdditionalInterest_Primary_FaxNumber_A": {
+      "type": "text",
+      "tooltip": "Enter number: The primary fax number of the additional interest."
+    },
+    "AdditionalInterest_Primary_EmailAddress_A": {
+      "type": "text",
+      "tooltip": "Enter text: The primary e-mail address for the additional interest."
+    },
+    "AdditionalInterest_Item_LocationProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number of the location which has an additional interest."
+    },
+    "AdditionalInterest_Item_BuildingProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number of the building which has an additional interest."
+    },
+    "AdditionalInterest_Item_VehicleProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number of the vehicle which has an additional interest."
+    },
+    "AdditionalInterest_Item_BoatProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number of the boat which has an additional interest."
+    },
+    "AdditionalInterest_Item_AirportIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The Federal Aviation Administration's designator for the airport (e.g. ORD - O'Hare International Airport)."
+    },
+    "AdditionalInterest_Item_AircraftProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number of the aircraft which has an additional interest."
+    },
+    "AdditionalInterest_Item_ScheduledItemClassCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The description of the property class of the scheduled item (i.e. Jewelry, Furs, Contractors Equipment, etc.)."
+    },
+    "AdditionalInterest_Item_ScheduledItemProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number of the scheduled item which has an additional interest."
+    },
+    "AdditionalInterest_ItemDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the item of interest if needed to further clarify.  For a vehicle, list the make, model and VIN number.  For a scheduled item, list the description, such as three carat diamond in six point setting."
+    },
+    "CommercialPolicy_Question_AAICode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Is the applicant a subsidiary of another entity?\"."
+    },
+    "BusinessInformation_ParentOrganizationName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the parent organization."
+    },
+    "Subsidiary_ParentSubsidiaryRelationshipDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the relationship between the parent company and the subsidiary."
+    },
+    "Subsidiary_ParentOwnershipPercent_A": {
+      "type": "text",
+      "tooltip": "Enter percentage: The percent of ownership by the parent company."
+    },
+    "CommercialPolicy_Question_AAJCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Does the applicant have any subsidiaries?\"."
+    },
+    "Subsidiary_OrganizationName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the subsidiary of the company.  This may also include owned foundations or charitable trusts."
+    },
+    "Subsidiary_ParentSubsidiaryRelationshipDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the relationship between the parent company and the subsidiary."
+    },
+    "Subsidiary_ParentOwnershipPercent_B": {
+      "type": "text",
+      "tooltip": "Enter percentage: The percent of ownership by the parent company."
+    },
+    "CommercialPolicy_Question_KAACode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Is a formal safety program in operation?\"."
+    },
+    "CommercialPolicy_FormalSafetyProgram_SafetyManualIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a safety manual is part of the formal safety program."
+    },
+    "CommercialPolicy_FormalSafetyProgram_SafetyPositionIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates a safety position is part of the formal safety program."
+    },
+    "CommercialPolicy_FormalSafetyProgram_MonthlyMeetingsIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates monthly meetings are part of the formal safety program."
+    },
+    "CommercialPolicy_FormalSafetyProgram_OSHAIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the formal safety program meets OSHA guidelines."
+    },
+    "CommercialPolicy_FormalSafetyProgram_OtherIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates there is a formal safety program other than those listed."
+    },
+    "CommercialPolicy_FormalSafetyProgram_OtherDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the formal safety program."
+    },
+    "CommercialPolicy_Question_ABCCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Any exposure to flammables, explosives, chemicals?\"."
+    },
+    "CommercialPolicy_AnyExposureToFlammableExplosivesChemicalsExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether there is any exposure to flammable, explosive or chemicals."
+    },
+    "CommercialPolicy_Question_AAHCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Any other insurance with this company?\"."
+    },
+    "OtherPolicy_LineOfBusinessCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The line of business of the other policy."
+    },
+    "OtherPolicy_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The other policy number exactly as it appears on the policy, including prefix and suffix symbols."
+    },
+    "OtherPolicy_LineOfBusinessCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The line of business of the other policy."
+    },
+    "OtherPolicy_PolicyNumberIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter identifier: The other policy number exactly as it appears on the policy, including prefix and suffix symbols."
+    },
+    "OtherPolicy_LineOfBusinessCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The line of business of the other policy."
+    },
+    "OtherPolicy_PolicyNumberIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter identifier: The other policy number exactly as it appears on the policy, including prefix and suffix symbols."
+    },
+    "OtherPolicy_LineOfBusinessCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The line of business of the other policy."
+    },
+    "OtherPolicy_PolicyNumberIdentifier_D": {
+      "type": "text",
+      "tooltip": "Enter identifier: The other policy number exactly as it appears on the policy, including prefix and suffix symbols."
+    },
+    "CommercialPolicy_Question_AACCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Any policy or coverage declined, cancelled or non-renewed during the mandated number of years?\". As used here, not applicable in Missouri."
+    },
+    "CancelNonRenew_NonPaymentIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the policy is being cancelled due to non-payment of premium."
+    },
+    "CancelNonRenew_NonRenewalIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the policy is being cancelled due to non-renewal."
+    },
+    "CancelNonRenew_AgentNoLongerWritesForInsurerIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the policy is being cancelled because the agent is no longer writing business for the insurer."
+    },
+    "CancelNonRenew_UnderwritingIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the policy is being cancelled due to underwriting reasons."
+    },
+    "CancelNonRenew_UnderwritingConditionCorrectedIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underwriting condition that caused the policy to not be written has been corrected."
+    },
+    "CancelNonRenew_UnderwritingConditionCorrectedDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of how the underwriting condition that caused the policy to not be written has been corrected."
+    },
+    "CancelNonRenew_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the policy is being cancelled due to reasons other than those listed."
+    },
+    "CancelNonRenew_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of why the policy is being cancelled or terminated."
+    },
+    "CommercialPolicy_Question_AADCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Any past losses or claims relating to sexual abuse or molestation allegations, discrimination or negligent hiring?\"."
+    },
+    "CommercialPolicy_PastLossesClaimsRelatingSexualAbuseDiscriminationNegligentHiringExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any past losses or claims relating to sexual abuse or molestation allegations, discrimination or negligent hiring."
+    },
+    "CommercialPolicy_Question_KABCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"During the mandated number of years, has any applicant been indicted for or convicted of any degree of the crime of fraud, bribery, arson or any other arson related crime in connection with this or any other property?\"."
+    },
+    "CommercialPolicy_PastFiveYearsAnyApplicantIndictedOrConvictedFraudBriberyArsonExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether any applicant has been indicted or convicted of any degree of fraud, bribery or any arson related crime in connection with this or any other property within the mandated number of years."
+    },
+    "CommercialPolicy_Question_AAFCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Any uncorrected fire code violations?\"."
+    },
+    "CommercialPolicy_UncorrectedFireCodeViolation_OccurrenceDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The occurrence date of any uncorrected fire code violations."
+    },
+    "CommercialPolicy_UncorrectedFireCodeViolationExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether there are any uncorrected fire code violations."
+    },
+    "CommercialPolicy_UncorrectedFireCodeViolation_ResolutionDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The resolution associated with any fire code violations."
+    },
+    "CommercialPolicy_UncorrectedFireCodeViolation_ResolutionDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The resolution date associated with the fire code violation."
+    },
+    "CommercialPolicy_UncorrectedFireCodeViolation_OccurrenceDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The occurrence date of any uncorrected fire code violations."
+    },
+    "CommercialPolicy_UncorrectedFireCodeViolationExplanation_B": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether there are any uncorrected fire code violations."
+    },
+    "CommercialPolicy_UncorrectedFireCodeViolation_ResolutionDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The resolution associated with any fire code violations."
+    },
+    "CommercialPolicy_UncorrectedFireCodeViolation_ResolutionDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The resolution date associated with the fire code violation."
+    },
+    "CommercialPolicy_Question_KAKCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response.  Indicates the response to the question, \"Has applicant had a foreclosure, repossession, bankruptcy, or filed for bankruptcy during the past specified number of years?\".  The answer is “YES” if any applicant, and/or any entity to which any applicant is or has been associated (as an owner, partner, officer, director, member manager of limited liability company or other controlling interest), has or had a lien, foreclosure, repossession, bankruptcy or filed for bankruptcy during the past specified number of years."
+    },
+    "CommercialPolicy_ForeclosureRepossessionBankruptcy_OccurrenceDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The occurrence date associated with the applicant's foreclosure, repossession, bankruptcy or bankruptcy filing during the last mandated number of years."
+    },
+    "CommercialPolicy_ForeclosureRepossessionBankruptcyExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether the applicant has had a foreclosure, repossession, bankruptcy or filed for bankruptcy during last mandated number of years."
+    },
+    "CommercialPolicy_ForeclosureRepossessionBankruptcy_ResolutionDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The resolution associated with any foreclosure, repossession or bankruptcy filings within the last mandated number of years."
+    },
+    "CommercialPolicy_ForeclosureRepossessionBankruptcy_ResolutionDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The resolution date associated with any foreclosure, repossession or bankruptcy filings within the last mandated number of years."
+    },
+    "CommercialPolicy_ForeclosureRepossessionBankruptcy_OccurrenceDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The occurrence date associated with the applicant's foreclosure, repossession, bankruptcy or bankruptcy filing during the last mandated number of years."
+    },
+    "CommercialPolicy_ForeclosureRepossessionBankruptcyExplanation_B": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether the applicant has had a foreclosure, repossession, bankruptcy or filed for bankruptcy during last mandated number of years."
+    },
+    "CommercialPolicy_ForeclosureRepossessionBankruptcy_ResolutionDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The resolution associated with any foreclosure, repossession or bankruptcy filings within the last mandated number of years."
+    },
+    "CommercialPolicy_ForeclosureRepossessionBankruptcy_ResolutionDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The resolution date associated with any foreclosure, repossession or bankruptcy filings within the last mandated number of years."
+    },
+    "CommercialPolicy_Question_KALCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response.  Indicates the response to the question, \"Has applicant had a judgment or lien during the past specified number of years?\".  The answer is “YES” if any applicant, and/or any entity to which any applicant is or has been associated (as an owner, partner, officer, director, member manager of limited liability company or other controlling interest), has or had a lien, foreclosure, repossession, bankruptcy or filed for bankruptcy during the past specified number of years."
+    },
+    "CommercialPolicy_JudgementOrLien_OccurrenceDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The occurrence date associated with the applicant's judgement or lien during the last mandated number of years."
+    },
+    "CommercialPolicy_JudgementOrLienExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether the applicant has a judgement or lien during the last mandated number of years."
+    },
+    "CommercialPolicy_JudgementOrLien_ResolutionDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The resolution associated with any judgement or lien during the last mandated number of years."
+    },
+    "CommercialPolicy_JudgementOrLien_ResolutionDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The resolution date associated with any judgement or lien during the last mandated number of years."
+    },
+    "CommercialPolicy_JudgementOrLien_OccurrenceDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The occurrence date associated with the applicant's judgement or lien during the last mandated number of years."
+    },
+    "CommercialPolicy_JudgementOrLienExplanation_B": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether the applicant has a judgement or lien during the last mandated number of years."
+    },
+    "CommercialPolicy_JudgementOrLien_ResolutionDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The resolution associated with any judgement or lien during the last mandated number of years."
+    },
+    "CommercialPolicy_JudgementOrLien_ResolutionDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The resolution date associated with any judgement or lien during the last mandated number of years."
+    },
+    "CommercialPolicy_Question_ABBCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Has business been placed in a trust?\"."
+    },
+    "AdditionalInterest_FullName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The additional interest's full name.  As used here, this is the name of the trust."
+    },
+    "CommercialPolicy_Question_KACCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Any foreign operations, foreign products distributed in USA, or US products sold/distributed in foreign countries?\"."
+    },
+    "CommercialPolicy_Question_KAMCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Does applicant have other business ventures for which coverage is not requested?\"."
+    },
+    "CommercialPolicy_ApplicantOtherBusinessVenturesCoverageNotRequestedExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any other business ventures for which coverage is not requested."
+    },
+    "CommercialPolicy_Question_KANCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Does applicant own / lease / operate any drones?"
+    },
+    "CommercialPolicy_ApplicantOwnLeaseOperateDronesExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether the applicant owns, leases or operates any drones."
+    },
+    "CommercialPolicy_Question_KAOCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates the response to the question, \"Does applicant hire others to operate drones?\""
+    },
+    "CommercialPolicy_ApplicantHireOthersOperateDronesExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether the applicant hires others to operate drones."
+    },
+    "CommercialPolicy_RemarkText_A": {
+      "type": "text",
+      "tooltip": "Enter text: The commercial policy general remarks."
+    },
+    "PriorCoverage_PolicyYear_A": {
+      "type": "text",
+      "tooltip": "Enter year: The year for which you are providing information."
+    },
+    "PriorCoverage_GeneralLiability_InsurerFullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the previous general liability insurer."
+    },
+    "PriorCoverage_GeneralLiability_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The general liability policy number of the previous coverage."
+    },
+    "PriorCoverage_GeneralLiability_TotalPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual modified premium charged (not including taxes or service charges) for the general liability line of business."
+    },
+    "PriorCoverage_GeneralLiability_EffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the prior general liability policy."
+    },
+    "PriorCoverage_GeneralLiability_ExpirationDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the previous general liability coverage."
+    },
+    "PriorCoverage_Automobile_InsurerFullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the previous automobile insurer."
+    },
+    "PriorCoverage_Automobile_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The automobile policy number of the previous coverage."
+    },
+    "PriorCoverage_Automobile_TotalPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual modified premium charged (not including taxes or service charges) for the automobile line of business."
+    },
+    "PriorCoverage_Automobile_EffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the prior automobile policy."
+    },
+    "PriorCoverage_Automobile_ExpirationDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the previous automobile coverage."
+    },
+    "PriorCoverage_Property_InsurerFullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the previous property insurer."
+    },
+    "PriorCoverage_Property_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The policy number of the previous property coverage."
+    },
+    "PriorCoverage_Property_TotalPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual modified premium charged (not including taxes or service charges) for the property line of business."
+    },
+    "PriorCoverage_Property_EffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the prior property policy."
+    },
+    "PriorCoverage_Property_ExpirationDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the previous property coverage."
+    },
+    "PriorCoverage_OtherLine_LineOfBusinessCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The line of business code used to identify the other prior coverage."
+    },
+    "PriorCoverage_OtherLine_InsurerFullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the previous insurer for the other line of business."
+    },
+    "PriorCoverage_OtherLine_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The  policy number of the previous coverage for the other line of business."
+    },
+    "PriorCoverage_OtherLine_TotalPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual modified premium charged (not including taxes or service charges) for other lines of business."
+    },
+    "PriorCoverage_OtherLine_EffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the prior policy for the other line of business."
+    },
+    "PriorCoverage_OtherLine_ExpirationDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the previous  coverage for the other line of business."
+    },
+    "PriorCoverage_PolicyYear_B": {
+      "type": "text",
+      "tooltip": "Enter year: The year for which you are providing information."
+    },
+    "PriorCoverage_GeneralLiability_InsurerFullName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the previous general liability insurer."
+    },
+    "PriorCoverage_GeneralLiability_PolicyNumberIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The general liability policy number of the previous coverage."
+    },
+    "PriorCoverage_GeneralLiability_TotalPremiumAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual modified premium charged (not including taxes or service charges) for the general liability line of business."
+    },
+    "PriorCoverage_GeneralLiability_EffectiveDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the prior general liability policy."
+    },
+    "PriorCoverage_GeneralLiability_ExpirationDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the previous general liability coverage."
+    },
+    "PriorCoverage_Automobile_InsurerFullName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the previous automobile insurer."
+    },
+    "PriorCoverage_Automobile_PolicyNumberIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The automobile policy number of the previous coverage."
+    },
+    "PriorCoverage_Automobile_TotalPremiumAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual modified premium charged (not including taxes or service charges) for the automobile line of business."
+    },
+    "PriorCoverage_Automobile_EffectiveDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the prior automobile policy."
+    },
+    "PriorCoverage_Automobile_ExpirationDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the previous automobile coverage."
+    },
+    "PriorCoverage_Property_InsurerFullName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the previous property insurer."
+    },
+    "PriorCoverage_Property_PolicyNumberIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The policy number of the previous property coverage."
+    },
+    "PriorCoverage_Property_TotalPremiumAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual modified premium charged (not including taxes or service charges) for the property line of business."
+    },
+    "PriorCoverage_Property_EffectiveDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the prior property policy."
+    },
+    "PriorCoverage_Property_ExpirationDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the previous property coverage."
+    },
+    "PriorCoverage_OtherLine_InsurerFullName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the previous insurer for the other line of business."
+    },
+    "PriorCoverage_OtherLine_PolicyNumberIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The  policy number of the previous coverage for the other line of business."
+    },
+    "PriorCoverage_OtherLine_TotalPremiumAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual modified premium charged (not including taxes or service charges) for other lines of business."
+    },
+    "PriorCoverage_OtherLine_EffectiveDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the prior policy for the other line of business."
+    },
+    "PriorCoverage_OtherLine_ExpirationDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the previous  coverage for the other line of business."
+    },
+    "PriorCoverage_PolicyYear_C": {
+      "type": "text",
+      "tooltip": "Enter year: The year for which you are providing information."
+    },
+    "PriorCoverage_GeneralLiability_InsurerFullName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the previous general liability insurer."
+    },
+    "PriorCoverage_GeneralLiability_PolicyNumberIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: The general liability policy number of the previous coverage."
+    },
+    "PriorCoverage_GeneralLiability_TotalPremiumAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual modified premium charged (not including taxes or service charges) for the general liability line of business."
+    },
+    "PriorCoverage_GeneralLiability_EffectiveDate_C": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the prior general liability policy."
+    },
+    "PriorCoverage_GeneralLiability_ExpirationDate_C": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the previous general liability coverage."
+    },
+    "PriorCoverage_Automobile_InsurerFullName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the previous automobile insurer."
+    },
+    "PriorCoverage_Automobile_PolicyNumberIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: The automobile policy number of the previous coverage."
+    },
+    "PriorCoverage_Automobile_TotalPremiumAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual modified premium charged (not including taxes or service charges) for the automobile line of business."
+    },
+    "PriorCoverage_Automobile_EffectiveDate_C": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the prior automobile policy."
+    },
+    "PriorCoverage_Automobile_ExpirationDate_C": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the previous automobile coverage."
+    },
+    "PriorCoverage_Property_InsurerFullName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the previous property insurer."
+    },
+    "PriorCoverage_Property_PolicyNumberIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: The policy number of the previous property coverage."
+    },
+    "PriorCoverage_Property_TotalPremiumAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual modified premium charged (not including taxes or service charges) for the property line of business."
+    },
+    "PriorCoverage_Property_EffectiveDate_C": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the prior property policy."
+    },
+    "PriorCoverage_Property_ExpirationDate_C": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the previous property coverage."
+    },
+    "PriorCoverage_OtherLine_InsurerFullName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the previous insurer for the other line of business."
+    },
+    "PriorCoverage_OtherLine_PolicyNumberIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: The  policy number of the previous coverage for the other line of business."
+    },
+    "PriorCoverage_OtherLine_TotalPremiumAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual modified premium charged (not including taxes or service charges) for other lines of business."
+    },
+    "PriorCoverage_OtherLine_EffectiveDate_C": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the prior policy for the other line of business."
+    },
+    "PriorCoverage_OtherLine_ExpirationDate_C": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the previous  coverage for the other line of business."
+    },
+    "LossHistory_NoPriorLossesIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates there are no prior losses or occurrences that may give rise to claims for the mandated number of years."
+    },
+    "LossHistory_InformationYearCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of years of loss information required by the insurer."
+    },
+    "LossHistory_TotalAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount that has been paid on all losses to date."
+    },
+    "LossHistory_OccurrenceDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date when the accident or incident occurred that resulted in the filing of a claim.  (MM/DD/YYYY)"
+    },
+    "LossHistory_LineOfBusiness_A": {
+      "type": "text",
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability)."
+    },
+    "LossHistory_OccurrenceDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: A brief description of the loss."
+    },
+    "LossHistory_ClaimDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)"
+    },
+    "LossHistory_PaidAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date."
+    },
+    "LossHistory_ReservedAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim."
+    },
+    "LossHistory_ClaimStatus_SubrogationCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if the claim is in subrogation."
+    },
+    "LossHistory_ClaimStatus_OpenCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if the claim is still open."
+    },
+    "LossHistory_OccurrenceDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The date when the accident or incident occurred that resulted in the filing of a claim.  (MM/DD/YYYY)"
+    },
+    "LossHistory_LineOfBusiness_B": {
+      "type": "text",
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability)."
+    },
+    "LossHistory_OccurrenceDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: A brief description of the loss."
+    },
+    "LossHistory_ClaimDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)"
+    },
+    "LossHistory_PaidAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date."
+    },
+    "LossHistory_ReservedAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim."
+    },
+    "LossHistory_ClaimStatus_SubrogationCode_B": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if the claim is in subrogation."
+    },
+    "LossHistory_ClaimStatus_OpenCode_B": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if the claim is still open."
+    },
+    "LossHistory_OccurrenceDate_C": {
+      "type": "text",
+      "tooltip": "Enter date: The date when the accident or incident occurred that resulted in the filing of a claim.  (MM/DD/YYYY)"
+    },
+    "LossHistory_LineOfBusiness_C": {
+      "type": "text",
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability)."
+    },
+    "LossHistory_OccurrenceDescription_C": {
+      "type": "text",
+      "tooltip": "Enter text: A brief description of the loss."
+    },
+    "LossHistory_ClaimDate_C": {
+      "type": "text",
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)"
+    },
+    "LossHistory_PaidAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date."
+    },
+    "LossHistory_ReservedAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim."
+    },
+    "LossHistory_ClaimStatus_SubrogationCode_C": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if the claim is in subrogation."
+    },
+    "LossHistory_ClaimStatus_OpenCode_C": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates if the claim is still open."
+    },
+    "Policy_InformationPracticesNoticeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates that a copy of the Notice of Information Practices (ACORD 38 or state specific ACORD 38) has been given to the applicant.  State specific 38s are available for applicants in AZ, DE, KS, MN, ND, NY, OR, VA, and WV.  In addition, ACORD 38 contains CA and MA state specific language."
+    },
+    "NamedInsured_Initials_A": {
+      "type": "text",
+      "tooltip": "Initial here: The named insured's initials."
+    },
+    "Producer_AuthorizedRepresentative_Signature_A": {
+      "type": "text",
+      "tooltip": "Sign here: Accommodates the signature of the authorized representative (e.g., producer, agent, broker, etc.) of the company(ies) listed on the document.  This is required in most states."
+    },
+    "Producer_AuthorizedRepresentative_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the authorized representative of the producer, agency and/or broker that signed the form."
+    },
+    "Producer_StateLicenseIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The State License Number of the producer."
+    },
+    "NamedInsured_Signature_A": {
+      "type": "text",
+      "tooltip": "Sign here: Accommodates the signature of the applicant or named insured."
+    },
+    "NamedInsured_SignatureDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date the form was signed by the applicant or named insured.  (MM/DD/YYYY)"
+    },
+    "Producer_NationalIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The National Producer Number (NPN) as defined in the National Insurance Producer Registry (NIPR).  Note: The NPN is not the same as the producer state license number."
+    }
+  }
+}

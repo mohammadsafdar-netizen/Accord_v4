@@ -1,0 +1,58 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+
+# --- SQLite databases (runtime state) ---
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+.accord_v4_live.db
+
+# --- Runtime directories ---
+logs/
+eval_results/
+filled_pdfs/
+.accord_v4_live_pdfs/
+training_data/
+chroma_data/
+adapters/
+
+# --- External validator datasets (regeneratable via scripts/refresh_*.py) ---
+data/ofac/
+# Keep data/area_codes.csv and data/naics_2022.csv (small, checked-in reference data)
+
+# --- Secrets + env files ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# --- IDE / tool caches ---
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*~
+
+# --- Claude Code session caches (local to this user) ---
+.claude/
+
+# --- Graphify / other generated artifacts ---
+graphify-out/

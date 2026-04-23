@@ -1,0 +1,179 @@
+scenarios:
+  - id: bulk-all-business-info
+    name: "Bulk: Complete Business Info in One Message"
+    tags: [bulk, business, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: bulk
+    turns:
+      - "Here's everything for our quote. Business name is Northern Star Logistics Inc, we're a corporation. Address is 4520 Industrial Blvd, Minneapolis MN 55401. Contact person is Karen Johansson, phone 612-555-0294, email karen@northernstarlogistics.com. EIN 41-7293856. We've been in business 14 years, 52 employees. DBA is NorthStar Express. Website northernstarlogistics.com. NAICS code 484110, SIC code 4213. We operate in MN WI IA ND SD. We need commercial auto insurance, effective date August 1 2026, this is a new policy. We have one vehicle, a 2024 Freightliner Cascadia VIN 3AKJGLDR8RSAB1234, used for long haul, garaged at our Minneapolis address 55401, 600 mile radius. Driver is Karen Johansson DOB 07/14/1978 MN CDL-A K394821576 24 years. We want 1M CSL and 100K cargo, 2500 deductible. We use dash cams and telematics. No hired or non-owned autos. Prior carrier was Progressive policy PR-4482917 expiring 07/31/2026."
+    expected:
+      business.business_name: "Northern Star Logistics Inc"
+      business.entity_type: "corporation"
+      business.contact_name: "Karen Johansson"
+      business.phone: "612-555-0294"
+      business.email: "karen@northernstarlogistics.com"
+      business.mailing_address.line_one: "4520 Industrial Blvd"
+      business.mailing_address.city: "Minneapolis"
+      business.mailing_address.state: "MN"
+      business.mailing_address.zip: "55401"
+      business.tax_id: "41-7293856"
+      business.years_in_business: "14"
+      business.employee_count: "52"
+      business.dba: "NorthStar Express"
+      business.website: "northernstarlogistics.com"
+      business.naics_code: "484110"
+      business.sic_code: "4213"
+      business.states_of_operation: ["MN", "WI", "IA", "ND", "SD"]
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Freightliner"
+      vehicles[0].model: "Cascadia"
+      vehicles[0].vin: "3AKJGLDR8RSAB1234"
+      vehicles[0].use_type: "long haul"
+      vehicles[0].radius: "600"
+      drivers[0].full_name: "Karen Johansson"
+      drivers[0].dob: "07/14/1978"
+      drivers[0].license_state: "MN"
+      drivers[0].years_experience: "24"
+      auto_info.dash_cam: true
+      auto_info.telematics: true
+      auto_info.hired_auto: false
+      auto_info.non_owned_auto: false
+      policy.effective_date: "08/01/2026"
+      policy.status: "new"
+      prior_insurance[0].carrier: "Progressive"
+      prior_insurance[0].policy_number: "PR-4482917"
+      prior_insurance[0].expiration_date: "07/31/2026"
+      coverages[0].limit: "1000000"
+      coverages[1].limit: "100000"
+    absent: []
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: bulk-full-fleet-dump
+    name: "Bulk: Five Vehicle Fleet in One Message"
+    tags: [bulk, fleet, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: bulk
+    turns:
+      - "Need commercial auto for Tri-State Electrical Contractors LLC, Allentown PA 18101. Contact Ryan Mercer, 610-555-0873, ryan@tristateelectric.com. EIN 23-8147296."
+      - "Here's our full fleet: Vehicle 1 - 2024 Ford F-250 VIN 1FT7W2BT6RED12345, service, Allentown PA 18101, 45 miles. Vehicle 2 - 2024 Ford F-250 VIN 1FT7W2BT8RED23456, service, same address, 45 miles. Vehicle 3 - 2023 Chevy Silverado 2500HD VIN 2GC4YREY7P1345678, service, same address, 45 miles. Vehicle 4 - 2023 Ford Transit 250 VIN 1FTBR1C82PKA45678, parts delivery, same address, 30 miles. Vehicle 5 - 2022 Ram ProMaster 2500 VIN 3C6LRVDG4ME567890, parts delivery, same address, 30 miles. All garaged at the Allentown location."
+      - "Drivers: Ryan Mercer DOB 01/30/1979 PA license 24681357 22 years. Kevin Ngo DOB 05/16/1987 PA license 13572468 14 years. Steve Polaski DOB 09/22/1990 PA license 97531246 11 years. Effective September 1 2026."
+    expected:
+      business.business_name: "Tri-State Electrical Contractors LLC"
+      business.entity_type: "llc"
+      business.contact_name: "Ryan Mercer"
+      business.tax_id: "23-8147296"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "F-250"
+      vehicles[0].vin: "1FT7W2BT6RED12345"
+      vehicles[1].year: "2024"
+      vehicles[1].make: "Ford"
+      vehicles[1].model: "F-250"
+      vehicles[1].vin: "1FT7W2BT8RED23456"
+      vehicles[2].year: "2023"
+      vehicles[2].make: "Chevrolet"
+      vehicles[2].model: "Silverado 2500HD"
+      vehicles[2].vin: "2GC4YREY7P1345678"
+      vehicles[3].year: "2023"
+      vehicles[3].make: "Ford"
+      vehicles[3].model: "Transit 250"
+      vehicles[3].vin: "1FTBR1C82PKA45678"
+      vehicles[4].year: "2022"
+      vehicles[4].make: "Ram"
+      vehicles[4].model: "ProMaster 2500"
+      vehicles[4].vin: "3C6LRVDG4ME567890"
+      drivers[0].full_name: "Ryan Mercer"
+      drivers[0].dob: "01/30/1979"
+      drivers[1].full_name: "Kevin Ngo"
+      drivers[1].dob: "05/16/1987"
+      drivers[2].full_name: "Steve Polaski"
+      drivers[2].dob: "09/22/1990"
+      policy.effective_date: "09/01/2026"
+    absent:
+      - auto_info.dash_cam
+      - loss_history
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: bulk-driver-roster
+    name: "Bulk: Complete Driver Roster in One Message"
+    tags: [bulk, drivers, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: bulk
+    turns:
+      - "Commercial auto for Atlas Moving & Storage Inc, corporation, Kansas City MO 64101. Contact Jeff Raines, 816-555-0413, jeff@atlasmoving.com. EIN 44-2938175. 2024 International MV607 VIN 3HAMMAAR7PL789012, commercial hauling, KC MO 64101, 150 miles."
+      - "Here are all three drivers: 1) Jeff Raines DOB 02/14/1975 MO CDL-A R48261537 27 years. 2) Marcus Webb DOB 08/06/1988 MO CDL-A W73624185 13 years. 3) Tanya Simmons DOB 11/29/1991 MO CDL-B S91835274 9 years. Effective date July 15 2026."
+    expected:
+      business.business_name: "Atlas Moving & Storage Inc"
+      business.entity_type: "corporation"
+      drivers[0].full_name: "Jeff Raines"
+      drivers[0].dob: "02/14/1975"
+      drivers[0].license_state: "MO"
+      drivers[0].years_experience: "27"
+      drivers[1].full_name: "Marcus Webb"
+      drivers[1].dob: "08/06/1988"
+      drivers[1].license_state: "MO"
+      drivers[1].years_experience: "13"
+      drivers[2].full_name: "Tanya Simmons"
+      drivers[2].dob: "11/29/1991"
+      drivers[2].license_state: "MO"
+      drivers[2].years_experience: "9"
+      policy.effective_date: "07/15/2026"
+    absent:
+      - auto_info.telematics
+      - prior_insurance
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: bulk-mixed-everything
+    name: "Bulk: Everything in One Giant Message"
+    tags: [bulk, comprehensive, commercial_auto, general_liability]
+    layers: [L2, L3, L4, L5]
+    category: bulk
+    turns:
+      - "Let me give you everything at once. Company is Cornerstone Building Group LLC, an LLC at 1200 Commerce Drive, Indianapolis IN 46204. Contact Mitchell Barnes phone 317-555-0621 email mitchell@cornerstonebg.com. EIN 35-6824193. DBA Cornerstone Builders. Website cornerstonebg.com. 18 years in business 35 employees. NAICS 236220. States of operation IN OH KY IL. We need commercial auto and general liability. Vehicle 1: 2024 Ford F-350 VIN 1FT8W3DT5RED67890 service use garaged Indianapolis IN 46204 radius 65 miles. Vehicle 2: 2023 Chevy Silverado 3500HD VIN 2GC4YREYXP1789012 hauling same garage 65 miles. Driver 1: Mitchell Barnes DOB 04/17/1974 IN license 8234567890 28 years. Driver 2: Amy Chen DOB 12/05/1986 IN license 9123456789 15 years. Coverage: 1M CSL, 500K general liability, comp and collision with 1000 deductible. We use dash cams, no telematics, no hired auto, no non-owned. Policy effective 05/15/2026 new policy. Prior insurance with Hartford policy HF-29384751 expiring 05/14/2026. One loss in 2024 collision $12,500 rear-ended at stoplight."
+    expected:
+      business.business_name: "Cornerstone Building Group LLC"
+      business.entity_type: "llc"
+      business.contact_name: "Mitchell Barnes"
+      business.phone: "317-555-0621"
+      business.email: "mitchell@cornerstonebg.com"
+      business.mailing_address.line_one: "1200 Commerce Drive"
+      business.mailing_address.city: "Indianapolis"
+      business.mailing_address.state: "IN"
+      business.mailing_address.zip: "46204"
+      business.tax_id: "35-6824193"
+      business.dba: "Cornerstone Builders"
+      business.website: "cornerstonebg.com"
+      business.years_in_business: "18"
+      business.employee_count: "35"
+      business.naics_code: "236220"
+      business.states_of_operation: ["IN", "OH", "KY", "IL"]
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "F-350"
+      vehicles[0].vin: "1FT8W3DT5RED67890"
+      vehicles[1].year: "2023"
+      vehicles[1].make: "Chevrolet"
+      vehicles[1].model: "Silverado 3500HD"
+      vehicles[1].vin: "2GC4YREYXP1789012"
+      drivers[0].full_name: "Mitchell Barnes"
+      drivers[0].dob: "04/17/1974"
+      drivers[1].full_name: "Amy Chen"
+      drivers[1].dob: "12/05/1986"
+      auto_info.dash_cam: true
+      auto_info.telematics: false
+      auto_info.hired_auto: false
+      auto_info.non_owned_auto: false
+      policy.effective_date: "05/15/2026"
+      policy.status: "new"
+      prior_insurance[0].carrier: "Hartford"
+      prior_insurance[0].policy_number: "HF-29384751"
+      prior_insurance[0].expiration_date: "05/14/2026"
+      loss_history[0].type: "collision"
+      loss_history[0].amount: "12500"
+      coverages[0].deductible: "1000"
+    absent: []
+    expected_lobs: [commercial_auto, general_liability]
+    expected_forms: ["125", "126", "127", "129", "137", "163"]

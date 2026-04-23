@@ -1,0 +1,379 @@
+scenarios:
+  - id: standard-solo-plumber
+    name: "Solo Plumber – Single Vehicle Commercial Auto"
+    tags: [commercial_auto, standard, single_vehicle]
+    layers: [L2, L3, L4, L5]
+    category: standard
+    turns:
+      - "Hi, I need commercial auto insurance for my plumbing business. The company is Reliable Plumbing Solutions LLC based in Austin, Texas."
+      - "My name is Marcus Whitfield, phone is 512-555-0147, email marcus@reliableplumbing.com. EIN is 74-3281956. We've been in business 12 years with 6 employees."
+      - "I have a 2022 Ford F-250 Super Duty, VIN 1FT7W2BT4NED38571. Used for service calls, garaged in Austin TX 78745. Radius is 35 miles."
+      - "I'm the only driver. DOB 03/15/1978, Texas license 12849305, 22 years experience. Policy effective 05/01/2026."
+    expected:
+      business.business_name: "Reliable Plumbing Solutions LLC"
+      business.entity_type: "llc"
+      business.contact_name: "Marcus Whitfield"
+      business.phone: "512-555-0147"
+      business.email: "marcus@reliableplumbing.com"
+      business.tax_id: "74-3281956"
+      business.years_in_business: "12"
+      business.employee_count: "6"
+      business.mailing_address.city: "Austin"
+      business.mailing_address.state: "TX"
+      vehicles[0].year: "2022"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "F-250 Super Duty"
+      vehicles[0].vin: "1FT7W2BT4NED38571"
+      vehicles[0].use_type: "service"
+      vehicles[0].garaging_address.city: "Austin"
+      vehicles[0].garaging_address.state: "TX"
+      vehicles[0].garaging_address.zip: "78745"
+      vehicles[0].radius: "35"
+      drivers[0].full_name: "Marcus Whitfield"
+      drivers[0].dob: "03/15/1978"
+      drivers[0].license_number: "12849305"
+      drivers[0].license_state: "TX"
+      drivers[0].years_experience: "22"
+      policy.effective_date: "05/01/2026"
+      policy.status: "new"
+    absent:
+      - auto_info.hired_auto
+      - auto_info.non_owned_auto
+      - loss_history
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: standard-electrician
+    name: "Electrician – Two Vehicles with GL"
+    tags: [commercial_auto, general_liability, standard]
+    layers: [L2, L3, L4, L5]
+    category: standard
+    turns:
+      - "Need commercial auto and general liability for Sparks Electric Inc. We're a corporation in Phoenix AZ 85034."
+      - "Contact is Diana Reeves, 480-555-0293, diana@sparkselectric.com. Tax ID 86-1547823. In business 8 years, 15 employees. NAICS 238210."
+      - "Vehicle one is a 2023 Chevy Silverado 2500HD VIN 2GC4YREY5P1234567 for service, garaged Phoenix AZ 85034 radius 50 miles. Vehicle two is a 2021 Ram ProMaster 2500 VIN 3C6LRVDG8ME123456 for parts delivery same garage."
+      - "Driver one Diana Reeves DOB 06/22/1985 AZ license D12345678 16 years. Driver two Miguel Santos DOB 11/03/1990 AZ license S87654321 10 years."
+      - "Effective date July 1 2026, we want 1 million CSL and 500k general liability."
+    expected:
+      business.business_name: "Sparks Electric Inc"
+      business.entity_type: "corporation"
+      business.contact_name: "Diana Reeves"
+      business.phone: "480-555-0293"
+      business.email: "diana@sparkselectric.com"
+      business.tax_id: "86-1547823"
+      business.years_in_business: "8"
+      business.employee_count: "15"
+      business.naics_code: "238210"
+      business.mailing_address.city: "Phoenix"
+      business.mailing_address.state: "AZ"
+      business.mailing_address.zip: "85034"
+      vehicles[0].year: "2023"
+      vehicles[0].make: "Chevrolet"
+      vehicles[0].model: "Silverado 2500HD"
+      vehicles[0].vin: "2GC4YREY5P1234567"
+      vehicles[1].year: "2021"
+      vehicles[1].make: "Ram"
+      vehicles[1].model: "ProMaster 2500"
+      vehicles[1].vin: "3C6LRVDG8ME123456"
+      drivers[0].full_name: "Diana Reeves"
+      drivers[0].dob: "06/22/1985"
+      drivers[1].full_name: "Miguel Santos"
+      drivers[1].dob: "11/03/1990"
+      policy.effective_date: "07/01/2026"
+      coverages[0].limit: "1000000"
+    absent:
+      - loss_history
+      - auto_info.dash_cam
+    expected_lobs: [commercial_auto, general_liability]
+    expected_forms: ["125", "126", "127", "129", "137", "163"]
+
+  - id: standard-delivery-fleet
+    name: "Delivery Fleet – Multiple Vans"
+    tags: [commercial_auto, standard, fleet]
+    layers: [L2, L3, L4, L5]
+    category: standard
+    turns:
+      - "I'm looking for commercial auto coverage for Quick Parcel Delivery LLC. We're an LLC in Atlanta GA 30318."
+      - "My name is Terrence Jackson, 404-555-0812, terrence@quickparcel.com. EIN 58-2946731. Been around 5 years, 22 employees. DBA is QPD Express."
+      - "We have three cargo vans. 2024 Mercedes Sprinter 2500 VIN WD4PF0CD3RP456789, 2023 Ford Transit 250 VIN 1FTBR1C80PKA12345, and a 2022 Ford Transit 350 VIN 1FTBW2CM3NKB67890. All used for delivery, garaged at our warehouse in Atlanta GA 30318. Radius 75 miles each."
+      - "Three drivers: Terrence Jackson DOB 01/20/1982 GA license 065432189 18 years, Angela Morris DOB 09/14/1995 GA license 089123456 7 years, DeShaun Brown DOB 04/07/1988 GA license 071234567 14 years."
+      - "Start date August 15 2026. We need comp and collision with 1000 deductible, and 1M CSL."
+    expected:
+      business.business_name: "Quick Parcel Delivery LLC"
+      business.entity_type: "llc"
+      business.contact_name: "Terrence Jackson"
+      business.dba: "QPD Express"
+      business.tax_id: "58-2946731"
+      business.years_in_business: "5"
+      business.employee_count: "22"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Mercedes"
+      vehicles[0].model: "Sprinter 2500"
+      vehicles[1].year: "2023"
+      vehicles[1].make: "Ford"
+      vehicles[1].model: "Transit 250"
+      vehicles[2].year: "2022"
+      vehicles[2].make: "Ford"
+      vehicles[2].model: "Transit 350"
+      drivers[0].full_name: "Terrence Jackson"
+      drivers[1].full_name: "Angela Morris"
+      drivers[2].full_name: "DeShaun Brown"
+      coverages[0].deductible: "1000"
+      policy.effective_date: "08/15/2026"
+    absent:
+      - auto_info.hired_auto
+      - prior_insurance
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: standard-restaurant
+    name: "Restaurant – Delivery Vehicle with GL"
+    tags: [commercial_auto, general_liability, standard]
+    layers: [L2, L3, L4, L5]
+    category: standard
+    turns:
+      - "Hi there, I own a restaurant called Golden Dragon Kitchen Inc and I need commercial auto and general liability insurance. We're incorporated in San Francisco CA 94108."
+      - "I'm Wei Chen, 415-555-0634, weichen@goldendragonkitchen.com. EIN 94-6183725. We've been open 15 years, 30 employees. SIC code 5812."
+      - "We have a 2023 Toyota Tacoma SR5 VIN 3TMCZ5AN2PM567890 used for catering delivery. Garaged in San Francisco CA 94108, 25 mile radius."
+      - "One driver, myself Wei Chen, DOB 08/28/1972, California DL C1234567, 30 years driving. Effective date 06/01/2026. This is a renewal, prior carrier was State Farm policy SF-8827341 expiring 05/31/2026."
+    expected:
+      business.business_name: "Golden Dragon Kitchen Inc"
+      business.entity_type: "corporation"
+      business.contact_name: "Wei Chen"
+      business.phone: "415-555-0634"
+      business.email: "weichen@goldendragonkitchen.com"
+      business.tax_id: "94-6183725"
+      business.years_in_business: "15"
+      business.employee_count: "30"
+      business.sic_code: "5812"
+      vehicles[0].year: "2023"
+      vehicles[0].make: "Toyota"
+      vehicles[0].model: "Tacoma SR5"
+      vehicles[0].vin: "3TMCZ5AN2PM567890"
+      vehicles[0].radius: "25"
+      drivers[0].full_name: "Wei Chen"
+      drivers[0].dob: "08/28/1972"
+      drivers[0].license_number: "C1234567"
+      drivers[0].license_state: "CA"
+      policy.effective_date: "06/01/2026"
+      policy.status: "renewal"
+      prior_insurance[0].carrier: "State Farm"
+      prior_insurance[0].policy_number: "SF-8827341"
+      prior_insurance[0].expiration_date: "05/31/2026"
+    absent:
+      - auto_info.telematics
+      - loss_history
+    expected_lobs: [commercial_auto, general_liability]
+    expected_forms: ["125", "126", "127", "129", "137", "163"]
+
+  - id: standard-trucking-company
+    name: "Trucking Company – Long Haul OTR"
+    tags: [commercial_auto, standard, trucking]
+    layers: [L2, L3, L4, L5]
+    category: standard
+    turns:
+      - "I need commercial auto for my trucking operation. Heartland Freight Lines LLC out of Omaha NE 68102."
+      - "Name's Robert Kowalski, 402-555-0971, rkowalski@heartlandfreight.com. EIN 47-5928314. 20 years in business, 45 employees. We operate in NE IA MO KS CO."
+      - "Two trucks: 2024 Kenworth T680 VIN 1XKYD49X3RJ456789 and 2023 Peterbilt 579 VIN 1XPBD49X8PD987654. Both long haul OTR, garaged Omaha NE 68102, radius 500 miles. We use dash cams and telematics on both."
+      - "Drivers: Robert Kowalski DOB 12/01/1970 NE CDL-A B24689135 30 years, Pavel Novak DOB 03/19/1985 NE CDL-A N13579246 15 years. Effective 09/01/2026. Need 1M CSL, cargo coverage 100K, 2500 deductible."
+    expected:
+      business.business_name: "Heartland Freight Lines LLC"
+      business.entity_type: "llc"
+      business.contact_name: "Robert Kowalski"
+      business.tax_id: "47-5928314"
+      business.years_in_business: "20"
+      business.employee_count: "45"
+      business.states_of_operation: ["NE", "IA", "MO", "KS", "CO"]
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Kenworth"
+      vehicles[0].model: "T680"
+      vehicles[0].vin: "1XKYD49X3RJ456789"
+      vehicles[0].radius: "500"
+      vehicles[1].year: "2023"
+      vehicles[1].make: "Peterbilt"
+      vehicles[1].model: "579"
+      auto_info.dash_cam: true
+      auto_info.telematics: true
+      policy.effective_date: "09/01/2026"
+    absent:
+      - auto_info.hired_auto
+      - auto_info.non_owned_auto
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: standard-landscaper
+    name: "Landscaper – Truck and Trailer"
+    tags: [commercial_auto, general_liability, standard]
+    layers: [L2, L3, L4, L5]
+    category: standard
+    turns:
+      - "Looking for commercial auto and GL for my landscaping company, GreenScape Lawn Care. It's a partnership between me and my brother. We're in Charlotte NC 28205."
+      - "I'm Carlos Gutierrez, 704-555-0356, carlos@greenscapelawn.com. EIN 56-7412389. Six years in business, 10 employees."
+      - "We have a 2021 Chevy Silverado 1500 VIN 3GCUYDED5MG234567 used for service, and a 2020 utility trailer VIN 5NHUTS1629F012345. Both garaged Charlotte NC 28205, radius 40 miles."
+      - "Two drivers: me Carlos Gutierrez DOB 05/17/1983 NC license G2468013 18 years, and my brother Javier Gutierrez DOB 10/24/1986 NC license G1357924 14 years. Effective 04/15/2026."
+    expected:
+      business.business_name: "GreenScape Lawn Care"
+      business.entity_type: "partnership"
+      business.contact_name: "Carlos Gutierrez"
+      business.phone: "704-555-0356"
+      business.tax_id: "56-7412389"
+      business.years_in_business: "6"
+      business.employee_count: "10"
+      vehicles[0].year: "2021"
+      vehicles[0].make: "Chevrolet"
+      vehicles[0].model: "Silverado 1500"
+      vehicles[0].vin: "3GCUYDED5MG234567"
+      vehicles[1].year: "2020"
+      drivers[0].full_name: "Carlos Gutierrez"
+      drivers[0].dob: "05/17/1983"
+      drivers[1].full_name: "Javier Gutierrez"
+      drivers[1].dob: "10/24/1986"
+      policy.effective_date: "04/15/2026"
+    absent:
+      - auto_info.dash_cam
+      - loss_history
+    expected_lobs: [commercial_auto, general_liability]
+    expected_forms: ["125", "126", "127", "129", "137", "163"]
+
+  - id: standard-hvac-contractor
+    name: "HVAC Contractor – Service Fleet"
+    tags: [commercial_auto, standard]
+    layers: [L2, L3, L4, L5]
+    category: standard
+    turns:
+      - "Need commercial auto insurance for Polar Bear HVAC Services. We're an S-corp in Denver CO 80202."
+      - "Contact is Sarah Mitchell, 303-555-0728, sarah@polarbearhvac.com. EIN 84-3691527. 9 years in business, 18 employees. Website polarbearhvac.com."
+      - "Two service vans: 2024 Chevy Express 2500 VIN 1GCWGAFG0R1345678 and 2023 GMC Savana 2500 VIN 1GDZ7FF47P1234567. Both for service, garaged Denver CO 80202, 60 mile radius."
+      - "Drivers Sarah Mitchell DOB 02/09/1980 CO DL 92-456-7891 20 years, and Tom Bradley DOB 07/30/1992 CO DL 92-123-4568 10 years. Want to start 07/15/2026."
+    expected:
+      business.business_name: "Polar Bear HVAC Services"
+      business.entity_type: "subchapter_s"
+      business.contact_name: "Sarah Mitchell"
+      business.phone: "303-555-0728"
+      business.website: "polarbearhvac.com"
+      business.tax_id: "84-3691527"
+      business.years_in_business: "9"
+      business.employee_count: "18"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Chevrolet"
+      vehicles[0].model: "Express 2500"
+      vehicles[1].year: "2023"
+      vehicles[1].make: "GMC"
+      vehicles[1].model: "Savana 2500"
+      drivers[0].full_name: "Sarah Mitchell"
+      drivers[1].full_name: "Tom Bradley"
+      policy.effective_date: "07/15/2026"
+    absent:
+      - auto_info.hired_auto
+      - prior_insurance
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: standard-moving-company
+    name: "Moving Company – Box Trucks"
+    tags: [commercial_auto, standard]
+    layers: [L2, L3, L4, L5]
+    category: standard
+    turns:
+      - "Hi, I run a moving company called Swift Relocation Services Inc. We're a corporation in Houston TX 77001. Need commercial auto insurance."
+      - "My name is Derek Pham, 713-555-0419, derek@swiftrelocation.com. Tax ID 76-4182953. We've been in operation for 11 years, 25 employees."
+      - "We have two box trucks: 2023 International MV607 VIN 3HAMMAAR5PL123456 and 2022 Freightliner M2 106 VIN 1FVACXDT3NHKG7890. Both used for commercial hauling, garaged Houston TX 77001, 100 mile radius."
+      - "Driver Derek Pham DOB 11/12/1976 TX CDL A 04598712 25 years. Driver Lisa Tran DOB 06/03/1989 TX CDL B 08712345 12 years. Effective 10/01/2026. We have a clean loss history."
+    expected:
+      business.business_name: "Swift Relocation Services Inc"
+      business.entity_type: "corporation"
+      business.contact_name: "Derek Pham"
+      business.phone: "713-555-0419"
+      business.tax_id: "76-4182953"
+      business.years_in_business: "11"
+      business.employee_count: "25"
+      vehicles[0].year: "2023"
+      vehicles[0].make: "International"
+      vehicles[0].model: "MV607"
+      vehicles[0].vin: "3HAMMAAR5PL123456"
+      vehicles[0].radius: "100"
+      vehicles[1].year: "2022"
+      vehicles[1].make: "Freightliner"
+      vehicles[1].model: "M2 106"
+      drivers[0].full_name: "Derek Pham"
+      drivers[0].dob: "11/12/1976"
+      drivers[1].full_name: "Lisa Tran"
+      policy.effective_date: "10/01/2026"
+    absent:
+      - auto_info.dash_cam
+      - auto_info.telematics
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: standard-towing-service
+    name: "Towing Service – Wreckers"
+    tags: [commercial_auto, standard, towing]
+    layers: [L2, L3, L4, L5]
+    category: standard
+    turns:
+      - "I need insurance for my towing company. Titan Towing & Recovery LLC in Tampa FL 33602."
+      - "I'm James Caldwell, 813-555-0562, james@titantowing.net. EIN 59-8374162. Been doing this 7 years, 12 employees."
+      - "Got a 2024 Ford F-550 rollback VIN 1FDUF5HT4REC12345 and a 2022 Kenworth T370 wrecker VIN 2NKHHM7X0NM654321. Both garaged Tampa FL 33602, 50 mile radius. Body types are rollback and wrecker."
+      - "Just me driving for now, James Caldwell DOB 09/25/1975 FL license C551-234-67-890-0 26 years experience. Start October 1 2026. Had one claim in 2024 for $8500 property damage from a fender bender."
+    expected:
+      business.business_name: "Titan Towing & Recovery LLC"
+      business.entity_type: "llc"
+      business.contact_name: "James Caldwell"
+      business.phone: "813-555-0562"
+      business.tax_id: "59-8374162"
+      business.years_in_business: "7"
+      business.employee_count: "12"
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "F-550"
+      vehicles[0].body_type: "rollback"
+      vehicles[0].vin: "1FDUF5HT4REC12345"
+      vehicles[1].year: "2022"
+      vehicles[1].make: "Kenworth"
+      vehicles[1].model: "T370"
+      vehicles[1].body_type: "wrecker"
+      drivers[0].full_name: "James Caldwell"
+      drivers[0].dob: "09/25/1975"
+      loss_history[0].type: "property damage"
+      loss_history[0].amount: "8500"
+      policy.effective_date: "10/01/2026"
+    absent:
+      - auto_info.telematics
+      - prior_insurance
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: standard-auto-dealer
+    name: "Auto Dealer – Lot and Delivery"
+    tags: [commercial_auto, general_liability, standard]
+    layers: [L2, L3, L4, L5]
+    category: standard
+    turns:
+      - "Hi, looking for commercial auto and general liability for my car dealership. Premier Auto Group Inc, we're a corporation in Scottsdale AZ 85251."
+      - "I'm Nathan Cole, 480-555-0183, nathan@premierautogroup.com. EIN 86-2759413. We've been open 20 years, 40 employees. We also go by PAG Motors."
+      - "We have a 2025 Chevy Silverado 1500 VIN 1GCUYEED5RZ789012 used for dealer operations and a 2024 Ford Transit Connect VIN NM0GE9F27R1234567 for parts runs. Both garaged Scottsdale AZ 85251, 30 mile radius."
+      - "Drivers: Nathan Cole DOB 04/08/1968 AZ license D98765432 34 years, Rebecca Cole DOB 12/19/1971 AZ license D45678901 30 years. Effective 06/15/2026. We use telematics on both vehicles."
+    expected:
+      business.business_name: "Premier Auto Group Inc"
+      business.entity_type: "corporation"
+      business.contact_name: "Nathan Cole"
+      business.dba: "PAG Motors"
+      business.tax_id: "86-2759413"
+      business.years_in_business: "20"
+      business.employee_count: "40"
+      vehicles[0].year: "2025"
+      vehicles[0].make: "Chevrolet"
+      vehicles[0].model: "Silverado 1500"
+      vehicles[1].year: "2024"
+      vehicles[1].make: "Ford"
+      vehicles[1].model: "Transit Connect"
+      auto_info.telematics: true
+      drivers[0].full_name: "Nathan Cole"
+      drivers[0].dob: "04/08/1968"
+      drivers[1].full_name: "Rebecca Cole"
+      policy.effective_date: "06/15/2026"
+    absent:
+      - auto_info.hired_auto
+      - loss_history
+    expected_lobs: [commercial_auto, general_liability]
+    expected_forms: ["125", "126", "127", "129", "137", "163"]

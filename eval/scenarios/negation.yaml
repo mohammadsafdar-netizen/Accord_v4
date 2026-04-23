@@ -1,0 +1,148 @@
+scenarios:
+  - id: negation-no-dash-cam
+    name: "Negation: No Dash Cam"
+    tags: [negation, boolean, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: negation
+    turns:
+      - "Need commercial auto for Apex Courier LLC in Miami FL 33130. I'm Daniel Cruz, 305-555-0214, daniel@apexcourier.com. EIN 65-4829137."
+      - "2024 Ford Transit 150 VIN 1FTYE2CM4RKA56789 for delivery, garaged Miami FL 33130, 30 mile radius. No, we don't have dash cams."
+    expected:
+      business.business_name: "Apex Courier LLC"
+      auto_info.dash_cam: false
+      vehicles[0].year: "2024"
+      vehicles[0].make: "Ford"
+      vehicles[0].model: "Transit 150"
+    absent:
+      - auto_info.telematics
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: negation-no-telematics
+    name: "Negation: No Telematics"
+    tags: [negation, boolean, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: negation
+    turns:
+      - "Commercial auto for BrightPath Electric Inc, corporation, Portland OR 97201. Contact Amy Sato 503-555-0891."
+      - "One van, 2023 Chevy Express 3500 VIN 1GCWGBFG1P1987654, service use, garaged Portland OR 97201 radius 45 miles."
+      - "We do not use any telematics devices."
+    expected:
+      business.business_name: "BrightPath Electric Inc"
+      auto_info.telematics: false
+      vehicles[0].year: "2023"
+    absent:
+      - auto_info.dash_cam
+      - auto_info.hired_auto
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: negation-no-hired-auto
+    name: "Negation: No Hired Auto"
+    tags: [negation, boolean, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: negation
+    turns:
+      - "Need insurance for Central Valley Ag Supply LLC, partnership, Fresno CA 93721. I'm Roy Becker, 559-555-0347."
+      - "2022 Ram 3500 VIN 3C63RRGL6NG789012 for hauling, Fresno CA 93721, 80 mile radius. We don't hire any autos."
+    expected:
+      business.business_name: "Central Valley Ag Supply LLC"
+      auto_info.hired_auto: false
+      vehicles[0].year: "2022"
+      vehicles[0].make: "Ram"
+    absent:
+      - auto_info.non_owned_auto
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: negation-no-non-owned
+    name: "Negation: No Non-Owned Auto"
+    tags: [negation, boolean, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: negation
+    turns:
+      - "Commercial auto for Summit Roofing Corp, corporation, Nashville TN 37201. Contact is Frank Deluca 615-555-0523."
+      - "2023 Ford F-350 VIN 1FT8W3DT2PED12345, service use, Nashville TN 37201 50 mile radius."
+      - "No non-owned autos at all. All our employees drive company vehicles."
+    expected:
+      business.business_name: "Summit Roofing Corp"
+      auto_info.non_owned_auto: false
+    absent:
+      - auto_info.hired_auto
+      - auto_info.dash_cam
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: negation-question-format
+    name: "Negation: Question Format Response No"
+    tags: [negation, boolean, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: negation
+    turns:
+      - "Need auto insurance for Quick Fix Plumbing LLC, Raleigh NC 27601. I'm Pete Morrison, 919-555-0672."
+      - "2024 Chevy Silverado 2500 VIN 2GC4YREY3R1654321, service, Raleigh NC 27601, 35 miles."
+      - "Do you have dash cameras? No. Do you use telematics? No we don't."
+    expected:
+      business.business_name: "Quick Fix Plumbing LLC"
+      auto_info.dash_cam: false
+      auto_info.telematics: false
+    absent:
+      - auto_info.hired_auto
+      - auto_info.non_owned_auto
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: negation-combined
+    name: "Negation: Multiple Negations in One Message"
+    tags: [negation, boolean, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: negation
+    turns:
+      - "Setting up commercial auto for Metro Cleaning Services LLC, LLC in Baltimore MD 21201. Contact Keisha Owens 410-555-0934."
+      - "2023 Toyota Sienna VIN 5TDKRKEC1PS123456, commercial use, Baltimore MD 21201 radius 20 miles."
+      - "No dash cams, no telematics, no hired autos, and no non-owned vehicles."
+    expected:
+      business.business_name: "Metro Cleaning Services LLC"
+      auto_info.dash_cam: false
+      auto_info.telematics: false
+      auto_info.hired_auto: false
+      auto_info.non_owned_auto: false
+    absent: []
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: negation-then-correction
+    name: "Negation Then Correction: Initially No Then Yes"
+    tags: [negation, correction, boolean, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: negation
+    turns:
+      - "Commercial auto for Iron Horse Transport LLC, Boise ID 83702. I'm Greg Lawson, 208-555-0741."
+      - "2024 Kenworth T680 VIN 1XKYD49X4RJ789012, long haul, Boise ID 83702, 400 mile radius. We don't have dash cams."
+      - "Actually wait, I was wrong. We do have dash cameras installed on all our trucks."
+    expected:
+      business.business_name: "Iron Horse Transport LLC"
+      auto_info.dash_cam: true
+      vehicles[0].year: "2024"
+    absent:
+      - auto_info.telematics
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]
+
+  - id: negation-double-negative
+    name: "Negation: Double Negative Affirms"
+    tags: [negation, boolean, commercial_auto]
+    layers: [L2, L3, L4, L5]
+    category: negation
+    turns:
+      - "Auto insurance for Pacific Coast Movers Inc, corporation, San Diego CA 92101. Contact Mia Torres 619-555-0328."
+      - "2023 International MV607 VIN 3HAMMAAR3PL654321, hauling, San Diego CA 92101, 75 miles."
+      - "It's not like we don't have telematics, we definitely do have them installed."
+    expected:
+      business.business_name: "Pacific Coast Movers Inc"
+      auto_info.telematics: true
+    absent:
+      - auto_info.dash_cam
+      - auto_info.hired_auto
+    expected_lobs: [commercial_auto]
+    expected_forms: ["125", "127", "129", "137", "163"]

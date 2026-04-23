@@ -1,0 +1,4136 @@
+{
+  "form": "126",
+  "pdf_path": "accord_ai/form_templates/acord_126_blank.pdf",
+  "unique_names": 255,
+  "widget_count": 258,
+  "widgets": [
+    {
+      "choices": null,
+      "flags": 1,
+      "is_readonly": true,
+      "name": "Form_EditionIdentifier_A",
+      "page": 0,
+      "rect": [
+        0.0,
+        791.0,
+        0.0,
+        791.0
+      ],
+      "tooltip": "The edition identifier of the form including the form number and edition (the date is typically formatted YYYY/MM).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 0,
+      "rect": [
+        414.0,
+        24.0,
+        594.0,
+        36.0
+      ],
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Form_CompletionDate_A",
+      "page": 0,
+      "rect": [
+        511.0,
+        54.0,
+        590.0,
+        66.0
+      ],
+      "tooltip": "Enter date: The date on which the form is completed.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_FullName_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        78.0,
+        302.0,
+        90.0
+      ],
+      "tooltip": "Enter text: The full name of the producer / agency.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Policy_PolicyNumberIdentifier_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        102.0,
+        245.0,
+        114.0
+      ],
+      "tooltip": "Enter identifier: The identifier assigned by the insurer to the policy, or submission, being referenced exactly as it appears on the policy, including prefix and suffix symbols.  If required for self-insurance, the self-insured license or contract number.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Policy_EffectiveDate_A",
+      "page": 0,
+      "rect": [
+        252.0,
+        102.0,
+        302.0,
+        114.0
+      ],
+      "tooltip": "Enter date: The effective date of the policy.  The date that the terms and conditions of the policy commence.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Insurer_FullName_A",
+      "page": 0,
+      "rect": [
+        310.0,
+        78.0,
+        536.0,
+        90.0
+      ],
+      "tooltip": "Enter text: The insurer's full legal company name(s) as found in the file copy of the policy.  Use the actual name of the company within the group to which the policy has been issued.  This is not the insurer's group name or trade name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Insurer_NAICCode_A",
+      "page": 0,
+      "rect": [
+        544.0,
+        78.0,
+        590.0,
+        90.0
+      ],
+      "tooltip": "Enter code: The identification code assigned to the insurer by the National Association of Insurance Commissioners (NAIC).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_FullName_A",
+      "page": 0,
+      "rect": [
+        310.0,
+        102.0,
+        590.0,
+        114.0
+      ],
+      "tooltip": "Enter text: The named insured(s) as it / they will appear on the policy declarations page.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_CoverageIndicator_A",
+      "page": 0,
+      "rect": [
+        18.0,
+        156.0,
+        32.0,
+        168.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the claims made or occurrence option applies for the general liability policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_ClaimsMadeIndicator_A",
+      "page": 0,
+      "rect": [
+        32.0,
+        168.0,
+        47.0,
+        180.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the \"claims made\" option applies on the general liability policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_OccurrenceIndicator_A",
+      "page": 0,
+      "rect": [
+        122.0,
+        168.0,
+        137.0,
+        180.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the general liability policy, occurrence basis applies.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_OwnersAndContractorsProtectiveIndicator_A",
+      "page": 0,
+      "rect": [
+        18.0,
+        180.0,
+        32.0,
+        192.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the owners and contractors protective option applies for the general liability policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_OtherCoverageIndicator_A",
+      "page": 0,
+      "rect": [
+        18.0,
+        192.0,
+        32.0,
+        204.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates other coverage not found on the form exists for the general liability policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_OtherCoverageDescription_A",
+      "page": 0,
+      "rect": [
+        36.0,
+        192.0,
+        227.0,
+        204.0
+      ],
+      "tooltip": "Enter text: The description of other coverage (not the limit) on the general liability policy.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_PropertyDamage_DeductibleIndicator_A",
+      "page": 0,
+      "rect": [
+        18.0,
+        216.0,
+        32.0,
+        228.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates if a property damage deductible is requested.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_PropertyDamage_DeductibleAmount_A",
+      "page": 0,
+      "rect": [
+        119.0,
+        216.0,
+        169.0,
+        228.0
+      ],
+      "tooltip": "Enter deductible: The deductible applicable to the Property Damage coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_BodilyInjury_DeductibleIndicator_A",
+      "page": 0,
+      "rect": [
+        18.0,
+        228.0,
+        32.0,
+        240.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates if a bodily injury deductible is requested.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_BodilyInjury_DeductibleAmount_A",
+      "page": 0,
+      "rect": [
+        119.0,
+        228.0,
+        169.0,
+        240.0
+      ],
+      "tooltip": "Enter deductible: The deductible applicable to the Bodily Injury coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_OtherDeductibleIndicator_A",
+      "page": 0,
+      "rect": [
+        18.0,
+        240.0,
+        32.0,
+        252.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates that a deductible is requested on the coverage other than Property Damage or Bodily Injury.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_OtherDeductibleDescription_A",
+      "page": 0,
+      "rect": [
+        40.0,
+        240.0,
+        112.0,
+        252.0
+      ],
+      "tooltip": "Enter text: The type of deductible being requested other than property damage and bodily injury.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_OtherDeductibleAmount_A",
+      "page": 0,
+      "rect": [
+        119.0,
+        240.0,
+        169.0,
+        252.0
+      ],
+      "tooltip": "Enter deductible: The deductible applicable to the Other Coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_DeductiblePerClaimIndicator_A",
+      "page": 0,
+      "rect": [
+        173.0,
+        228.0,
+        187.0,
+        240.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates that a per claim deductible applies to individual claims even if the claims are all related to the same occurrence or event.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_DeductiblePerOccurrenceIndicator_A",
+      "page": 0,
+      "rect": [
+        173.0,
+        240.0,
+        187.0,
+        252.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates that a per occurrence deductible applies once to each occurrence no matter how many individual claims result from the occurrence or event.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_GeneralAggregate_LimitAmount_A",
+      "page": 0,
+      "rect": [
+        410.0,
+        156.0,
+        490.0,
+        168.0
+      ],
+      "tooltip": "Enter limit: The general liability, general aggregate limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_GeneralAggregate_LimitAppliesPerPolicyIndicator_A",
+      "page": 0,
+      "rect": [
+        302.0,
+        168.0,
+        317.0,
+        180.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the general liability policy, general aggregate limit applies per policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_GeneralAggregate_LimitAppliesPerProjectIndicator_A",
+      "page": 0,
+      "rect": [
+        302.0,
+        180.0,
+        317.0,
+        192.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the general liability policy, general aggregate limit applies per project.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_GeneralAggregate_LimitAppliesPerLocationIndicator_A",
+      "page": 0,
+      "rect": [
+        353.0,
+        168.0,
+        367.0,
+        180.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the general liability policy, general aggregate limit applies per location.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_GeneralAggregate_LimitAppliesToOtherIndicator_A",
+      "page": 0,
+      "rect": [
+        353.0,
+        180.0,
+        367.0,
+        192.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the general liability policy, general aggregate limit applies to option is other than those listed on the form.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_GeneralAggregate_LimitAppliesToCode_A",
+      "page": 0,
+      "rect": [
+        400.0,
+        180.0,
+        490.0,
+        192.0
+      ],
+      "tooltip": "Enter text: The description of the other option to which the general liability policy, general aggregate limit applies.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_ProductsAndCompletedOperations_AggregateLimitAmount_A",
+      "page": 0,
+      "rect": [
+        410.0,
+        192.0,
+        490.0,
+        204.0
+      ],
+      "tooltip": "Enter limit: The general liability, products and completed operations aggregate limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_PersonalAndAdvertisingInjury_LimitAmount_A",
+      "page": 0,
+      "rect": [
+        410.0,
+        204.0,
+        490.0,
+        216.0
+      ],
+      "tooltip": "Enter limit: The general liability, personal and advertising injury limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_EachOccurrence_LimitAmount_A",
+      "page": 0,
+      "rect": [
+        410.0,
+        216.0,
+        490.0,
+        228.0
+      ],
+      "tooltip": "Enter limit: The general liability, each occurrence limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_FireDamageRentedPremises_EachOccurrenceLimitAmount_A",
+      "page": 0,
+      "rect": [
+        410.0,
+        228.0,
+        490.0,
+        240.0
+      ],
+      "tooltip": "Enter limit: The general liability, damage to rented premises each occurrence limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_MedicalExpense_EachPersonLimitAmount_A",
+      "page": 0,
+      "rect": [
+        410.0,
+        240.0,
+        490.0,
+        252.0
+      ],
+      "tooltip": "Enter limit: The general liability, medical expense each person limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_EmployeeBenefits_LimitAmount_A",
+      "page": 0,
+      "rect": [
+        410.0,
+        252.0,
+        490.0,
+        264.0
+      ],
+      "tooltip": "Enter limit: The general liability employee benefits limit amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_OtherCoverageLimitDescription_A",
+      "page": 0,
+      "rect": [
+        234.0,
+        264.0,
+        396.0,
+        276.0
+      ],
+      "tooltip": "Enter text: The description of other coverage (not the limit) on the general liability policy.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_OtherCoverageLimitAmount_A",
+      "page": 0,
+      "rect": [
+        410.0,
+        264.0,
+        490.0,
+        276.0
+      ],
+      "tooltip": "Enter limit: The general liability, other coverage limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_PremisesOperations_PremiumAmount_A",
+      "page": 0,
+      "rect": [
+        497.0,
+        180.0,
+        590.0,
+        192.0
+      ],
+      "tooltip": "Enter amount: The premium for premises/operations coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Products_PremiumAmount_A",
+      "page": 0,
+      "rect": [
+        497.0,
+        204.0,
+        590.0,
+        216.0
+      ],
+      "tooltip": "Enter amount: The premium for products coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_OtherCoveragePremiumAmount_A",
+      "page": 0,
+      "rect": [
+        497.0,
+        228.0,
+        590.0,
+        240.0
+      ],
+      "tooltip": "Enter amount: The premium for other general liability coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_TotalPremiumAmount_A",
+      "page": 0,
+      "rect": [
+        497.0,
+        252.0,
+        590.0,
+        264.0
+      ],
+      "tooltip": "Enter amount: The total premium amount for the commercial general liability line of business.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_RemarkText_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        288.0,
+        590.0,
+        312.0
+      ],
+      "tooltip": "Enter text: The remarks associated with the general liability line of business.  Use this section to provide any additional information required for underwriting or rating.  ACORD 101, Additional Remarks Schedule, may be attached if more space is required.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_UninsuredUnderinsuredMotorists_CoverageAvailableIndicator_A",
+      "page": 0,
+      "rect": [
+        101.0,
+        324.0,
+        115.0,
+        336.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates if uninsured/underinsured motorist coverage is to be provided under the policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_UninsuredUnderinsuredMotorists_CoverageAvailableNoIndicator_A",
+      "page": 0,
+      "rect": [
+        137.0,
+        324.0,
+        151.0,
+        336.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates that  uninsured/underinsured motorist coverage is not  to be provided under the policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_MedicalPayments_CoverageAvailableIndicator_A",
+      "page": 0,
+      "rect": [
+        367.0,
+        324.0,
+        382.0,
+        336.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates that medical payment coverage is to be provided under the policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_MedicalPayments_CoverageAvailableNoIndicator_A",
+      "page": 0,
+      "rect": [
+        403.0,
+        324.0,
+        418.0,
+        336.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates that medical payment coverage is not to be provided under the policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_LocationProducerIdentifier_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        372.0,
+        50.0,
+        384.0
+      ],
+      "tooltip": "Enter number: The producer assigned identifier for the location number of the risk's location as it appears on the Applicant Information Section of ACORD 125.  All classifications should be grouped by location number.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_HazardProducerIdentifier_A",
+      "page": 0,
+      "rect": [
+        58.0,
+        372.0,
+        83.0,
+        384.0
+      ],
+      "tooltip": "Enter number: A unique (within location) number distinguishing this unit-at-risk from the others.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_ClassCode_A",
+      "page": 0,
+      "rect": [
+        90.0,
+        372.0,
+        137.0,
+        384.0
+      ],
+      "tooltip": "Enter code: The general liability class code that corresponds to the classification description shown in the previous field.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_PremiumBasisCode_A",
+      "page": 0,
+      "rect": [
+        144.0,
+        372.0,
+        187.0,
+        384.0
+      ],
+      "tooltip": "Enter code: An industry code designating the rating basis of the exposure amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_Exposure_A",
+      "page": 0,
+      "rect": [
+        194.0,
+        372.0,
+        288.0,
+        384.0
+      ],
+      "tooltip": "Enter amount: The amount of the exposure used for this class code in calculating the premium.  The contents of this data element depends on the rating basis used.  The full amount of exposure is contained.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_TerritoryCode_A",
+      "page": 0,
+      "rect": [
+        295.0,
+        372.0,
+        324.0,
+        384.0
+      ],
+      "tooltip": "Enter code: The rating territory code based on location from the appropriate state exception page.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_PremisesOperationsRate_A",
+      "page": 0,
+      "rect": [
+        331.0,
+        372.0,
+        389.0,
+        384.0
+      ],
+      "tooltip": "Enter rate: The separate Premises Operations manual rate applicable to the classification.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_ProductsRate_A",
+      "page": 0,
+      "rect": [
+        396.0,
+        372.0,
+        457.0,
+        384.0
+      ],
+      "tooltip": "Enter rate: The separate Products rate applicable to the classification.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_PremisesOperationsPremiumAmount_A",
+      "page": 0,
+      "rect": [
+        464.0,
+        372.0,
+        522.0,
+        384.0
+      ],
+      "tooltip": "Enter amount: The premium associated with the premises operations coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_ProductsPremiumAmount_A",
+      "page": 0,
+      "rect": [
+        529.0,
+        372.0,
+        590.0,
+        384.0
+      ],
+      "tooltip": "Enter amount: The premium associated with the products coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_Classification_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        396.0,
+        590.0,
+        420.0
+      ],
+      "tooltip": "Enter text: The classification of the applicant's liability exposures by location, using the ISO Classification Table or other industry organization rules.  Enter the appropriate class description from the table in this field.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_LocationProducerIdentifier_B",
+      "page": 0,
+      "rect": [
+        22.0,
+        444.0,
+        50.0,
+        456.0
+      ],
+      "tooltip": "Enter number: The producer assigned identifier for the location number of the risk's location as it appears on the Applicant Information Section of ACORD 125.  All classifications should be grouped by location number.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_HazardProducerIdentifier_B",
+      "page": 0,
+      "rect": [
+        58.0,
+        444.0,
+        83.0,
+        456.0
+      ],
+      "tooltip": "Enter number: A unique (within location) number distinguishing this unit-at-risk from the others.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_ClassCode_B",
+      "page": 0,
+      "rect": [
+        90.0,
+        444.0,
+        137.0,
+        456.0
+      ],
+      "tooltip": "Enter code: The general liability class code that corresponds to the classification description shown in the previous field.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_PremiumBasisCode_B",
+      "page": 0,
+      "rect": [
+        144.0,
+        444.0,
+        187.0,
+        456.0
+      ],
+      "tooltip": "Enter code: An industry code designating the rating basis of the exposure amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_Exposure_B",
+      "page": 0,
+      "rect": [
+        194.0,
+        444.0,
+        288.0,
+        456.0
+      ],
+      "tooltip": "Enter amount: The amount of the exposure used for this class code in calculating the premium.  The contents of this data element depends on the rating basis used.  The full amount of exposure is contained.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_TerritoryCode_B",
+      "page": 0,
+      "rect": [
+        295.0,
+        444.0,
+        324.0,
+        456.0
+      ],
+      "tooltip": "Enter code: The rating territory code based on location from the appropriate state exception page.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_PremisesOperationsRate_B",
+      "page": 0,
+      "rect": [
+        331.0,
+        444.0,
+        389.0,
+        456.0
+      ],
+      "tooltip": "Enter rate: The separate Premises Operations manual rate applicable to the classification.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_ProductsRate_B",
+      "page": 0,
+      "rect": [
+        396.0,
+        444.0,
+        457.0,
+        456.0
+      ],
+      "tooltip": "Enter rate: The separate Products rate applicable to the classification.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_PremisesOperationsPremiumAmount_B",
+      "page": 0,
+      "rect": [
+        464.0,
+        444.0,
+        522.0,
+        456.0
+      ],
+      "tooltip": "Enter amount: The premium associated with the premises operations coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_ProductsPremiumAmount_B",
+      "page": 0,
+      "rect": [
+        529.0,
+        444.0,
+        590.0,
+        456.0
+      ],
+      "tooltip": "Enter amount: The premium associated with the products coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_Classification_B",
+      "page": 0,
+      "rect": [
+        22.0,
+        468.0,
+        590.0,
+        492.0
+      ],
+      "tooltip": "Enter text: The classification of the applicant's liability exposures by location, using the ISO Classification Table or other industry organization rules.  Enter the appropriate class description from the table in this field.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_LocationProducerIdentifier_C",
+      "page": 0,
+      "rect": [
+        22.0,
+        516.0,
+        50.0,
+        528.0
+      ],
+      "tooltip": "Enter number: The producer assigned identifier for the location number of the risk's location as it appears on the Applicant Information Section of ACORD 125.  All classifications should be grouped by location number.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_HazardProducerIdentifier_C",
+      "page": 0,
+      "rect": [
+        58.0,
+        516.0,
+        83.0,
+        528.0
+      ],
+      "tooltip": "Enter number: A unique (within location) number distinguishing this unit-at-risk from the others.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_ClassCode_C",
+      "page": 0,
+      "rect": [
+        90.0,
+        516.0,
+        137.0,
+        528.0
+      ],
+      "tooltip": "Enter code: The general liability class code that corresponds to the classification description shown in the previous field.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_PremiumBasisCode_C",
+      "page": 0,
+      "rect": [
+        144.0,
+        516.0,
+        187.0,
+        528.0
+      ],
+      "tooltip": "Enter code: An industry code designating the rating basis of the exposure amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_Exposure_C",
+      "page": 0,
+      "rect": [
+        194.0,
+        516.0,
+        288.0,
+        528.0
+      ],
+      "tooltip": "Enter amount: The amount of the exposure used for this class code in calculating the premium.  The contents of this data element depends on the rating basis used.  The full amount of exposure is contained.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_TerritoryCode_C",
+      "page": 0,
+      "rect": [
+        295.0,
+        516.0,
+        324.0,
+        528.0
+      ],
+      "tooltip": "Enter code: The rating territory code based on location from the appropriate state exception page.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_PremisesOperationsRate_C",
+      "page": 0,
+      "rect": [
+        331.0,
+        516.0,
+        389.0,
+        528.0
+      ],
+      "tooltip": "Enter rate: The separate Premises Operations manual rate applicable to the classification.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_ProductsRate_C",
+      "page": 0,
+      "rect": [
+        396.0,
+        516.0,
+        457.0,
+        528.0
+      ],
+      "tooltip": "Enter rate: The separate Products rate applicable to the classification.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_PremisesOperationsPremiumAmount_C",
+      "page": 0,
+      "rect": [
+        464.0,
+        516.0,
+        522.0,
+        528.0
+      ],
+      "tooltip": "Enter amount: The premium associated with the premises operations coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_ProductsPremiumAmount_C",
+      "page": 0,
+      "rect": [
+        529.0,
+        516.0,
+        590.0,
+        528.0
+      ],
+      "tooltip": "Enter amount: The premium associated with the products coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Hazard_Classification_C",
+      "page": 0,
+      "rect": [
+        22.0,
+        540.0,
+        590.0,
+        564.0
+      ],
+      "tooltip": "Enter text: The classification of the applicant's liability exposures by location, using the ISO Classification Table or other industry organization rules.  Enter the appropriate class description from the table in this field.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_ClaimsMade_ProposedRetroactiveDate_A",
+      "page": 0,
+      "rect": [
+        155.0,
+        612.0,
+        223.0,
+        624.0
+      ],
+      "tooltip": "Enter date: The retroactive date you are requesting for the policy being applied for. This is the proposed earliest date for which an occurrence could \"trigger\" coverage under a Claims Made policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_ClaimsMade_UninterruptedCoverageEntryDate_A",
+      "page": 0,
+      "rect": [
+        259.0,
+        624.0,
+        328.0,
+        636.0
+      ],
+      "tooltip": "Enter date: The retroactive date shown on the applicant's first Claims Made policy.  If this is the first such policy, the date will be the same as the proposed retroactive date shown on the preceding field. If this is a renewal, it is the effective date of the first policy issued in the sequence of uninterrupted Claims Made policies.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_AAHCode_A",
+      "page": 0,
+      "rect": [
+        576.0,
+        636.0,
+        590.0,
+        648.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Has any product, work, accident or location been excluded, uninsured or self-insured from any previous coverage?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_AnyProductWorkAccidentLocationExcludedUninsuredPreviousCoverageExplanation_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        648.0,
+        569.0,
+        672.0
+      ],
+      "tooltip": "Enter text: An explanation of any work, accident or location that has been excluded, uninsured or self-insured from any previous coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_AAICode_A",
+      "page": 0,
+      "rect": [
+        576.0,
+        672.0,
+        590.0,
+        684.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Was tail coverage purchased under any previous policy?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_TailCoveragePurchasedPreviousPolicyExplanation_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        684.0,
+        569.0,
+        708.0
+      ],
+      "tooltip": "Enter text: An explanation if tail was coverage purchased under any previous policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_EmployeeBenefits_PerClaimDeductibleAmount_A",
+      "page": 0,
+      "rect": [
+        137.0,
+        720.0,
+        284.0,
+        732.0
+      ],
+      "tooltip": "Enter deductible: The deductible per claim applicable to Employee Benefits Liability coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_EmployeeBenefits_EmployeeCount_A",
+      "page": 0,
+      "rect": [
+        137.0,
+        732.0,
+        284.0,
+        744.0
+      ],
+      "tooltip": "Enter number: The total number of employees.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_EmployeeBenefits_EmployeeCoveredCount_A",
+      "page": 0,
+      "rect": [
+        547.0,
+        720.0,
+        590.0,
+        732.0
+      ],
+      "tooltip": "Enter number: The total number of employees covered by employee benefits plans.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_EmployeeBenefits_RetroactiveDate_A",
+      "page": 0,
+      "rect": [
+        382.0,
+        732.0,
+        590.0,
+        744.0
+      ],
+      "tooltip": "Enter date: The retroactive date that is the earliest date for which an occurrence could \"trigger\" coverage under Employee Benefits coverage.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 1,
+      "rect": [
+        414.0,
+        24.0,
+        594.0,
+        36.0
+      ],
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Contractors_Question_AABCode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        54.0,
+        590.0,
+        66.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Does applicant draw plans, designs or specifications for others?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_ApplicantDrawPlansForOthersExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        66.0,
+        569.0,
+        90.0
+      ],
+      "tooltip": "Enter text: An explanation of any plans, designs or specifications drawn for others.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Contractors_Question_AAICode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        90.0,
+        590.0,
+        102.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Do any operations include blasting or utilize, or store explosive material?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_OperationsIncludeBlastingExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        102.0,
+        569.0,
+        126.0
+      ],
+      "tooltip": "Enter text: An explanation of  any operations that  include blasting or utilize , store explosive material.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Contractors_Question_AACCode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        126.0,
+        590.0,
+        138.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Does any operation involve excavation, tunneling, underground work or earth moving?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_OperationsIncludeEvacuationExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        138.0,
+        569.0,
+        162.0
+      ],
+      "tooltip": "Enter text: An explanation of  any operations which include evacuation, tunneling, underground work or earth moving.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Contractors_Question_ABBCode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        162.0,
+        590.0,
+        174.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Do subcontractors carry coverages or limits less than applicant?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_SubcontractorsCarryLowerLimitsExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        174.0,
+        569.0,
+        198.0
+      ],
+      "tooltip": "Enter text: An explanation of any of your subcontractors who carry coverages or limits less than yours.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Contractors_Question_AADCode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        198.0,
+        590.0,
+        210.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Are subcontractors allowed to work without providing you with a certificate of insurance?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_SubcontractorsWorksWithoutCertificatesOfInsuranceExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        210.0,
+        569.0,
+        234.0
+      ],
+      "tooltip": "Enter text: An explanation of any subcontractors allowed to work without providing you with Certificates of Insurance.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Contractors_Question_AAECode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        234.0,
+        590.0,
+        246.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Does applicant lease equipment to others with or without operators?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_ApplicantLeaseEquipmentToOthersExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        246.0,
+        569.0,
+        270.0
+      ],
+      "tooltip": "Enter text: An explanation of any  applicant who leases equipment to others with or without operators.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Contractors_SubcontractorsPaidAmount_A",
+      "page": 1,
+      "rect": [
+        263.0,
+        270.0,
+        328.0,
+        282.0
+      ],
+      "tooltip": "Enter amount: The total dollar amount for work that the contractor pays to subcontractors.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Contractors_WorkSubcontractedPercent_A",
+      "page": 1,
+      "rect": [
+        392.0,
+        270.0,
+        421.0,
+        282.0
+      ],
+      "tooltip": "Enter percentage: The percentage of the work described by the applicant as subcontracted out.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Contractors_FullTimeEmployeeCount_A",
+      "page": 1,
+      "rect": [
+        468.0,
+        270.0,
+        508.0,
+        282.0
+      ],
+      "tooltip": "Enter number: The number of individuals employed full time by the applicant.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Contractors_PartTimeEmployeeCount_A",
+      "page": 1,
+      "rect": [
+        554.0,
+        270.0,
+        590.0,
+        282.0
+      ],
+      "tooltip": "Enter number: The number of individuals employed part time by the applicant.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_TypeOfWorkSubcontractedDescription_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        282.0,
+        590.0,
+        306.0
+      ],
+      "tooltip": "Enter text: Describe the type of work and percentage subcontracted.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_ProductName_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        336.0,
+        119.0,
+        348.0
+      ],
+      "tooltip": "Enter text: The name used to identify the product manufactured or sold or service provided by the applicant.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_AnnualGrossSalesAmount_A",
+      "page": 1,
+      "rect": [
+        126.0,
+        336.0,
+        198.0,
+        348.0
+      ],
+      "tooltip": "Enter amount: The whole dollar estimate of the annual sales receipts realized by this product or service.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_UnitCount_A",
+      "page": 1,
+      "rect": [
+        205.0,
+        336.0,
+        277.0,
+        348.0
+      ],
+      "tooltip": "Enter number: The number of units of this product manufactured and/or sold each year.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_InMarketMonthCount_A",
+      "page": 1,
+      "rect": [
+        284.0,
+        336.0,
+        313.0,
+        348.0
+      ],
+      "tooltip": "Enter number: The number of months the product or service has been marketed to the public.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_ExpectedLifeMonthCount_A",
+      "page": 1,
+      "rect": [
+        320.0,
+        336.0,
+        349.0,
+        348.0
+      ],
+      "tooltip": "Enter number: The anticipated number of months of useful life of the product or service.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_IntendedUse_A",
+      "page": 1,
+      "rect": [
+        356.0,
+        336.0,
+        472.0,
+        348.0
+      ],
+      "tooltip": "Enter text: The intended use of the product.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_PrincipalComponents_A",
+      "page": 1,
+      "rect": [
+        479.0,
+        336.0,
+        590.0,
+        348.0
+      ],
+      "tooltip": "Enter text: The principal components of the product.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_ProductName_B",
+      "page": 1,
+      "rect": [
+        22.0,
+        360.0,
+        119.0,
+        372.0
+      ],
+      "tooltip": "Enter text: The name used to identify the product manufactured or sold or service provided by the applicant.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_AnnualGrossSalesAmount_B",
+      "page": 1,
+      "rect": [
+        126.0,
+        360.0,
+        198.0,
+        372.0
+      ],
+      "tooltip": "Enter amount: The whole dollar estimate of the annual sales receipts realized by this product or service.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_UnitCount_B",
+      "page": 1,
+      "rect": [
+        205.0,
+        360.0,
+        277.0,
+        372.0
+      ],
+      "tooltip": "Enter number: The number of units of this product manufactured and/or sold each year.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_InMarketMonthCount_B",
+      "page": 1,
+      "rect": [
+        284.0,
+        360.0,
+        313.0,
+        372.0
+      ],
+      "tooltip": "Enter number: The number of months the product or service has been marketed to the public.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_ExpectedLifeMonthCount_B",
+      "page": 1,
+      "rect": [
+        320.0,
+        360.0,
+        349.0,
+        372.0
+      ],
+      "tooltip": "Enter number: The anticipated number of months of useful life of the product or service.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_IntendedUse_B",
+      "page": 1,
+      "rect": [
+        356.0,
+        360.0,
+        472.0,
+        372.0
+      ],
+      "tooltip": "Enter text: The intended use of the product.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_PrincipalComponents_B",
+      "page": 1,
+      "rect": [
+        479.0,
+        360.0,
+        590.0,
+        372.0
+      ],
+      "tooltip": "Enter text: The principal components of the product.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_ProductName_C",
+      "page": 1,
+      "rect": [
+        22.0,
+        384.0,
+        119.0,
+        396.0
+      ],
+      "tooltip": "Enter text: The name used to identify the product manufactured or sold or service provided by the applicant.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_AnnualGrossSalesAmount_C",
+      "page": 1,
+      "rect": [
+        126.0,
+        384.0,
+        198.0,
+        396.0
+      ],
+      "tooltip": "Enter amount: The whole dollar estimate of the annual sales receipts realized by this product or service.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_UnitCount_C",
+      "page": 1,
+      "rect": [
+        205.0,
+        384.0,
+        277.0,
+        396.0
+      ],
+      "tooltip": "Enter number: The number of units of this product manufactured and/or sold each year.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_InMarketMonthCount_C",
+      "page": 1,
+      "rect": [
+        284.0,
+        384.0,
+        313.0,
+        396.0
+      ],
+      "tooltip": "Enter number: The number of months the product or service has been marketed to the public.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_ExpectedLifeMonthCount_C",
+      "page": 1,
+      "rect": [
+        320.0,
+        384.0,
+        349.0,
+        396.0
+      ],
+      "tooltip": "Enter number: The anticipated number of months of useful life of the product or service.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_IntendedUse_C",
+      "page": 1,
+      "rect": [
+        356.0,
+        384.0,
+        472.0,
+        396.0
+      ],
+      "tooltip": "Enter text: The intended use of the product.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ProductAndCompletedOperations_PrincipalComponents_C",
+      "page": 1,
+      "rect": [
+        479.0,
+        384.0,
+        590.0,
+        396.0
+      ],
+      "tooltip": "Enter text: The principal components of the product.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_AAJCode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        414.0,
+        590.0,
+        426.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Does applicant install, service or demonstrate products?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_ApplicantInstallServiceProductsExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        426.0,
+        569.0,
+        450.0
+      ],
+      "tooltip": "Enter text: An explanation of any installation, service or product demonstration applicant would perform.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ABACode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        450.0,
+        590.0,
+        462.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Foreign products, sold, distributed, used as components?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ABBCode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        462.0,
+        590.0,
+        474.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Research and development conducted or new products planned?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_ResearchDevelopmentConductedNewProductsPlannedExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        474.0,
+        569.0,
+        498.0
+      ],
+      "tooltip": "Enter text: An explanation of any research and development conducted on new products planned.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ABCCode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        498.0,
+        590.0,
+        510.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Guarantees, warrantees, hold harmless agreements?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_GuaranteesWarrantiesHoldHarmlessExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        510.0,
+        569.0,
+        534.0
+      ],
+      "tooltip": "Enter text: An explanation of any guarantees, warranties, hold harmless agreements.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ABDCode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        534.0,
+        590.0,
+        546.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Products related to aircraft/space industry?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_ProductsRelatedToAircraftIndustryExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        546.0,
+        569.0,
+        570.0
+      ],
+      "tooltip": "Enter text: An explanation products related to aircraft/space industry.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ABECode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        570.0,
+        590.0,
+        582.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Products recalled, discontinued, changed?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_ProductsRecalledDiscontinuedExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        582.0,
+        569.0,
+        606.0
+      ],
+      "tooltip": "Enter text: An explanation products recalled, discontinued, changed.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ABFCode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        606.0,
+        590.0,
+        618.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Products of others sold or repackaged under applicant label?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_ProductsOfOthersSoldUnderApplicantLabelExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        618.0,
+        569.0,
+        642.0
+      ],
+      "tooltip": "Enter text: An explanation of products of others sold or repackaged under applicant's label.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ABGCode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        642.0,
+        590.0,
+        654.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Products under label of others?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_ProductsUnderLabelOfOthersExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        654.0,
+        569.0,
+        678.0
+      ],
+      "tooltip": "Enter text: An explanation of products under label of others.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ABHCode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        678.0,
+        590.0,
+        690.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Vendors coverage required?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_VendorCoverageRequiredExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        690.0,
+        569.0,
+        714.0
+      ],
+      "tooltip": "Enter text: An explanation any vendor's coverage required.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ABICode_A",
+      "page": 1,
+      "rect": [
+        576.0,
+        714.0,
+        590.0,
+        726.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Does any named insured sell to other named insured?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_NamedInsuredSellToOtherNamedInsuredExplanation_R",
+      "page": 1,
+      "rect": [
+        22.0,
+        726.0,
+        569.0,
+        756.0
+      ],
+      "tooltip": "Enter text: An explanation of any named insured who sells to any other named insured.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 2,
+      "rect": [
+        414.0,
+        24.0,
+        594.0,
+        36.0
+      ],
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Attachment_AdditionalInterestIndicator_A",
+      "page": 2,
+      "rect": [
+        245.0,
+        36.0,
+        259.0,
+        48.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates that further additional interests appear on the attached ACORD 45.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_Interest_AdditionalInsuredIndicator_A",
+      "page": 2,
+      "rect": [
+        18.0,
+        60.0,
+        32.0,
+        72.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is an additional insured.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_Interest_EmployeeAsLessorIndicator_A",
+      "page": 2,
+      "rect": [
+        18.0,
+        72.0,
+        32.0,
+        84.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is an employee as lessor.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_Interest_LendersLossPayableIndicator_A",
+      "page": 2,
+      "rect": [
+        18.0,
+        84.0,
+        32.0,
+        96.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a lender's loss payable.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_Interest_LienholderIndicator_A",
+      "page": 2,
+      "rect": [
+        18.0,
+        96.0,
+        32.0,
+        108.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a lien holder.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_Interest_LossPayeeIndicator_A",
+      "page": 2,
+      "rect": [
+        18.0,
+        108.0,
+        32.0,
+        120.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a loss payee.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_Interest_MortgageeIndicator_A",
+      "page": 2,
+      "rect": [
+        18.0,
+        120.0,
+        32.0,
+        132.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the additional interest type is a mortgagee.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_Interest_OtherIndicator_A",
+      "page": 2,
+      "rect": [
+        18.0,
+        132.0,
+        32.0,
+        144.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the additional interest is other than those listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_Interest_OtherDescription_A",
+      "page": 2,
+      "rect": [
+        36.0,
+        132.0,
+        119.0,
+        144.0
+      ],
+      "tooltip": "Enter text: The description of the other type of additional interest.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_InterestRank_A",
+      "page": 2,
+      "rect": [
+        216.0,
+        48.0,
+        234.0,
+        60.0
+      ],
+      "tooltip": "Enter number: The ranking of 'this' additional interest when multiple additional interests are associated with the same item.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_CertificateRequiredIndicator_A",
+      "page": 2,
+      "rect": [
+        277.0,
+        48.0,
+        292.0,
+        60.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates if the additional interest requires a Certificate of Insurance.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_FullName_A",
+      "page": 2,
+      "rect": [
+        126.0,
+        72.0,
+        446.0,
+        84.0
+      ],
+      "tooltip": "Enter text: The additional interest's full name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_MailingAddress_LineOne_A",
+      "page": 2,
+      "rect": [
+        126.0,
+        84.0,
+        446.0,
+        96.0
+      ],
+      "tooltip": "Enter text: The additional interest's mailing address line one.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_MailingAddress_LineTwo_A",
+      "page": 2,
+      "rect": [
+        126.0,
+        96.0,
+        446.0,
+        108.0
+      ],
+      "tooltip": "Enter text: The additional interest's mailing address line two.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_MailingAddress_CityName_A",
+      "page": 2,
+      "rect": [
+        126.0,
+        108.0,
+        356.0,
+        120.0
+      ],
+      "tooltip": "Enter text: The additional interest's mailing address city name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_MailingAddress_StateOrProvinceCode_A",
+      "page": 2,
+      "rect": [
+        356.0,
+        108.0,
+        374.0,
+        120.0
+      ],
+      "tooltip": "Enter code: The additional interest's mailing address state or province code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_MailingAddress_PostalCode_A",
+      "page": 2,
+      "rect": [
+        374.0,
+        108.0,
+        421.0,
+        120.0
+      ],
+      "tooltip": "Enter code: The additional interest's mailing address postal code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_MailingAddress_CountryCode_A",
+      "page": 2,
+      "rect": [
+        421.0,
+        108.0,
+        446.0,
+        120.0
+      ],
+      "tooltip": "Enter code: The additional interest's country code.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_AccountNumberIdentifier_A",
+      "page": 2,
+      "rect": [
+        198.0,
+        132.0,
+        281.0,
+        144.0
+      ],
+      "tooltip": "Enter identifier: The loan number, account number or other controlling number that the additional interest may have assigned the insured.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_Item_LocationProducerIdentifier_A",
+      "page": 2,
+      "rect": [
+        490.0,
+        60.0,
+        518.0,
+        72.0
+      ],
+      "tooltip": "Enter number: The producer assigned number of the location which has an additional interest.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_Item_BuildingProducerIdentifier_A",
+      "page": 2,
+      "rect": [
+        558.0,
+        60.0,
+        590.0,
+        72.0
+      ],
+      "tooltip": "Enter number: The producer assigned number of the building which has an additional interest.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_Item_ScheduledItemClassCode_A",
+      "page": 2,
+      "rect": [
+        482.0,
+        72.0,
+        518.0,
+        84.0
+      ],
+      "tooltip": "Enter code: The description of the property class of the scheduled item (i.e. Jewelry, Furs, Contractors Equipment, etc.).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_Item_ScheduledItemProducerIdentifier_A",
+      "page": 2,
+      "rect": [
+        547.0,
+        72.0,
+        590.0,
+        84.0
+      ],
+      "tooltip": "Enter number: The producer assigned number of the scheduled item which has an additional interest.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_ItemDescription_A",
+      "page": 2,
+      "rect": [
+        454.0,
+        96.0,
+        590.0,
+        108.0
+      ],
+      "tooltip": "Enter text: The description of the item of interest if needed to further clarify.  For a vehicle, list the make, model and VIN number.  For a scheduled item, list the description, such as three carat diamond in six point setting.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ABJCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        168.0,
+        590.0,
+        180.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Any medical facilities provided or medical professionals employed or contracted?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_AnyMedicalFacilitiesProvidedMedicalProfessionalsEmployedExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        180.0,
+        569.0,
+        204.0
+      ],
+      "tooltip": "Enter text: An explanation of any medical facilities provided or medical professionals employed or contracted.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ACACode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        204.0,
+        590.0,
+        216.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Any exposure to radioactive/nuclear materials?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_AnyExposureRadioactiveMaterialsExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        216.0,
+        569.0,
+        240.0
+      ],
+      "tooltip": "Enter text: An explanation of any exposure to radioactive/nuclear materials",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ACJCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        240.0,
+        590.0,
+        252.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Do/have past, present or discontinued operations involve(d) storing, treating, discharging, applying, disposing, or transporting of hazardous material?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_OperationsInvolveStoringDisposingTransportingHazardousMaterialExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        264.0,
+        569.0,
+        288.0
+      ],
+      "tooltip": "Enter text: An explanation any operations that involve storing, treating, discharging, applying, disposing or transporting hazardous material.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ACBCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        288.0,
+        590.0,
+        300.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Any operations sold, acquired or discontinued in the last specified number of years?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_AnyListedOperationsSoldAcquiredLastFiveYearsExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        300.0,
+        569.0,
+        336.0
+      ],
+      "tooltip": "Enter text: An explanation of any listed operations sold, acquired, or discontinued in the last five (5) years.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ACCCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        336.0,
+        590.0,
+        348.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Do you rent or loan equipment to others?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_MachineryOrEquipmentLoanedRentedOthersExplanation_A",
+      "page": 2,
+      "rect": [
+        40.0,
+        360.0,
+        328.0,
+        372.0
+      ],
+      "tooltip": "Enter text: An explanation of  any machinery or equipment that is loaned or rented to others.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialInlandMarineProperty_PropertySubClass_SmallToolsIndicator_A",
+      "page": 2,
+      "rect": [
+        331.0,
+        360.0,
+        346.0,
+        372.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the subclass / grouping of property into which the item falls is small tools.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialInlandMarineProperty_PropertySubClass_LargeEquipmentIndicator_A",
+      "page": 2,
+      "rect": [
+        396.0,
+        360.0,
+        410.0,
+        372.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the subclass / grouping of property into which the item falls is large equipment.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "PropertyItem_ItemDetail_InstructionGivenCode_A",
+      "page": 2,
+      "rect": [
+        508.0,
+        360.0,
+        522.0,
+        372.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. Indicates whether instruction is given on how to use the item when it is rented or loaned to others.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_MachineryOrEquipmentLoanedRentedOthersExplanation_B",
+      "page": 2,
+      "rect": [
+        40.0,
+        372.0,
+        328.0,
+        384.0
+      ],
+      "tooltip": "Enter text: An explanation of  any machinery or equipment that is loaned or rented to others.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialInlandMarineProperty_PropertySubClass_SmallToolsIndicator_B",
+      "page": 2,
+      "rect": [
+        331.0,
+        372.0,
+        346.0,
+        384.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the subclass / grouping of property into which the item falls is small tools.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialInlandMarineProperty_PropertySubClass_LargeEquipmentIndicator_B",
+      "page": 2,
+      "rect": [
+        396.0,
+        372.0,
+        410.0,
+        384.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the subclass / grouping of property into which the item falls is large equipment.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "PropertyItem_ItemDetail_InstructionGivenCode_B",
+      "page": 2,
+      "rect": [
+        508.0,
+        372.0,
+        522.0,
+        384.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. Indicates whether instruction is given on how to use the item when it is rented or loaned to others.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Contractors_Question_AAHCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        384.0,
+        590.0,
+        396.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Any watercraft, docks, floats owned, hired or leased?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_WatercraftDocksFloatsOwnedHiredLeasedExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        396.0,
+        569.0,
+        420.0
+      ],
+      "tooltip": "Enter text: An explanation of any watercraft, docks, floats owned, hired, or leased.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ACDCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        420.0,
+        590.0,
+        432.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Any parking facilities owned/rented?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_AnyParkingFacilitiesOwnedRentedExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        432.0,
+        569.0,
+        456.0
+      ],
+      "tooltip": "Enter text: An explanation of any parking facilities owned/ rented.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_KAGCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        456.0,
+        590.0,
+        468.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Is a fee charged for parking?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_FeeChargedForParkingExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        468.0,
+        569.0,
+        492.0
+      ],
+      "tooltip": "Enter text: An explanation of any fee charged for parking.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ACECode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        492.0,
+        590.0,
+        504.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Recreation facilities provided?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_RecreationalFacilitiesProvidedExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        504.0,
+        569.0,
+        528.0
+      ],
+      "tooltip": "Enter text: An explanation of  any recreational facilities provided.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_KAACode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        528.0,
+        590.0,
+        540.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. Indicates the response to the question, \" Are there any lodging operations including apartments?\"",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BuildingOccupancy_ApartmentCount_A",
+      "page": 2,
+      "rect": [
+        40.0,
+        552.0,
+        72.0,
+        564.0
+      ],
+      "tooltip": "Enter number: The number of separate living units in structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BuildingOccupancy_ApartmentArea_A",
+      "page": 2,
+      "rect": [
+        79.0,
+        552.0,
+        122.0,
+        564.0
+      ],
+      "tooltip": "Enter number: The area, in square feet, of the building used as apartments.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_Otherlodgingoperationsdescription_A",
+      "page": 2,
+      "rect": [
+        151.0,
+        552.0,
+        551.0,
+        564.0
+      ],
+      "tooltip": "Enter text: The description of other lodging operations.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_KAHCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        564.0,
+        590.0,
+        576.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Is there a swimming pool on the premises?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "SwimmingPool_ApprovedFenceIndicator_A",
+      "page": 2,
+      "rect": [
+        36.0,
+        576.0,
+        50.0,
+        588.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the swimming pool is surrounded by a fence that is an approved height.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "SwimmingPool_LimitedAccessIndicator_A",
+      "page": 2,
+      "rect": [
+        115.0,
+        576.0,
+        130.0,
+        588.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates there is limited access to the swimming pool.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "SwimmingPool_DivingBoardIndicator_A",
+      "page": 2,
+      "rect": [
+        191.0,
+        576.0,
+        205.0,
+        588.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the swimming pool has a diving board.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "SwimmingPool_SlideIndicator_A",
+      "page": 2,
+      "rect": [
+        259.0,
+        576.0,
+        274.0,
+        588.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the swimming pool has a slide.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "SwimmingPool_AboveGroundIndicator_A",
+      "page": 2,
+      "rect": [
+        302.0,
+        576.0,
+        317.0,
+        588.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the swimming pool is above ground.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "SwimmingPool_InGroundIndicator_A",
+      "page": 2,
+      "rect": [
+        374.0,
+        576.0,
+        389.0,
+        588.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the swimming pool is in the ground.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "SwimmingPool_LifeGuardIndicator_A",
+      "page": 2,
+      "rect": [
+        436.0,
+        576.0,
+        450.0,
+        588.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates there is life guard for the swimming pool.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ACFCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        588.0,
+        590.0,
+        600.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Are social events sponsored?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_SportingOrSocialEventsSponsoredExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        600.0,
+        569.0,
+        624.0
+      ],
+      "tooltip": "Enter text: An explanation of any social events sponsored.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_KABCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        624.0,
+        590.0,
+        636.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. Indicates the response to the question, \"Are athletic teams sponsored?\"",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AthleticTeam_SportDescription_A",
+      "page": 2,
+      "rect": [
+        40.0,
+        654.0,
+        137.0,
+        666.0
+      ],
+      "tooltip": "Enter text: The description of the type of sport in which the sponsored athletic team is involved.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AthleticTeam_ContactSportCode_A",
+      "page": 2,
+      "rect": [
+        153.0,
+        654.0,
+        167.0,
+        666.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. Indicates if the sponsored athletic team is involved in a contact sport.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AthleticTeam_AgeGroup_TwelveAndUnderIndicator_A",
+      "page": 2,
+      "rect": [
+        180.0,
+        654.0,
+        194.0,
+        666.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the sport participants are 12 years old or under.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AthleticTeam_AgeGroup_ThirteenThroughEighteenIndicator_A",
+      "page": 2,
+      "rect": [
+        241.0,
+        642.0,
+        256.0,
+        654.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the sport participants are 13 through 18 years old.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AthleticTeam_AgeGroup_OverEighteenIndicator_A",
+      "page": 2,
+      "rect": [
+        241.0,
+        654.0,
+        256.0,
+        666.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the sport participants are over 18 years old.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AthleticTeam_SponsorshipExtentDescription_A",
+      "page": 2,
+      "rect": [
+        122.0,
+        666.0,
+        288.0,
+        678.0
+      ],
+      "tooltip": "Enter text: The description of the extent of sponsorship the named insured provides for the athletic team.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AthleticTeam_SportDescription_B",
+      "page": 2,
+      "rect": [
+        302.0,
+        654.0,
+        400.0,
+        666.0
+      ],
+      "tooltip": "Enter text: The description of the type of sport in which the sponsored athletic team is involved.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AthleticTeam_ContactSportCode_B",
+      "page": 2,
+      "rect": [
+        416.0,
+        654.0,
+        430.0,
+        666.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. Indicates if the sponsored athletic team is involved in a contact sport.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AthleticTeam_AgeGroup_TwelveAndUnderIndicator_B",
+      "page": 2,
+      "rect": [
+        443.0,
+        654.0,
+        457.0,
+        666.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the sport participants are 12 years old or under.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AthleticTeam_AgeGroup_ThirteenThroughEighteenIndicator_B",
+      "page": 2,
+      "rect": [
+        504.0,
+        642.0,
+        518.0,
+        654.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the sport participants are 13 through 18 years old.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AthleticTeam_AgeGroup_OverEighteenIndicator_B",
+      "page": 2,
+      "rect": [
+        504.0,
+        654.0,
+        518.0,
+        666.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the sport participants are over 18 years old.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AthleticTeam_SponsorshipExtentDescription_B",
+      "page": 2,
+      "rect": [
+        385.0,
+        666.0,
+        551.0,
+        678.0
+      ],
+      "tooltip": "Enter text: The description of the extent of sponsorship the named insured provides for the athletic team.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ACGCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        678.0,
+        590.0,
+        690.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Any structural alterations contemplated?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_StructuralAlterationsContemplatedExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        690.0,
+        569.0,
+        714.0
+      ],
+      "tooltip": "Enter text: An explanation of any structural alterations contemplated.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_ACHCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        714.0,
+        590.0,
+        726.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Any demolition exposure contemplated?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_DemolitionExposureContemplatedExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        726.0,
+        569.0,
+        756.0
+      ],
+      "tooltip": "Enter text: An explanation of any demolition exposure contemplated.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 3,
+      "rect": [
+        414.0,
+        24.0,
+        594.0,
+        36.0
+      ],
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_AABCode_A",
+      "page": 3,
+      "rect": [
+        576.0,
+        54.0,
+        590.0,
+        66.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Has applicant been active in or is currently active in joint ventures?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_ApplicantActiveJointVenturesExplanation_A",
+      "page": 3,
+      "rect": [
+        22.0,
+        66.0,
+        569.0,
+        90.0
+      ],
+      "tooltip": "Enter text: An explanation of any joint ventures in which the applicant may be currently active.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_AACCode_A",
+      "page": 3,
+      "rect": [
+        576.0,
+        90.0,
+        590.0,
+        102.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Do you lease employees to or from other employers?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_FullName_B",
+      "page": 3,
+      "rect": [
+        40.0,
+        126.0,
+        202.0,
+        138.0
+      ],
+      "tooltip": "Enter text: The additional interest's full name. As used here, this is the company to whom employees are leased.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_WorkersCompensationCarriedCode_A",
+      "page": 3,
+      "rect": [
+        241.0,
+        126.0,
+        256.0,
+        138.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. Indicates the response to the question, \"Is workers compensation coverage carried?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_FullName_C",
+      "page": 3,
+      "rect": [
+        40.0,
+        138.0,
+        202.0,
+        150.0
+      ],
+      "tooltip": "Enter text: The additional interest's full name. As used here, this is the company to whom employees are leased.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_WorkersCompensationCarriedCode_B",
+      "page": 3,
+      "rect": [
+        241.0,
+        138.0,
+        256.0,
+        150.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. Indicates the response to the question, \"Is workers compensation coverage carried?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_FullName_D",
+      "page": 3,
+      "rect": [
+        302.0,
+        126.0,
+        464.0,
+        138.0
+      ],
+      "tooltip": "Enter text: The additional interest's full name. As used here, this is the company from whom employees are leased.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_WorkersCompensationCarriedCode_C",
+      "page": 3,
+      "rect": [
+        504.0,
+        126.0,
+        518.0,
+        138.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. Indicates the response to the question, \"Is workers compensation coverage carried?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_FullName_E",
+      "page": 3,
+      "rect": [
+        302.0,
+        138.0,
+        464.0,
+        150.0
+      ],
+      "tooltip": "Enter text: The additional interest's full name. As used here, this is the company from whom employees are leased.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdditionalInterest_WorkersCompensationCarriedCode_D",
+      "page": 3,
+      "rect": [
+        504.0,
+        138.0,
+        518.0,
+        150.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. Indicates the response to the question, \"Is workers compensation coverage carried?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_AADCode_A",
+      "page": 3,
+      "rect": [
+        576.0,
+        150.0,
+        590.0,
+        162.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Is there a labor interchange with any other business or subsidiaries?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_LabourInterchangeOtherBusinessSubsidiariesExplanation_A",
+      "page": 3,
+      "rect": [
+        22.0,
+        162.0,
+        569.0,
+        186.0
+      ],
+      "tooltip": "Enter text: An explanation of any labor interchange with any other business or subsidiaries.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_AAECode_A",
+      "page": 3,
+      "rect": [
+        576.0,
+        186.0,
+        590.0,
+        198.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Are day care facilities operated or controlled?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_DayCareFacilitiesOperatedExplanation_A",
+      "page": 3,
+      "rect": [
+        22.0,
+        198.0,
+        569.0,
+        222.0
+      ],
+      "tooltip": "Enter text: An explanation of any daycare facilities operated or controlled.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_AAFCode_A",
+      "page": 3,
+      "rect": [
+        576.0,
+        222.0,
+        590.0,
+        234.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Have any crimes occurred or been attempted on your premises within the last specified number of years?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_CrimesOccurredOrAttemptedLastThreeYearsExplanation_A",
+      "page": 3,
+      "rect": [
+        22.0,
+        234.0,
+        569.0,
+        258.0
+      ],
+      "tooltip": "Enter text: An explanation of any crimes that  occurred or been attempted on your premises within the last three (3) years",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Contractors_Question_AAGCode_A",
+      "page": 3,
+      "rect": [
+        576.0,
+        258.0,
+        590.0,
+        270.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Is there a formal, written safety and security policy in effect?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_FormalSafetySecurityPolicyInEffectExplanation_A",
+      "page": 3,
+      "rect": [
+        22.0,
+        270.0,
+        569.0,
+        294.0
+      ],
+      "tooltip": "Enter text: An explanation of any formal, written safety and security policy in effect.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_Question_AAGCode_A",
+      "page": 3,
+      "rect": [
+        576.0,
+        294.0,
+        590.0,
+        306.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Does the business' promotional literature make any representation about the safety or security of the premises?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_BusinessPromotionalLiteratureSafetyRepresentationsExplanation_A",
+      "page": 3,
+      "rect": [
+        22.0,
+        306.0,
+        569.0,
+        330.0
+      ],
+      "tooltip": "Enter text: An explanation of any business promotional literature that makes any representations about the safety or security of the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "GeneralLiabilityLineOfBusiness_RemarkText_B",
+      "page": 3,
+      "rect": [
+        22.0,
+        342.0,
+        590.0,
+        360.0
+      ],
+      "tooltip": "Enter text: The remarks associated with the general liability line of business.  Use this section to provide any additional information required for underwriting or rating.  ACORD 101, Additional Remarks Schedule, may be attached if more space is required.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_AuthorizedRepresentative_Signature_A",
+      "page": 3,
+      "rect": [
+        22.0,
+        720.0,
+        252.0,
+        732.0
+      ],
+      "tooltip": "Sign here: Accommodates the signature of the authorized representative (e.g., producer, agent, broker, etc.) of the company(ies) listed on the document.  This is required in most states.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_AuthorizedRepresentative_FullName_A",
+      "page": 3,
+      "rect": [
+        259.0,
+        720.0,
+        490.0,
+        732.0
+      ],
+      "tooltip": "Enter text: The name of the authorized representative of the producer, agency and/or broker that signed the form.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_StateLicenseIdentifier_A",
+      "page": 3,
+      "rect": [
+        497.0,
+        720.0,
+        590.0,
+        732.0
+      ],
+      "tooltip": "Enter identifier: The State License Number of the producer.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_Signature_A",
+      "page": 3,
+      "rect": [
+        22.0,
+        744.0,
+        418.0,
+        756.0
+      ],
+      "tooltip": "Sign here: Accommodates the signature of the applicant or named insured.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_SignatureDate_A",
+      "page": 3,
+      "rect": [
+        425.0,
+        744.0,
+        490.0,
+        756.0
+      ],
+      "tooltip": "Enter date: The date the form was signed by the applicant or named insured.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_NationalIdentifier_A",
+      "page": 3,
+      "rect": [
+        497.0,
+        744.0,
+        590.0,
+        756.0
+      ],
+      "tooltip": "Enter identifier: The National Producer Number (NPN) as defined in the National Insurance Producer Registry (NIPR).  Note: The NPN is not the same as the producer state license number.",
+      "type": "text",
+      "type_code": 7
+    }
+  ]
+}

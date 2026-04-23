@@ -1,0 +1,1580 @@
+{
+  "form_number": "131",
+  "field_count": 393,
+  "text_field_count": 329,
+  "checkbox_field_count": 64,
+  "fields": {
+    "Form_EditionIdentifier_A": {
+      "type": "text",
+      "tooltip": "The edition identifier of the form including the form number and edition (the date is typically formatted YYYY/MM)."
+    },
+    "Producer_CustomerIdentifier_A": {
+      "type": "text",
+      "tooltip": ""
+    },
+    "Form_CompletionDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date on which the form is completed.  (MM/DD/YYYY)"
+    },
+    "Producer_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The full name of the producer / agency."
+    },
+    "Policy_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The identifier assigned by the insurer to the policy, or submission, being referenced exactly as it appears on the policy, including prefix and suffix symbols.  If required for self-insurance, the self-insured license or contract number."
+    },
+    "Policy_EffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the policy.  The date that the terms and conditions of the policy commence.  (MM/DD/YYYY)"
+    },
+    "Insurer_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The insurer's full legal company name(s) as found in the file copy of the policy.  Use the actual name of the company within the group to which the policy has been issued.  This is not the insurer's group name or trade name."
+    },
+    "Insurer_NAICCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The identification code assigned to the insurer by the National Association of Insurance Commissioners (NAIC)."
+    },
+    "NamedInsured_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The named insured(s) as it / they will appear on the policy declarations page."
+    },
+    "Policy_Status_NewIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the response expected from the company is a new issued policy."
+    },
+    "Policy_Status_RenewIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the response expected from the company is a renewed policy."
+    },
+    "Policy_PolicyType_UmbrellaIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the type of policy is umbrella."
+    },
+    "Policy_PolicyType_ExcessIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the type of policy is excess."
+    },
+    "ExcessUmbrella_OccurrenceIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates \"coverage trigger\" is on an occurrence basis on an excess or umbrella liability policy."
+    },
+    "ExcessUmbrella_ClaimsMadeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the \"coverage trigger\" is on a claims-made basis on an excess or umbrella liability policy."
+    },
+    "ExcessUmbrella_VoluntaryIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates if the excess is voluntary."
+    },
+    "ExcessUmbrella_Transactiontype_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the transaction type is other than those listed."
+    },
+    "ExcessUmbrella_Transactiontype_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the other transaction type."
+    },
+    "PriorCoverage_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The policy number of the previous coverage."
+    },
+    "ExcessUmbrella_ProposedRetroactiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The retroactive date you are requesting for the policy being applied for. This is the proposed earliest date for which an occurrence could \"trigger\" coverage under a Claims Made policy."
+    },
+    "ExcessUmbrella_CurrentRetroactiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The current retroactive date should be shown if the Umbrella is over a Claims Made primary policy. If the current retroactive date is different from the proposed retroactive date, an explanation must be provided."
+    },
+    "ExcessUmbrella_Umbrella_EachOccurrenceAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The excess or umbrella liability each occurrence limit."
+    },
+    "ExcessUmbrella_Umbrella_AggregateAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The excess or umbrella liability aggregate limit should be listed as whole dollar amount, as governed by the policy.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s)."
+    },
+    "ExcessUmbrella_OtherCoverageLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The excess or umbrella liability other coverage limit should be listed as a whole dollar amount, as governed by the policy.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s)."
+    },
+    "ExcessUmbrella_OtherCoverageDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of other coverage (not the limit) on the excess or umbrella liability policy.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s)."
+    },
+    "ExcessUmbrella_Umbrella_DeductibleOrRetentionAmount_A": {
+      "type": "text",
+      "tooltip": "Enter deductible: The excess or umbrella liability deductible or retention amount."
+    },
+    "ExcessUmbrella_FirstDollarDefenceCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. Indicates that first dollar defense coverage is requested."
+    },
+    "ExcessUmbrella_EmployeeBenefits_EachEmployeeLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The each employee limit for employee benefits coverage."
+    },
+    "ExcessUmbrella_EmployeeBenefits_AggregateLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The aggregate limit for employee benefits coverage."
+    },
+    "ExcessUmbrella_EmployeeBenefits_DeductibleOrRetentionAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The retention amount for employee benefits coverage."
+    },
+    "ExcessUmbrella_EmployeeBenefits_RetroactiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The retroactive date for employee benefits coverage."
+    },
+    "ExcessUmbrella_EmployeeBenefits_ProgramName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The full name of the benefit program."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Location_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the location.  For commercial policies, this may be a company name."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_A": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "BusinessInformation_OperationsDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the operations of this risk.  A restatement of the products classification wording is often not sufficient (e.g., \"Metal Goods Manufacturing NOC\" could include anything from paper clips to bridge girders)."
+    },
+    "BusinessInformation_TotalPayrollAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The total annual payroll of the business in whole dollars."
+    },
+    "BusinessInformation_AnnualGrossReceiptsAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The total annual gross sales or receipts."
+    },
+    "BusinessInformation_ForeignGrossSalesAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The estimated annual foreign gross sales."
+    },
+    "BusinessInformation_EmployeeCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of employees."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Location_FullName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the location.  For commercial policies, this may be a company name."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_B": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_B": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "BusinessInformation_OperationsDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the operations of this risk.  A restatement of the products classification wording is often not sufficient (e.g., \"Metal Goods Manufacturing NOC\" could include anything from paper clips to bridge girders)."
+    },
+    "BusinessInformation_TotalPayrollAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The total annual payroll of the business in whole dollars."
+    },
+    "BusinessInformation_AnnualGrossReceiptsAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The total annual gross sales or receipts."
+    },
+    "BusinessInformation_ForeignGrossSalesAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The estimated annual foreign gross sales."
+    },
+    "BusinessInformation_EmployeeCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number of employees."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_C": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Location_FullName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the location.  For commercial policies, this may be a company name."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_C": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_C": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_C": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "BusinessInformation_OperationsDescription_C": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the operations of this risk.  A restatement of the products classification wording is often not sufficient (e.g., \"Metal Goods Manufacturing NOC\" could include anything from paper clips to bridge girders)."
+    },
+    "BusinessInformation_TotalPayrollAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The total annual payroll of the business in whole dollars."
+    },
+    "BusinessInformation_AnnualGrossReceiptsAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The total annual gross sales or receipts."
+    },
+    "BusinessInformation_ForeignGrossSalesAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The estimated annual foreign gross sales."
+    },
+    "BusinessInformation_EmployeeCount_C": {
+      "type": "text",
+      "tooltip": "Enter number: The number of employees."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_D": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Location_FullName_D": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the location.  For commercial policies, this may be a company name."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_D": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_D": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_D": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "BusinessInformation_OperationsDescription_D": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the operations of this risk.  A restatement of the products classification wording is often not sufficient (e.g., \"Metal Goods Manufacturing NOC\" could include anything from paper clips to bridge girders)."
+    },
+    "BusinessInformation_TotalPayrollAmount_D": {
+      "type": "text",
+      "tooltip": "Enter amount: The total annual payroll of the business in whole dollars."
+    },
+    "BusinessInformation_AnnualGrossReceiptsAmount_D": {
+      "type": "text",
+      "tooltip": "Enter amount: The total annual gross sales or receipts."
+    },
+    "BusinessInformation_ForeignGrossSalesAmount_D": {
+      "type": "text",
+      "tooltip": "Enter amount: The estimated annual foreign gross sales."
+    },
+    "BusinessInformation_EmployeeCount_D": {
+      "type": "text",
+      "tooltip": "Enter number: The number of employees."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_E": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Location_FullName_E": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the location.  For commercial policies, this may be a company name."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_E": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_E": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_E": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_E": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "BusinessInformation_OperationsDescription_E": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the operations of this risk.  A restatement of the products classification wording is often not sufficient (e.g., \"Metal Goods Manufacturing NOC\" could include anything from paper clips to bridge girders)."
+    },
+    "BusinessInformation_TotalPayrollAmount_E": {
+      "type": "text",
+      "tooltip": "Enter amount: The total annual payroll of the business in whole dollars."
+    },
+    "BusinessInformation_AnnualGrossReceiptsAmount_E": {
+      "type": "text",
+      "tooltip": "Enter amount: The total annual gross sales or receipts."
+    },
+    "BusinessInformation_ForeignGrossSalesAmount_E": {
+      "type": "text",
+      "tooltip": "Enter amount: The estimated annual foreign gross sales."
+    },
+    "BusinessInformation_EmployeeCount_E": {
+      "type": "text",
+      "tooltip": "Enter number: The number of employees."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_F": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "CommercialStructure_Location_FullName_F": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the location.  For commercial policies, this may be a company name."
+    },
+    "CommercialStructure_PhysicalAddress_LineOne_F": {
+      "type": "text",
+      "tooltip": "Enter text: The first address line of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_CityName_F": {
+      "type": "text",
+      "tooltip": "Enter text: The city of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_StateOrProvinceCode_F": {
+      "type": "text",
+      "tooltip": "Enter code: The state or province code of the commercial structure."
+    },
+    "CommercialStructure_PhysicalAddress_PostalCode_F": {
+      "type": "text",
+      "tooltip": "Enter code: The postal code of the commercial structure."
+    },
+    "BusinessInformation_OperationsDescription_F": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the operations of this risk.  A restatement of the products classification wording is often not sufficient (e.g., \"Metal Goods Manufacturing NOC\" could include anything from paper clips to bridge girders)."
+    },
+    "BusinessInformation_TotalPayrollAmount_F": {
+      "type": "text",
+      "tooltip": "Enter amount: The total annual payroll of the business in whole dollars."
+    },
+    "BusinessInformation_AnnualGrossReceiptsAmount_F": {
+      "type": "text",
+      "tooltip": "Enter amount: The total annual gross sales or receipts."
+    },
+    "BusinessInformation_ForeignGrossSalesAmount_F": {
+      "type": "text",
+      "tooltip": "Enter amount: The estimated annual foreign gross sales."
+    },
+    "BusinessInformation_EmployeeCount_F": {
+      "type": "text",
+      "tooltip": "Enter number: The number of employees."
+    },
+    "UnderlyingPolicy_Automobile_InsurerFullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The full name of the insurer of the underlying automobile policy."
+    },
+    "UnderlyingPolicy_Automobile_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The policy number of the underlying automobile policy."
+    },
+    "UnderlyingPolicy_Automobile_PolicyEffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the underlying automobile policy. (MM/DD/YYYY)"
+    },
+    "UnderlyingPolicy_Automobile_PolicyExpirationDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the underlying automobile policy. (MM/DD/YYYY)"
+    },
+    "Vehicle_CombinedSingleLimit_EachAccidentAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The vehicle combined single limit liability each accident amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying automobile policy."
+    },
+    "Vehicle_BodilyInjury_PerAccidentLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The vehicle policy, bodily injury per accident limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying automobile policy."
+    },
+    "Vehicle_BodilyInjury_PerPersonLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The vehicle policy, bodily injury per person limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying automobile policy."
+    },
+    "Vehicle_PropertyDamage_PerAccidentLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The vehicle policy, property damage per accident limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying automobile policy."
+    },
+    "UnderlyingPolicy_Automobile_CombinedSingleLimitPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The combined single limit premium on the underlying automobile policy."
+    },
+    "UnderlyingPolicy_Automobile_BodilyInjuryPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The bodily injury premium amount on the underlying automobile policy."
+    },
+    "UnderlyingPolicy_Automobile_PropertyDamageEachAccidentPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The property damage premium amount on the underlying automobile policy."
+    },
+    "UnderlyingPolicy_Automobile_ModificationFactor_A": {
+      "type": "text",
+      "tooltip": "Enter rate: The combined rating modification and experience modification debit or credit as they apply."
+    },
+    "GeneralLiability_OccurrenceIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the general liability policy, occurrence basis applies. As used here, this is on the underlying general liability policy."
+    },
+    "GeneralLiability_ClaimsMadeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the \"claims made\" option applies on the general liability policy. As used here, this is on the underlying general liability policy."
+    },
+    "UnderlyingPolicy_GeneralLiability_InsurerFullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The full name of the insurer of the underlying general liability policy."
+    },
+    "UnderlyingPolicy_GeneralLiability_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The policy number of the underlying general liability policy."
+    },
+    "UnderlyingPolicy_GeneralLiability_PolicyEffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the underlying general liability policy."
+    },
+    "UnderlyingPolicy_GeneralLiability_PolicyExpirationDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the underlying general liability policy."
+    },
+    "GeneralLiability_EachOccurrence_LimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability, each occurrence limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying general liability policy."
+    },
+    "GeneralLiability_GeneralAggregate_LimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability, general aggregate limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying general liability policy."
+    },
+    "GeneralLiability_ProductsAndCompletedOperations_AggregateLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability, products and completed operations aggregate limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying general liability policy."
+    },
+    "GeneralLiability_PersonalAndAdvertisingInjury_LimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability, personal and advertising injury limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying general liability policy."
+    },
+    "GeneralLiability_FireDamageRentedPremises_EachOccurrenceLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability, damage to rented premises each occurrence limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying general liability policy."
+    },
+    "GeneralLiability_MedicalExpense_EachPersonLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The general liability, medical expense each person limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying general liability policy."
+    },
+    "UnderlyingPolicy_GeneralLiability_PremisesOperationsPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premises operations premium amount on the underlying general liability policy."
+    },
+    "UnderlyingPolicy_GeneralLiability_ProductsPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The products premium on the underlying general liability policy."
+    },
+    "UnderlyingPolicy_GeneralLiability_OtherPremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium associated with other coverages on the underlying general liability policy."
+    },
+    "UnderlyingPolicy_GeneralLiability_ModificationFactor_A": {
+      "type": "text",
+      "tooltip": "Enter rate: The combined rating modification and experience modification debit or credit as they apply."
+    },
+    "UnderlyingPolicy_EmployersLiability_InsurerFullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The full name of the insurer of the underlying employers liability policy."
+    },
+    "UnderlyingPolicy_EmployersLiability_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The policy number of the underlying employers liability policy."
+    },
+    "UnderlyingPolicy_EmployersLiability_PolicyEffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the underlying employers liability policy. (MM/DD/YYYY)"
+    },
+    "UnderlyingPolicy_EmployersLiability_PolicyExpirationDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the underlying employers liability policy. (MM/DD/YYYY)"
+    },
+    "WorkersCompensationEmployersLiability_EmployersLiability_EachAccidentLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The workers compensation and employers liability policy, employers liability each accident limit amount. Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying employers liability policy."
+    },
+    "WorkersCompensationEmployersLiability_EmployersLiability_DiseaseEachEmployeeLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The workers compensation and employers liability policy, employers liability disease each employee limit amount. Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying employers liability policy."
+    },
+    "WorkersCompensationEmployersLiability_EmployersLiability_DiseasePolicyLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The workers compensation and employers liability policy, employers liability disease policy limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying employers liability policy."
+    },
+    "UnderlyingPolicy_EmployersLiability_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount on the underlying employers liability policy."
+    },
+    "UnderlyingPolicy_EmployersLiability_ModificationFactor_A": {
+      "type": "text",
+      "tooltip": "Enter rate: The combined rating modification and experience modification debit or credit as they apply."
+    },
+    "UnderlyingPolicy_OtherPolicy_PolicyTypeDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the underlying policy type."
+    },
+    "UnderlyingPolicy_OtherPolicy_InsurerFullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The full name of the insurer of the underlying policy."
+    },
+    "UnderlyingPolicy_OtherPolicy_PolicyNumberIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The policy number of the underlying policy."
+    },
+    "UnderlyingPolicy_OtherPolicy_PolicyEffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the underlying policy. (MM/DD/YYYY)"
+    },
+    "UnderlyingPolicy_OtherPolicy_PolicyExpirationDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the underlying policy. (MM/DD/YYYY)"
+    },
+    "UnderlyingPolicy_OtherPolicy_CoverageDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the coverage."
+    },
+    "UnderlyingPolicy_OtherPolicy_CombinedSingleLimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The combined single or total limit on the underlying policy."
+    },
+    "UnderlyingPolicy_OtherPolicy_PremiumAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount on the underlying policy."
+    },
+    "UnderlyingPolicy_OtherPolicy_ModificationFactor_A": {
+      "type": "text",
+      "tooltip": "Enter rate: The combined rating modification and experience modification debit or credit as they apply."
+    },
+    "UnderlyingPolicy_OtherPolicy_PolicyTypeDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the underlying policy type."
+    },
+    "UnderlyingPolicy_OtherPolicy_InsurerFullName_B": {
+      "type": "text",
+      "tooltip": "Enter text: The full name of the insurer of the underlying policy."
+    },
+    "UnderlyingPolicy_OtherPolicy_PolicyNumberIdentifier_B": {
+      "type": "text",
+      "tooltip": "Enter identifier: The policy number of the underlying policy."
+    },
+    "UnderlyingPolicy_OtherPolicy_PolicyEffectiveDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the underlying policy. (MM/DD/YYYY)"
+    },
+    "UnderlyingPolicy_OtherPolicy_PolicyExpirationDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The expiration date of the underlying policy. (MM/DD/YYYY)"
+    },
+    "UnderlyingPolicy_OtherPolicy_CoverageDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the coverage."
+    },
+    "UnderlyingPolicy_OtherPolicy_CombinedSingleLimitAmount_B": {
+      "type": "text",
+      "tooltip": "Enter limit: The combined single or total limit on the underlying policy."
+    },
+    "UnderlyingPolicy_OtherPolicy_PremiumAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The premium amount on the underlying policy."
+    },
+    "UnderlyingPolicy_OtherPolicy_ModificationFactor_B": {
+      "type": "text",
+      "tooltip": "Enter rate: The combined rating modification and experience modification debit or credit as they apply."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ACBYesIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates defense costs are within aggregate limits."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ACCYesIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates defense costs a separate limit?"
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ACDYesIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates defense costs are unlimited."
+    },
+    "UnderlyingPolicy_GeneralLiability_FormEditionDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The edition date of the underlying general liability coverage form.  Policy coverage may vary depending on the edition date of the policy paper. The underlying general liability coverage forms issued by Insurances Services Office (ISO) vary if they are based on the rules of \"86\" or the rules of \"88\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ACECode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Has any product, work, accident, or location been excluded, uninsured or self insured from any previous coverage?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_AnyProductWorkAccidentlocationBeenExcludedUninsuredExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether any product, work, accident or location has been excluded, uninsured or self-insured from any previous coverage."
+    },
+    "GeneralLiability_ClaimsMade_RetroactiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The retroactive date if the policy was issued on a Claims Made basis and there was a retroactive date."
+    },
+    "GeneralLiability_ClaimsMade_UninterruptedCoverageEntryDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The retroactive date shown on the applicant's first Claims Made policy.  If this is the first such policy, the date will be the same as the proposed retroactive date shown on the preceding field. If this is a renewal, it is the effective date of the first policy issued in the sequence of uninterrupted Claims Made policies."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ACFCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"For Claims made, was \"tail\" coverage purchased for any previous primary or excess policy?\"."
+    },
+    "UnderlyingPolicy_GeneralLiability_TailCoverageEffectiveDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The effective date of the tail coverage.  The proposed retroactive date for the policy being applied for should not be earlier than the effective date of the tail coverage."
+    },
+    "CommercialUmbrellaLineOfBusiness_TailCoveragePurchasedAnyPreviousPrimaryOrExcessPolicyExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether tail coverage was purchased for any previous primary or excess policy."
+    },
+    "UnderlyingCoverage_Coverage_AnyAutoIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy coverage any automobile (symbol 1)."
+    },
+    "UnderlyingCoverage_Coverage_GeneralLiabilityClaimsMadeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying general liability policy is a claims made policy."
+    },
+    "UnderlyingCoverage_Coverage_GeneralLiabilityOccurrenceIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying general liability policy is an occurrence policy."
+    },
+    "UnderlyingCoverage_Coverage_AircraftLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes aircraft liability coverage."
+    },
+    "UnderlyingCoverage_Exposure_AircraftLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for aircraft liability coverage."
+    },
+    "UnderlyingCoverage_Coverage_AircraftPassengerLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes aircraft passenger liability coverage."
+    },
+    "UnderlyingCoverage_Exposure_AircraftPassengerLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for aircraft passenger liability coverage."
+    },
+    "UnderlyingCoverage_Coverage_AdditionalInterestsIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes additional interests coverage."
+    },
+    "UnderlyingCoverage_Exposure_AdditionalInterestsIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for additional interests coverage."
+    },
+    "UnderlyingCoverage_Coverage_CareCustodyControlIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes care, custody and control coverage."
+    },
+    "UnderlyingCoverage_Exposure_CareCustodyControlIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for care, custody and control coverage."
+    },
+    "UnderlyingCoverage_Coverage_EmployeeBenefitsLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes employee benefits liability coverage."
+    },
+    "UnderlyingCoverage_Exposure_EmployeeBenefitsLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for employee benefits liability coverage."
+    },
+    "UnderlyingCoverage_Coverage_ForeignLiabilityTravelIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes foreign liability/travel coverage."
+    },
+    "UnderlyingCoverage_Exposure_ForeignLiabilityTravelIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for foreign liability/travel coverage."
+    },
+    "UnderlyingCoverage_Coverage_GaragekeepersLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes garage keepers liability coverage."
+    },
+    "UnderlyingCoverage_Exposure_GaragekeepersLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for garage keepers liability coverage."
+    },
+    "UnderlyingCoverage_Coverage_IncidentalMedicalMalpracticeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes incidental medical malpractice coverage."
+    },
+    "UnderlyingCoverage_Exposure_IncidentalMedicalMalpracticeIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for incidental medical malpractice coverage."
+    },
+    "UnderlyingCoverage_Coverage_LiquorLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes liquor liability coverage."
+    },
+    "UnderlyingCoverage_Exposure_LiquorLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for liquor liability coverage."
+    },
+    "UnderlyingCoverage_Coverage_PollutionLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes pollution liability coverage."
+    },
+    "UnderlyingCoverage_Exposure_PollutionLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for pollution liability coverage."
+    },
+    "UnderlyingCoverage_Coverage_ProfessionalLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes professional liability (errors and omissions) coverage."
+    },
+    "UnderlyingCoverage_Exposure_ProfessionalLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for professional liability (errors and omissions) coverage."
+    },
+    "UnderlyingCoverage_Coverage_VendorsLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes vendors liability coverage."
+    },
+    "UnderlyingCoverage_Exposure_VendorsLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for vendors liability coverage."
+    },
+    "UnderlyingCoverage_Coverage_WatercraftLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes watercraft liability coverage."
+    },
+    "UnderlyingCoverage_Exposure_WatercraftLiabilityIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for watercraft liability coverage."
+    },
+    "UnderlyingCoverage_Coverage_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes a coverage not listed."
+    },
+    "UnderlyingCoverage_Coverage_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the coverage."
+    },
+    "UnderlyingCoverage_Exposure_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for the coverage described."
+    },
+    "UnderlyingCoverage_Coverage_OtherIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes a coverage not listed."
+    },
+    "UnderlyingCoverage_Coverage_OtherDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the coverage."
+    },
+    "UnderlyingCoverage_Exposure_OtherIndicator_B": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for the coverage described."
+    },
+    "UnderlyingCoverage_Coverage_OtherIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes a coverage not listed."
+    },
+    "UnderlyingCoverage_Coverage_OtherDescription_C": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the coverage."
+    },
+    "UnderlyingCoverage_Exposure_OtherIndicator_C": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for the coverage described."
+    },
+    "UnderlyingCoverage_Coverage_OtherIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes a coverage not listed."
+    },
+    "UnderlyingCoverage_Coverage_OtherDescription_D": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the coverage."
+    },
+    "UnderlyingCoverage_Exposure_OtherIndicator_D": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for the coverage described."
+    },
+    "UnderlyingCoverage_InformationDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of underlying insurance coverage information including all restrictions (e.g. laser endorsements, discrimination, subrogation waivers) or extensions of coverage."
+    },
+    "LossHistory_ClaimDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)"
+    },
+    "LossHistory_LineOfBusiness_A": {
+      "type": "text",
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability)."
+    },
+    "LossHistory_OccurrenceDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: A brief description of the loss."
+    },
+    "LossHistory_PaidAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date."
+    },
+    "LossHistory_ReservedAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim."
+    },
+    "LossHistory_ClaimDate_B": {
+      "type": "text",
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)"
+    },
+    "LossHistory_LineOfBusiness_B": {
+      "type": "text",
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability)."
+    },
+    "LossHistory_OccurrenceDescription_B": {
+      "type": "text",
+      "tooltip": "Enter text: A brief description of the loss."
+    },
+    "LossHistory_PaidAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date."
+    },
+    "LossHistory_ReservedAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim."
+    },
+    "LossHistory_ClaimDate_C": {
+      "type": "text",
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)"
+    },
+    "LossHistory_LineOfBusiness_C": {
+      "type": "text",
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability)."
+    },
+    "LossHistory_OccurrenceDescription_C": {
+      "type": "text",
+      "tooltip": "Enter text: A brief description of the loss."
+    },
+    "LossHistory_PaidAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date."
+    },
+    "LossHistory_ReservedAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim."
+    },
+    "LossHistory_ClaimDate_D": {
+      "type": "text",
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)"
+    },
+    "LossHistory_LineOfBusiness_D": {
+      "type": "text",
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability)."
+    },
+    "LossHistory_OccurrenceDescription_D": {
+      "type": "text",
+      "tooltip": "Enter text: A brief description of the loss."
+    },
+    "LossHistory_PaidAmount_D": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date."
+    },
+    "LossHistory_ReservedAmount_D": {
+      "type": "text",
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim."
+    },
+    "LossHistory_ClaimDate_E": {
+      "type": "text",
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)"
+    },
+    "LossHistory_LineOfBusiness_E": {
+      "type": "text",
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability)."
+    },
+    "LossHistory_OccurrenceDescription_E": {
+      "type": "text",
+      "tooltip": "Enter text: A brief description of the loss."
+    },
+    "LossHistory_PaidAmount_E": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date."
+    },
+    "LossHistory_ReservedAmount_E": {
+      "type": "text",
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim."
+    },
+    "LossHistory_ClaimDate_F": {
+      "type": "text",
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)"
+    },
+    "LossHistory_LineOfBusiness_F": {
+      "type": "text",
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability)."
+    },
+    "LossHistory_OccurrenceDescription_F": {
+      "type": "text",
+      "tooltip": "Enter text: A brief description of the loss."
+    },
+    "LossHistory_PaidAmount_F": {
+      "type": "text",
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date."
+    },
+    "LossHistory_ReservedAmount_F": {
+      "type": "text",
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim."
+    },
+    "LossHistory_NoPriorLossesIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates there are no prior losses or occurrences that may give rise to claims for the mandated number of years. As used here, also indicates there were no claims exceeding $10,000."
+    },
+    "CareCustodyAndControl_Location_ProducerIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter number: The producer assigned number for the location if applicable to the ACORD 125."
+    },
+    "CareCustodyAndControl_Property_RealIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the property in the care, custody and control of the insured is real property."
+    },
+    "CareCustodyAndControl_Property_PersonalIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the property in the care, custody and control of the insured is personal property."
+    },
+    "CareCustodyAndControl_Property_ValueAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The value of the entire building, not just the portion occupied, for real property or the value of the personal property."
+    },
+    "CareCustodyAndControl_InsuredLiability_HeldHarmlessIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the insured is held harmless in the lease."
+    },
+    "CareCustodyAndControl_InsuredLiability_HasSubrogationWaiverIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the insured has a waiver of subrogation."
+    },
+    "CareCustodyAndControl_InsuredLiability_IsNamedInsuredOnFirePolicy_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the insured is a named insured on the fire policy."
+    },
+    "CareCustodyAndControl_InsuredLiability_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the insured's liability for the described premises when other than those listed."
+    },
+    "CareCustodyAndControl_Location_OccupiedArea_A": {
+      "type": "text",
+      "tooltip": "Enter number: The total square footage of the premises occupied by the applicant."
+    },
+    "CareCustodyAndControl_Property_PropertyDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the building occupancy or of the property held by the insured in his care, custody and control."
+    },
+    "VehicleFleet_PrivatePassenger_OwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of owned private passenger vehicles."
+    },
+    "VehicleFleet_PrivatePassenger_NonOwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of non-owned private passenger vehicles."
+    },
+    "VehicleFleet_PrivatePassenger_LeasedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of leased private passenger vehicles."
+    },
+    "VehicleFleet_PrivatePassenger_PropertyHauledDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of property hauled in private passenger vehicles."
+    },
+    "VehicleFleet_PrivatePassenger_LocalRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of private passenger vehicles that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\".."
+    },
+    "VehicleFleet_PrivatePassenger_IntermediateRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of private passenger vehicles that fall within the category of intermediate radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\"."
+    },
+    "VehicleFleet_PrivatePassenger_LongDistanceRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of private passenger vehicles that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\"."
+    },
+    "VehicleFleet_LightWeightTruck_OwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of owned light weight trucks."
+    },
+    "VehicleFleet_LightWeightTruck_NonOwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of non-owned light weight trucks."
+    },
+    "VehicleFleet_LightWeightTruck_LeasedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of leased light weight trucks."
+    },
+    "VehicleFleet_LightWeightTruck_PropertyHauledDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of property hauled in light weight trucks."
+    },
+    "VehicleFleet_LightWeightTruck_LocalRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of light weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\"."
+    },
+    "VehicleFleet_LightWeightTruck_IntermediateRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of light weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\"."
+    },
+    "VehicleFleet_LightWeightTruck_LongDistanceRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of light weight trucks that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\"."
+    },
+    "VehicleFleet_MediumWeightTruck_OwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of owned medium weight trucks."
+    },
+    "VehicleFleet_MediumWeightTruck_NonOwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of non-owned medium weight trucks."
+    },
+    "VehicleFleet_MediumWeightTruck_LeasedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of leased medium weight trucks."
+    },
+    "VehicleFleet_MediumWeightTruck_PropertyHauledDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of property hauled in medium weight trucks."
+    },
+    "VehicleFleet_MediumWeightTruck_LocalRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of medium weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\"."
+    },
+    "VehicleFleet_MediumWeightTruck_IntermediateRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of medium weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\"."
+    },
+    "VehicleFleet_MediumWeightTruck_LongDistanceRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of medium weight trucks that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\"."
+    },
+    "VehicleFleet_HeavyWeightTruck_OwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of owned heavy weight trucks."
+    },
+    "VehicleFleet_HeavyWeightTruck_NonOwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of non-owned heavy weight trucks."
+    },
+    "VehicleFleet_HeavyWeightTruck_LeasedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of leased heavy weight trucks."
+    },
+    "VehicleFleet_HeavyWeightTruck_PropertyHauledDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of property hauled in heavy weight trucks."
+    },
+    "VehicleFleet_HeavyWeightTruck_LocalRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of  heavy weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\"."
+    },
+    "VehicleFleet_HeavyWeightTruck_IntermediateRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of heavy weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\"."
+    },
+    "VehicleFleet_HeavyWeightTruck_LongDistanceRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of  heavy weight trucks that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\"."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruck_OwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of owned extra heavy weight trucks."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruck_NonOwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of non-owned extra heavy weight trucks."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruck_LeasedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of leased extra heavy weight trucks."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruck_PropertyHauledDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of property hauled in extra heavy weight trucks."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruck_LocalRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of extra heavy weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\"."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruck_IntermediateRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of extra heavy weight trucks. that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\"."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruck_LongDistanceRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of extra heavy weight trucks that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\"."
+    },
+    "VehicleFleet_HeavyWeightTruckTractor_OwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of owned heavy weight truck tractors."
+    },
+    "VehicleFleet_HeavyWeightTruckTractor_NonOwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of non-owned heavy weight truck tractors."
+    },
+    "VehicleFleet_HeavyWeightTruckTractor_LeasedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of leased heavy weight truck tractors."
+    },
+    "VehicleFleet_HeavyWeightTruckTractor_PropertyHauledDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of property hauled in heavy weight truck tractors."
+    },
+    "VehicleFleet_HeavyWeightTruckTractor_LocalRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of heavy weight truck tractors that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\"."
+    },
+    "VehicleFleet_HeavyWeightTruckTractor_IntermediateRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of heavy weight truck tractors that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\"."
+    },
+    "VehicleFleet_HeavyWeightTruckTractor_LongDistanceRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of heavy weight truck tractors that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\"."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruckTractor_OwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of owned extra heavy weight truck tractors."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruckTractor_NonOwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of non-owned extra heavy weight truck tractors."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruckTractor_LeasedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of leased extra heavy weight truck tractors."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruckTractor_PropertyHauledDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of property hauled in extra heavy weight truck tractors."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruckTractor_LocalRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of extra heavy weight truck tractors that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\"."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruckTractor_IntermediateRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of extra heavy weight truck tractors that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\"."
+    },
+    "VehicleFleet_ExtraHeavyWeightTruckTractor_LongDistanceRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of extra heavy weight truck tractors that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\"."
+    },
+    "VehicleFleet_Bus_OwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of owned buses."
+    },
+    "VehicleFleet_Bus_NonOwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of non-owned buses."
+    },
+    "VehicleFleet_Bus_LeasedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of leased buses."
+    },
+    "VehicleFleet_Bus_PropertyHauledDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of property hauled in buses."
+    },
+    "VehicleFleet_Bus_LocalRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of buses that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\"."
+    },
+    "VehicleFleet_Bus_IntermediateRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of buses that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\"."
+    },
+    "VehicleFleet_Bus_LongDistanceRadiusVehicleCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of buses that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\"."
+    },
+    "AdvertisersLiability_MediaUsedCode_A": {
+      "type": "text",
+      "tooltip": "Enter code: The type of advertising media used (e.g. Print, Television, Radio, etc.)"
+    },
+    "AdvertisersLiability_AnnualCostAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The annual cost of the advertising media used."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_AABCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Are services of an Advertising Agency used?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_ServicesOfAdvertisingAgencyUsedExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether any services from an advertising agency have been used."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_AACCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Any coverage provided under agency's policy?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_AnyCoverageProvidedUnderAgencyPolicyExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether any coverage has been provided under the agency's policy."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_AADCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Does applicant own / lease / operate aircraft?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_ApplicantOwnLeaseOperateAircraftExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether the applicant owns / leases / operates aircraft."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_AAECode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Are explosives, caustics, flammables or other dangerous cargo hauled?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_ExplosivesCausticsFlammablesOtherDangerousCargoHauledExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether any explosives, caustics, flammable or other dangerous cargo is hauled."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_AAFCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Are passengers carried for a fee?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_PassengersCarriedForFeeExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether any passengers are carried for a fee."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_AAGCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Any units not insured by underlying policies?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_AnyUnitsNotInsuredUnderlyingPoliciesExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether any units are not insured by underlying policies."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_AAHCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Are any vehicles leased or rented to others?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_AnyVehiclesLeasedRentedOthersExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether any vehicles are leased or rented to others."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_AAICode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Are hired and non-owned coverages provided?\""
+    },
+    "CommercialUmbrellaLineOfBusiness_HiredAndNonOwnedCoverageProvidedExplanation_J": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether any hired and non-owned coverages are provided."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_AAJCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Is bridge, dam or marine work performed?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_BridgeDamMarineWorkPerformedExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether any bridge, dam, or marine work is performed."
+    },
+    "Contractors_WorkContractedDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of work performed by the insured.  ACORD 101, Additional Remarks Schedule, may be attached if more space is required."
+    },
+    "Contractors_AgreementDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the contractual agreement(s) pertaining to the work performed.   ACORD 101, Additional Remarks Schedule, may be attached if more space is required."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ABACode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Does applicant own, rent or otherwise use cranes?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_ApplicantOwnRentUseCranesExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether the applicant owns, rents or uses cranes."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ABBCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Do subcontractors carry coverages or limits less than applicant?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_SubcontractorsCarryCoveragesLessThanApplicantExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether subcontractors carry coverages or limits less than applicant."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ABCCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Is applicant self-insured in any state?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_ApplicantSelfInsuredAnyStateExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether the applicant is self-insured in any state."
+    },
+    "ExcessUmbrella_EmployersLiability_JonesActIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the employee / self-insured is subject to the Jones Act."
+    },
+    "ExcessUmbrella_EmployersLiability_FELAIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the employee / self-insured is subject to the Federal Employers Liability Act."
+    },
+    "ExcessUmbrella_EmployersLiability_StopGapIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the employee / self-insured is subject to Stop Gap."
+    },
+    "ExcessUmbrella_EmployersLiability_OtherIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the employee / self-insured is subject to regulations not listed."
+    },
+    "ExcessUmbrella_EmployersLiability_OtherDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of the regulations the employee / self-insured is subject to."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ABDCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Hospital or first aid facility maintained?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_HospitalOrFirstAidFacilityMaintainedExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether a hospital or first aid facility is maintained."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ABECode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Coverage provided for doctors/nurses?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_CoverageProvidedForDoctorsNursesExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether coverages are provided for doctors / nurses."
+    },
+    "ExcessUmbrella_MalpracticeLiability_DoctorCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of doctors."
+    },
+    "ExcessUmbrella_MalpracticeLiability_NurseCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of nurses."
+    },
+    "ExcessUmbrella_MalpracticeLiability_BedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of beds / bunks."
+    },
+    "ExcessUmbrella_PollutionLiability_InsuredEnvironmentalProtectionAgencyIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The number assigned to the insured by the Environmental Protection Agency."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ABFCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Do current or past products, or their components, contain hazardous materials that may require special disposal methods?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_CurrentOrPastProductsContainHazardousMaterialsExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether current or past products, or their components, contain hazardous materials that may require special disposal methods."
+    },
+    "ExcessUmbrella_PollutionLiability_GeneralLiabilityWithPollutionExclusionIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the insured carries a general liability policy with standard Insurance Services Office pollution exclusion coverage."
+    },
+    "ExcessUmbrella_PollutionLiability_GeneralLiabilitySuddenAndAccidentalOnlyIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the insured carries a general liability policy with standard sudden and accidental only coverage."
+    },
+    "ExcessUmbrella_PollutionLiability_GeneralLiabilityWithPollutionCoverageIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the insured carries a general liability policy with a pollution coverage endorsement."
+    },
+    "ExcessUmbrella_PollutionLiability_SeparatePollutionCoverageIndicator_A": {
+      "type": "checkbox",
+      "tooltip": "Check the box (if applicable): Indicates the insured carries separate pollution coverage."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ABGCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Are missiles, engines, guidance systems, frames or any other product used/installed in aircraft?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_MissilesEnginesGuidanceSystemsUsedInAircraftExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation as to whether missiles, engines, guidance systems, frames or any other product is used/installed in an aircraft."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_KAQCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Any foreign operations, foreign products distributed in USA, or US products sold / distributed in foreign countries?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ABJCode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Any product liability loss in past specified number of years?\"."
+    },
+    "CommercialUmbrellaLineOfBusiness_ProductliabilityLossPastThreeYearsExplanation_A": {
+      "type": "text",
+      "tooltip": "Enter text: An explanation of any product liability loss in the past three (3) years."
+    },
+    "ExcessUmbrella_ProductLiability_GrossSalesAmount_A": {
+      "type": "text",
+      "tooltip": "Enter amount: The gross sales or receipts amount."
+    },
+    "ExcessUmbrella_ProductLiability_GrossSalesAmount_B": {
+      "type": "text",
+      "tooltip": "Enter amount: The gross sales or receipts amount."
+    },
+    "ExcessUmbrella_ProductLiability_GrossSalesAmount_C": {
+      "type": "text",
+      "tooltip": "Enter amount: The gross sales or receipts amount."
+    },
+    "ExcessUmbrella_ProtectiveLiability_IndependentContractorDescription_A": {
+      "type": "text",
+      "tooltip": "Enter text: The description of independent contractors.   ACORD 101, Additional Remarks Schedule, may be attached if more space is required."
+    },
+    "CommercialUmbrellaLineOfBusiness_Question_ACACode_A": {
+      "type": "text",
+      "tooltip": "Enter Y for a “Yes” response. Input N for “No” response. The response to the question, \"Does applicant own or lease watercraft?\"."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_G": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "Watercraft_OwnedCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of watercraft owned. As used here, the number of watercraft owned of the same type."
+    },
+    "Watercraft_Length_A": {
+      "type": "text",
+      "tooltip": "Enter number: The length of the watercraft expressed in feet."
+    },
+    "Watercraft_Horsepower_A": {
+      "type": "text",
+      "tooltip": "Enter number: The horsepower of the engine. There is a method for determining the maximum safe horsepower for a specific boat based on length and width. If the company employs this formula, it may be helpful to make note of the width in remarks."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_H": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "Watercraft_OwnedCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number of watercraft owned. As used here, the number of watercraft owned of the same type."
+    },
+    "Watercraft_Length_B": {
+      "type": "text",
+      "tooltip": "Enter number: The length of the watercraft expressed in feet."
+    },
+    "Watercraft_Horsepower_B": {
+      "type": "text",
+      "tooltip": "Enter number: The horsepower of the engine. There is a method for determining the maximum safe horsepower for a specific boat based on length and width. If the company employs this formula, it may be helpful to make note of the width in remarks."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_I": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "ExcessUmbrella_PropertyRating_StructureStoreyCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of stories, counting the ground floor as one, which this building has."
+    },
+    "ExcessUmbrella_PropertyRating_ApartmentCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of separate living units in the structure."
+    },
+    "ExcessUmbrella_PropertyRating_SwimmingPoolCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of swimming pools on the premises."
+    },
+    "ExcessUmbrella_PropertyRating_DivingBoardCount_A": {
+      "type": "text",
+      "tooltip": "Enter number: The number of diving boards on the premises."
+    },
+    "CommercialStructure_Location_ProducerIdentifier_J": {
+      "type": "text",
+      "tooltip": "Enter number: The location number for the premises."
+    },
+    "ExcessUmbrella_PropertyRating_StructureStoreyCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number of stories, counting the ground floor as one, which this building has."
+    },
+    "ExcessUmbrella_PropertyRating_ApartmentCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number of separate living units in the structure."
+    },
+    "ExcessUmbrella_PropertyRating_SwimmingPoolCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number of swimming pools on the premises."
+    },
+    "ExcessUmbrella_PropertyRating_DivingBoardCount_B": {
+      "type": "text",
+      "tooltip": "Enter number: The number of diving boards on the premises."
+    },
+    "CommercialUmbrellaLineOfBusiness_RemarkText_A": {
+      "type": "text",
+      "tooltip": "Enter text: The remarks associated with the commercial umbrella line of business.  ACORD 101, Additional Remarks Schedule, may be attached if more space is required."
+    },
+    "ExcessUmbrella_UninsuredMotorists_LimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit for commercial umbrella / excess uninsured motorists coverage (if applicable in your states)."
+    },
+    "ExcessUmbrella_UnderinsuredMotorists_LimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit for commercial umbrella / excess underinsured motorists coverage (if applicable in your state)."
+    },
+    "ExcessUmbrella_MedicalPayments_LimitAmount_A": {
+      "type": "text",
+      "tooltip": "Enter limit: The limit for commercial umbrella / excess medical payments coverage (if applicable in your states)."
+    },
+    "NamedInsured_Initials_A": {
+      "type": "text",
+      "tooltip": "Initial here: The named insured's initials. As used here, applicable in Louisiana."
+    },
+    "NamedInsured_Initials_B": {
+      "type": "text",
+      "tooltip": "Initial here: The named insured's initials. As used here, applicable in Louisiana."
+    },
+    "NamedInsured_Initials_E": {
+      "type": "text",
+      "tooltip": "Initial here: The named insured's initials.  As used here, applicable in Montana."
+    },
+    "NamedInsured_Initials_C": {
+      "type": "text",
+      "tooltip": "Initial here: The named insured's initials. As used here, applicable in New Hampshire."
+    },
+    "NamedInsured_Initials_D": {
+      "type": "text",
+      "tooltip": "Initial here: The named insured's initials. As used here, applicable in New Hampshire."
+    },
+    "Producer_AuthorizedRepresentative_Signature_A": {
+      "type": "text",
+      "tooltip": "Sign here: Accommodates the signature of the authorized representative (e.g., producer, agent, broker, etc.) of the company(ies) listed on the document.  This is required in most states."
+    },
+    "Producer_AuthorizedRepresentative_FullName_A": {
+      "type": "text",
+      "tooltip": "Enter text: The name of the authorized representative of the producer, agency and/or broker that signed the form."
+    },
+    "Producer_StateLicenseIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The State License Number of the producer. As used here,  this is required in Florida."
+    },
+    "NamedInsured_Signature_A": {
+      "type": "text",
+      "tooltip": "Sign here: Accommodates the signature of the applicant or named insured."
+    },
+    "NamedInsured_SignatureDate_A": {
+      "type": "text",
+      "tooltip": "Enter date: The date the form was signed by the applicant or named insured.  (MM/DD/YYYY)"
+    },
+    "Producer_NationalIdentifier_A": {
+      "type": "text",
+      "tooltip": "Enter identifier: The National Producer Number (NPN) as defined in the National Insurance Producer Registry (NIPR).  Note: The NPN is not the same as the producer state license number."
+    }
+  }
+}

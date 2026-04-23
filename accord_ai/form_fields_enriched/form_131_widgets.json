@@ -1,0 +1,6376 @@
+{
+  "form": "131",
+  "pdf_path": "accord_ai/form_templates/acord_131_blank.pdf",
+  "unique_names": 393,
+  "widget_count": 398,
+  "widgets": [
+    {
+      "choices": null,
+      "flags": 1,
+      "is_readonly": true,
+      "name": "Form_EditionIdentifier_A",
+      "page": 0,
+      "rect": [
+        0.0,
+        791.0,
+        0.0,
+        791.0
+      ],
+      "tooltip": "The edition identifier of the form including the form number and edition (the date is typically formatted YYYY/MM).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 0,
+      "rect": [
+        378.0,
+        24.0,
+        594.0,
+        36.0
+      ],
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Form_CompletionDate_A",
+      "page": 0,
+      "rect": [
+        511.0,
+        51.0,
+        590.0,
+        63.0
+      ],
+      "tooltip": "Enter date: The date on which the form is completed.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_FullName_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        96.0,
+        302.0,
+        108.0
+      ],
+      "tooltip": "Enter text: The full name of the producer / agency.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Policy_PolicyNumberIdentifier_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        120.0,
+        245.0,
+        132.0
+      ],
+      "tooltip": "Enter identifier: The identifier assigned by the insurer to the policy, or submission, being referenced exactly as it appears on the policy, including prefix and suffix symbols.  If required for self-insurance, the self-insured license or contract number.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Policy_EffectiveDate_A",
+      "page": 0,
+      "rect": [
+        252.0,
+        120.0,
+        302.0,
+        132.0
+      ],
+      "tooltip": "Enter date: The effective date of the policy.  The date that the terms and conditions of the policy commence.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Insurer_FullName_A",
+      "page": 0,
+      "rect": [
+        310.0,
+        96.0,
+        540.0,
+        108.0
+      ],
+      "tooltip": "Enter text: The insurer's full legal company name(s) as found in the file copy of the policy.  Use the actual name of the company within the group to which the policy has been issued.  This is not the insurer's group name or trade name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Insurer_NAICCode_A",
+      "page": 0,
+      "rect": [
+        547.0,
+        96.0,
+        590.0,
+        108.0
+      ],
+      "tooltip": "Enter code: The identification code assigned to the insurer by the National Association of Insurance Commissioners (NAIC).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_FullName_A",
+      "page": 0,
+      "rect": [
+        310.0,
+        120.0,
+        590.0,
+        132.0
+      ],
+      "tooltip": "Enter text: The named insured(s) as it / they will appear on the policy declarations page.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Policy_Status_NewIndicator_A",
+      "page": 0,
+      "rect": [
+        18.0,
+        156.0,
+        32.0,
+        168.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the response expected from the company is a new issued policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Policy_Status_RenewIndicator_A",
+      "page": 0,
+      "rect": [
+        18.0,
+        168.0,
+        32.0,
+        180.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the response expected from the company is a renewed policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Policy_PolicyType_UmbrellaIndicator_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        156.0,
+        86.0,
+        168.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the type of policy is umbrella.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Policy_PolicyType_ExcessIndicator_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        168.0,
+        86.0,
+        180.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the type of policy is excess.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_OccurrenceIndicator_A",
+      "page": 0,
+      "rect": [
+        130.0,
+        156.0,
+        144.0,
+        168.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates \"coverage trigger\" is on an occurrence basis on an excess or umbrella liability policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_ClaimsMadeIndicator_A",
+      "page": 0,
+      "rect": [
+        130.0,
+        168.0,
+        144.0,
+        180.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the \"coverage trigger\" is on a claims-made basis on an excess or umbrella liability policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_VoluntaryIndicator_A",
+      "page": 0,
+      "rect": [
+        194.0,
+        156.0,
+        209.0,
+        168.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates if the excess is voluntary.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_Transactiontype_OtherIndicator_A",
+      "page": 0,
+      "rect": [
+        194.0,
+        168.0,
+        209.0,
+        180.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the transaction type is other than those listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_Transactiontype_OtherDescription_A",
+      "page": 0,
+      "rect": [
+        212.0,
+        168.0,
+        252.0,
+        180.0
+      ],
+      "tooltip": "Enter text: The description of the other transaction type.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "PriorCoverage_PolicyNumberIdentifier_A",
+      "page": 0,
+      "rect": [
+        76.0,
+        180.0,
+        184.0,
+        192.0
+      ],
+      "tooltip": "Enter identifier: The policy number of the previous coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_ProposedRetroactiveDate_A",
+      "page": 0,
+      "rect": [
+        256.0,
+        180.0,
+        306.0,
+        192.0
+      ],
+      "tooltip": "Enter date: The retroactive date you are requesting for the policy being applied for. This is the proposed earliest date for which an occurrence could \"trigger\" coverage under a Claims Made policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_CurrentRetroactiveDate_A",
+      "page": 0,
+      "rect": [
+        313.0,
+        180.0,
+        364.0,
+        192.0
+      ],
+      "tooltip": "Enter date: The current retroactive date should be shown if the Umbrella is over a Claims Made primary policy. If the current retroactive date is different from the proposed retroactive date, an explanation must be provided.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_Umbrella_EachOccurrenceAmount_A",
+      "page": 0,
+      "rect": [
+        378.0,
+        156.0,
+        461.0,
+        168.0
+      ],
+      "tooltip": "Enter limit: The excess or umbrella liability each occurrence limit.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_Umbrella_AggregateAmount_A",
+      "page": 0,
+      "rect": [
+        378.0,
+        168.0,
+        461.0,
+        180.0
+      ],
+      "tooltip": "Enter limit: The excess or umbrella liability aggregate limit should be listed as whole dollar amount, as governed by the policy.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_OtherCoverageLimitAmount_A",
+      "page": 0,
+      "rect": [
+        378.0,
+        180.0,
+        443.0,
+        192.0
+      ],
+      "tooltip": "Enter limit: The excess or umbrella liability other coverage limit should be listed as a whole dollar amount, as governed by the policy.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_OtherCoverageDescription_A",
+      "page": 0,
+      "rect": [
+        443.0,
+        180.0,
+        497.0,
+        192.0
+      ],
+      "tooltip": "Enter text: The description of other coverage (not the limit) on the excess or umbrella liability policy.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_Umbrella_DeductibleOrRetentionAmount_A",
+      "page": 0,
+      "rect": [
+        508.0,
+        156.0,
+        590.0,
+        168.0
+      ],
+      "tooltip": "Enter deductible: The excess or umbrella liability deductible or retention amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_FirstDollarDefenceCode_A",
+      "page": 0,
+      "rect": [
+        580.0,
+        180.0,
+        594.0,
+        192.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. Indicates that first dollar defense coverage is requested.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_EmployeeBenefits_EachEmployeeLimitAmount_A",
+      "page": 0,
+      "rect": [
+        29.0,
+        216.0,
+        173.0,
+        228.0
+      ],
+      "tooltip": "Enter limit: The each employee limit for employee benefits coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_EmployeeBenefits_AggregateLimitAmount_A",
+      "page": 0,
+      "rect": [
+        187.0,
+        216.0,
+        335.0,
+        228.0
+      ],
+      "tooltip": "Enter limit: The aggregate limit for employee benefits coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_EmployeeBenefits_DeductibleOrRetentionAmount_A",
+      "page": 0,
+      "rect": [
+        349.0,
+        216.0,
+        486.0,
+        228.0
+      ],
+      "tooltip": "Enter amount: The retention amount for employee benefits coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_EmployeeBenefits_RetroactiveDate_A",
+      "page": 0,
+      "rect": [
+        493.0,
+        216.0,
+        590.0,
+        228.0
+      ],
+      "tooltip": "Enter date: The retroactive date for employee benefits coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_EmployeeBenefits_ProgramName_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        240.0,
+        590.0,
+        252.0
+      ],
+      "tooltip": "Enter text: The full name of the benefit program.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_A",
+      "page": 0,
+      "rect": [
+        18.0,
+        282.0,
+        40.0,
+        294.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_FullName_A",
+      "page": 0,
+      "rect": [
+        90.0,
+        276.0,
+        346.0,
+        288.0
+      ],
+      "tooltip": "Enter text: The name of the location.  For commercial policies, this may be a company name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_A",
+      "page": 0,
+      "rect": [
+        90.0,
+        288.0,
+        216.0,
+        300.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_A",
+      "page": 0,
+      "rect": [
+        216.0,
+        288.0,
+        299.0,
+        300.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_A",
+      "page": 0,
+      "rect": [
+        299.0,
+        288.0,
+        317.0,
+        300.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_A",
+      "page": 0,
+      "rect": [
+        317.0,
+        288.0,
+        346.0,
+        300.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_OperationsDescription_A",
+      "page": 0,
+      "rect": [
+        90.0,
+        300.0,
+        346.0,
+        312.0
+      ],
+      "tooltip": "Enter text: The description of the operations of this risk.  A restatement of the products classification wording is often not sufficient (e.g., \"Metal Goods Manufacturing NOC\" could include anything from paper clips to bridge girders).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_TotalPayrollAmount_A",
+      "page": 0,
+      "rect": [
+        353.0,
+        288.0,
+        414.0,
+        300.0
+      ],
+      "tooltip": "Enter amount: The total annual payroll of the business in whole dollars.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_AnnualGrossReceiptsAmount_A",
+      "page": 0,
+      "rect": [
+        421.0,
+        288.0,
+        486.0,
+        300.0
+      ],
+      "tooltip": "Enter amount: The total annual gross sales or receipts.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_ForeignGrossSalesAmount_A",
+      "page": 0,
+      "rect": [
+        493.0,
+        288.0,
+        554.0,
+        300.0
+      ],
+      "tooltip": "Enter amount: The estimated annual foreign gross sales.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_EmployeeCount_A",
+      "page": 0,
+      "rect": [
+        562.0,
+        288.0,
+        590.0,
+        300.0
+      ],
+      "tooltip": "Enter number: The number of employees.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_B",
+      "page": 0,
+      "rect": [
+        18.0,
+        318.0,
+        40.0,
+        330.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_FullName_B",
+      "page": 0,
+      "rect": [
+        90.0,
+        312.0,
+        346.0,
+        324.0
+      ],
+      "tooltip": "Enter text: The name of the location.  For commercial policies, this may be a company name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_B",
+      "page": 0,
+      "rect": [
+        90.0,
+        324.0,
+        216.0,
+        336.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_B",
+      "page": 0,
+      "rect": [
+        216.0,
+        324.0,
+        299.0,
+        336.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_B",
+      "page": 0,
+      "rect": [
+        299.0,
+        324.0,
+        317.0,
+        336.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_B",
+      "page": 0,
+      "rect": [
+        317.0,
+        324.0,
+        346.0,
+        336.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_OperationsDescription_B",
+      "page": 0,
+      "rect": [
+        90.0,
+        336.0,
+        346.0,
+        348.0
+      ],
+      "tooltip": "Enter text: The description of the operations of this risk.  A restatement of the products classification wording is often not sufficient (e.g., \"Metal Goods Manufacturing NOC\" could include anything from paper clips to bridge girders).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_TotalPayrollAmount_B",
+      "page": 0,
+      "rect": [
+        353.0,
+        324.0,
+        414.0,
+        336.0
+      ],
+      "tooltip": "Enter amount: The total annual payroll of the business in whole dollars.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_AnnualGrossReceiptsAmount_B",
+      "page": 0,
+      "rect": [
+        421.0,
+        324.0,
+        486.0,
+        336.0
+      ],
+      "tooltip": "Enter amount: The total annual gross sales or receipts.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_ForeignGrossSalesAmount_B",
+      "page": 0,
+      "rect": [
+        493.0,
+        324.0,
+        554.0,
+        336.0
+      ],
+      "tooltip": "Enter amount: The estimated annual foreign gross sales.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_EmployeeCount_B",
+      "page": 0,
+      "rect": [
+        562.0,
+        324.0,
+        590.0,
+        336.0
+      ],
+      "tooltip": "Enter number: The number of employees.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_C",
+      "page": 0,
+      "rect": [
+        18.0,
+        354.0,
+        40.0,
+        366.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_FullName_C",
+      "page": 0,
+      "rect": [
+        90.0,
+        348.0,
+        346.0,
+        360.0
+      ],
+      "tooltip": "Enter text: The name of the location.  For commercial policies, this may be a company name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_C",
+      "page": 0,
+      "rect": [
+        90.0,
+        360.0,
+        216.0,
+        372.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_C",
+      "page": 0,
+      "rect": [
+        216.0,
+        360.0,
+        299.0,
+        372.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_C",
+      "page": 0,
+      "rect": [
+        299.0,
+        360.0,
+        317.0,
+        372.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_C",
+      "page": 0,
+      "rect": [
+        317.0,
+        360.0,
+        346.0,
+        372.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_OperationsDescription_C",
+      "page": 0,
+      "rect": [
+        90.0,
+        372.0,
+        346.0,
+        384.0
+      ],
+      "tooltip": "Enter text: The description of the operations of this risk.  A restatement of the products classification wording is often not sufficient (e.g., \"Metal Goods Manufacturing NOC\" could include anything from paper clips to bridge girders).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_TotalPayrollAmount_C",
+      "page": 0,
+      "rect": [
+        353.0,
+        360.0,
+        414.0,
+        372.0
+      ],
+      "tooltip": "Enter amount: The total annual payroll of the business in whole dollars.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_AnnualGrossReceiptsAmount_C",
+      "page": 0,
+      "rect": [
+        421.0,
+        360.0,
+        486.0,
+        372.0
+      ],
+      "tooltip": "Enter amount: The total annual gross sales or receipts.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_ForeignGrossSalesAmount_C",
+      "page": 0,
+      "rect": [
+        493.0,
+        360.0,
+        554.0,
+        372.0
+      ],
+      "tooltip": "Enter amount: The estimated annual foreign gross sales.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_EmployeeCount_C",
+      "page": 0,
+      "rect": [
+        562.0,
+        360.0,
+        590.0,
+        372.0
+      ],
+      "tooltip": "Enter number: The number of employees.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_D",
+      "page": 0,
+      "rect": [
+        18.0,
+        390.0,
+        40.0,
+        402.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_FullName_D",
+      "page": 0,
+      "rect": [
+        90.0,
+        384.0,
+        346.0,
+        396.0
+      ],
+      "tooltip": "Enter text: The name of the location.  For commercial policies, this may be a company name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_D",
+      "page": 0,
+      "rect": [
+        90.0,
+        396.0,
+        216.0,
+        408.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_D",
+      "page": 0,
+      "rect": [
+        216.0,
+        396.0,
+        299.0,
+        408.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_D",
+      "page": 0,
+      "rect": [
+        299.0,
+        396.0,
+        317.0,
+        408.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_D",
+      "page": 0,
+      "rect": [
+        317.0,
+        396.0,
+        346.0,
+        408.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_OperationsDescription_D",
+      "page": 0,
+      "rect": [
+        90.0,
+        408.0,
+        346.0,
+        420.0
+      ],
+      "tooltip": "Enter text: The description of the operations of this risk.  A restatement of the products classification wording is often not sufficient (e.g., \"Metal Goods Manufacturing NOC\" could include anything from paper clips to bridge girders).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_TotalPayrollAmount_D",
+      "page": 0,
+      "rect": [
+        353.0,
+        396.0,
+        414.0,
+        408.0
+      ],
+      "tooltip": "Enter amount: The total annual payroll of the business in whole dollars.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_AnnualGrossReceiptsAmount_D",
+      "page": 0,
+      "rect": [
+        421.0,
+        396.0,
+        486.0,
+        408.0
+      ],
+      "tooltip": "Enter amount: The total annual gross sales or receipts.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_ForeignGrossSalesAmount_D",
+      "page": 0,
+      "rect": [
+        493.0,
+        396.0,
+        554.0,
+        408.0
+      ],
+      "tooltip": "Enter amount: The estimated annual foreign gross sales.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_EmployeeCount_D",
+      "page": 0,
+      "rect": [
+        562.0,
+        396.0,
+        590.0,
+        408.0
+      ],
+      "tooltip": "Enter number: The number of employees.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_E",
+      "page": 0,
+      "rect": [
+        18.0,
+        426.0,
+        40.0,
+        438.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_FullName_E",
+      "page": 0,
+      "rect": [
+        90.0,
+        420.0,
+        346.0,
+        432.0
+      ],
+      "tooltip": "Enter text: The name of the location.  For commercial policies, this may be a company name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_E",
+      "page": 0,
+      "rect": [
+        90.0,
+        432.0,
+        216.0,
+        444.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_E",
+      "page": 0,
+      "rect": [
+        216.0,
+        432.0,
+        299.0,
+        444.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_E",
+      "page": 0,
+      "rect": [
+        299.0,
+        432.0,
+        317.0,
+        444.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_E",
+      "page": 0,
+      "rect": [
+        317.0,
+        432.0,
+        346.0,
+        444.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_OperationsDescription_E",
+      "page": 0,
+      "rect": [
+        90.0,
+        444.0,
+        346.0,
+        456.0
+      ],
+      "tooltip": "Enter text: The description of the operations of this risk.  A restatement of the products classification wording is often not sufficient (e.g., \"Metal Goods Manufacturing NOC\" could include anything from paper clips to bridge girders).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_TotalPayrollAmount_E",
+      "page": 0,
+      "rect": [
+        353.0,
+        432.0,
+        414.0,
+        444.0
+      ],
+      "tooltip": "Enter amount: The total annual payroll of the business in whole dollars.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_AnnualGrossReceiptsAmount_E",
+      "page": 0,
+      "rect": [
+        421.0,
+        432.0,
+        486.0,
+        444.0
+      ],
+      "tooltip": "Enter amount: The total annual gross sales or receipts.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_ForeignGrossSalesAmount_E",
+      "page": 0,
+      "rect": [
+        493.0,
+        432.0,
+        554.0,
+        444.0
+      ],
+      "tooltip": "Enter amount: The estimated annual foreign gross sales.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_EmployeeCount_E",
+      "page": 0,
+      "rect": [
+        562.0,
+        432.0,
+        590.0,
+        444.0
+      ],
+      "tooltip": "Enter number: The number of employees.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_F",
+      "page": 0,
+      "rect": [
+        18.0,
+        462.0,
+        40.0,
+        474.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_FullName_F",
+      "page": 0,
+      "rect": [
+        90.0,
+        456.0,
+        346.0,
+        468.0
+      ],
+      "tooltip": "Enter text: The name of the location.  For commercial policies, this may be a company name.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_LineOne_F",
+      "page": 0,
+      "rect": [
+        90.0,
+        468.0,
+        216.0,
+        480.0
+      ],
+      "tooltip": "Enter text: The first address line of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_CityName_F",
+      "page": 0,
+      "rect": [
+        216.0,
+        468.0,
+        299.0,
+        480.0
+      ],
+      "tooltip": "Enter text: The city of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_StateOrProvinceCode_F",
+      "page": 0,
+      "rect": [
+        299.0,
+        468.0,
+        317.0,
+        480.0
+      ],
+      "tooltip": "Enter code: The state or province code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_PhysicalAddress_PostalCode_F",
+      "page": 0,
+      "rect": [
+        317.0,
+        468.0,
+        346.0,
+        480.0
+      ],
+      "tooltip": "Enter code: The postal code of the commercial structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_OperationsDescription_F",
+      "page": 0,
+      "rect": [
+        90.0,
+        480.0,
+        346.0,
+        492.0
+      ],
+      "tooltip": "Enter text: The description of the operations of this risk.  A restatement of the products classification wording is often not sufficient (e.g., \"Metal Goods Manufacturing NOC\" could include anything from paper clips to bridge girders).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_TotalPayrollAmount_F",
+      "page": 0,
+      "rect": [
+        353.0,
+        468.0,
+        414.0,
+        480.0
+      ],
+      "tooltip": "Enter amount: The total annual payroll of the business in whole dollars.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_AnnualGrossReceiptsAmount_F",
+      "page": 0,
+      "rect": [
+        421.0,
+        468.0,
+        486.0,
+        480.0
+      ],
+      "tooltip": "Enter amount: The total annual gross sales or receipts.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_ForeignGrossSalesAmount_F",
+      "page": 0,
+      "rect": [
+        493.0,
+        468.0,
+        554.0,
+        480.0
+      ],
+      "tooltip": "Enter amount: The estimated annual foreign gross sales.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "BusinessInformation_EmployeeCount_F",
+      "page": 0,
+      "rect": [
+        562.0,
+        468.0,
+        590.0,
+        480.0
+      ],
+      "tooltip": "Enter number: The number of employees.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_Automobile_InsurerFullName_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        540.0,
+        212.0,
+        552.0
+      ],
+      "tooltip": "Enter text: The full name of the insurer of the underlying automobile policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_Automobile_PolicyNumberIdentifier_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        552.0,
+        212.0,
+        564.0
+      ],
+      "tooltip": "Enter identifier: The policy number of the underlying automobile policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_Automobile_PolicyEffectiveDate_A",
+      "page": 0,
+      "rect": [
+        220.0,
+        546.0,
+        277.0,
+        558.0
+      ],
+      "tooltip": "Enter date: The effective date of the underlying automobile policy. (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_Automobile_PolicyExpirationDate_A",
+      "page": 0,
+      "rect": [
+        284.0,
+        546.0,
+        342.0,
+        558.0
+      ],
+      "tooltip": "Enter date: The expiration date of the underlying automobile policy. (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_CombinedSingleLimit_EachAccidentAmount_A",
+      "page": 0,
+      "rect": [
+        425.0,
+        528.0,
+        490.0,
+        540.0
+      ],
+      "tooltip": "Enter limit: The vehicle combined single limit liability each accident amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying automobile policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_PerAccidentLimitAmount_A",
+      "page": 0,
+      "rect": [
+        425.0,
+        540.0,
+        490.0,
+        552.0
+      ],
+      "tooltip": "Enter limit: The vehicle policy, bodily injury per accident limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying automobile policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_BodilyInjury_PerPersonLimitAmount_A",
+      "page": 0,
+      "rect": [
+        425.0,
+        552.0,
+        490.0,
+        564.0
+      ],
+      "tooltip": "Enter limit: The vehicle policy, bodily injury per person limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying automobile policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Vehicle_PropertyDamage_PerAccidentLimitAmount_A",
+      "page": 0,
+      "rect": [
+        425.0,
+        564.0,
+        490.0,
+        576.0
+      ],
+      "tooltip": "Enter limit: The vehicle policy, property damage per accident limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying automobile policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_Automobile_CombinedSingleLimitPremiumAmount_A",
+      "page": 0,
+      "rect": [
+        504.0,
+        528.0,
+        562.0,
+        540.0
+      ],
+      "tooltip": "Enter amount: The combined single limit premium on the underlying automobile policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_Automobile_BodilyInjuryPremiumAmount_A",
+      "page": 0,
+      "rect": [
+        504.0,
+        546.0,
+        562.0,
+        558.0
+      ],
+      "tooltip": "Enter amount: The bodily injury premium amount on the underlying automobile policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_Automobile_PropertyDamageEachAccidentPremiumAmount_A",
+      "page": 0,
+      "rect": [
+        504.0,
+        564.0,
+        562.0,
+        576.0
+      ],
+      "tooltip": "Enter amount: The property damage premium amount on the underlying automobile policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_Automobile_ModificationFactor_A",
+      "page": 0,
+      "rect": [
+        569.0,
+        534.0,
+        590.0,
+        570.0
+      ],
+      "tooltip": "Enter rate: The combined rating modification and experience modification debit or credit as they apply.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_OccurrenceIndicator_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        612.0,
+        36.0,
+        624.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the general liability policy, occurrence basis applies. As used here, this is on the underlying general liability policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_ClaimsMadeIndicator_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        624.0,
+        36.0,
+        636.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the \"claims made\" option applies on the general liability policy. As used here, this is on the underlying general liability policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_GeneralLiability_InsurerFullName_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        600.0,
+        212.0,
+        612.0
+      ],
+      "tooltip": "Enter text: The full name of the insurer of the underlying general liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_GeneralLiability_PolicyNumberIdentifier_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        612.0,
+        212.0,
+        624.0
+      ],
+      "tooltip": "Enter identifier: The policy number of the underlying general liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_GeneralLiability_PolicyEffectiveDate_A",
+      "page": 0,
+      "rect": [
+        220.0,
+        606.0,
+        277.0,
+        618.0
+      ],
+      "tooltip": "Enter date: The effective date of the underlying general liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_GeneralLiability_PolicyExpirationDate_A",
+      "page": 0,
+      "rect": [
+        284.0,
+        606.0,
+        342.0,
+        618.0
+      ],
+      "tooltip": "Enter date: The expiration date of the underlying general liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_EachOccurrence_LimitAmount_A",
+      "page": 0,
+      "rect": [
+        425.0,
+        576.0,
+        490.0,
+        588.0
+      ],
+      "tooltip": "Enter limit: The general liability, each occurrence limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying general liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_GeneralAggregate_LimitAmount_A",
+      "page": 0,
+      "rect": [
+        425.0,
+        588.0,
+        490.0,
+        600.0
+      ],
+      "tooltip": "Enter limit: The general liability, general aggregate limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying general liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_ProductsAndCompletedOperations_AggregateLimitAmount_A",
+      "page": 0,
+      "rect": [
+        425.0,
+        600.0,
+        490.0,
+        612.0
+      ],
+      "tooltip": "Enter limit: The general liability, products and completed operations aggregate limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying general liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_PersonalAndAdvertisingInjury_LimitAmount_A",
+      "page": 0,
+      "rect": [
+        425.0,
+        612.0,
+        490.0,
+        624.0
+      ],
+      "tooltip": "Enter limit: The general liability, personal and advertising injury limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying general liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_FireDamageRentedPremises_EachOccurrenceLimitAmount_A",
+      "page": 0,
+      "rect": [
+        425.0,
+        624.0,
+        490.0,
+        636.0
+      ],
+      "tooltip": "Enter limit: The general liability, damage to rented premises each occurrence limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying general liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_MedicalExpense_EachPersonLimitAmount_A",
+      "page": 0,
+      "rect": [
+        425.0,
+        636.0,
+        490.0,
+        648.0
+      ],
+      "tooltip": "Enter limit: The general liability, medical expense each person limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying general liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_GeneralLiability_PremisesOperationsPremiumAmount_A",
+      "page": 0,
+      "rect": [
+        504.0,
+        588.0,
+        562.0,
+        600.0
+      ],
+      "tooltip": "Enter amount: The premises operations premium amount on the underlying general liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_GeneralLiability_ProductsPremiumAmount_A",
+      "page": 0,
+      "rect": [
+        504.0,
+        612.0,
+        562.0,
+        624.0
+      ],
+      "tooltip": "Enter amount: The products premium on the underlying general liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_GeneralLiability_OtherPremiumAmount_A",
+      "page": 0,
+      "rect": [
+        504.0,
+        636.0,
+        562.0,
+        648.0
+      ],
+      "tooltip": "Enter amount: The premium associated with other coverages on the underlying general liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_GeneralLiability_ModificationFactor_A",
+      "page": 0,
+      "rect": [
+        569.0,
+        582.0,
+        590.0,
+        642.0
+      ],
+      "tooltip": "Enter rate: The combined rating modification and experience modification debit or credit as they apply.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_EmployersLiability_InsurerFullName_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        654.0,
+        212.0,
+        666.0
+      ],
+      "tooltip": "Enter text: The full name of the insurer of the underlying employers liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_EmployersLiability_PolicyNumberIdentifier_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        666.0,
+        212.0,
+        678.0
+      ],
+      "tooltip": "Enter identifier: The policy number of the underlying employers liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_EmployersLiability_PolicyEffectiveDate_A",
+      "page": 0,
+      "rect": [
+        220.0,
+        660.0,
+        277.0,
+        672.0
+      ],
+      "tooltip": "Enter date: The effective date of the underlying employers liability policy. (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_EmployersLiability_PolicyExpirationDate_A",
+      "page": 0,
+      "rect": [
+        284.0,
+        660.0,
+        342.0,
+        672.0
+      ],
+      "tooltip": "Enter date: The expiration date of the underlying employers liability policy. (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "WorkersCompensationEmployersLiability_EmployersLiability_EachAccidentLimitAmount_A",
+      "page": 0,
+      "rect": [
+        425.0,
+        648.0,
+        490.0,
+        660.0
+      ],
+      "tooltip": "Enter limit: The workers compensation and employers liability policy, employers liability each accident limit amount. Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying employers liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "WorkersCompensationEmployersLiability_EmployersLiability_DiseaseEachEmployeeLimitAmount_A",
+      "page": 0,
+      "rect": [
+        425.0,
+        660.0,
+        490.0,
+        672.0
+      ],
+      "tooltip": "Enter limit: The workers compensation and employers liability policy, employers liability disease each employee limit amount. Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying employers liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "WorkersCompensationEmployersLiability_EmployersLiability_DiseasePolicyLimitAmount_A",
+      "page": 0,
+      "rect": [
+        425.0,
+        672.0,
+        490.0,
+        684.0
+      ],
+      "tooltip": "Enter limit: The workers compensation and employers liability policy, employers liability disease policy limit amount.  Any questions about appropriate limits or applicable policy coverage(s) should be answered by the issuing insurer(s). As used here, this is on the underlying employers liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_EmployersLiability_PremiumAmount_A",
+      "page": 0,
+      "rect": [
+        504.0,
+        660.0,
+        562.0,
+        672.0
+      ],
+      "tooltip": "Enter amount: The premium amount on the underlying employers liability policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_EmployersLiability_ModificationFactor_A",
+      "page": 0,
+      "rect": [
+        569.0,
+        654.0,
+        590.0,
+        678.0
+      ],
+      "tooltip": "Enter rate: The combined rating modification and experience modification debit or credit as they apply.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_PolicyTypeDescription_A",
+      "page": 0,
+      "rect": [
+        22.0,
+        690.0,
+        65.0,
+        702.0
+      ],
+      "tooltip": "Enter text: The description of the underlying policy type.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_InsurerFullName_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        684.0,
+        212.0,
+        696.0
+      ],
+      "tooltip": "Enter text: The full name of the insurer of the underlying policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_PolicyNumberIdentifier_A",
+      "page": 0,
+      "rect": [
+        72.0,
+        696.0,
+        212.0,
+        708.0
+      ],
+      "tooltip": "Enter identifier: The policy number of the underlying policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_PolicyEffectiveDate_A",
+      "page": 0,
+      "rect": [
+        220.0,
+        690.0,
+        277.0,
+        702.0
+      ],
+      "tooltip": "Enter date: The effective date of the underlying policy. (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_PolicyExpirationDate_A",
+      "page": 0,
+      "rect": [
+        284.0,
+        690.0,
+        342.0,
+        702.0
+      ],
+      "tooltip": "Enter date: The expiration date of the underlying policy. (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_CoverageDescription_A",
+      "page": 0,
+      "rect": [
+        349.0,
+        690.0,
+        418.0,
+        702.0
+      ],
+      "tooltip": "Enter text: The description of the coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_CombinedSingleLimitAmount_A",
+      "page": 0,
+      "rect": [
+        421.0,
+        690.0,
+        490.0,
+        702.0
+      ],
+      "tooltip": "Enter limit: The combined single or total limit on the underlying policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_PremiumAmount_A",
+      "page": 0,
+      "rect": [
+        504.0,
+        690.0,
+        562.0,
+        702.0
+      ],
+      "tooltip": "Enter amount: The premium amount on the underlying policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_ModificationFactor_A",
+      "page": 0,
+      "rect": [
+        569.0,
+        690.0,
+        590.0,
+        702.0
+      ],
+      "tooltip": "Enter rate: The combined rating modification and experience modification debit or credit as they apply.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_PolicyTypeDescription_B",
+      "page": 0,
+      "rect": [
+        22.0,
+        714.0,
+        65.0,
+        726.0
+      ],
+      "tooltip": "Enter text: The description of the underlying policy type.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_InsurerFullName_B",
+      "page": 0,
+      "rect": [
+        72.0,
+        708.0,
+        212.0,
+        720.0
+      ],
+      "tooltip": "Enter text: The full name of the insurer of the underlying policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_PolicyNumberIdentifier_B",
+      "page": 0,
+      "rect": [
+        72.0,
+        720.0,
+        212.0,
+        732.0
+      ],
+      "tooltip": "Enter identifier: The policy number of the underlying policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_PolicyEffectiveDate_B",
+      "page": 0,
+      "rect": [
+        220.0,
+        714.0,
+        277.0,
+        726.0
+      ],
+      "tooltip": "Enter date: The effective date of the underlying policy. (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_PolicyExpirationDate_B",
+      "page": 0,
+      "rect": [
+        284.0,
+        714.0,
+        342.0,
+        726.0
+      ],
+      "tooltip": "Enter date: The expiration date of the underlying policy. (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_CoverageDescription_B",
+      "page": 0,
+      "rect": [
+        349.0,
+        714.0,
+        418.0,
+        726.0
+      ],
+      "tooltip": "Enter text: The description of the coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_CombinedSingleLimitAmount_B",
+      "page": 0,
+      "rect": [
+        421.0,
+        714.0,
+        490.0,
+        726.0
+      ],
+      "tooltip": "Enter limit: The combined single or total limit on the underlying policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_PremiumAmount_B",
+      "page": 0,
+      "rect": [
+        504.0,
+        714.0,
+        562.0,
+        726.0
+      ],
+      "tooltip": "Enter amount: The premium amount on the underlying policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_OtherPolicy_ModificationFactor_B",
+      "page": 0,
+      "rect": [
+        569.0,
+        714.0,
+        590.0,
+        726.0
+      ],
+      "tooltip": "Enter rate: The combined rating modification and experience modification debit or credit as they apply.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 1,
+      "rect": [
+        378.0,
+        24.0,
+        594.0,
+        36.0
+      ],
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ACBYesIndicator_A",
+      "page": 1,
+      "rect": [
+        158.0,
+        54.0,
+        173.0,
+        66.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates defense costs are within aggregate limits.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ACCYesIndicator_A",
+      "page": 1,
+      "rect": [
+        310.0,
+        54.0,
+        324.0,
+        66.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates defense costs a separate limit?",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ACDYesIndicator_A",
+      "page": 1,
+      "rect": [
+        425.0,
+        54.0,
+        439.0,
+        66.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates defense costs are unlimited.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_GeneralLiability_FormEditionDate_A",
+      "page": 1,
+      "rect": [
+        436.0,
+        93.0,
+        594.0,
+        105.0
+      ],
+      "tooltip": "Enter date: The edition date of the underlying general liability coverage form.  Policy coverage may vary depending on the edition date of the policy paper. The underlying general liability coverage forms issued by Insurances Services Office (ISO) vary if they are based on the rules of \"86\" or the rules of \"88\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ACECode_A",
+      "page": 1,
+      "rect": [
+        565.0,
+        108.0,
+        580.0,
+        120.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Has any product, work, accident, or location been excluded, uninsured or self insured from any previous coverage?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_AnyProductWorkAccidentlocationBeenExcludedUninsuredExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        120.0,
+        587.0,
+        165.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether any product, work, accident or location has been excluded, uninsured or self-insured from any previous coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_ClaimsMade_RetroactiveDate_A",
+      "page": 1,
+      "rect": [
+        371.0,
+        165.0,
+        590.0,
+        177.0
+      ],
+      "tooltip": "Enter date: The retroactive date if the policy was issued on a Claims Made basis and there was a retroactive date.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "GeneralLiability_ClaimsMade_UninterruptedCoverageEntryDate_A",
+      "page": 1,
+      "rect": [
+        400.0,
+        177.0,
+        590.0,
+        189.0
+      ],
+      "tooltip": "Enter date: The retroactive date shown on the applicant's first Claims Made policy.  If this is the first such policy, the date will be the same as the proposed retroactive date shown on the preceding field. If this is a renewal, it is the effective date of the first policy issued in the sequence of uninterrupted Claims Made policies.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ACFCode_A",
+      "page": 1,
+      "rect": [
+        454.0,
+        189.0,
+        468.0,
+        201.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"For Claims made, was \"tail\" coverage purchased for any previous primary or excess policy?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingPolicy_GeneralLiability_TailCoverageEffectiveDate_A",
+      "page": 1,
+      "rect": [
+        518.0,
+        189.0,
+        576.0,
+        201.0
+      ],
+      "tooltip": "Enter date: The effective date of the tail coverage.  The proposed retroactive date for the policy being applied for should not be earlier than the effective date of the tail coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_TailCoveragePurchasedAnyPreviousPrimaryOrExcessPolicyExplanation_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        204.0,
+        590.0,
+        216.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether tail coverage was purchased for any previous primary or excess policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_AnyAutoIndicator_A",
+      "page": 1,
+      "rect": [
+        18.0,
+        246.0,
+        32.0,
+        258.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy coverage any automobile (symbol 1).",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_GeneralLiabilityClaimsMadeIndicator_A",
+      "page": 1,
+      "rect": [
+        18.0,
+        258.0,
+        32.0,
+        270.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying general liability policy is a claims made policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_GeneralLiabilityOccurrenceIndicator_A",
+      "page": 1,
+      "rect": [
+        18.0,
+        270.0,
+        32.0,
+        282.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying general liability policy is an occurrence policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_AircraftLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        18.0,
+        294.0,
+        32.0,
+        306.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes aircraft liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_AircraftLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        191.0,
+        294.0,
+        205.0,
+        306.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for aircraft liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_AircraftPassengerLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        18.0,
+        306.0,
+        32.0,
+        318.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes aircraft passenger liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_AircraftPassengerLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        191.0,
+        306.0,
+        205.0,
+        318.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for aircraft passenger liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_AdditionalInterestsIndicator_A",
+      "page": 1,
+      "rect": [
+        18.0,
+        318.0,
+        32.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes additional interests coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_AdditionalInterestsIndicator_A",
+      "page": 1,
+      "rect": [
+        191.0,
+        318.0,
+        205.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for additional interests coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_CareCustodyControlIndicator_A",
+      "page": 1,
+      "rect": [
+        205.0,
+        246.0,
+        220.0,
+        258.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes care, custody and control coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_CareCustodyControlIndicator_A",
+      "page": 1,
+      "rect": [
+        407.0,
+        246.0,
+        421.0,
+        258.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for care, custody and control coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_EmployeeBenefitsLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        205.0,
+        258.0,
+        220.0,
+        270.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes employee benefits liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_EmployeeBenefitsLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        407.0,
+        258.0,
+        421.0,
+        270.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for employee benefits liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_ForeignLiabilityTravelIndicator_A",
+      "page": 1,
+      "rect": [
+        205.0,
+        270.0,
+        220.0,
+        282.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes foreign liability/travel coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_ForeignLiabilityTravelIndicator_A",
+      "page": 1,
+      "rect": [
+        407.0,
+        270.0,
+        421.0,
+        282.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for foreign liability/travel coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_GaragekeepersLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        205.0,
+        282.0,
+        220.0,
+        294.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes garage keepers liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_GaragekeepersLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        407.0,
+        282.0,
+        421.0,
+        294.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for garage keepers liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_IncidentalMedicalMalpracticeIndicator_A",
+      "page": 1,
+      "rect": [
+        205.0,
+        294.0,
+        220.0,
+        306.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes incidental medical malpractice coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_IncidentalMedicalMalpracticeIndicator_A",
+      "page": 1,
+      "rect": [
+        407.0,
+        294.0,
+        421.0,
+        306.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for incidental medical malpractice coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_LiquorLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        205.0,
+        306.0,
+        220.0,
+        318.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes liquor liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_LiquorLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        407.0,
+        306.0,
+        421.0,
+        318.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for liquor liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_PollutionLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        205.0,
+        318.0,
+        220.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes pollution liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_PollutionLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        407.0,
+        318.0,
+        421.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for pollution liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_ProfessionalLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        421.0,
+        246.0,
+        436.0,
+        258.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes professional liability (errors and omissions) coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_ProfessionalLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        580.0,
+        246.0,
+        594.0,
+        258.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for professional liability (errors and omissions) coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_VendorsLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        421.0,
+        258.0,
+        436.0,
+        270.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes vendors liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_VendorsLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        580.0,
+        258.0,
+        594.0,
+        270.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for vendors liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_WatercraftLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        421.0,
+        270.0,
+        436.0,
+        282.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes watercraft liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_WatercraftLiabilityIndicator_A",
+      "page": 1,
+      "rect": [
+        580.0,
+        270.0,
+        594.0,
+        282.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for watercraft liability coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_OtherIndicator_A",
+      "page": 1,
+      "rect": [
+        421.0,
+        282.0,
+        436.0,
+        294.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes a coverage not listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_OtherDescription_A",
+      "page": 1,
+      "rect": [
+        439.0,
+        282.0,
+        576.0,
+        294.0
+      ],
+      "tooltip": "Enter text: The description of the coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_OtherIndicator_A",
+      "page": 1,
+      "rect": [
+        580.0,
+        282.0,
+        594.0,
+        294.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for the coverage described.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_OtherIndicator_B",
+      "page": 1,
+      "rect": [
+        421.0,
+        294.0,
+        436.0,
+        306.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes a coverage not listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_OtherDescription_B",
+      "page": 1,
+      "rect": [
+        439.0,
+        294.0,
+        576.0,
+        306.0
+      ],
+      "tooltip": "Enter text: The description of the coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_OtherIndicator_B",
+      "page": 1,
+      "rect": [
+        580.0,
+        294.0,
+        594.0,
+        306.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for the coverage described.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_OtherIndicator_C",
+      "page": 1,
+      "rect": [
+        421.0,
+        306.0,
+        436.0,
+        318.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes a coverage not listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_OtherDescription_C",
+      "page": 1,
+      "rect": [
+        439.0,
+        306.0,
+        576.0,
+        318.0
+      ],
+      "tooltip": "Enter text: The description of the coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_OtherIndicator_C",
+      "page": 1,
+      "rect": [
+        580.0,
+        306.0,
+        594.0,
+        318.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for the coverage described.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_OtherIndicator_D",
+      "page": 1,
+      "rect": [
+        421.0,
+        318.0,
+        436.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the underlying policy includes a coverage not listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Coverage_OtherDescription_D",
+      "page": 1,
+      "rect": [
+        439.0,
+        318.0,
+        576.0,
+        330.0
+      ],
+      "tooltip": "Enter text: The description of the coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_Exposure_OtherIndicator_D",
+      "page": 1,
+      "rect": [
+        580.0,
+        318.0,
+        594.0,
+        330.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the limits are less than those shown on the underlying insurance section of the form causing an exposure to exists for the coverage described.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "UnderlyingCoverage_InformationDescription_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        348.0,
+        590.0,
+        420.0
+      ],
+      "tooltip": "Enter text: The description of underlying insurance coverage information including all restrictions (e.g. laser endorsements, discrimination, subrogation waivers) or extensions of coverage.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_ClaimDate_A",
+      "page": 1,
+      "rect": [
+        61.0,
+        438.0,
+        119.0,
+        450.0
+      ],
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_LineOfBusiness_A",
+      "page": 1,
+      "rect": [
+        119.0,
+        438.0,
+        205.0,
+        450.0
+      ],
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_OccurrenceDescription_A",
+      "page": 1,
+      "rect": [
+        205.0,
+        438.0,
+        454.0,
+        450.0
+      ],
+      "tooltip": "Enter text: A brief description of the loss.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_PaidAmount_A",
+      "page": 1,
+      "rect": [
+        454.0,
+        438.0,
+        522.0,
+        450.0
+      ],
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_ReservedAmount_A",
+      "page": 1,
+      "rect": [
+        522.0,
+        438.0,
+        590.0,
+        450.0
+      ],
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_ClaimDate_B",
+      "page": 1,
+      "rect": [
+        61.0,
+        450.0,
+        119.0,
+        462.0
+      ],
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_LineOfBusiness_B",
+      "page": 1,
+      "rect": [
+        119.0,
+        450.0,
+        205.0,
+        462.0
+      ],
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_OccurrenceDescription_B",
+      "page": 1,
+      "rect": [
+        205.0,
+        450.0,
+        454.0,
+        462.0
+      ],
+      "tooltip": "Enter text: A brief description of the loss.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_PaidAmount_B",
+      "page": 1,
+      "rect": [
+        454.0,
+        450.0,
+        522.0,
+        462.0
+      ],
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_ReservedAmount_B",
+      "page": 1,
+      "rect": [
+        522.0,
+        450.0,
+        590.0,
+        462.0
+      ],
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_ClaimDate_C",
+      "page": 1,
+      "rect": [
+        61.0,
+        462.0,
+        119.0,
+        474.0
+      ],
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_LineOfBusiness_C",
+      "page": 1,
+      "rect": [
+        119.0,
+        462.0,
+        205.0,
+        474.0
+      ],
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_OccurrenceDescription_C",
+      "page": 1,
+      "rect": [
+        205.0,
+        462.0,
+        454.0,
+        474.0
+      ],
+      "tooltip": "Enter text: A brief description of the loss.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_PaidAmount_C",
+      "page": 1,
+      "rect": [
+        454.0,
+        462.0,
+        522.0,
+        474.0
+      ],
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_ReservedAmount_C",
+      "page": 1,
+      "rect": [
+        522.0,
+        462.0,
+        590.0,
+        474.0
+      ],
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_ClaimDate_D",
+      "page": 1,
+      "rect": [
+        61.0,
+        474.0,
+        119.0,
+        486.0
+      ],
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_LineOfBusiness_D",
+      "page": 1,
+      "rect": [
+        119.0,
+        474.0,
+        205.0,
+        486.0
+      ],
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_OccurrenceDescription_D",
+      "page": 1,
+      "rect": [
+        205.0,
+        474.0,
+        454.0,
+        486.0
+      ],
+      "tooltip": "Enter text: A brief description of the loss.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_PaidAmount_D",
+      "page": 1,
+      "rect": [
+        454.0,
+        474.0,
+        522.0,
+        486.0
+      ],
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_ReservedAmount_D",
+      "page": 1,
+      "rect": [
+        522.0,
+        474.0,
+        590.0,
+        486.0
+      ],
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_ClaimDate_E",
+      "page": 1,
+      "rect": [
+        61.0,
+        486.0,
+        119.0,
+        498.0
+      ],
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_LineOfBusiness_E",
+      "page": 1,
+      "rect": [
+        119.0,
+        486.0,
+        205.0,
+        498.0
+      ],
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_OccurrenceDescription_E",
+      "page": 1,
+      "rect": [
+        205.0,
+        486.0,
+        454.0,
+        498.0
+      ],
+      "tooltip": "Enter text: A brief description of the loss.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_PaidAmount_E",
+      "page": 1,
+      "rect": [
+        454.0,
+        486.0,
+        522.0,
+        498.0
+      ],
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_ReservedAmount_E",
+      "page": 1,
+      "rect": [
+        522.0,
+        486.0,
+        590.0,
+        498.0
+      ],
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_ClaimDate_F",
+      "page": 1,
+      "rect": [
+        61.0,
+        498.0,
+        119.0,
+        510.0
+      ],
+      "tooltip": "Enter date: The date the claim was filed.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_LineOfBusiness_F",
+      "page": 1,
+      "rect": [
+        119.0,
+        498.0,
+        205.0,
+        510.0
+      ],
+      "tooltip": "Enter text: The line of business involved in the loss (e.g. Automobile Liability, Property, General Liability).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_OccurrenceDescription_F",
+      "page": 1,
+      "rect": [
+        205.0,
+        498.0,
+        454.0,
+        510.0
+      ],
+      "tooltip": "Enter text: A brief description of the loss.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_PaidAmount_F",
+      "page": 1,
+      "rect": [
+        454.0,
+        498.0,
+        522.0,
+        510.0
+      ],
+      "tooltip": "Enter amount: The amount that has been paid on this claim to date.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_ReservedAmount_F",
+      "page": 1,
+      "rect": [
+        522.0,
+        498.0,
+        590.0,
+        510.0
+      ],
+      "tooltip": "Enter amount: The reserve amount the previous carrier is holding open for this claim.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "LossHistory_NoPriorLossesIndicator_A",
+      "page": 1,
+      "rect": [
+        18.0,
+        504.0,
+        32.0,
+        516.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates there are no prior losses or occurrences that may give rise to claims for the mandated number of years. As used here, also indicates there were no claims exceeding $10,000.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CareCustodyAndControl_Location_ProducerIdentifier_A",
+      "page": 1,
+      "rect": [
+        18.0,
+        546.0,
+        43.0,
+        558.0
+      ],
+      "tooltip": "Enter number: The producer assigned number for the location if applicable to the ACORD 125.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CareCustodyAndControl_Property_RealIndicator_A",
+      "page": 1,
+      "rect": [
+        43.0,
+        540.0,
+        58.0,
+        552.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the property in the care, custody and control of the insured is real property.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CareCustodyAndControl_Property_PersonalIndicator_A",
+      "page": 1,
+      "rect": [
+        43.0,
+        552.0,
+        58.0,
+        564.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the property in the care, custody and control of the insured is personal property.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CareCustodyAndControl_Property_ValueAmount_A",
+      "page": 1,
+      "rect": [
+        119.0,
+        546.0,
+        277.0,
+        558.0
+      ],
+      "tooltip": "Enter amount: The value of the entire building, not just the portion occupied, for real property or the value of the personal property.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CareCustodyAndControl_InsuredLiability_HeldHarmlessIndicator_A",
+      "page": 1,
+      "rect": [
+        281.0,
+        546.0,
+        295.0,
+        558.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the insured is held harmless in the lease.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CareCustodyAndControl_InsuredLiability_HasSubrogationWaiverIndicator_A",
+      "page": 1,
+      "rect": [
+        295.0,
+        546.0,
+        310.0,
+        558.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the insured has a waiver of subrogation.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CareCustodyAndControl_InsuredLiability_IsNamedInsuredOnFirePolicy_A",
+      "page": 1,
+      "rect": [
+        310.0,
+        546.0,
+        324.0,
+        558.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the insured is a named insured on the fire policy.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CareCustodyAndControl_InsuredLiability_OtherDescription_A",
+      "page": 1,
+      "rect": [
+        328.0,
+        546.0,
+        493.0,
+        558.0
+      ],
+      "tooltip": "Enter text: The description of the insured's liability for the described premises when other than those listed.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CareCustodyAndControl_Location_OccupiedArea_A",
+      "page": 1,
+      "rect": [
+        500.0,
+        546.0,
+        590.0,
+        558.0
+      ],
+      "tooltip": "Enter number: The total square footage of the premises occupied by the applicant.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CareCustodyAndControl_Property_PropertyDescription_A",
+      "page": 1,
+      "rect": [
+        22.0,
+        576.0,
+        590.0,
+        612.0
+      ],
+      "tooltip": "Enter text: The description of the building occupancy or of the property held by the insured in his care, custody and control.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_PrivatePassenger_OwnedCount_A",
+      "page": 1,
+      "rect": [
+        115.0,
+        660.0,
+        144.0,
+        672.0
+      ],
+      "tooltip": "Enter number: The number of owned private passenger vehicles.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_PrivatePassenger_NonOwnedCount_A",
+      "page": 1,
+      "rect": [
+        151.0,
+        660.0,
+        180.0,
+        672.0
+      ],
+      "tooltip": "Enter number: The number of non-owned private passenger vehicles.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_PrivatePassenger_LeasedCount_A",
+      "page": 1,
+      "rect": [
+        187.0,
+        660.0,
+        216.0,
+        672.0
+      ],
+      "tooltip": "Enter number: The number of leased private passenger vehicles.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_PrivatePassenger_PropertyHauledDescription_A",
+      "page": 1,
+      "rect": [
+        223.0,
+        660.0,
+        482.0,
+        672.0
+      ],
+      "tooltip": "Enter text: The description of property hauled in private passenger vehicles.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_PrivatePassenger_LocalRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        490.0,
+        660.0,
+        518.0,
+        672.0
+      ],
+      "tooltip": "Enter number: The number of private passenger vehicles that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\"..",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_PrivatePassenger_IntermediateRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        526.0,
+        660.0,
+        554.0,
+        672.0
+      ],
+      "tooltip": "Enter number: The number of private passenger vehicles that fall within the category of intermediate radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_PrivatePassenger_LongDistanceRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        562.0,
+        660.0,
+        590.0,
+        672.0
+      ],
+      "tooltip": "Enter number: The number of private passenger vehicles that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_LightWeightTruck_OwnedCount_A",
+      "page": 1,
+      "rect": [
+        115.0,
+        672.0,
+        144.0,
+        684.0
+      ],
+      "tooltip": "Enter number: The number of owned light weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_LightWeightTruck_NonOwnedCount_A",
+      "page": 1,
+      "rect": [
+        151.0,
+        672.0,
+        180.0,
+        684.0
+      ],
+      "tooltip": "Enter number: The number of non-owned light weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_LightWeightTruck_LeasedCount_A",
+      "page": 1,
+      "rect": [
+        187.0,
+        672.0,
+        216.0,
+        684.0
+      ],
+      "tooltip": "Enter number: The number of leased light weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_LightWeightTruck_PropertyHauledDescription_A",
+      "page": 1,
+      "rect": [
+        223.0,
+        672.0,
+        482.0,
+        684.0
+      ],
+      "tooltip": "Enter text: The description of property hauled in light weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_LightWeightTruck_LocalRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        490.0,
+        672.0,
+        518.0,
+        684.0
+      ],
+      "tooltip": "Enter number: The number of light weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_LightWeightTruck_IntermediateRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        526.0,
+        672.0,
+        554.0,
+        684.0
+      ],
+      "tooltip": "Enter number: The number of light weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_LightWeightTruck_LongDistanceRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        562.0,
+        672.0,
+        590.0,
+        684.0
+      ],
+      "tooltip": "Enter number: The number of light weight trucks that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_MediumWeightTruck_OwnedCount_A",
+      "page": 1,
+      "rect": [
+        115.0,
+        684.0,
+        144.0,
+        696.0
+      ],
+      "tooltip": "Enter number: The number of owned medium weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_MediumWeightTruck_NonOwnedCount_A",
+      "page": 1,
+      "rect": [
+        151.0,
+        684.0,
+        180.0,
+        696.0
+      ],
+      "tooltip": "Enter number: The number of non-owned medium weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_MediumWeightTruck_LeasedCount_A",
+      "page": 1,
+      "rect": [
+        187.0,
+        684.0,
+        216.0,
+        696.0
+      ],
+      "tooltip": "Enter number: The number of leased medium weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_MediumWeightTruck_PropertyHauledDescription_A",
+      "page": 1,
+      "rect": [
+        223.0,
+        684.0,
+        482.0,
+        696.0
+      ],
+      "tooltip": "Enter text: The description of property hauled in medium weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_MediumWeightTruck_LocalRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        490.0,
+        684.0,
+        518.0,
+        696.0
+      ],
+      "tooltip": "Enter number: The number of medium weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_MediumWeightTruck_IntermediateRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        526.0,
+        684.0,
+        554.0,
+        696.0
+      ],
+      "tooltip": "Enter number: The number of medium weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_MediumWeightTruck_LongDistanceRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        562.0,
+        684.0,
+        590.0,
+        696.0
+      ],
+      "tooltip": "Enter number: The number of medium weight trucks that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruck_OwnedCount_A",
+      "page": 1,
+      "rect": [
+        115.0,
+        696.0,
+        144.0,
+        708.0
+      ],
+      "tooltip": "Enter number: The number of owned heavy weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruck_NonOwnedCount_A",
+      "page": 1,
+      "rect": [
+        151.0,
+        696.0,
+        180.0,
+        708.0
+      ],
+      "tooltip": "Enter number: The number of non-owned heavy weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruck_LeasedCount_A",
+      "page": 1,
+      "rect": [
+        187.0,
+        696.0,
+        216.0,
+        708.0
+      ],
+      "tooltip": "Enter number: The number of leased heavy weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruck_PropertyHauledDescription_A",
+      "page": 1,
+      "rect": [
+        223.0,
+        696.0,
+        482.0,
+        708.0
+      ],
+      "tooltip": "Enter text: The description of property hauled in heavy weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruck_LocalRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        490.0,
+        696.0,
+        518.0,
+        708.0
+      ],
+      "tooltip": "Enter number: The number of  heavy weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruck_IntermediateRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        526.0,
+        696.0,
+        554.0,
+        708.0
+      ],
+      "tooltip": "Enter number: The number of heavy weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruck_LongDistanceRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        562.0,
+        696.0,
+        590.0,
+        708.0
+      ],
+      "tooltip": "Enter number: The number of  heavy weight trucks that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruck_OwnedCount_A",
+      "page": 1,
+      "rect": [
+        115.0,
+        708.0,
+        144.0,
+        720.0
+      ],
+      "tooltip": "Enter number: The number of owned extra heavy weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruck_NonOwnedCount_A",
+      "page": 1,
+      "rect": [
+        151.0,
+        708.0,
+        180.0,
+        720.0
+      ],
+      "tooltip": "Enter number: The number of non-owned extra heavy weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruck_LeasedCount_A",
+      "page": 1,
+      "rect": [
+        187.0,
+        708.0,
+        216.0,
+        720.0
+      ],
+      "tooltip": "Enter number: The number of leased extra heavy weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruck_PropertyHauledDescription_A",
+      "page": 1,
+      "rect": [
+        223.0,
+        708.0,
+        482.0,
+        720.0
+      ],
+      "tooltip": "Enter text: The description of property hauled in extra heavy weight trucks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruck_LocalRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        490.0,
+        708.0,
+        518.0,
+        720.0
+      ],
+      "tooltip": "Enter number: The number of extra heavy weight trucks that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruck_IntermediateRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        526.0,
+        708.0,
+        554.0,
+        720.0
+      ],
+      "tooltip": "Enter number: The number of extra heavy weight trucks. that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruck_LongDistanceRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        562.0,
+        708.0,
+        590.0,
+        720.0
+      ],
+      "tooltip": "Enter number: The number of extra heavy weight trucks that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruckTractor_OwnedCount_A",
+      "page": 1,
+      "rect": [
+        115.0,
+        720.0,
+        144.0,
+        732.0
+      ],
+      "tooltip": "Enter number: The number of owned heavy weight truck tractors.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruckTractor_NonOwnedCount_A",
+      "page": 1,
+      "rect": [
+        151.0,
+        720.0,
+        180.0,
+        732.0
+      ],
+      "tooltip": "Enter number: The number of non-owned heavy weight truck tractors.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruckTractor_LeasedCount_A",
+      "page": 1,
+      "rect": [
+        187.0,
+        720.0,
+        216.0,
+        732.0
+      ],
+      "tooltip": "Enter number: The number of leased heavy weight truck tractors.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruckTractor_PropertyHauledDescription_A",
+      "page": 1,
+      "rect": [
+        223.0,
+        720.0,
+        482.0,
+        732.0
+      ],
+      "tooltip": "Enter text: The description of property hauled in heavy weight truck tractors.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruckTractor_LocalRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        490.0,
+        720.0,
+        518.0,
+        732.0
+      ],
+      "tooltip": "Enter number: The number of heavy weight truck tractors that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruckTractor_IntermediateRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        526.0,
+        720.0,
+        554.0,
+        732.0
+      ],
+      "tooltip": "Enter number: The number of heavy weight truck tractors that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_HeavyWeightTruckTractor_LongDistanceRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        562.0,
+        720.0,
+        590.0,
+        732.0
+      ],
+      "tooltip": "Enter number: The number of heavy weight truck tractors that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruckTractor_OwnedCount_A",
+      "page": 1,
+      "rect": [
+        115.0,
+        732.0,
+        144.0,
+        744.0
+      ],
+      "tooltip": "Enter number: The number of owned extra heavy weight truck tractors.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruckTractor_NonOwnedCount_A",
+      "page": 1,
+      "rect": [
+        151.0,
+        732.0,
+        180.0,
+        744.0
+      ],
+      "tooltip": "Enter number: The number of non-owned extra heavy weight truck tractors.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruckTractor_LeasedCount_A",
+      "page": 1,
+      "rect": [
+        187.0,
+        732.0,
+        216.0,
+        744.0
+      ],
+      "tooltip": "Enter number: The number of leased extra heavy weight truck tractors.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruckTractor_PropertyHauledDescription_A",
+      "page": 1,
+      "rect": [
+        223.0,
+        732.0,
+        482.0,
+        744.0
+      ],
+      "tooltip": "Enter text: The description of property hauled in extra heavy weight truck tractors.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruckTractor_LocalRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        490.0,
+        732.0,
+        518.0,
+        744.0
+      ],
+      "tooltip": "Enter number: The number of extra heavy weight truck tractors that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruckTractor_IntermediateRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        526.0,
+        732.0,
+        554.0,
+        744.0
+      ],
+      "tooltip": "Enter number: The number of extra heavy weight truck tractors that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_ExtraHeavyWeightTruckTractor_LongDistanceRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        562.0,
+        732.0,
+        590.0,
+        744.0
+      ],
+      "tooltip": "Enter number: The number of extra heavy weight truck tractors that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_Bus_OwnedCount_A",
+      "page": 1,
+      "rect": [
+        115.0,
+        744.0,
+        144.0,
+        756.0
+      ],
+      "tooltip": "Enter number: The number of owned buses.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_Bus_NonOwnedCount_A",
+      "page": 1,
+      "rect": [
+        151.0,
+        744.0,
+        180.0,
+        756.0
+      ],
+      "tooltip": "Enter number: The number of non-owned buses.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_Bus_LeasedCount_A",
+      "page": 1,
+      "rect": [
+        187.0,
+        744.0,
+        216.0,
+        756.0
+      ],
+      "tooltip": "Enter number: The number of leased buses.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_Bus_PropertyHauledDescription_A",
+      "page": 1,
+      "rect": [
+        223.0,
+        744.0,
+        482.0,
+        756.0
+      ],
+      "tooltip": "Enter text: The description of property hauled in buses.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_Bus_LocalRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        490.0,
+        744.0,
+        518.0,
+        756.0
+      ],
+      "tooltip": "Enter number: The number of buses that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"local\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_Bus_IntermediateRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        526.0,
+        744.0,
+        554.0,
+        756.0
+      ],
+      "tooltip": "Enter number: The number of buses that fall within the category of local radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"intermediate\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "VehicleFleet_Bus_LongDistanceRadiusVehicleCount_A",
+      "page": 1,
+      "rect": [
+        562.0,
+        744.0,
+        590.0,
+        756.0
+      ],
+      "tooltip": "Enter number: The number of buses that fall within the category of long distance radius/distance in accordance with a company's rating rules. The Insurance Services Office maintains the definition of \"long distance\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 2,
+      "rect": [
+        378.0,
+        24.0,
+        594.0,
+        36.0
+      ],
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdvertisersLiability_MediaUsedCode_A",
+      "page": 2,
+      "rect": [
+        90.0,
+        66.0,
+        569.0,
+        78.0
+      ],
+      "tooltip": "Enter code: The type of advertising media used (e.g. Print, Television, Radio, etc.)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "AdvertisersLiability_AnnualCostAmount_A",
+      "page": 2,
+      "rect": [
+        104.0,
+        78.0,
+        569.0,
+        90.0
+      ],
+      "tooltip": "Enter amount: The annual cost of the advertising media used.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_AABCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        96.0,
+        590.0,
+        108.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Are services of an Advertising Agency used?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_ServicesOfAdvertisingAgencyUsedExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        102.0,
+        569.0,
+        126.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether any services from an advertising agency have been used.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_AACCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        132.0,
+        590.0,
+        144.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Any coverage provided under agency's policy?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_AnyCoverageProvidedUnderAgencyPolicyExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        138.0,
+        569.0,
+        162.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether any coverage has been provided under the agency's policy.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_AADCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        180.0,
+        590.0,
+        192.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Does applicant own / lease / operate aircraft?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_ApplicantOwnLeaseOperateAircraftExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        186.0,
+        569.0,
+        210.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether the applicant owns / leases / operates aircraft.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_AAECode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        228.0,
+        590.0,
+        240.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Are explosives, caustics, flammables or other dangerous cargo hauled?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_ExplosivesCausticsFlammablesOtherDangerousCargoHauledExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        234.0,
+        569.0,
+        258.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether any explosives, caustics, flammable or other dangerous cargo is hauled.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_AAFCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        264.0,
+        590.0,
+        276.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Are passengers carried for a fee?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_PassengersCarriedForFeeExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        270.0,
+        569.0,
+        294.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether any passengers are carried for a fee.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_AAGCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        300.0,
+        590.0,
+        312.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Any units not insured by underlying policies?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_AnyUnitsNotInsuredUnderlyingPoliciesExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        306.0,
+        569.0,
+        330.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether any units are not insured by underlying policies.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_AAHCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        336.0,
+        590.0,
+        348.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Are any vehicles leased or rented to others?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_AnyVehiclesLeasedRentedOthersExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        342.0,
+        569.0,
+        366.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether any vehicles are leased or rented to others.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_AAICode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        372.0,
+        590.0,
+        384.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Are hired and non-owned coverages provided?\"",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_HiredAndNonOwnedCoverageProvidedExplanation_J",
+      "page": 2,
+      "rect": [
+        22.0,
+        378.0,
+        569.0,
+        402.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether any hired and non-owned coverages are provided.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_AAJCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        420.0,
+        590.0,
+        432.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Is bridge, dam or marine work performed?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_BridgeDamMarineWorkPerformedExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        426.0,
+        569.0,
+        450.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether any bridge, dam, or marine work is performed.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "Contractors_WorkContractedDescription_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        462.0,
+        569.0,
+        492.0
+      ],
+      "tooltip": "Enter text: The description of work performed by the insured.  ACORD 101, Additional Remarks Schedule, may be attached if more space is required.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "Contractors_AgreementDescription_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        504.0,
+        569.0,
+        528.0
+      ],
+      "tooltip": "Enter text: The description of the contractual agreement(s) pertaining to the work performed.   ACORD 101, Additional Remarks Schedule, may be attached if more space is required.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ABACode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        534.0,
+        590.0,
+        546.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Does applicant own, rent or otherwise use cranes?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_ApplicantOwnRentUseCranesExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        540.0,
+        569.0,
+        564.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether the applicant owns, rents or uses cranes.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ABBCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        570.0,
+        590.0,
+        582.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Do subcontractors carry coverages or limits less than applicant?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_SubcontractorsCarryCoveragesLessThanApplicantExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        576.0,
+        569.0,
+        600.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether subcontractors carry coverages or limits less than applicant.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ABCCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        618.0,
+        590.0,
+        630.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Is applicant self-insured in any state?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_ApplicantSelfInsuredAnyStateExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        624.0,
+        569.0,
+        648.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether the applicant is self-insured in any state.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_EmployersLiability_JonesActIndicator_A",
+      "page": 2,
+      "rect": [
+        94.0,
+        648.0,
+        108.0,
+        660.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the employee / self-insured is subject to the Jones Act.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_EmployersLiability_FELAIndicator_A",
+      "page": 2,
+      "rect": [
+        158.0,
+        648.0,
+        173.0,
+        660.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the employee / self-insured is subject to the Federal Employers Liability Act.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_EmployersLiability_StopGapIndicator_A",
+      "page": 2,
+      "rect": [
+        209.0,
+        648.0,
+        223.0,
+        660.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the employee / self-insured is subject to Stop Gap.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_EmployersLiability_OtherIndicator_A",
+      "page": 2,
+      "rect": [
+        274.0,
+        648.0,
+        288.0,
+        660.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the employee / self-insured is subject to regulations not listed.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_EmployersLiability_OtherDescription_A",
+      "page": 2,
+      "rect": [
+        324.0,
+        648.0,
+        590.0,
+        660.0
+      ],
+      "tooltip": "Enter text: The description of the regulations the employee / self-insured is subject to.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ABDCode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        678.0,
+        590.0,
+        690.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Hospital or first aid facility maintained?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_HospitalOrFirstAidFacilityMaintainedExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        684.0,
+        569.0,
+        708.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether a hospital or first aid facility is maintained.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ABECode_A",
+      "page": 2,
+      "rect": [
+        576.0,
+        714.0,
+        590.0,
+        726.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Coverage provided for doctors/nurses?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_CoverageProvidedForDoctorsNursesExplanation_A",
+      "page": 2,
+      "rect": [
+        22.0,
+        720.0,
+        569.0,
+        744.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether coverages are provided for doctors / nurses.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_MalpracticeLiability_DoctorCount_A",
+      "page": 2,
+      "rect": [
+        137.0,
+        744.0,
+        158.0,
+        756.0
+      ],
+      "tooltip": "Enter number: The number of doctors.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_MalpracticeLiability_NurseCount_A",
+      "page": 2,
+      "rect": [
+        198.0,
+        744.0,
+        227.0,
+        756.0
+      ],
+      "tooltip": "Enter number: The number of nurses.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_MalpracticeLiability_BedCount_A",
+      "page": 2,
+      "rect": [
+        256.0,
+        744.0,
+        288.0,
+        756.0
+      ],
+      "tooltip": "Enter number: The number of beds / bunks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 3,
+      "rect": [
+        378.0,
+        24.0,
+        594.0,
+        36.0
+      ],
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_PollutionLiability_InsuredEnvironmentalProtectionAgencyIdentifier_A",
+      "page": 3,
+      "rect": [
+        43.0,
+        54.0,
+        216.0,
+        66.0
+      ],
+      "tooltip": "Enter identifier: The number assigned to the insured by the Environmental Protection Agency.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ABFCode_A",
+      "page": 3,
+      "rect": [
+        576.0,
+        72.0,
+        590.0,
+        84.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Do current or past products, or their components, contain hazardous materials that may require special disposal methods?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_CurrentOrPastProductsContainHazardousMaterialsExplanation_A",
+      "page": 3,
+      "rect": [
+        22.0,
+        84.0,
+        569.0,
+        108.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether current or past products, or their components, contain hazardous materials that may require special disposal methods.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_PollutionLiability_GeneralLiabilityWithPollutionExclusionIndicator_A",
+      "page": 3,
+      "rect": [
+        36.0,
+        120.0,
+        50.0,
+        132.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the insured carries a general liability policy with standard Insurance Services Office pollution exclusion coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_PollutionLiability_GeneralLiabilitySuddenAndAccidentalOnlyIndicator_A",
+      "page": 3,
+      "rect": [
+        36.0,
+        132.0,
+        50.0,
+        144.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the insured carries a general liability policy with standard sudden and accidental only coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_PollutionLiability_GeneralLiabilityWithPollutionCoverageIndicator_A",
+      "page": 3,
+      "rect": [
+        245.0,
+        120.0,
+        259.0,
+        132.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the insured carries a general liability policy with a pollution coverage endorsement.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_PollutionLiability_SeparatePollutionCoverageIndicator_A",
+      "page": 3,
+      "rect": [
+        245.0,
+        132.0,
+        259.0,
+        144.0
+      ],
+      "tooltip": "Check the box (if applicable): Indicates the insured carries separate pollution coverage.",
+      "type": "checkbox",
+      "type_code": 2
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ABGCode_A",
+      "page": 3,
+      "rect": [
+        576.0,
+        162.0,
+        590.0,
+        174.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Are missiles, engines, guidance systems, frames or any other product used/installed in aircraft?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_MissilesEnginesGuidanceSystemsUsedInAircraftExplanation_A",
+      "page": 3,
+      "rect": [
+        22.0,
+        168.0,
+        569.0,
+        192.0
+      ],
+      "tooltip": "Enter text: An explanation as to whether missiles, engines, guidance systems, frames or any other product is used/installed in an aircraft.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_KAQCode_A",
+      "page": 3,
+      "rect": [
+        576.0,
+        198.0,
+        590.0,
+        210.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Any foreign operations, foreign products distributed in USA, or US products sold / distributed in foreign countries?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ABJCode_A",
+      "page": 3,
+      "rect": [
+        576.0,
+        222.0,
+        590.0,
+        234.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Any product liability loss in past specified number of years?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_ProductliabilityLossPastThreeYearsExplanation_A",
+      "page": 3,
+      "rect": [
+        22.0,
+        228.0,
+        569.0,
+        252.0
+      ],
+      "tooltip": "Enter text: An explanation of any product liability loss in the past three (3) years.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_ProductLiability_GrossSalesAmount_A",
+      "page": 3,
+      "rect": [
+        252.0,
+        252.0,
+        346.0,
+        264.0
+      ],
+      "tooltip": "Enter amount: The gross sales or receipts amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_ProductLiability_GrossSalesAmount_B",
+      "page": 3,
+      "rect": [
+        356.0,
+        252.0,
+        454.0,
+        264.0
+      ],
+      "tooltip": "Enter amount: The gross sales or receipts amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_ProductLiability_GrossSalesAmount_C",
+      "page": 3,
+      "rect": [
+        464.0,
+        252.0,
+        569.0,
+        264.0
+      ],
+      "tooltip": "Enter amount: The gross sales or receipts amount.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_ProtectiveLiability_IndependentContractorDescription_A",
+      "page": 3,
+      "rect": [
+        22.0,
+        288.0,
+        569.0,
+        312.0
+      ],
+      "tooltip": "Enter text: The description of independent contractors.   ACORD 101, Additional Remarks Schedule, may be attached if more space is required.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_Question_ACACode_A",
+      "page": 3,
+      "rect": [
+        576.0,
+        330.0,
+        590.0,
+        342.0
+      ],
+      "tooltip": "Enter Y for a \u201cYes\u201d response. Input N for \u201cNo\u201d response. The response to the question, \"Does applicant own or lease watercraft?\".",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_G",
+      "page": 3,
+      "rect": [
+        36.0,
+        348.0,
+        65.0,
+        360.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Watercraft_OwnedCount_A",
+      "page": 3,
+      "rect": [
+        68.0,
+        348.0,
+        133.0,
+        360.0
+      ],
+      "tooltip": "Enter number: The number of watercraft owned. As used here, the number of watercraft owned of the same type.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Watercraft_Length_A",
+      "page": 3,
+      "rect": [
+        140.0,
+        348.0,
+        205.0,
+        360.0
+      ],
+      "tooltip": "Enter number: The length of the watercraft expressed in feet.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Watercraft_Horsepower_A",
+      "page": 3,
+      "rect": [
+        212.0,
+        348.0,
+        284.0,
+        360.0
+      ],
+      "tooltip": "Enter number: The horsepower of the engine. There is a method for determining the maximum safe horsepower for a specific boat based on length and width. If the company employs this formula, it may be helpful to make note of the width in remarks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_H",
+      "page": 3,
+      "rect": [
+        302.0,
+        348.0,
+        331.0,
+        360.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Watercraft_OwnedCount_B",
+      "page": 3,
+      "rect": [
+        335.0,
+        348.0,
+        396.0,
+        360.0
+      ],
+      "tooltip": "Enter number: The number of watercraft owned. As used here, the number of watercraft owned of the same type.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Watercraft_Length_B",
+      "page": 3,
+      "rect": [
+        403.0,
+        348.0,
+        468.0,
+        360.0
+      ],
+      "tooltip": "Enter number: The length of the watercraft expressed in feet.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Watercraft_Horsepower_B",
+      "page": 3,
+      "rect": [
+        475.0,
+        348.0,
+        551.0,
+        360.0
+      ],
+      "tooltip": "Enter number: The horsepower of the engine. There is a method for determining the maximum safe horsepower for a specific boat based on length and width. If the company employs this formula, it may be helpful to make note of the width in remarks.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_I",
+      "page": 3,
+      "rect": [
+        36.0,
+        384.0,
+        65.0,
+        396.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_PropertyRating_StructureStoreyCount_A",
+      "page": 3,
+      "rect": [
+        68.0,
+        384.0,
+        112.0,
+        396.0
+      ],
+      "tooltip": "Enter number: The number of stories, counting the ground floor as one, which this building has.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_PropertyRating_ApartmentCount_A",
+      "page": 3,
+      "rect": [
+        119.0,
+        384.0,
+        155.0,
+        396.0
+      ],
+      "tooltip": "Enter number: The number of separate living units in the structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_PropertyRating_SwimmingPoolCount_A",
+      "page": 3,
+      "rect": [
+        162.0,
+        384.0,
+        223.0,
+        396.0
+      ],
+      "tooltip": "Enter number: The number of swimming pools on the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_PropertyRating_DivingBoardCount_A",
+      "page": 3,
+      "rect": [
+        230.0,
+        384.0,
+        284.0,
+        396.0
+      ],
+      "tooltip": "Enter number: The number of diving boards on the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "CommercialStructure_Location_ProducerIdentifier_J",
+      "page": 3,
+      "rect": [
+        302.0,
+        384.0,
+        331.0,
+        396.0
+      ],
+      "tooltip": "Enter number: The location number for the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_PropertyRating_StructureStoreyCount_B",
+      "page": 3,
+      "rect": [
+        335.0,
+        384.0,
+        378.0,
+        396.0
+      ],
+      "tooltip": "Enter number: The number of stories, counting the ground floor as one, which this building has.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_PropertyRating_ApartmentCount_B",
+      "page": 3,
+      "rect": [
+        385.0,
+        384.0,
+        421.0,
+        396.0
+      ],
+      "tooltip": "Enter number: The number of separate living units in the structure.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_PropertyRating_SwimmingPoolCount_B",
+      "page": 3,
+      "rect": [
+        428.0,
+        384.0,
+        490.0,
+        396.0
+      ],
+      "tooltip": "Enter number: The number of swimming pools on the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_PropertyRating_DivingBoardCount_B",
+      "page": 3,
+      "rect": [
+        497.0,
+        384.0,
+        551.0,
+        396.0
+      ],
+      "tooltip": "Enter number: The number of diving boards on the premises.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8392704,
+      "is_readonly": false,
+      "name": "CommercialUmbrellaLineOfBusiness_RemarkText_A",
+      "page": 3,
+      "rect": [
+        22.0,
+        411.0,
+        590.0,
+        756.0
+      ],
+      "tooltip": "Enter text: The remarks associated with the commercial umbrella line of business.  ACORD 101, Additional Remarks Schedule, may be attached if more space is required.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 4,
+      "rect": [
+        378.0,
+        24.0,
+        594.0,
+        36.0
+      ],
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_CustomerIdentifier_A",
+      "page": 5,
+      "rect": [
+        378.0,
+        24.0,
+        594.0,
+        36.0
+      ],
+      "tooltip": "Enter identifier: The customer's identification number assigned by the producer (e.g., agency or brokerage).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_UninsuredMotorists_LimitAmount_A",
+      "page": 5,
+      "rect": [
+        245.0,
+        96.0,
+        324.0,
+        108.0
+      ],
+      "tooltip": "Enter limit: The limit for commercial umbrella / excess uninsured motorists coverage (if applicable in your states).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_UnderinsuredMotorists_LimitAmount_A",
+      "page": 5,
+      "rect": [
+        274.0,
+        120.0,
+        353.0,
+        132.0
+      ],
+      "tooltip": "Enter limit: The limit for commercial umbrella / excess underinsured motorists coverage (if applicable in your state).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "ExcessUmbrella_MedicalPayments_LimitAmount_A",
+      "page": 5,
+      "rect": [
+        205.0,
+        144.0,
+        284.0,
+        156.0
+      ],
+      "tooltip": "Enter limit: The limit for commercial umbrella / excess medical payments coverage (if applicable in your states).",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_Initials_A",
+      "page": 5,
+      "rect": [
+        310.0,
+        276.0,
+        346.0,
+        288.0
+      ],
+      "tooltip": "Initial here: The named insured's initials. As used here, applicable in Louisiana.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_Initials_B",
+      "page": 5,
+      "rect": [
+        256.0,
+        300.0,
+        292.0,
+        312.0
+      ],
+      "tooltip": "Initial here: The named insured's initials. As used here, applicable in Louisiana.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_Initials_E",
+      "page": 5,
+      "rect": [
+        504.0,
+        348.0,
+        540.0,
+        360.0
+      ],
+      "tooltip": "Initial here: The named insured's initials.  As used here, applicable in Montana.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_Initials_C",
+      "page": 5,
+      "rect": [
+        310.0,
+        456.0,
+        346.0,
+        468.0
+      ],
+      "tooltip": "Initial here: The named insured's initials. As used here, applicable in New Hampshire.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_Initials_D",
+      "page": 5,
+      "rect": [
+        259.0,
+        480.0,
+        295.0,
+        492.0
+      ],
+      "tooltip": "Initial here: The named insured's initials. As used here, applicable in New Hampshire.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_AuthorizedRepresentative_Signature_A",
+      "page": 5,
+      "rect": [
+        29.0,
+        612.0,
+        252.0,
+        624.0
+      ],
+      "tooltip": "Sign here: Accommodates the signature of the authorized representative (e.g., producer, agent, broker, etc.) of the company(ies) listed on the document.  This is required in most states.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_AuthorizedRepresentative_FullName_A",
+      "page": 5,
+      "rect": [
+        259.0,
+        612.0,
+        439.0,
+        624.0
+      ],
+      "tooltip": "Enter text: The name of the authorized representative of the producer, agency and/or broker that signed the form.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_StateLicenseIdentifier_A",
+      "page": 5,
+      "rect": [
+        526.0,
+        612.0,
+        598.0,
+        624.0
+      ],
+      "tooltip": "Enter identifier: The State License Number of the producer. As used here,  this is required in Florida.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_Signature_A",
+      "page": 5,
+      "rect": [
+        29.0,
+        636.0,
+        338.0,
+        648.0
+      ],
+      "tooltip": "Sign here: Accommodates the signature of the applicant or named insured.",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "NamedInsured_SignatureDate_A",
+      "page": 5,
+      "rect": [
+        346.0,
+        636.0,
+        410.0,
+        648.0
+      ],
+      "tooltip": "Enter date: The date the form was signed by the applicant or named insured.  (MM/DD/YYYY)",
+      "type": "text",
+      "type_code": 7
+    },
+    {
+      "choices": null,
+      "flags": 8388608,
+      "is_readonly": false,
+      "name": "Producer_NationalIdentifier_A",
+      "page": 5,
+      "rect": [
+        418.0,
+        636.0,
+        590.0,
+        648.0
+      ],
+      "tooltip": "Enter identifier: The National Producer Number (NPN) as defined in the National Insurance Producer Registry (NIPR).  Note: The NPN is not the same as the producer state license number.",
+      "type": "text",
+      "type_code": 7
+    }
+  ]
+}
