@@ -185,6 +185,28 @@ class OpenAIEngine:
         }
         if self._settings.llm_seed is not None:
             extra_body["seed"] = self._settings.llm_seed
+
+        # Multi-tenant prefix-cache isolation (NDSS 2025 side-channel fix).
+        # vLLM's prefix cache is shared across all requests by default. When
+        # requests from different tenants share the same static preamble
+        # (harness, schema), the cache timing differences become a side-
+        # channel: tenant A can measure whether tenant B has already hit
+        # that prefix, leaking activity.
+        #
+        # cache_salt (vLLM 0.8+) scopes the prefix-cache namespace per
+        # tenant. Requests with different salts never share cache entries,
+        # even for byte-identical prompts. Overhead: negligible (~0.1ms
+        # keying).
+        #
+        # Source: https://arxiv.org/abs/2501.15925 (NDSS 2025)
+        # Source: https://docs.vllm.ai/en/latest/features/prefix_caching.html
+        try:
+            from accord_ai.request_context import get_tenant as _get_tenant
+            tenant_slug = _get_tenant()
+        except Exception:
+            tenant_slug = None
+        if tenant_slug:
+            extra_body["cache_salt"] = tenant_slug
         mode = self._settings.extraction_mode
         create_kwargs: Dict[str, Any] = {}
 
@@ -198,6 +220,23 @@ class OpenAIEngine:
             # OpenAI response_format json_object — model outputs valid JSON
             # without schema constraints. Pydantic validates after.
             create_kwargs["response_format"] = {"type": "json_object"}
+        elif mode == ExtractionMode.JSON_SCHEMA:
+            # vLLM-native response_format json_schema. Schema enforcement at
+            # decode time WITHOUT xgrammar's known harness-competition issue.
+            # Research 2026-04-24 recommends this as middle-ground.
+            # Supported by vLLM 0.8+ via OpenAI-compatible response_format.
+            if json_schema is not None:
+                create_kwargs["response_format"] = {
+                    "type": "json_schema",
+                    "json_schema": {
+                        "name": "extraction",
+                        "schema": json_schema,
+                        "strict": True,
+                    },
+                }
+            else:
+                # Fall back to json_object when no schema provided
+                create_kwargs["response_format"] = {"type": "json_object"}
         # FREE mode: no format constraint; pass-through
 
         t0 = time.perf_counter()

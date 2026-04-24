@@ -42,19 +42,48 @@ _LOB_HARNESS_MAP = {
 }
 
 
-def compose_harness_for_lobs(active_lobs: list[str] | None = None) -> str:
-    """Compose core.md + lobs/<lob>.md for each active LOB. v3's pattern.
+def compose_harness_for_lobs(
+    active_lobs: list[str] | None = None,
+    tenant: str | None = None,
+) -> str:
+    """Compose harness text from three tiers (v3 + v4 multi-tenant extension).
 
-    Never-active LOBs are excluded to prevent cross-LOB rule interference
-    (v3 HarnessManager.load() behavior; documented as a hard-learned lesson
-    in the v3 codebase).
+    Tier 1 — core.md (universal principles)
+    Tier 2 — lobs/<lob>.md (per-active-LOB principles; v3 pattern)
+    Tier 3 — brokers/<tenant>.md (per-broker overlay; v4 addition)
+
+    The two-tier split between core.md (shared, engineering-controlled) and
+    brokers/<tenant>.md (per-tenant, broker admin-controlled) follows the
+    2026-04-24 multi-tenant research recommendation:
+      - core.md is coupled to adapter training — changes require retrain
+      - tenant overlay is freely editable — frequent changes safe
+
+    Never-active LOBs and missing tenant overlays are silently excluded.
+    Cross-LOB rule interference prevention (v3's hard-learned lesson).
+
+    Args:
+        active_lobs: LOB keys ("commercial_auto", "general_liability").
+        tenant: Broker slug for per-tenant overlay (optional).
+
+    Returns: Composed harness text with sections separated by blank lines.
     """
+    from pathlib import Path as _Path
+
     parts = [V3_CORE_HARNESS.strip()] if V3_CORE_HARNESS.strip() else []
+
     if active_lobs:
         for lob in active_lobs:
             lob_content = _LOB_HARNESS_MAP.get(lob, "").strip()
             if lob_content:
                 parts.append(lob_content)
+
+    if tenant:
+        tenant_path = _HARNESS_DIR / "brokers" / f"{tenant}.md"
+        if tenant_path.exists():
+            tenant_overlay = tenant_path.read_text().strip()
+            if tenant_overlay:
+                parts.append(tenant_overlay)
+
     if not parts:
         return ""
     return "\n\n".join(parts) + "\n"

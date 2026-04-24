@@ -218,18 +218,63 @@ class Extractor:
         self._experiment_harness = experiment_harness
         self._extraction_mode = extraction_mode
         self._harness_position = harness_position
-        self._harness_block = _HARNESS_BLOCKS.get(experiment_harness, "")
-        # NER post-extraction validation (Thread 3 port).
-        # v3's validate_extraction_with_ner has 4 fixes: ORG-as-contact
-        # removal, PERSON-as-contact injection (safely gated to single-
-        # PERSON turns), ORG-as-business_name injection, and URL-as-website
-        # injection. Disabled in the Phase A production path after
-        # multi-vehicle-fleet regression; re-enabled here behind a flag
-        # because (a) the single-PERSON gate in validate_extraction_with_ner
-        # now prevents that regression, and (b) research 2026-04-22
-        # identified NER validation as a load-bearing v3 mechanism we
-        # should re-evaluate in the full v3-port stack.
+        # Static fallback — used when the experiment_harness flag doesn't
+        # support dynamic composition (e.g. "none", "light", "full"). For
+        # the "core*" family, we compose per-request with tenant overlay.
+        self._static_harness_block = _HARNESS_BLOCKS.get(experiment_harness, "")
+        # Per-(mode, tenant) composition cache — avoids re-reading tenant
+        # overlay files on every extraction call while still supporting
+        # per-broker customization. Invalidates on process restart.
+        self._harness_cache: dict[tuple[str, str | None], str] = {}
+        # NER post-extraction validation (Thread 3 port). Off by default
+        # until an eval confirms productive composition with the harness
+        # stack; enable via NER_POSTPROCESS=true.
         self._ner_postprocess = ner_postprocess
+
+    @property
+    def _harness_block(self) -> str:
+        """Back-compat property — older tests read this attribute directly.
+
+        For static modes, returns the precomputed block.
+        For dynamic modes ("core*"), returns an empty string when no tenant
+        is set (since composition requires request context).
+        """
+        return self._static_harness_block
+
+    def _get_harness_block(self) -> str:
+        """Return the harness block for the current request.
+
+        For static modes (none/light/full): returns the precomputed block.
+        For dynamic modes (core/core_ca/core_gl): composes core.md + LOB
+        overlay + per-tenant overlay based on current request_context tenant.
+
+        Caches per (mode, tenant) pair to avoid re-reading files every call.
+        """
+        # Static modes: precomputed at __init__
+        if self._experiment_harness not in ("core", "core_ca", "core_gl"):
+            return self._static_harness_block
+
+        # Dynamic: compose per-request with tenant overlay
+        from accord_ai.request_context import get_tenant
+        tenant = get_tenant()
+        cache_key = (self._experiment_harness, tenant)
+        cached = self._harness_cache.get(cache_key)
+        if cached is not None:
+            return cached
+
+        from accord_ai.extraction.harness_content.v3_harness_snapshot import (
+            compose_harness_for_lobs,
+        )
+        lobs_for_mode = {
+            "core": None,
+            "core_ca": ["commercial_auto"],
+            "core_gl": ["general_liability"],
+        }
+        active_lobs = lobs_for_mode.get(self._experiment_harness)
+        composed = compose_harness_for_lobs(active_lobs=active_lobs, tenant=tenant)
+        block = composed.strip() + "\n\n" if composed.strip() else ""
+        self._harness_cache[cache_key] = block
+        return block
 
     async def extract(
         self,
@@ -333,17 +378,17 @@ class Extractor:
             # The research strongly suggests "after" matches Qwen3.5-9B's
             # training distribution; "before" may degrade because Qwen weights
             # the first system content most heavily.
-            if not self._harness_block:
+            if not self._get_harness_block():
                 # No harness → both positions produce identical output.
                 system_content = extraction_prompts.SYSTEM_V2
             elif self._harness_position == "after":
                 system_content = (
                     extraction_prompts.SYSTEM_V2.rstrip()
                     + "\n\n"
-                    + self._harness_block
+                    + self._get_harness_block()
                 )
             else:
-                system_content = self._harness_block + extraction_prompts.SYSTEM_V2
+                system_content = self._get_harness_block() + extraction_prompts.SYSTEM_V2
 
         # --- Structured trace for 1A postmortem diagnostic ---
         # Emits at INFO so the default log level captures it. Grep for
@@ -379,7 +424,7 @@ class Extractor:
         # 4k output = 16.4k > 16.3k ceiling). Cap output at 2048 when
         # harness is active to preserve ~2k of input budget headroom for
         # bulk fleet dumps.
-        if self._harness_block:
+        if self._get_harness_block():
             max_tokens = min(max_tokens, 2048)
 
         # json_schema: vLLM 0.18+ constrains output tokens to the schema via

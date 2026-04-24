@@ -10,9 +10,15 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class ExtractionMode(str, Enum):
     """Schema-enforcement mode for the extraction LLM call (Step 25 experiment)."""
-    XGRAMMAR = "xgrammar"      # A — current: vLLM guided_json via xgrammar
+    XGRAMMAR = "xgrammar"      # A — vLLM guided_json via xgrammar (decode constraint)
     JSON_OBJECT = "json_object" # B — OpenAI response_format json_object, no schema constraint
     FREE = "free"               # D — no format constraint; extractor parses first JSON block
+    # JSON_SCHEMA — vLLM-native response_format {"type":"json_schema", ...}.
+    # Research 2026-04-24 (LIBRARIES_EXTRACTION.md) recommends this as
+    # middle-ground: schema constraint at decode without xgrammar's known
+    # compatibility issues with long system prompts (harness content).
+    # Supported by vLLM 0.8+ via OpenAI-compatible syntax.
+    JSON_SCHEMA = "json_schema"
 
 
 class Settings(BaseSettings):

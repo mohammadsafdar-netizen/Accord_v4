@@ -383,6 +383,13 @@ class CustomerSubmission(_StrictModel):
     naics_code:             Optional[str] = None
     naics_description:      Optional[str] = None
     sic_code:               Optional[str] = None
+    # NCCI class code — required for accurate Workers Comp rating.
+    # NAICS/SIC are business-activity codes; NCCI is the WC-specific
+    # rate-book code. Research 2026-04-24 (INSURANCE_SCHEMAS.md) flagged
+    # this gap: without ncci_code, WC LOB cannot be properly rated.
+    # Format: 4-digit string (e.g. "8810" = Clerical Office, "5606" = Executive Supervisor).
+    ncci_code:              Optional[str] = None
+    ncci_description:       Optional[str] = None
     operations_description: Optional[str] = None
     nature_of_business:     Optional[str] = None
 
